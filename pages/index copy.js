@@ -46,10 +46,12 @@ const Home = () => {
           <div className="flex flex-col-reverse items-center justify-between mx-auto bg-footerbanner md:flex-row">
             <div className="items-center px-8 mx-auto mt-6 space-y-7 md:space-y-2 lg:space-y-10">
               <h1 className="text-3xl font-bold lg:text-7xl">Damansdak</h1>
-              <p className="text-gray-500 lg:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
-              <button className="flex items-center px-10 py-4 text-white bg-primary justify-self-end">
-                <p className="lg:text-2xl">Skontaktuj się</p>
-              </button>
+                <div className="flex">
+                  <p className="text-gray-500 lg:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
+                  <button className="flex items-center px-10 py-4 text-white bg-primary justify-self-end">
+                    <p className="lg:text-2xl">Skontaktuj się</p>
+                  </button>
+                </div>
             </div>
             <div className="relative bg-gray-50">
               <img src="http://verdepro.pl/dachyyy.jpg" alt="" className="" />
