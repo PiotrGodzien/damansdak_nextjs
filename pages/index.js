@@ -45,14 +45,12 @@ const Home = () => {
         </nav>   
 <div className="relative z-30 mt-32">
           <div className="flex flex-col-reverse items-center justify-start w-3/5 mx-auto md:flex-row">
-            <div className="items-center mt-6 p-l space-y-7 md:space-y-2 lg:space-y-10">
-              <h1 className="w-2/3 text-3xl font-bold lg:text-7xl">Dachy płaskie w technologii membran PVC i TPO</h1>
-              <div className="flex">
-              <p className="w-2/3 text-gray-500 lg:text-2xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
+            <div className="items-center w-2/3 mt-6 p-l space-y-7 md:space-y-2 lg:space-y-10">
+              <h1 className="text-3xl font-bold lg:text-7xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+              <p className="text-gray-500 lg:text-2xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
               <button className="flex items-center px-10 py-4 text-white bg-primary justify-self-end">
                 <p className="lg:text-2xl">Skontaktuj się</p>
               </button>
-              </div>
             </div>
           </div>
         </div>
