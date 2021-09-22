@@ -94,7 +94,7 @@ const Home = () => {
                 <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
               </div>
               <div className="flex-col text-white mx-auto">
-                <h3 className="text-5xl font-bold">Dachy betonowe</h3>
+                <h3 className="text-4xl font-bold">Dachy betonowe</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
                   <button className="flex items-center text-xl justify-center mt-12 mr-auto">
@@ -110,7 +110,7 @@ const Home = () => {
             </div>
             <div className="flex items-center mb-16">
               <div className="flex-col text-white mx-auto">
-                <h3 className="text-5xl font-bold">Dachy betonowe</h3>
+                <h3 className="text-4xl font-bold">Dachy stalowe</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
                   <button className="flex items-center text-xl justify-center mt-12 mr-auto">
@@ -132,7 +132,7 @@ const Home = () => {
                 <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
               </div>
               <div className="flex-col text-white mx-auto">
-                <h3 className="text-5xl font-bold">Dachy betonowe</h3>
+                <h3 className="text-4xl font-bold">Renowacje dachów</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
                   <button className="flex items-center text-xl justify-center mt-12 mr-auto">
@@ -146,6 +146,14 @@ const Home = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="py-16 bg-gray-50">
+          <div className="w-3/5 mx-auto flex justify-evenly items-center">
+            <div className="w-2/5 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+            <button className="flex items-center w-1/4 justify-center px-10 py-4 text-white bg-primary text-center">
+              <p className="lg:text-2xl">kontakt</p>
+            </button>
           </div>
         </div>
         {/* LINES START */}
