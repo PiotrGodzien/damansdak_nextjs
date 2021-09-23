@@ -90,7 +90,7 @@ const Home = () => {
           <div className="w-3/5 mx-auto">
             <div className="w-2/5 text-7xl font-bold text-white">nasza oferta</div>
           </div>
-          <div className="flex items-center py-32 w-4/5 mx-auto">
+          <div className="flex items-center pb-28 pt-40 w-4/5 mx-auto">
 
             <div className="flex-col text-white mx-auto">
 
