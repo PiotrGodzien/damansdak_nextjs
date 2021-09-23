@@ -89,11 +89,10 @@ const Home = () => {
         <div className="py-16 bg-black">
           <div className="w-3/5 mx-auto">
             <div className="w-2/5 text-7xl font-bold text-white pb-16">nasza oferta</div>
-            <div className="flex items-center mb-16">
-              <div className="w-2/3">
-                <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
-              </div>
+            <div className="flex items-center my-16">
+
               <div className="flex-col text-white mx-auto">
+
                 <h3 className="text-4xl font-bold">Dachy betonowe</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
@@ -107,9 +106,8 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-            </div>
-            <div className="flex items-center mb-16">
               <div className="flex-col text-white mx-auto">
+
                 <h3 className="text-4xl font-bold">Dachy stalowe</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
@@ -123,15 +121,8 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-              <div className="w-2/3">
-                <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
-              </div>
-            </div>
-            <div className="flex items-center mb-16">
-              <div className="w-2/3">
-                <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
-              </div>
               <div className="flex-col text-white mx-auto">
+
                 <h3 className="text-4xl font-bold">Renowacje dachów</h3>
                 <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
                 <div className="">
@@ -146,15 +137,74 @@ const Home = () => {
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
-        <div className="py-16 bg-gray-50">
-          <div className="w-3/5 mx-auto flex justify-evenly items-center">
-            <div className="w-2/5 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+        <div className="py-16 bg-white">
+          <div className="w-3/5 mx-auto flex justify-between items-center">
+            <div className="w-2/3 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
             <button className="flex items-center w-1/4 justify-center px-10 py-4 text-white bg-primary text-center">
               <p className="lg:text-2xl">kontakt</p>
             </button>
           </div>
+        </div>
+        <div className="py-16">
+          <div className="w-3/5 mx-auto">
+            <div className="w-1/3 text-7xl font-bold pb-16">nasze realizacje</div>
+          </div>
+
+          <div className="w-3/5 mx-auto relative mb-16">
+            <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
+            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
+              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+              <div className="text-white mx-auto">
+                <button className="flex items-center text-xl justify-center">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-3/5 mx-auto relative mb-16">
+            <img src="http://verdepro.pl/oferta2.jpg" alt="" className="" />
+            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
+              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+              <div className="text-white mx-auto">
+                <button className="flex items-center text-xl justify-center">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="w-3/5 mx-auto relative">
+            <img src="http://verdepro.pl/oferta1.jpg" alt="" className="" />
+            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
+              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+              <div className="text-white mx-auto">
+                <button className="flex items-center text-xl justify-center">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
         </div>
         {/* LINES START */}
         <div className="absolute inset-0 z-20 flex justify-center mx-auto h-min-full">
