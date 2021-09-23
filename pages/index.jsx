@@ -42,7 +42,7 @@ const Home = () => {
             </div>
           </div>
         </nav>
-        <div className="relative z-30 my-28">
+        <div className="relative z-30 mb-12 mt-28">
           <div className="flex flex-col-reverse items-center justify-start w-3/5 mx-auto md:flex-row">
             <div className="items-center mt-6 p-l space-y-7 md:space-y-2 lg:space-y-10">
               <h1 className="text-3xl font-bold lg:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
