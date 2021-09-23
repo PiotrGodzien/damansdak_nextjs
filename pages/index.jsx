@@ -1,6 +1,5 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import { Link, Link as LinkScroll } from "react-scroll";
-import ModalMain from '../components/_modal';
 
 const Home = () => {
   return (
@@ -45,14 +44,14 @@ const Home = () => {
         </nav>
         <div className="relative z-30 my-28">
           <div className="flex flex-col-reverse items-center justify-start w-3/5 mx-auto md:flex-row">
-            <div className="items-center  mt-6 p-l space-y-7 md:space-y-2 lg:space-y-10">
+            <div className="items-center mt-6 p-l space-y-7 md:space-y-2 lg:space-y-10">
               <h1 className="text-3xl font-bold lg:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
-              <p className="text-gray-500 w-2/3 lg:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
-              <div className="flex space-x-2 w-1/3 justify-between">
-                <button className="flex items-center w-full justify-center px-10 py-4 text-white bg-primary text-center">
+              <p className="w-2/3 text-gray-400 lg:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
+              <div className="flex justify-between w-1/3 space-x-2">
+                <button className="flex items-center justify-center w-full px-10 py-4 text-center text-white bg-primary">
                   <p className="lg:text-2xl">kontakt</p>
                 </button>
-                <button className="flex w-full items-center justify-center px-10 py-4 text-secondary border-2 border-secondary text-center">
+                <button className="flex items-center justify-center w-full px-10 py-4 text-center border-2 text-secondary border-secondary">
                   <p className="lg:text-2xl">więcej</p>
                 </button>
               </div>
@@ -68,18 +67,18 @@ const Home = () => {
           <div className="relative z-0 w-3/5 ml-auto h-1/2">
             <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
             <div class="absolute text-center bg-black bg-opacity-30 text-white inset-0 z-0 h-full flex-col items-baseline justify-around">
-              <div className="flex h-1/2 items-center">
+              <div className="flex items-center h-1/2">
                 <div className="w-1/3">
                   <p className="font-bold lg:text-7xl">453</p>
                   <p className="text-3xl">projektów</p>
                 </div>
                 <div className="w-1/3">
-                  <p className="font-bold lg:text-7xl">453</p>
-                  <p className="text-3xl">projektów</p>
+                  <p className="font-bold lg:text-7xl">3 553 424</p>
+                  <p className="text-3xl">m2</p>
                 </div>
                 <div className="w-1/3">
-                  <p className="font-bold lg:text-7xl">453</p>
-                  <p className="text-3xl">projektów</p>
+                  <p className="font-bold lg:text-7xl">5</p>
+                  <p className="text-3xl">krajów</p>
                 </div>
               </div>
               <div className=""></div>
@@ -87,114 +86,105 @@ const Home = () => {
           </div>
         </div>
         <div className="py-32 bg-black">
-          <div className="w-3/5 mx-auto">
-            <div className="w-2/5 text-7xl font-bold text-white">nasza oferta</div>
+          <div className="w-3/5 mx-auto mb-36">
+            <div className="w-2/5 font-bold text-white text-7xl">nasza oferta</div>
           </div>
-          <div className="flex items-center pb-28 pt-40 w-4/5 mx-auto">
 
-            <div className="flex-col text-white mx-auto">
-
-              <h3 className="text-4xl font-bold">Dachy betonowe</h3>
-              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+        <div className="flex w-3/5 mx-auto">
+          <img src="http://verdepro.pl/dach_oferta.jpg" alt="" className="w-1/2" />
+          <div className="flex flex-col w-1/2 align-middle justify-evenly">
+            <div className="flex items-center justify-end space-x-8 text-white">
+              <div className="flex items-center justify-center p-10 my-auto text-5xl border-2 border-white rounded-full w-28 h-28">1</div>
               <div className="">
-                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                  zobacz więcej
-                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                    </svg>
-                  </div>
+                <h3 className="text-4xl font-bold">Dachy betonowe</h3>
+                <p className="pr-6 mt-4 text-xl">Tutaj będzie zajawka – krótki opis oferty.</p>
+                <button className="flex items-center justify-center mt-4 text-xl underline">
+                <Link href="/"><a>zobacz więcej</a></Link>
                 </button>
               </div>
             </div>
-            <div className="flex-col text-white mx-auto">
-
-              <h3 className="text-4xl font-bold">Dachy stalowe</h3>
-              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+            <div className="flex items-center justify-end space-x-8 text-white">
+              <div className="flex items-center justify-center p-10 my-auto text-5xl border-2 border-white rounded-full w-28 h-28">2</div>
               <div className="">
-                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                  zobacz więcej
-                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                    </svg>
-                  </div>
+                <h3 className="text-4xl font-bold">Dachy stalowe</h3>
+                <p className="pr-6 mt-4 text-xl">Tutaj będzie zajawka – krótki opis oferty.</p>
+                <button className="flex items-center justify-center mt-4 text-xl underline">
+                <Link href="/"><a>zobacz więcej</a></Link>
                 </button>
               </div>
             </div>
-            <div className="flex-col text-white mx-auto">
-
-              <h3 className="text-4xl font-bold">Renowacje dachów</h3>
-              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+            <div className="flex items-center justify-end space-x-8 text-white">
+              <div className="flex items-center justify-center p-10 my-auto text-5xl border-2 border-white rounded-full w-28 h-28">3</div>
               <div className="">
-                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                  zobacz więcej
-                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                    </svg>
-                  </div>
+                <h3 className="text-4xl font-bold">Renowacje dachów</h3>
+                <p className="pr-6 mt-4 text-xl">Tutaj będzie zajawka – krótki opis oferty.</p>
+                <button className="flex items-center justify-center mt-4 text-xl underline">
+                <Link href="/"><a>zobacz więcej</a></Link>
                 </button>
               </div>
             </div>
           </div>
+        </div>
 
 
 
         </div>
         <div className="py-16 bg-white">
-          <div className="w-3/5 mx-auto flex justify-between items-center">
+          <div className="flex items-center justify-between w-3/5 mx-auto">
             <div className="w-2/3 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
-            <button className="flex items-center w-1/4 justify-center px-10 py-4 text-white bg-primary text-center">
+            <button className="flex items-center justify-center w-1/4 px-10 py-4 text-center text-white bg-primary">
               <p className="lg:text-2xl">kontakt</p>
             </button>
           </div>
         </div>
         <div className="py-16">
           <div className="w-3/5 mx-auto">
-            <div className="w-1/3 text-7xl font-bold pb-16">nasze realizacje</div>
+            <div className="w-1/3 pb-16 font-bold text-7xl">nasze realizacje</div>
           </div>
 
-          <div className="w-3/5 mx-auto relative mb-16">
-            <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
-            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
-              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
-              <div className="text-white mx-auto">
-                <button className="flex items-center text-xl justify-center">
-                  zobacz więcej
-                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                    </svg>
-                  </div>
-                </button>
+          
+            <div className="relative w-3/5 mx-auto mb-16">
+              <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
+              <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 mx-auto bg-black h-1/3">
+                <p className="text-3xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <div className="mx-auto text-white">
+                  <button className="flex items-center justify-center text-xl">
+                    zobacz więcej
+                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div className="w-3/5 mx-auto relative mb-16">
-            <img src="http://verdepro.pl/oferta2.jpg" alt="" className="" />
-            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
-              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
-              <div className="text-white mx-auto">
-                <button className="flex items-center text-xl justify-center">
-                  zobacz więcej
-                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                    </svg>
-                  </div>
-                </button>
+         
+          
+            <div className="relative w-3/5 mx-auto mb-16">
+              <img src="http://verdepro.pl/oferta2.jpg" alt="" className="" />
+              <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 mx-auto bg-black h-1/3">
+                <p className="text-3xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <div className="mx-auto text-white">
+                  <button className="flex items-center justify-center text-xl">
+                    zobacz więcej
+                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                      </svg>
+                    </div>
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+         
 
-          <div className="w-3/5 mx-auto relative">
+          <div className="relative w-3/5 mx-auto">
             <img src="http://verdepro.pl/oferta1.jpg" alt="" className="" />
-            <div className="absolute bottom-0 grid grid-cols-2 items-center mx-auto right-0 bg-black h-1/3 w-2/3">
-              <p className="text-white text-3xl text-center">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
-              <div className="text-white mx-auto">
-                <button className="flex items-center text-xl justify-center">
+            <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 mx-auto bg-black h-1/3">
+              <p className="text-3xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+              <div className="mx-auto text-white">
+                <button className="flex items-center justify-center text-xl">
                   zobacz więcej
                   <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                     <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -207,6 +197,38 @@ const Home = () => {
           </div>
 
         </div>
+
+        <div className="w-3/5 mx-auto mb-32">
+          <div className="w-1/3 pb-16 font-bold text-7xl">zapraszamy do kontaktu</div>
+          <p className="text-3xl text-gray-400">DamansDak B.V.
+Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
+Wykonujemy dachy płaskie w technologii membran PVC i TPO.
+Specjalizujemy się w wykonywaniu dachów nowych,
+jak również renowacją dachów starych o powierzchni od- 
+1.000m2 do 200.000m2</p>
+        </div>
+        <div className="flex">
+          <div className="flex items-center w-2/5 py-56 justify-evenly bg-gray-50">
+            <div className="">
+              <p className="text-3xl font-bold">Biuro</p>
+              <p className="mt-2 text-xl">ul.  Sielska 2, 37-700 Przemyśl</p>
+              <p className="text-xl">Polska, Podkarpackie</p>
+            </div>
+            <div className="">
+            <p className="text-3xl font-bold">Firma</p>
+              <p className="mt-2 text-xl">KRS 0000894896</p>
+              <p className="text-xl">NIP PL7952563292</p>
+            </div>
+          </div>
+          <div className="w-3/5 py-56 mx-auto bg-black">
+            <p className="w-2/3 mx-auto text-2xl text-white">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>  
+            <div className="flex justify-start w-2/3 mx-auto mt-8">
+              <p className="text-4xl font-bold text-white">info@damansdak.pl</p>  
+              <p className="ml-20 text-4xl font-bold text-primary">+48 532 197 746</p>
+            </div>
+          </div>
+        </div>
+        
         {/* LINES START */}
         <div className="absolute inset-0 z-20 flex justify-center mx-auto h-min-full">
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
@@ -224,16 +246,16 @@ const Home = () => {
         <a href="#link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a>
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
       </div> */}
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
+      <footer className="flex items-center justify-between w-4/5 py-10 mx-auto text-gray-500">
+        
+          <p className="">DAMANSDAK</p>
+          <p className="flex space-x-16">
+            <p className="">OFERTA</p>
+            <p className="">O NAS</p>
+            <p className="">REALIZACJE</p>
+          </p>
+          <p className="">©2021 All right reserved</p>
+       
       </footer>
     </div >
   );
