@@ -86,60 +86,61 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="py-16 bg-black">
+        <div className="py-32 bg-black">
           <div className="w-3/5 mx-auto">
-            <div className="w-2/5 text-7xl font-bold text-white pb-16">nasza oferta</div>
-            <div className="flex items-center my-16">
+            <div className="w-2/5 text-7xl font-bold text-white">nasza oferta</div>
+          </div>
+          <div className="flex items-center py-32 w-4/5 mx-auto">
 
-              <div className="flex-col text-white mx-auto">
+            <div className="flex-col text-white mx-auto">
 
-                <h3 className="text-4xl font-bold">Dachy betonowe</h3>
-                <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
-                <div className="">
-                  <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                    zobacz więcej
-                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                      </svg>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <div className="flex-col text-white mx-auto">
-
-                <h3 className="text-4xl font-bold">Dachy stalowe</h3>
-                <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
-                <div className="">
-                  <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                    zobacz więcej
-                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                      </svg>
-                    </div>
-                  </button>
-                </div>
-              </div>
-              <div className="flex-col text-white mx-auto">
-
-                <h3 className="text-4xl font-bold">Renowacje dachów</h3>
-                <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
-                <div className="">
-                  <button className="flex items-center text-xl justify-center mt-12 mr-auto">
-                    zobacz więcej
-                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                      </svg>
-                    </div>
-                  </button>
-                </div>
+              <h3 className="text-4xl font-bold">Dachy betonowe</h3>
+              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+              <div className="">
+                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
               </div>
             </div>
+            <div className="flex-col text-white mx-auto">
 
+              <h3 className="text-4xl font-bold">Dachy stalowe</h3>
+              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+              <div className="">
+                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
+            <div className="flex-col text-white mx-auto">
 
+              <h3 className="text-4xl font-bold">Renowacje dachów</h3>
+              <p className="pr-6 text-xl mt-4">Tutaj będzie zajawka – krótki opis oferty.</p>
+              <div className="">
+                <button className="flex items-center text-xl justify-center mt-12 mr-auto">
+                  zobacz więcej
+                  <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                    <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
+
+
+
         </div>
         <div className="py-16 bg-white">
           <div className="w-3/5 mx-auto flex justify-between items-center">
