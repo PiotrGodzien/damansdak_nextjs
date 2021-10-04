@@ -211,6 +211,7 @@ const Home = () => {
               <img src="http://verdepro.pl/oferta2.jpg" alt="" className="" />
               <div className="absolute bottom-0 right-0 grid items-center w-2/3 h-1/3 p-8 grid-cols-2 mx-auto bg-black">
                 <p className="text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <div className="mx-auto text-white">
                   <button className="flex items-center justify-center text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -223,15 +224,14 @@ const Home = () => {
               </div>
             </div>
 
+
+
           </div>
         </div>
 
         <div className="w-3/5 mx-auto mb-32">
           <div className="w-1/3 pb-16 font-bold uppercase text-7xl">kontakt</div>
           <p className="text-3xl text-gray-400">DamansDak B.V.
-Wykonujemy dachy płaskie w technologii membran PVC i TPO.
-Specjalizujemy się w wykonywaniu dachów nowych,
-jak również renowacją dachów starych o powierzchni od- 
             Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
             Wykonujemy dachy płaskie w technologii membran PVC i TPO.
             Specjalizujemy się w wykonywaniu dachów nowych,
