@@ -158,7 +158,7 @@ const [small, setSmall] = useState(false);
             </div>
             <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
               <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl uppercase">renowacja dachów</h3>
-              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">We offer some of the best support available. Contact us anytime of the day and we'll help you out ASAP.</p>
+              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">We offr some of the best support available. Contact us anytime of the day and we'll help you out ASAP.</p>
             </div>
           </div>
           </a>
