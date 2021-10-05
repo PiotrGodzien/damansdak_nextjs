@@ -20,7 +20,7 @@ const [small, setSmall] = useState(false);
     <div className="">
         
       <Head>
-        <title>Damansdak – dachy płaskie <span className="" id="typewriter-hero"></span></title>
+        <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -69,8 +69,8 @@ const [small, setSmall] = useState(false);
           <div className="relative z-30 my-auto">
             <div className="flex flex-col-reverse items-center justify-start w-3/5 mx-auto md:flex-row">
               <div className="items-center mt-6 p-l space-y-7 md:space-y-2 lg:space-y-16">
-                <h1 className="text-3xl font-bold lg:text-8xl">Wykonujemy<br /><span id="typewriter-hero"></span></h1>
-                <p className="w-2/3 lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO. Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany.</p>
+                <h1 className="text-3xl font-bold lg:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                <p className="w-2/3 lg:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                 <div className="flex w-2/3 space-x-8">
                   <button className="flex items-center justify-center px-16 py-4 text-center text-white bg-primary">
                     <p className="lg:text-2xl">kontakt</p>
