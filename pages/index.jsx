@@ -365,12 +365,12 @@ const [small, setSmall] = useState(false);
       </div> */}
       <footer className="flex items-center justify-between w-4/5 py-10 mx-auto text-gray-500">
         <div className="flex items-center space-x-6">
-          <img className="w-10 h-10" src="https://verdepro.pl/Facebook_black.png" alt="" />
-          <img className="w-10 h-10" src="https://verdepro.pl/Linkedin_black.png" alt="" />
-          <img className="w-10 h-10" src="https://verdepro.pl/Instagram_black.png" alt="" />
-          <img className="w-10 h-10" src="https://verdepro.pl/TikTok_black.png" alt="" />
-          <img className="w-10 h-10" src="https://verdepro.pl/YouTube_black.png" alt="" />
-          <img className="w-10 h-10" src="https://verdepro.pl/Twitter_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/Facebook_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/Linkedin_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/Instagram_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/TikTok_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/YouTube_black.png" alt="" />
+          <img className="w-7 h-7" src="https://verdepro.pl/Twitter_black.png" alt="" />
         </div>
         <p className="flex space-x-16">
           <p className="">OFERTA</p>
