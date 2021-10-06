@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
+import CountUp from 'react-countup';
 
 const Home = () => {
 const [small, setSmall] = useState(false);
@@ -16,6 +17,7 @@ const [small, setSmall] = useState(false);
 
   const [offerTwo, setOfferTwo] = useState(false);
   const toggleOfferTwo = () => setOfferTwo(!offerTwo);
+  
   return (
     <div className="">
         
@@ -24,7 +26,7 @@ const [small, setSmall] = useState(false);
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap"  />
       </Head>
       <main className="relative bg-gray-50">
         <div className="relative flex flex-col h-screen text-white bg-top bg-cover bg-herobanner">
@@ -103,12 +105,28 @@ const [small, setSmall] = useState(false);
             <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
               <div className="flex items-center">
                 <div className="w-3/5">
-                  <p className="font-bold lg:text-7xl">453</p>
-                  <p className="text-3xl">projektów</p>
+                  <p className="font-bold lg:text-7xl">
+                  <CountUp start={300} end={453} duration={2.75} delay={0}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <span ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
+                  </p>
+                  <p className="text-4xl">projektów</p>
                 </div>
                 <div className="w-3/5">
-                  <p className="font-bold lg:text-7xl">3 553 424</p>
-                  <p className="text-3xl">m2</p>
+                  <p className="font-bold lg:text-7xl">
+                  <CountUp start={3500000} end={3553424} duration={2.75} delay={0}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <span ref={countUpRef} />
+                      </div>
+                    )}
+                  </CountUp>
+                  </p>
+                  <p className="text-4xl">m2</p>
                 </div>
               </div>
               <div className=""></div>
