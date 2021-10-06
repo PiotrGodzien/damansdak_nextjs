@@ -68,7 +68,7 @@ const Home = () => {
           <div className="relative z-30 my-auto">
             <div className="flex flex-col-reverse items-center justify-start px-8 sm:w-4/5 lg:w-3/5 mx-auto md:flex-row">
               <div className="items-center mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
-                <h1 className="text-3xl sm:text-5xl font-bold lg:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                <h1 className="text-3xl sm:text-5xl font-bold 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                 <p className="sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                 <div className="lg:flex lg:space-x-8">
                   <button className="flex items-center justify-center px-16 py-4 text-white bg-primary">
@@ -92,7 +92,7 @@ const Home = () => {
         </div>
         <div className="flex py-8 lg:py-32" id="target">
           <div className="px-8 lg:px-0 sm:w-4/5 lg:w-3/5 mx-auto">
-            <h1 className="text-3xl font-bold lg:text-8xl">Damansdak Polska</h1>
+            <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-8xl">Damansdak Polska</h1>
             <p className="my-4 lg:my-12 sm:text-xl lg:text-3xl text-gray-400">DamansDak B.V.
               Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
               Wykonujemy dachy płaskie w technologii membran PVC i TPO.
