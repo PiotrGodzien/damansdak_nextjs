@@ -45,9 +45,9 @@ const [small, setSmall] = useState(false);
                   <div className="">Kariera</div>
                   <div className="">Kontakt</div>
                   <div className="flex space-x-4">
-                    <img className="w-8 h-8" src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/NLD_2x.png" alt="" />
-                    <img className="w-8 h-8" src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/DEU_2x.png" alt="" />
-                    <img className="w-8 h-8" src="https://static.parastorage.com/services/linguist-flags/1.663.0/assets/flags/round/GBR_2x.png" alt="" />
+                    <img className="border border-white w-11 h-7" src="https://verdepro.pl/germany.png" alt="" />
+                    <img className="border border-white w-11 h-7" src="https://verdepro.pl/nederland.png" alt="" />
+                    <img className="border border-white w-11 h-7" src="https://verdepro.pl/united.png" alt="" />
                   </div>
                 </div>
                 {/* <div className="hidden lg:block">
