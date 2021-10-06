@@ -148,7 +148,7 @@ const [small, setSmall] = useState(false);
             </div>
             <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
               <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy betonowe</h3>
-              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">No more wasting time on manual tasks, you can leverage our automated tasks to make your life easier.</p>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate maxime.</p>
             </div>
           </div>
           </a></Link>
@@ -161,7 +161,7 @@ const [small, setSmall] = useState(false);
             </div>
             <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
               <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy stalowe</h3>
-              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Utilize our email campaigns to send your users up-to-date information about your product and services.</p>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate maxime.</p>
             </div>
           </div>
           </a>
@@ -174,7 +174,7 @@ const [small, setSmall] = useState(false);
             </div>
             <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
               <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">renowacja dachów</h3>
-              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">We offr some of the best support available. Contact us anytime of the day and we'll help you out ASAP.</p>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus cupiditate maxime.</p>
             </div>
           </div>
           </a>
