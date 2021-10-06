@@ -179,10 +179,10 @@ const [small, setSmall] = useState(false);
 </section>
 
         <div className="py-32 bg-gray-50">
-          <div className="flex items-center justify-between w-3/5 mx-auto">
+          <div className="flex items-center justify-center w-3/5 mx-auto">
             <div className="w-2/3 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
-            <button className="flex items-center justify-center w-1/4 px-10 py-4 text-center text-white bg-primary">
-              <p className="lg:text-2xl">kontakt</p>
+            <button className="flex items-center justify-center px-16 py-4 text-center text-white bg-primary">
+              <p className="lg:text-2xl">skontaktuj się</p>
             </button>
           </div>
         </div>
