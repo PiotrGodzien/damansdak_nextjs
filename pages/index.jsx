@@ -178,7 +178,7 @@ const [small, setSmall] = useState(false);
   </div>
 </section>
 
-        <div className="py-16 text-white bg-black">
+        <div className="py-32 bg-gray-50">
           <div className="flex items-center justify-between w-3/5 mx-auto">
             <div className="w-2/3 text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
             <button className="flex items-center justify-center w-1/4 px-10 py-4 text-center text-white bg-primary">
@@ -186,7 +186,7 @@ const [small, setSmall] = useState(false);
             </button>
           </div>
         </div>
-        <div className="py-16">
+        <div className="py-16 bg-white">
           <div className="w-3/5 mx-auto">
             <div className="w-1/3 pb-16 font-bold uppercase text-7xl">realizacje</div>
           </div>
@@ -250,7 +250,7 @@ const [small, setSmall] = useState(false);
           </div>
         </div>
 
-        <div className="w-3/5 mx-auto mb-32">
+        <div className="w-3/5 mx-auto my-16">
           <div className="w-1/3 font-bold uppercase text-7xl">kontakt</div>
             <p className="w-2/3 text-2xl">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
         </div>
