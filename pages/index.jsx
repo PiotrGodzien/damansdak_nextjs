@@ -102,7 +102,7 @@ const Home = () => {
             <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
               <div className="flex items-center">
                 <div className="w-3/5">
-                  <p className="font-bold text-3xl sm:text-5xl lg:text-7xl">
+                  <p className="font-bold text-3xl sm:text-5xl 2xl:text-8xl">
                     <CountUp start={300} end={453} duration={2.75} delay={0}>
                       {({ countUpRef }) => (
                         <div>
@@ -111,10 +111,10 @@ const Home = () => {
                       )}
                     </CountUp>
                   </p>
-                  <p className="text-4xl">projektów</p>
+                  <div className="sm:text-xl lg:text-3xl text-gray-400">projektów</div>
                 </div>
                 <div className="w-3/5">
-                  <p className="font-bold text-3xl sm:text-5xl lg:text-7xl">
+                  <p className="font-bold text-3xl sm:text-5xl 2xl:text-8xl">
                     <CountUp start={3500000} end={3553424} duration={2.75} delay={0}>
                       {({ countUpRef }) => (
                         <div>
@@ -123,7 +123,7 @@ const Home = () => {
                       )}
                     </CountUp>
                   </p>
-                  <p className="text-4xl">m2</p>
+                  <div className="sm:text-xl lg:text-3xl text-gray-400">m2</div>
                 </div>
               </div>
               <div className=""></div>
@@ -135,45 +135,45 @@ const Home = () => {
           <div className="box-border sm:w-4/5 lg:w-3/5 mx-auto border-solid">
             <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
               <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
-                <h2 className="m-0 font-bold leading-tight tracking-tight text-left text-black uppercase text-xl lg:text-7xl">Nasza oferta</h2>
-                <p className="mt-2 text-xl text-left border-0 border-gray-200 sm:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
+                <h2 className="m-0 font-bold leading-tight tracking-tight text-left text-black text-3xl sm:text-5xl 2xl:text-8xl">Nasza oferta</h2>
+                <p className="mt-2 text-left border-0 border-gray-200 sm:text-xl lg:text-3xl text-gray-400">Dachy płaskie w technologii membran PVC i TPO.</p>
                 <div className="z-40 grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
                   <Link href="/link"><a href="" className="">
                     <div className="box-border flex items-center pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
-                      <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+                      <div className="flex items-center justify-center w-28 h-28 p-6 leading-7 border-0 border-gray-200 bg-primary">
                         <p className="box-border m-0 text-xl text-white border-solid">
                           <img src="https://verdepro.pl/concrete1.png" alt="" />
                         </p>
                       </div>
                       <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
-                        <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy betonowe</h3>
-                        <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 className="box-border m-0 font-semibold leading-tight tracking-tight border-solid sm:text-xl uppercase lg:text-3xl text-black">Dachy betonowe</h3>
+                        <p className="box-border mt-2 leading-normal text-2xl text-gray-400 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
                     </div>
                   </a></Link>
                   <a href="link" className="">
                     <div onMouseEnter={toggleOfferOne} onMouseLeave={toggleOfferOne} className="box-border flex items-center pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
-                      <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+                      <div className="flex items-center justify-center w-28 h-28 p-6 leading-7 border-0 border-gray-200 bg-primary">
                         <p className="box-border m-0 text-xl text-white border-solid">
                           <img src="https://verdepro.pl/roof.png" alt="" />
                         </p>
                       </div>
                       <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
-                        <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy stalowe</h3>
-                        <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h3 className="box-border m-0 font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl lg:text-3xl">dachy stalowe</h3>
+                        <p className="box-border mt-2 leading-normal text-2xl text-gray-400 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       </div>
                     </div>
                   </a>
                   <a href="link" className="">
                     <div onMouseEnter={toggleOfferTwo} onMouseLeave={toggleOfferTwo} className="box-border flex items-center pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
-                      <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+                      <div className="flex items-center justify-center w-28 h-28 p-6 leading-7 border-0 border-gray-200 bg-primary">
                         <p className="box-border m-0 text-xl text-white border-solid">
                           <img src="https://verdepro.pl/hammer.png" alt="" />
                         </p>
                       </div>
                       <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
-                        <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">renowacja dachów</h3>
-                        <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl lg:text-3xl">renowacja dachów</h3>
+                        <p className="box-border mt-2 leading-normal text-2xl text-gray-400 border-solid hidden sm:block">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                       </div>
                     </div>
                   </a>
@@ -195,15 +195,15 @@ const Home = () => {
 
         <div className="py-8 lg:py-32 bg-gray-50">
           <div className="sm:flex items-center justify-center sm:w-4/5 px-8 lg:w-3/5 mx-auto">
-            <div className="sm:w-2/3 lg:text-4xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
-            <button className="flex mt-4 sm:mt-0 items-center justify-center px-16 py-4 text-center text-white bg-primary">
-              <p className="lg:text-2xl">skontaktuj się</p>
+            <div className="sm:w-2/3 sm:text-xl lg:text-3xl font-bold">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+            <button className="flex mt-4 sm:mt-0 items-center justify-center px-6 lg:px-16 py-2 sm:py-4 text-center text-white bg-primary">
+              <p className="sm:text-xl lg:text-3xl">skontaktuj się</p>
             </button>
           </div>
         </div>
         <div className="py-4 lg:py-16 bg-white">
           <div className="sm:w-4/5 px-8 sm:px-0 lg:w-3/5 mx-auto">
-            <div className="w-1/3 pb-8 sm:pb-16 font-bold uppercase text-3xl lg:text-7xl">realizacje</div>
+            <div className="w-1/3 pb-8 sm:pb-16 font-bold text-3xl sm:text-5xl 2xl:text-8xl">Realizacje</div>
           </div>
 
           <div className="sm:w-4/5 px-8 sm:px-0 lg:w-3/5 mx-auto">
@@ -306,19 +306,19 @@ const Home = () => {
         <div className="flex flex-col lg:flex lg:flex-row items-center sm:w-4/5 px-8 sm:px-0 lg:w-3/5 mx-auto pb-8 lg:py-32 justify-evenly">
           <div className="">
             <div className="">
-              <p className="text-3xl font-bold">Przemyśl</p>
-              <p className="mt-4 text-xl">ul.  Mierosławskiego 14, 37-700 Przemyśl</p>
-              <p className="text-xl">Polska, Podkarpackie</p>
+              <p className="text-4xl font-bold">Przemyśl</p>
+              <p className="mt-4 sm:text-xl lg:text-3xl text-gray-400">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
+              <p className="sm:text-xl lg:text-3xl text-gray-400">Polska, Podkarpackie</p>
               <button className="flex items-center justify-center mt-4 text-xl underline">
-                <Link href="/"><a>sprawdź dojazd</a></Link>
+                <Link href="/"><a className="sm:text-xl lg:text-3xl text-gray-400">sprawdź dojazd</a></Link>
               </button>
             </div>
             <div className="mt-12">
-              <p className="text-3xl font-bold">Warszawa</p>
-              <p className="mt-4 text-xl">ul.  Karolkowa 30, 01-207 Warszawa</p>
-              <p className="text-xl">Polska, Mazowieckie</p>
+              <p className="text-4xl font-bold">Warszawa</p>
+              <p className="mt-4 sm:text-xl lg:text-3xl text-gray-400">ul. Karolkowa 30, 01-207 Warszawa</p>
+              <p className="sm:text-xl lg:text-3xl text-gray-400">Polska, Mazowieckie</p>
               <button className="flex items-center justify-center mt-4 text-xl underline">
-                <Link href="/"><a>sprawdź dojazd</a></Link>
+                <Link href="/"><a className="sm:text-xl lg:text-3xl text-gray-400">sprawdź dojazd</a></Link>
               </button>
             </div>
           </div>
@@ -382,7 +382,7 @@ const Home = () => {
         </div>
 
         {/* LINES START */}
-        <div className="absolute hidden inset-0 z-20 lg:flex justify-center mx-auto h-min-full">
+        <div className="absolute hidden inset-0 z-20 sm:flex justify-center mx-auto h-min-full">
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
