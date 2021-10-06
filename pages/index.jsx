@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
-import CountUp from 'react-countup';
+import CountUp from "react-countup";
+import MyDocument from './_document';
+
 
 const Home = () => {
 const [small, setSmall] = useState(false);
@@ -23,10 +25,6 @@ const [small, setSmall] = useState(false);
         
       <Head>
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&display=swap"  />
       </Head>
       <main className="relative bg-gray-50">
         <div className="relative flex flex-col h-screen text-white bg-top bg-cover bg-herobanner">
