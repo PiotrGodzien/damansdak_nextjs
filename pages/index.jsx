@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
-import MyDocument from './_document';
+import { motion } from 'framer-motion';
 
 
 const Home = () => {
@@ -211,7 +211,7 @@ const [small, setSmall] = useState(false);
             <div className="relative mx-auto mb-16">
               <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="" />
               <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 p-8 mx-auto bg-black h-1/3">
-                <p className="text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <p className="px-8 text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
                 <div className="mx-auto text-white">
                   <button className="flex items-center justify-center text-xl">
                     zobacz więcej
@@ -229,7 +229,7 @@ const [small, setSmall] = useState(false);
             <div className="relative mx-auto mb-16">
               <img src="http://verdepro.pl/oferta3.jpg" alt="" className="" />
               <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 p-8 mx-auto bg-black h-1/3">
-                <p className="text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <p className="px-8 text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
                 <div className="mx-auto text-white">
                   <button className="flex items-center justify-center text-xl">
                     zobacz więcej
@@ -247,7 +247,7 @@ const [small, setSmall] = useState(false);
             <div className="relative mx-auto mb-16">
               <img src="http://verdepro.pl/oferta2.jpg" alt="" className="" />
               <div className="absolute bottom-0 right-0 grid items-center w-2/3 grid-cols-2 p-8 mx-auto bg-black h-1/3">
-                <p className="text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
+                <p className="px-8 text-2xl text-center text-white">PROJEKT DSV THOLEN NIDERLADNY 94 209 m2</p>
                 <div className="mx-auto text-white">
                   <button className="flex items-center justify-center text-xl">
                     zobacz więcej
@@ -377,6 +377,7 @@ const [small, setSmall] = useState(false);
           <p className="">O NAS</p>
           <p className="">REALIZACJE</p>
           <p className="">KARIERA</p>
+          <p className="">KONTAKT</p>
         </p>
         <p className="">©2021 All right reserved</p>
       </footer>
