@@ -15,7 +15,7 @@ module.exports = {
       },
       backgroundImage: {
         // 'herobanner': "url('https://otherlandlabs.com/_next/static/images/pattern-871dbd5e89966c7b04bf3ef0ebe03eed.svg')",
-        'herobanner': "url('http://verdepro.pl/b-2.jpeg')",
+        'herobanner': "url('http://verdepro.pl/b-6.jpeg')",
         'footerbanner': "url('https://verdepro.pl/pattern_dark.jpg')",
         'midelbanner' : "url('http://verdepro.pl/dach4.jpg')",
       },
