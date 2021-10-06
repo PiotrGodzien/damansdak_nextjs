@@ -132,13 +132,13 @@ const [small, setSmall] = useState(false);
           </div>
         </div>
 
-<section className="relative z-40 py-32 leading-7 text-gray-900 bg-white border-solid">
+<section className="relative py-32 leading-7 text-gray-900 bg-white border-solid">
   <div className="box-border w-3/5 mx-auto border-solid">
     <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
       <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
         <h2 className="m-0 font-bold leading-tight tracking-tight text-left text-black uppercase text-7xl">Nasza oferta</h2>
         <p className="mt-2 text-xl text-left border-0 border-gray-200 sm:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
-        <div className="grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
+        <div className="z-40 grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
         <Link href="/link"><a href="" className="">
           <div className="box-border flex items-start pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
             <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
