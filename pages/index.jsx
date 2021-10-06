@@ -174,7 +174,7 @@ const [small, setSmall] = useState(false);
             </div>
             <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
               <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">renowacja dachów</h3>
-              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
             </div>
           </div>
           </a>
