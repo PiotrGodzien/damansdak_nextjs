@@ -83,7 +83,7 @@ const [small, setSmall] = useState(false);
                     duration={900}
                   >
                   <button className="flex items-center justify-center px-16 py-4 text-center border-2 border-white">
-                    <p className="lg:text-2xl">więcej</p>
+                    <p className="lg:text-2xl"><a href="" className="">więcej</a></p>
                   </button>
                   </Link>
                 </div>
@@ -100,7 +100,7 @@ const [small, setSmall] = useState(false);
               Specjalizujemy się w wykonywaniu dachów nowych,
               jak również renowacją dachów starych o powierzchni od-
               1.000m2 do 200.000m2</p>
-            <div class="text-center  bg-opacity-30 flex-col items-baseline justify-evenly">
+            <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
               <div className="flex items-center">
                 <div className="w-3/5">
                   <p className="font-bold lg:text-7xl">453</p>
@@ -116,58 +116,58 @@ const [small, setSmall] = useState(false);
           </div>
         </div>
 
-<section class="relative leading-7 text-gray-900 z-40 py-32 bg-white border-solid">
-  <div class="box-border mx-auto border-solid w-3/5">
-    <div class="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
-      <div class="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
-        <h2 class="m-0 font-bold uppercase text-7xl leading-tight tracking-tight text-left text-black">Nasza oferta</h2>
-        <p class="mt-2 text-xl text-left border-0 border-gray-200 sm:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
-        <div class="grid mt-8 leading-7 items-center border-0 border-gray-200 sm:mt-10 lg:mt-12">
-        <a href="/#link">
-          <div class="box-border pt-6 pb-6 flex items-start text-gray-900 border-solid hover:bg-gray-100 transition duration-300 ease-in-out">
-            <div class="flex items-center justify-center w-20 h-20 p-6 leading-7 bg-primary border-0 border-gray-200">
-              <p class="box-border m-0 text-xl text-white border-solid">
+<section className="relative z-40 py-32 leading-7 text-gray-900 bg-white border-solid">
+  <div className="box-border w-3/5 mx-auto border-solid">
+    <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
+      <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
+        <h2 className="m-0 font-bold leading-tight tracking-tight text-left text-black uppercase text-7xl">Nasza oferta</h2>
+        <p className="mt-2 text-xl text-left border-0 border-gray-200 sm:text-2xl">Dachy płaskie w technologii membran PVC i TPO.</p>
+        <div className="grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
+        <Link href="/#link"><a href="" className="">
+          <div className="box-border flex items-start pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
+            <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+              <p className="box-border m-0 text-xl text-white border-solid">
                 <img src="https://verdepro.pl/concrete1.png" alt="" />
               </p>
             </div>
-            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
-              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl uppercase">dachy betonowe</h3>
-              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">No more wasting time on manual tasks, you can leverage our automated tasks to make your life easier.</p>
+            <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy betonowe</h3>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">No more wasting time on manual tasks, you can leverage our automated tasks to make your life easier.</p>
             </div>
           </div>
-          </a>
+          </a></Link>
           <a href="#link" className="">
-          <div onMouseEnter={toggleOfferOne} onMouseLeave={toggleOfferOne} class="pt-6 pb-6 box-border flex items-start text-gray-900 border-solid hover:bg-gray-100 transition duration-300 ease-in-out">
-            <div class="flex items-center justify-center w-20 h-20 p-6 leading-7 bg-primary border-0 border-gray-200">
-              <p class="box-border m-0 text-xl text-white border-solid">
+          <div onMouseEnter={toggleOfferOne} onMouseLeave={toggleOfferOne} className="box-border flex items-start pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
+            <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+              <p className="box-border m-0 text-xl text-white border-solid">
                 <img src="https://verdepro.pl/roof.png" alt="" />
               </p>
             </div>
-            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
-              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl uppercase">dachy stalowe</h3>
-              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Utilize our email campaigns to send your users up-to-date information about your product and services.</p>
+            <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">dachy stalowe</h3>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">Utilize our email campaigns to send your users up-to-date information about your product and services.</p>
             </div>
           </div>
           </a>
           <a href="#link" className="">
-          <div onMouseEnter={toggleOfferTwo} onMouseLeave={toggleOfferTwo} class="box-border pt-6 pb-6 flex items-start text-gray-900 border-solid hover:bg-gray-100 transition duration-300 ease-in-out">
-            <div class="flex items-center justify-center w-20 h-20 p-6 leading-7 bg-primary border-0 border-gray-200">
-              <p class="box-border m-0 text-xl text-white border-solid">
+          <div onMouseEnter={toggleOfferTwo} onMouseLeave={toggleOfferTwo} className="box-border flex items-start pt-6 pb-6 text-gray-900 transition duration-300 ease-in-out border-solid hover:bg-gray-100">
+            <div className="flex items-center justify-center w-20 h-20 p-6 leading-7 border-0 border-gray-200 bg-primary">
+              <p className="box-border m-0 text-xl text-white border-solid">
                 <img src="https://verdepro.pl/hammer.png" alt="" />
               </p>
             </div>
-            <div class="flex-1 ml-6 leading-7 border-0 border-gray-200">
-              <h3 class="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black border-solid sm:text-xl md:text-2xl uppercase">renowacja dachów</h3>
-              <p class="box-border mt-2 text-base leading-normal text-gray-900 border-solid">We offr some of the best support available. Contact us anytime of the day and we'll help you out ASAP.</p>
+            <div className="flex-1 ml-6 leading-7 border-0 border-gray-200">
+              <h3 className="box-border m-0 text-lg font-semibold leading-tight tracking-tight text-black uppercase border-solid sm:text-xl md:text-2xl">renowacja dachów</h3>
+              <p className="box-border mt-2 text-base leading-normal text-gray-900 border-solid">We offr some of the best support available. Contact us anytime of the day and we'll help you out ASAP.</p>
             </div>
           </div>
           </a>
         </div>
       </div>
-      <div className="absolute right-0 top-auto bottom-auto w-1/2">
-        <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" />
-        <img className={offerOne ? 'absolute inset-0' : 'hidden'} src="http://verdepro.pl/oferta3.jpg" alt="" />
-        <img className={offerTwo ? 'absolute inset-0' : 'hidden'} src="http://verdepro.pl/oferta2.jpg" alt="" />
+      <div className="absolute right-0 w-1/2 h-full overflow-hidden">
+        <img src="http://verdepro.pl/dach_wiatrak.jpg" alt="" className="object-cover w-full h-full" />
+        <img className={offerOne ? 'absolute inset-0 w-full h-full object-cover' : 'hidden'} src="http://verdepro.pl/oferta3.jpg" alt="" />
+        <img className={offerTwo ? 'absolute inset-0 w-full h-full object-cover' : 'hidden'} src="http://verdepro.pl/oferta2.jpg" alt="" />
       </div>
       {/* <div class="relative w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2">
         <img src="https://verdepro.pl/dach_oferta.jpg" class="object-cover w-full h-full" />
