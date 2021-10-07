@@ -29,7 +29,7 @@ const Home = () => {
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
       </Head>
       <main className="relative bg-gray-50">
-        <div className="relative flex flex-col py-20 text-white bg-center bg-cover lg:h-screen bg-herobanner">
+        <div className="relative flex flex-col h-screen text-white bg-center bg-cover lg:h-screen bg-herobanner">
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
           {/* <div className="absolute inset-0 z-0 bg-black opacity-30"></div> */}
           < Navigation/>
