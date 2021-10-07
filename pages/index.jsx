@@ -195,11 +195,11 @@ const Home = () => {
 
         <div className="py-8 lg:py-32 bg-gray-50">
           <div className="items-center justify-center px-8 mx-auto sm:flex sm:w-4/5 lg:w-3/5">
-            <div className="font-bold sm:w-2/3 sm:text-xl lg:text-3xl">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+            <div className="text-2xl font-bold sm:text-3xl lg:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu z nami.</div>
             {/* <button className="flex items-center justify-center px-6 py-2 mt-4 text-center text-white sm:mt-0 lg:px-16 sm:py-4 bg-primary">
               <p className="sm:text-xl lg:text-3xl">skontaktuj się</p>
             </button> */}
-            <button className="flex items-center justify-center px-16 py-4 text-white bg-primary">
+            <button className="flex items-center justify-center px-16 py-4 mt-4 text-white sm:mt-0 bg-primary">
               <p className="sm:text-2xl">kontakt</p>
             </button>
           </div>
