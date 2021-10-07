@@ -104,7 +104,7 @@ const Home = () => {
           <div className="box-border mx-auto border-solid sm:w-4/5 lg:w-3/5">
             <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
               <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
-                <h2 className="m-0 text-3xl font-bold leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Nasza oferta</h2>
+                <h2 className="m-0 text-3xl font-bold leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Oferta</h2>
                 <p className="mt-2 text-left text-gray-400 border-0 border-gray-200 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
                 <div className="z-30 grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
                   <Link href="/link"><a href="" className="">
