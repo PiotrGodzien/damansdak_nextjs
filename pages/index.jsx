@@ -29,14 +29,14 @@ const Home = () => {
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
       </Head>
       <main className="relative bg-gray-50">
-        <div className="relative flex flex-col py-32 text-white bg-center bg-cover lg:h-screen bg-herobanner">
+        <div className="relative flex flex-col h-screen text-white bg-center bg-cover bg-herobanner">
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
           {/* <div className="absolute inset-0 z-0 bg-black opacity-30"></div> */}
           < Navigation/>
           <div className="relative z-30 my-auto">
             <div className="flex flex-col-reverse items-center justify-start px-8 mx-auto sm:w-4/5 lg:w-3/5 md:flex-row">
               <div className="items-center mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
-                <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                <h1 className="text-4xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                 <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                 <div className="lg:flex lg:space-x-8">
                   <button className="flex items-center justify-center px-16 py-4 text-white bg-primary">
