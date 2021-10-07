@@ -363,16 +363,16 @@ const Home = () => {
                 <p className="text-xl">Polska, Podkarpackie</p>
               </div>
               <div className="">
-                <p className="mt-12 text-xl font-bold">Warszawa</p>
-                <p className="mt-2 text-xl">ul.  Karolkowa 30, 01-207 Warszawa</p>
-                <p className="text-xl">Polska, Mozowieckie</p>
+                <p className="mt-12 text-xl font-bold">Firma</p>
+                <p className="mt-2 text-xl">KRS 0000894896</p>
+                <p className="text-xl">NIP PL7952563292</p>
               </div>
             </div>
             <div className="">
               <div className="">
-                <p className="mt-12 text-xl font-bold sm:mt-0">Firma</p>
-                <p className="mt-2 text-xl">KRS 0000894896</p>
-                <p className="text-xl">NIP PL7952563292</p>
+                <p className="mt-12 text-xl font-bold sm:mt-0">Warszawa</p>
+                <p className="mt-2 text-xl">ul.  Karolkowa 30, 01-207 Warszawa</p>
+                <p className="text-xl">Polska, Mozowieckie</p>
               </div>
               <div className="">
                 <p className="mt-12 text-xl font-bold">Holandia</p>
@@ -383,7 +383,7 @@ const Home = () => {
           <div className="py-12 mx-auto bg-black lg:w-3/5 lg:py-40">
             <p className="px-8 mx-auto text-2xl text-white lg:px-0 lg:w-10/12">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
             <div className="flex flex-col justify-start px-8 mx-auto mt-8 sm:flex-row sm:w-10/12 sm:px-0 sm:mt-16">
-              <div className="flex items-center text-3xl font-bold text-white sm:space-x-6">
+              <div className="flex items-center text-3xl font-bold text-white sm:text-2xl lg:text-3xl sm:space-x-6">
                 <svg className="hidden w-12 h-12 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
                   <g id="Templates" stroke="none" fill="none">
                     <g id="Group" fill="currentColor">
@@ -393,7 +393,7 @@ const Home = () => {
                 </svg>
                 <p className="">info@damansdak.pl</p>
               </div>
-              <div className="flex items-center mt-8 text-3xl font-bold sm:mt-0 sm:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-3xl font-bold sm:text-2xl lg:text-3xl sm:mt-0 sm:ml-20 sm:space-x-6 text-primary">
                 <svg className="hidden w-12 h-12 sm:block" width="72px" height="72px" viewBox="0 0 72 72" version="1.1">
                   <g id="Templates" stroke="none" fill="none">
                     <g id="Group" fill="currentColor">
@@ -403,7 +403,7 @@ const Home = () => {
                     </g>
                   </g>
                 </svg>
-                <p className="">532 197 746</p>
+                <p className="">+48 532 197 746</p>
               </div>
             </div>
           </div>
@@ -442,7 +442,7 @@ const Home = () => {
           <p className="">KARIERA</p>
           <p className="">KONTAKT</p>
         </p>
-        <p className="mt-6 lg:mt-0">©2021 All right reserved</p>
+        <div className="mt-5 lg:mt-0">©2021 All right reserved</div>
       </footer>
     </div >
   );
