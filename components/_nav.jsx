@@ -30,13 +30,8 @@ const Navigation = () => {
             <img className="h-6 border border-white w-9" src="https://verdepro.pl/united.png" alt="" />
           </div>
         </div>
-        {/* <div className="hidden lg:block">
-          <button className="flex items-center justify-center w-full px-10 py-4 text-center text-white bg-primary">
-            <p className="lg:text-2xl">kontakt</p>
-          </button>
-        </div> */}
         <div className="ml-auto lg:hidden">
-          <svg className="p-3 border border-white" viewBox="0 0 100 80" fill="currentColor" width="40" height="40">
+          <svg className="p-3 border border-white " viewBox="0 0 100 80" fill="currentColor" width="50" height="50">
             <rect width="100" height="6"></rect>
             <rect y="30" width="100" height="6"></rect>
             <rect y="60" width="100" height="6"></rect>
