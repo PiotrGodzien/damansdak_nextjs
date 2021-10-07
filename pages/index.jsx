@@ -69,7 +69,7 @@ const Home = () => {
             <div className="flex flex-col-reverse items-center justify-start px-8 mx-auto sm:w-4/5 lg:w-3/5 md:flex-row">
               <div className="items-center mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
                 <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
-                <p className="sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
+                <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                 <div className="lg:flex lg:space-x-8">
                   <button className="flex items-center justify-center px-16 py-4 text-white bg-primary">
                     <p className="sm:text-2xl">kontakt</p>
