@@ -13,6 +13,7 @@ const Navigation = () => {
   return (
 <>
   <div className={`fixed bg-black top-0 z-50 py-6 mx-auto text-xl w-full text-white ${small ? "small" : ""}`}>
+
     <nav className="">
       <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
         <div className="h-auto w-36 lg:w-72">
@@ -41,12 +42,10 @@ const Navigation = () => {
         </div>
       </div>
     </nav>
-  </div>
-{/* MOBILE */}
-<div className={`${
+    <div className={`${
             visible ? 'block' : 'hidden'
           }  z-40 block h-full bg-black lg:hidden`}>
-  <div className="flex flex-col w-2/3 mx-auto space-y-6 text-3xl font-bold text-white py-36">
+  <div className="flex flex-col w-2/3 py-20 mx-auto space-y-6 text-3xl font-bold text-white">
     <div className="">Oferta</div>
     <div className="">O nas</div>
     <div className="">Realizacje</div>
@@ -59,6 +58,9 @@ const Navigation = () => {
     </div>
   </div>
 </div>
+  </div>
+{/* MOBILE */}
+
 </>
   );
 };
