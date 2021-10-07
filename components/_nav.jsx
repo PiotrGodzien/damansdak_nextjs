@@ -45,8 +45,8 @@ const Navigation = () => {
 {/* MOBILE */}
 <div className={`${
             visible ? 'block' : 'hidden'
-          }  absolute inset-0 z-40 h-screen bg-black lg:hidden`}>
-  <div className="flex flex-col w-2/3 mx-auto space-y-3 text-3xl font-bold text-white mt-36">
+          }  z-40 block h-full bg-black lg:hidden`}>
+  <div className="flex flex-col w-2/3 mx-auto space-y-6 text-3xl font-bold text-white py-36">
     <div className="">Oferta</div>
     <div className="">O nas</div>
     <div className="">Realizacje</div>
