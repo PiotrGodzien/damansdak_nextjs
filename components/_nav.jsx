@@ -44,8 +44,8 @@ const Navigation = () => {
     </nav>
     <div className={`${
             visible ? 'block' : 'hidden'
-          }  z-40 block h-full bg-black lg:hidden`}>
-  <div className="flex flex-col w-2/3 py-20 mx-auto space-y-6 text-3xl font-bold text-white">
+          }  z-40 block h-screen sm:h-full bg-black lg:hidden`}>
+  <div className="flex flex-col w-2/3 py-16 mx-auto space-y-6 text-3xl font-bold text-white">
     <div className="">Oferta</div>
     <div className="">O nas</div>
     <div className="">Realizacje</div>
