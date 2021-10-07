@@ -194,7 +194,7 @@ const Home = () => {
         </section>
 
         <div className="py-8 lg:py-32 bg-gray-50">
-          <div className="items-center justify-center px-8 mx-auto sm:flex sm:w-4/5 lg:w-3/5">
+          <div className="items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
             <div className="text-2xl font-bold sm:text-3xl lg:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu z nami.</div>
             {/* <button className="flex items-center justify-center px-6 py-2 mt-4 text-center text-white sm:mt-0 lg:px-16 sm:py-4 bg-primary">
               <p className="sm:text-xl lg:text-3xl">skontaktuj się</p>
@@ -304,7 +304,7 @@ const Home = () => {
         
         <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
           <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
-          <p className="text-gray-400 lg:w-2/3 sm:text-xl lg:text-3xl">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
+          <p className="text-gray-400 lg:w-10/12 sm:text-xl lg:text-3xl">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
           <div className="flex flex-col justify-start mx-auto mt-8 lg:flex-row sm:px-0 sm:mt-16">
               <div className="flex items-center text-3xl font-bold sm:space-x-6">
                 <svg className="hidden w-12 h-12 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
