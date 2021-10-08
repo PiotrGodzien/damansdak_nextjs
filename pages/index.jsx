@@ -180,7 +180,7 @@ const Home = () => {
     </LazyShow>
     <div className="relative z-40 grid px-8 mx-auto sm:w-4/5 lg:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8">
       <LazyShow>
-      <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-secondary hover:text-white">
+      <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-black hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
         <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów betonowych.</p>
         <div className="">
@@ -196,7 +196,7 @@ const Home = () => {
       </div>
       </LazyShow>
       <LazyShow>
-      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-secondary hover:text-white">
+      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-black hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
         <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów stalowych.</p>
         <div className="">
@@ -212,7 +212,7 @@ const Home = () => {
       </div>
       </LazyShow>
       <LazyShow>
-      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-t-primary hover:bg-secondary hover:text-white">
+      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-t-primary hover:bg-black hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Renowacja dachów</h3>
         <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Renopwacja dachów przemysłowych.</p>
         <div className="">
