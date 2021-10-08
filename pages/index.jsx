@@ -3,7 +3,7 @@ import LazyShow from './LazyShow';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
-import { motion } from 'framer-motion';
+import VisibilitySensor from 'react-visibility-sensor';
 import Navigation from '../components/_nav';
 import Footer from '../components/_footer';
 import Cta from '../components/_cta';
@@ -79,12 +79,12 @@ const Home = () => {
           
             <div className="w-3/5">
               <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
-                <CountUp start={300} end={453} duration={2.75} delay={0}>
-                  {({ countUpRef }) => (
-                    <div>
+                <CountUp start={300} end={453} duration={1.75} delay={0}>
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
                       <span ref={countUpRef} />
-                    </div>
-                  )}
+                  </VisibilitySensor>
+                )}
                 </CountUp>
               </p>
               <div className="text-gray-400 sm:text-xl lg:text-3xl">projektów</div>
@@ -93,11 +93,11 @@ const Home = () => {
             
             <div className="w-3/5">
               <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
-                <CountUp start={3500000} end={3553424} duration={2.75} delay={0}>
-                  {({ countUpRef }) => (
-                    <div>
-                      <span ref={countUpRef} />
-                    </div>
+                <CountUp start={3500000} end={3553424} duration={1.75} delay={0}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                    </VisibilitySensor>
                   )}
                 </CountUp>
               </p>
