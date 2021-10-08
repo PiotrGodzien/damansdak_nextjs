@@ -64,7 +64,7 @@ const Home = () => {
     </div>
     <LazyShow>
     {/* O NAS */}
-    <div className="flex py-8 lg:pt-32" id="target">
+    <div className="flex py-8 lg:py-32" id="target">
       <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
         <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
         <p className="my-4 text-gray-400 lg:my-12 sm:text-xl lg:text-3xl">DamansDak B.V.
@@ -173,14 +173,14 @@ const Home = () => {
     </LazyShow> */}
     <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:py-16">
     <LazyShow>
-    <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
+    <div className="px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0 sm:w-4/5">
       <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
       <p className="text-gray-400 lg:w-10/12 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
     </div>
     </LazyShow>
-    <div className="relative z-40 grid w-3/5 grid-cols-3 mx-auto gap-x-8">
+    <div className="relative z-40 grid px-8 mx-auto sm:w-4/5 lg:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8">
       <LazyShow>
-      <div className="px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-primary hover:bg-secondary hover:text-white">
+      <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-secondary hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
         <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów betonowych.</p>
         <div className="">
@@ -196,7 +196,7 @@ const Home = () => {
       </div>
       </LazyShow>
       <LazyShow>
-      <div className="flex-col items-end px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-primary hover:bg-secondary hover:text-white">
+      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-primary hover:bg-secondary hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
         <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów stalowych.</p>
         <div className="">
@@ -212,9 +212,9 @@ const Home = () => {
       </div>
       </LazyShow>
       <LazyShow>
-      <div className="flex-col items-end px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-t-primary hover:bg-secondary hover:text-white">
+      <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 lg:py-20 border-t-primary hover:bg-secondary hover:text-white">
         <h3 className="text-3xl font-bold sm:text-4xl">Renowacja dachów</h3>
-        <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Renopwacja dachów betonowych i stalowych.</p>
+        <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Renopwacja dachów przemysłowych.</p>
         <div className="">
           <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
             zobacz więcej
