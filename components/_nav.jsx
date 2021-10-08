@@ -12,7 +12,7 @@ const Navigation = () => {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <div className={`fixed bg-black top-0 z-50 py-2 lg:py-6 mx-auto text-xl w-full text-white ${small ? "small" : ""}`}>
+      <div className={`fixed bg-black top-0 z-50 py-3 lg:py-6 mx-auto text-xl w-full text-white ${small ? "small" : ""}`}>
 
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
