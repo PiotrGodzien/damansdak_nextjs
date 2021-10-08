@@ -64,7 +64,7 @@ const Home = () => {
     </div>
     <LazyShow>
     {/* O NAS */}
-    <div className="flex py-8 lg:py-32" id="target">
+    <div className="flex py-8 lg:pt-32" id="target">
       <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
         <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
         <p className="my-4 text-gray-400 lg:my-12 sm:text-xl lg:text-3xl">DamansDak B.V.
@@ -113,7 +113,7 @@ const Home = () => {
     </LazyShow>
     {/* O NAS END */}
     {/* OFERTA */}
-    <LazyShow>
+    {/* <LazyShow>
     <section className="relative leading-7 text-gray-900 bg-white border-solid lg:py-32">
       <div className="box-border mx-auto border-solid sm:w-4/5 lg:w-3/5">
         <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
@@ -170,7 +170,65 @@ const Home = () => {
         </div>
       </div>
     </section>
+    </LazyShow> */}
+    <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:py-16">
+    <LazyShow>
+    <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
+      <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
+      <p className="text-gray-400 lg:w-10/12 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
+    </div>
     </LazyShow>
+    <div className="relative z-40 grid w-3/5 grid-cols-3 mx-auto gap-x-8">
+      <LazyShow>
+      <div className="px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-primary hover:bg-secondary hover:text-white">
+        <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
+        <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów betonowych.</p>
+        <div className="">
+          <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+            zobacz więcej
+            <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+              <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      </LazyShow>
+      <LazyShow>
+      <div className="flex-col items-end px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-primary hover:bg-secondary hover:text-white">
+        <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
+        <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Wykonywanie dachów stalowych.</p>
+        <div className="">
+          <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+            zobacz więcej
+            <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+              <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      </LazyShow>
+      <LazyShow>
+      <div className="flex-col items-end px-8 py-20 transition duration-300 ease-out bg-white border-t-4 border-t-primary hover:bg-secondary hover:text-white">
+        <h3 className="text-3xl font-bold sm:text-4xl">Renowacja dachów</h3>
+        <p className="pr-6 mt-4 text-gray-400 sm:text-xl lg:text-3xl">Renopwacja dachów betonowych i stalowych.</p>
+        <div className="">
+          <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+            zobacz więcej
+            <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+              <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      </LazyShow>
+    </div> 
+    </section>
     {/* OFERTA END */}
     {/* CTA */}
     <LazyShow>
