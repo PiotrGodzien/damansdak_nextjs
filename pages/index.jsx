@@ -74,7 +74,9 @@ const Home = () => {
           jak również renowacją dachów starych o powierzchni od-
           1.000m2 do 200.000m2</p>
         <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
+        <LazyShow>
           <div className="flex items-center">
+          
             <div className="w-3/5">
               <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
                 <CountUp start={300} end={453} duration={2.75} delay={0}>
@@ -87,6 +89,8 @@ const Home = () => {
               </p>
               <div className="text-gray-400 sm:text-xl lg:text-3xl">projektów</div>
             </div>
+           
+            
             <div className="w-3/5">
               <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
                 <CountUp start={3500000} end={3553424} duration={2.75} delay={0}>
@@ -99,7 +103,9 @@ const Home = () => {
               </p>
               <div className="text-gray-400 sm:text-xl lg:text-3xl">m2</div>
             </div>
+           
           </div>
+          </LazyShow>
           <div className=""></div>
         </div>
       </div>
