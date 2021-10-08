@@ -64,7 +64,7 @@ const Home = () => {
         </div>
         <LazyShow>
           {/* O NAS */}
-          <div className="flex py-8 lg:py-32" id="target">
+          <div className="flex pt-16 pb-8 2xl:py-32" id="target">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
               <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
               <p className="my-4 text-gray-400 lg:my-12 sm:text-xl lg:text-3xl">DamansDak B.V.
@@ -74,7 +74,7 @@ const Home = () => {
                 jak również renowacją dachów starych o powierzchni od-
                 1.000m2 do 200.000m2</p>
               <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
-                <LazyShow>
+                {/* <LazyShow>
                   <div className="flex items-center">
 
                     <div className="w-3/5">
@@ -105,7 +105,7 @@ const Home = () => {
                     </div>
 
                   </div>
-                </LazyShow>
+                </LazyShow> */}
                 <div className=""></div>
               </div>
             </div>
