@@ -44,13 +44,13 @@ const Navigation = () => {
         </nav>
         <div className={`${visible ? 'block' : 'hidden'
           }  z-40 block h-screen sm:h-full bg-black lg:hidden`}>
-          <div className="flex flex-col w-2/3 py-16 mx-auto space-y-6 text-3xl font-bold text-white">
+          <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
             <div className="">Oferta</div>
             <div className="">O nas</div>
             <div className="">Realizacje</div>
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mt-6">
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/germany.png" alt="" />
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/nederland.png" alt="" />
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/united.png" alt="" />
