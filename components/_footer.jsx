@@ -74,7 +74,7 @@ const Footer = () => {
           <img className="w-7 h-7" src="https://verdepro.pl/YouTube_black.png" alt="" />
           <img className="w-7 h-7" src="https://verdepro.pl/Twitter_black.png" alt="" />
         </div>
-        <p className="hidden mt-4 space-x-16 sm:flex lg:mt-0">
+        <p className="hidden mt-4 space-x-8 2xl:space-x-16 sm:flex lg:mt-0">
           <p className="">OFERTA</p>
           <p className="">O NAS</p>
           <p className="">REALIZACJE</p>
