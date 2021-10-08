@@ -3,7 +3,7 @@ import LazyShow from './LazyShow';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import Navigation from '../components/_nav';
 import Footer from '../components/_footer';
 import Cta from '../components/_cta';
