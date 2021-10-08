@@ -167,11 +167,6 @@ const Home = () => {
             <img className={offerOne ? 'absolute inset-0 w-full h-full object-cover' : 'hidden'} src="http://verdepro.pl/ruda_slaska_realizacja.jpeg" alt="" />
             <img className={offerTwo ? 'absolute inset-0 w-full h-full object-cover' : 'hidden'} src="http://verdepro.pl/blonie_realizacja.jpeg" alt="" />
           </div>
-          {/* <div className="relative w-full h-full overflow-hidden leading-7 text-gray-900 border-0 border-gray-200 lg:w-1/2">
-    <img src="https://verdepro.pl/dach_oferta.jpg" className="object-cover w-full h-full" />
-    <img className={offerOne ? 'absolute inset-0' : 'hidden'} src="http://verdepro.pl/dach_oferta_blacha1.jpg" alt="" />
-    <img className={offerTwo ? 'absolute inset-0' : 'hidden'} src="http://verdepro.pl/dach_oferta3.jpg" alt="" />
-  </div> */}
         </div>
       </div>
     </section>
@@ -201,7 +196,7 @@ const Home = () => {
       <LazyShow>
         <div className="relative mx-auto mb-8 sm:mb-16">
           <img src="http://verdepro.pl/lublin_realizacja.jpeg" alt="" className="" />
-          <div className="absolute top-0 left-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
+          <div className="absolute bottom-0 right-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
             <p className="text-xs text-center text-white lg:px-8 sm:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
             <div className="hidden mx-auto text-white lg:block">
               <button className="flex items-center justify-center lg:text-xl">
@@ -220,7 +215,7 @@ const Home = () => {
         <LazyShow>
         <div className="relative mx-auto mb-8 sm:mb-16">
           <img src="http://verdepro.pl/ruda_slaska_realizacja.jpeg" alt="" className="" />
-          <div className="absolute top-0 left-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
+          <div className="absolute bottom-0 right-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
             <p className="text-xs text-center text-white lg:px-8 sm:text-2xl">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej: dwie hale o łącznej powierzchni ok. 60 000 m2</p>
             <div className="hidden mx-auto text-white lg:block">
               <button className="flex items-center justify-center lg:text-xl">
@@ -239,7 +234,7 @@ const Home = () => {
         <LazyShow>
         <div className="relative mx-auto mb-8 sm:mb-16">
           <img src="http://verdepro.pl/blonie_realizacja.jpeg" alt="" className="" />
-          <div className="absolute top-0 left-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
+          <div className="absolute bottom-0 right-0 grid items-center px-2 mx-auto bg-black lg:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md h-1/3">
             <p className="text-xs text-center text-white lg:px-8 sm:text-2xl">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2</p>
             <div className="hidden mx-auto text-white lg:block">
               <button className="flex items-center justify-center lg:text-xl">
