@@ -5,7 +5,7 @@ const Footer = () => {
     <>
 
       <div className="flex flex-col-reverse lg:flex-row bg-black">
-        <div className="flex flex-col items-start pb-8 text-white mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
+        <div className="flex flex-col items-start pb-8 px-8 text-white 2xl:mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
           <div className="">
             <div className="">
               <p className="text-lg 2xl:text-xl font-bold">Przemyśl</p>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
         <div className="py-12 lg:w-3/5 mx-auto lg:py-40">
           <p className="px-8 text-2xl text-white mx-auto 2xl:w-3/4 lg:px-0">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
-          <div className="flex 2xl:w-3/4 flex-col justify-start px-8 mx-auto mt-8 sm:flex-row sm:px-0 sm:mt-16">
+          <div className="flex 2xl:w-3/4 flex-col px-8 mx-auto mt-8 sm:flex-row lg:px-0 sm:mt-16">
             <div className="flex items-center text-3xl font-bold text-white sm:text-2xl lg:text-3xl sm:space-x-6">
               <svg className="hidden w-12 h-12 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
                 <g id="Templates" stroke="none" fill="none">
