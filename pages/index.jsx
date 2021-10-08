@@ -37,6 +37,7 @@ const Home = () => {
       < Navigation/>
       <div className="relative z-30 my-auto">
         <div className="flex flex-col-reverse items-center justify-start px-8 mx-auto sm:w-4/5 lg:w-3/5 md:flex-row">
+          <LazyShow>
           <div className="items-center mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
             <h1 className="text-4xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
             <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
@@ -57,6 +58,7 @@ const Home = () => {
               </Link>
             </div>
           </div>
+          </LazyShow>
         </div>
       </div>
     </div>
