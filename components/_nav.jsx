@@ -17,7 +17,7 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <img src="http://verdepro.pl/logo_damsdak.png" />
+              <a href="/" className=""><img src="http://verdepro.pl/logo_damsdak.png" /></a>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
