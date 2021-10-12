@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
+import Logo from '../public/logo_damsdak-3.png'
 
 const Navigation = () => {
   const [small, setSmall] = useState(false);
@@ -19,7 +20,7 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <Link href="/" className=""><a><Image alt="" src="/public/logo_damsdak-3.png" layout='fill' /></a></Link>
+              <Link href="/" className=""><a><Image alt="" src={Logo} /></a></Link>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
@@ -53,9 +54,9 @@ const Navigation = () => {
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
             <div className="flex mt-6 space-x-4">
-              <Image alt="" className="h-6 border border-white w-9" src="/public/germany.png" layout='fill'  />
-              <Image alt="" className="h-6 border border-white w-9" src="/public/united.png" layout='fill'  />
-              <Image alt="" className="h-6 border border-white w-9" src="/public/nederland.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/germany.png" layout='fill' />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/united.png" layout='fill' />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/nederland.png" layout='fill' />
             </div>
           </div>
         </div>
