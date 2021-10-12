@@ -19,7 +19,7 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <Link href="/" className=""><a><Image alt="" src="/pages/img/logo_damsdak-3.png" layout='fill' /></a></Link>
+              <Link href="/" className=""><a><Image alt="" src="/public/logo_damsdak-3.png" layout='fill' /></a></Link>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
@@ -28,9 +28,9 @@ const Navigation = () => {
               <div className="">Kariera</div>
               <div className="">Kontakt</div>
               <div className="flex space-x-4">
-                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/germany.png" layout='fill' />
-                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/nederland.png" layout='fill' />
-                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/united.png" layout='fill' />
+                <Image alt="" className="h-6 border border-white w-9" src="/public/germany.png" layout='fill' />
+                <Image alt="" className="h-6 border border-white w-9" src="/public/nederland.png" layout='fill' />
+                <Image alt="" className="h-6 border border-white w-9" src="/public/united.png" layout='fill' />
               </div>
             </div>
             <div className="ml-auto lg:hidden">
@@ -53,9 +53,9 @@ const Navigation = () => {
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
             <div className="flex mt-6 space-x-4">
-              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/germany.png" layout='fill'  />
-              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/united.png" layout='fill'  />
-              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/nederland.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/germany.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/united.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/public/nederland.png" layout='fill'  />
             </div>
           </div>
         </div>
