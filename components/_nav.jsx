@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Link from 'next/link';
 
 const Navigation = () => {
   const [small, setSmall] = useState(false);
@@ -17,7 +18,7 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <a href="/" className=""><img src="http://verdepro.pl/logo_damsdak.png" /></a>
+              <Link href="/" className=""><a><img src="http://verdepro.pl/logo_damsdak.png" /></a></Link>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
@@ -32,7 +33,7 @@ const Navigation = () => {
               </div>
             </div>
             <div className="ml-auto lg:hidden">
-              <button className="focus:outline-none flex" onClick={() => setVisible(!visible)}>
+              <button className="flex focus:outline-none" onClick={() => setVisible(!visible)}>
                 <svg className="p-3 border border-white " viewBox="0 0 100 80" fill="currentColor" width="40" height="40">
                   <rect width="100" height="6"></rect>
                   <rect y="30" width="100" height="6"></rect>
@@ -50,7 +51,7 @@ const Navigation = () => {
             <div className="">Realizacje</div>
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
-            <div className="flex space-x-4 mt-6">
+            <div className="flex mt-6 space-x-4">
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/germany.png" alt="" />
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/nederland.png" alt="" />
               <img className="h-6 border border-white w-9" src="https://verdepro.pl/united.png" alt="" />
