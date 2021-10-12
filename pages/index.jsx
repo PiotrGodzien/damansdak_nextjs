@@ -254,7 +254,7 @@ const Home = () => {
             {/* REALIZACJA 1 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="http://verdepro.pl/lublin_realizacja.jpeg" alt="" className="" />
+                <Image src="/pages/img/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -273,7 +273,7 @@ const Home = () => {
             {/* REALIZACJA 2 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="http://verdepro.pl/ruda_slaska_realizacja.jpeg" alt="" className="" />
+                <Image src="/pages/img/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej: dwie hale o łącznej powierzchni ok. 60 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -292,7 +292,7 @@ const Home = () => {
             {/* REALIZACJA 3 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="http://verdepro.pl/blonie_realizacja.jpeg" alt="" className="" />
+                <Image src="/pages/img/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -315,7 +315,7 @@ const Home = () => {
           <Cta />
         </LazyShow>
         <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-          <Link href="#link"><a><Image alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a></Link>
+          <Link href="#link"><a><Image alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="/pages/img/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div>
         <LazyShow>

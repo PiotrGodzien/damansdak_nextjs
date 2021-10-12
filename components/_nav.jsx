@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navigation = () => {
   const [small, setSmall] = useState(false);
@@ -18,7 +19,7 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <Link href="/" className=""><a><img src="http://verdepro.pl/logo_damsdak.png" /></a></Link>
+              <Link href="/" className=""><a><Image alt="" src="/pages/img/logo_damsdak-3.png" layout='fill' /></a></Link>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
@@ -27,9 +28,9 @@ const Navigation = () => {
               <div className="">Kariera</div>
               <div className="">Kontakt</div>
               <div className="flex space-x-4">
-                <img className="h-6 border border-white w-9" src="https://verdepro.pl/germany.png" alt="" />
-                <img className="h-6 border border-white w-9" src="https://verdepro.pl/nederland.png" alt="" />
-                <img className="h-6 border border-white w-9" src="https://verdepro.pl/united.png" alt="" />
+                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/germany.png" layout='fill' />
+                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/nederland.png" layout='fill' />
+                <Image alt="" className="h-6 border border-white w-9" src="/pages/img/united.png" layout='fill' />
               </div>
             </div>
             <div className="ml-auto lg:hidden">
@@ -52,9 +53,9 @@ const Navigation = () => {
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
             <div className="flex mt-6 space-x-4">
-              <img className="h-6 border border-white w-9" src="https://verdepro.pl/germany.png" alt="" />
-              <img className="h-6 border border-white w-9" src="https://verdepro.pl/nederland.png" alt="" />
-              <img className="h-6 border border-white w-9" src="https://verdepro.pl/united.png" alt="" />
+              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/germany.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/united.png" layout='fill'  />
+              <Image alt="" className="h-6 border border-white w-9" src="/pages/img/nederland.png" layout='fill'  />
             </div>
           </div>
         </div>
