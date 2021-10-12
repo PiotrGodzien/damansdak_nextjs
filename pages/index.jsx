@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import LazyShow from './LazyShow';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
@@ -42,7 +43,7 @@ const Home = () => {
                   <h1 className="text-4xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                   <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                   <div className="lg:flex lg:space-x-8">
-                    <button className="flex items-center justify-center px-16 py-4 text-white bg-primary transition duration-150 ease-in-out hover:bg-black">
+                    <button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out bg-primary hover:bg-black">
                       <p className="sm:text-2xl">kontakt</p>
                     </button>
                     <Link
@@ -52,8 +53,8 @@ const Home = () => {
                       offset={-70}
                       duration={900}
                     >
-                      <button className="items-center justify-center hidden px-16 py-4 text-center border-2 border-white lg:flex transition duration-150 ease-in-out hover:bg-white hover:text-primary">
-                        <p className="lg:text-2xl"><a href="" className="">więcej</a></p>
+                      <button className="items-center justify-center hidden px-16 py-4 text-center transition duration-150 ease-in-out border-2 border-white lg:flex hover:bg-white hover:text-primary">
+                        <p className="lg:text-2xl"><a>więcej</a></p>
                       </button>
                     </Link>
                   </div>
@@ -173,12 +174,12 @@ const Home = () => {
     </LazyShow> */}
         <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:py-16">
           <LazyShow>
-            <div className="px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0 w-4/5">
+            <div className="w-4/5 px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0">
               <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
               <p className="text-gray-400 lg:w-10/12 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
             </div>
           </LazyShow>
-          <div className="relative z-40 grid xl:flex px-8 mx-auto sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
+          <div className="relative z-40 grid px-8 mx-auto xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
@@ -233,9 +234,9 @@ const Home = () => {
         {/* CTA */}
         <LazyShow>
           <div className="py-8 lg:py-32 bg-gray-50">
-            <div className="z-40 relative items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
-              <div className="text-2xl  font-bold sm:text-3xl lg:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu z nami.</div>
-              <button className="flex items-center justify-center px-16 py-4 mt-4 text-white sm:mt-0 bg-primary transition duration-150 ease-in-out hover:bg-black">
+            <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
+              <div className="text-2xl font-bold sm:text-3xl lg:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+              <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
               </button>
             </div>
@@ -255,11 +256,11 @@ const Home = () => {
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img src="http://verdepro.pl/lublin_realizacja.jpeg" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs sm:text-base text-center text-white lg:px-8 2xl:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
-                  <div className="hidden z-40 mx-auto text-white hover:text-primary lg:block transition duration-150 ease-in-out">
+                  <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
+                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
-                      <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border  border-gray-300 rounded-full lg:ml-6">
+                      <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                         <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
@@ -274,8 +275,8 @@ const Home = () => {
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img src="http://verdepro.pl/ruda_slaska_realizacja.jpeg" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs sm:text-base text-center text-white lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej: dwie hale o łącznej powierzchni ok. 60 000 m2</p>
-                  <div className="hidden mx-auto z-40 text-white hover:text-primary lg:block transition duration-150 ease-in-out">
+                  <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej: dwie hale o łącznej powierzchni ok. 60 000 m2</p>
+                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -293,8 +294,8 @@ const Home = () => {
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img src="http://verdepro.pl/blonie_realizacja.jpeg" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs sm:text-base text-center text-white lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2</p>
-                  <div className="hidden mx-auto z-40 text-white hover:text-primary lg:block transition duration-150 ease-in-out">
+                  <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2</p>
+                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -314,7 +315,7 @@ const Home = () => {
           <Cta />
         </LazyShow>
         <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-          <a href="#link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a>
+          <Link href="#link"><a><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div>
         <LazyShow>
