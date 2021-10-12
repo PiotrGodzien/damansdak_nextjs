@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 
 const defaultTheme = require("tailwindcss/defaultTheme");
 
@@ -16,8 +16,7 @@ module.exports = {
         secondary: '#222222',
       },
       backgroundImage: {
-        // 'herobanner': "url('https://otherlandlabs.com/_next/static/images/pattern-871dbd5e89966c7b04bf3ef0ebe03eed.svg')",
-        'herobanner': "url('https://damansdak_nextjs/pages/img/hero.jpeg')",
+        'herobanner': "src='pages/img/hero.jpeg'",
         'footerbanner': "url('https://verdepro.pl/pattern_dark.jpg')",
       },
     },
