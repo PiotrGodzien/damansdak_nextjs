@@ -1,4 +1,4 @@
-import Image from 'next/image'
+
 
 const defaultTheme = require("tailwindcss/defaultTheme");
 
@@ -16,7 +16,7 @@ module.exports = {
         secondary: '#222222',
       },
       backgroundImage: {
-        'herobanner': "src='pages/img/hero.jpeg'",
+        'herobanner': "url('https://verdepro.pl/hero.jpeg')",
         'footerbanner': "url('https://verdepro.pl/pattern_dark.jpg')",
       },
     },
