@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import LazyShow from './LazyShow';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
