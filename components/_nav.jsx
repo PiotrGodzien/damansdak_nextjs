@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Link from 'next/link';
-import img from 'next/image';
+import { Link, animateScroll as scroll } from "react-scroll";
+
 
 const Navigation = () => {
   const [small, setSmall] = useState(false);
@@ -19,7 +19,10 @@ const Navigation = () => {
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
-              <Link href="/" className=""><a><img alt="" src="https://damansdak.s3.eu-central-1.amazonaws.com/logo_damsdak-3.png" layout='fill' /></a></Link>
+
+
+
+
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
               <div className="">Oferta</div>
@@ -53,9 +56,12 @@ const Navigation = () => {
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
             <div className="flex mt-6 space-x-4">
+
               <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill'  />
               <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/united.png" layout='fill'  />
               <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/nederland.png" layout='fill'  />
+
+
             </div>
           </div>
         </div>
