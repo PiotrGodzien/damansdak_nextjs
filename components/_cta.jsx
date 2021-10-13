@@ -55,7 +55,7 @@ const Cta = () => {
             </button>
           </div>
         </div>
-        <img className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0" src="https://verdepro.pl/poland_cropped_map.png" alt="" />
+        <img className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0" src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png" alt="" />
       </div>
 
     </>

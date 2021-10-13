@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import LazyShow from './LazyShow';
 import { Link, animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
@@ -35,7 +34,6 @@ const Home = () => {
         <div className="relative flex flex-col h-screen text-white bg-center bg-cover bg-herobanner">
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
           {/* <div className="absolute inset-0 z-0 bg-black opacity-30"></div> */}
-          < Navigation />
           <div className="relative z-30 my-auto">
             <div className="flex flex-col-reverse items-center justify-start px-8 mx-auto sm:w-4/5 lg:w-3/5 md:flex-row">
               <LazyShow>
@@ -254,7 +252,7 @@ const Home = () => {
             {/* REALIZACJA 1 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="/public/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
+                <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -273,7 +271,7 @@ const Home = () => {
             {/* REALIZACJA 2 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="/public/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
+                <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej: dwie hale o łącznej powierzchni ok. 60 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -292,7 +290,7 @@ const Home = () => {
             {/* REALIZACJA 3 */}
             <LazyShow>
               <div className="relative mx-auto mb-8 sm:mb-16">
-                <Image src="/public/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
+                <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
@@ -313,9 +311,9 @@ const Home = () => {
         {/* REALIZACJE END */}
         <LazyShow>
           <Cta />
-        </LazyShow>
+          </LazyShow>
         <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-          <Link href="#link"><a><Image alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="/public/vcs.png" layout="fill" /></a></Link>
+          <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div>
         <LazyShow>

@@ -16,7 +16,7 @@ module.exports = {
         secondary: '#222222',
       },
       backgroundImage: {
-        'herobanner': "url('https://verdepro.pl/hero.jpeg')",
+        'herobanner': "url('https://damansdak.s3.eu-central-1.amazonaws.com/hero.jpeg')",
         'footerbanner': "url('https://verdepro.pl/pattern_dark.jpg')",
       },
     },
