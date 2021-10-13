@@ -25,10 +25,11 @@ const Home = () => {
   const toggleOfferTwo = () => setOfferTwo(!offerTwo);
 
   return (
-<div classNameName="">
+<>
+<div classNameName="bg-gray-50">
   <div className="py-16 bg-white sm:py-24">
-    <div className="relative flex flex-col lg:mx-auto lg:max-w-7xl">
-      <div className="absolute lg:w-1/2 lg:py-0">
+    <div className="relative flex flex-col bg-white lg:mx-auto lg:max-w-7xl">
+      <div className="lg:absolute lg:w-1/2 lg:py-0">
         <div className="hidden sm:block lg:absolute lg:inset-y-0 lg:right-0 lg:w-screen">
           {/* <div className="absolute inset-y-0 w-full right-1/2 bg-gray-50 rounded-r-3xl lg:right-72"></div> */}
           {/* <svg className="absolute -ml-3 top-8 left-1/2 lg:-right-8 lg:left-auto lg:top-12" width="404" height="392" fill="none" viewBox="0 0 404 392">
@@ -57,7 +58,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    <div className="max-w-2xl px-4 mx-auto top-24 lg:block lg:sticky lg:left-1/2 sm:px-12">
+    <div className="max-w-2xl px-4 mx-auto lg:top-24 lg:block lg:sticky lg:left-1/2 sm:px-12">
         <div className="lg:pt-20">
           <div className="mt-6 leading-loose whitespace-pre-wrap lg:space-y-6">
           <p className="overflow-hidden text-xl font-bold text-gray-black 2xl:text-5xl lg:text-3xl overflow-ellipsis">
@@ -107,6 +108,7 @@ const Home = () => {
     <Footer />
   </LazyShow>
 </div>
+</>
   );
 };
 
