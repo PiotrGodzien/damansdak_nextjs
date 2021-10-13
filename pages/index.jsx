@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <div className="">
-
+      <Navigation />
       <Head>
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
       </Head>
@@ -311,7 +311,7 @@ const Home = () => {
         {/* REALIZACJE END */}
         <LazyShow>
           <Cta />
-          </LazyShow>
+        </LazyShow>
         <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
