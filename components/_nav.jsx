@@ -19,12 +19,12 @@ const Navigation = () => {
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
             <div className="h-auto w-36 lg:w-72">
 
-              <Link href="/" className=""><a><img alt="" src="https://damansdak.s3.eu-central-1.amazonaws.com/logo_damsdak-3.png" layout='fill' /></a></Link>
+              <Link href="/" className=""><img alt="" src="https://damansdak.s3.eu-central-1.amazonaws.com/logo_damsdak-3.png" /></Link>
 
 
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
-              <div className="">Oferta</div>
+            <div className=""><Link href="/oferta">Oferta</Link></div>
               <div className="">O nas</div>
               <div className="">Realizacje</div>
               <div className="">Kariera</div>
@@ -49,7 +49,7 @@ const Navigation = () => {
         <div className={`${visible ? 'block' : 'hidden'
           }  z-40 block h-screen sm:h-full bg-black lg:hidden`}>
           <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
-            <div className="">Oferta</div>
+            <div className=""><Link href="/oferta"><a>Oferta</a></Link></div>
             <div className="">O nas</div>
             <div className="">Realizacje</div>
             <div className="">Kariera</div>
