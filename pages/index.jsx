@@ -26,6 +26,7 @@ const Home = () => {
 
   return (
     <div className="">
+
       <Navigation />
       <Head>
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
@@ -186,7 +187,7 @@ const Home = () => {
                   <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
@@ -202,7 +203,7 @@ const Home = () => {
                   <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
@@ -218,7 +219,7 @@ const Home = () => {
                   <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
@@ -259,7 +260,7 @@ const Home = () => {
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
                       </div>
@@ -278,7 +279,7 @@ const Home = () => {
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
                       </div>
@@ -297,7 +298,7 @@ const Home = () => {
                     <button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
                       </div>

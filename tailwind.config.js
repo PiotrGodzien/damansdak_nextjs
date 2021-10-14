@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': ['Blinker', ...defaultTheme.fontFamily.sans],
+        'serif': ['Lato', ...defaultTheme.fontFamily.serif],
       },
       colors: {
         primary: '#F4120F',
