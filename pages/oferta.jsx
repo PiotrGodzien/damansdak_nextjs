@@ -46,23 +46,24 @@ const Home = () => {
           </div>
         </div> */}
         <div className="py-4 bg-pattern mb-6"></div>
+        <LazyShow>
+          <div className="mx-auto">
+            <div className="lg:w-3/5 sm:px-0 sm:w-4/5 px-8 mx-auto">
+              <p className="mb-6 text-3xl font-bold lg:text-left lg:text-5xl font-heading">
+                <CountUp start={35550} end={36000} duration={1.75} delay={0}>
+                  {({ countUpRef, start }) => (
+                    <VisibilitySensor onChange={start} delayedCall>
+                      <span ref={countUpRef} />
+                    </VisibilitySensor>
+                  )}
+                </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
+              </p>
+              <p className="mb-6 font-serif text-lg font-light text-gray-500">Dwie hale o łącznej powierzchni ok. 36 000 m2.</p>
+              <p className="mb-6 font-serif text-lg font-light text-gray-500">Zakres prac montażowych: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci PIR gr. 8cm i 16cm oraz membrany PCV gr. 1,20mm (Fatrafol) wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych.</p>
 
-        <div className="container px-4 mx-auto">
-          <div className="max-w-2xl mx-auto">
-            <p className="mb-6 text-3xl font-bold lg:text-left lg:text-5xl font-heading">
-              <CountUp start={35550} end={36000} duration={1.75} delay={0}>
-                {({ countUpRef, start }) => (
-                  <VisibilitySensor onChange={start} delayedCall>
-                    <span ref={countUpRef} />
-                  </VisibilitySensor>
-                )}
-              </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
-            </p>
-            <p className="mb-6 font-serif text-lg font-light text-gray-500">Dwie hale o łącznej powierzchni ok. 36 000 m2.</p>
-            <p className="mb-6 font-serif text-lg font-light text-gray-500">Zakres prac montażowych: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci PIR gr. 8cm i 16cm oraz membrany PCV gr. 1,20mm (Fatrafol) wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych.</p>
-
+            </div>
           </div>
-        </div>
+        </LazyShow>
       </section>
       {/* <Gallery /> */}
       <LazyShow>
