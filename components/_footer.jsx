@@ -10,26 +10,26 @@ const Footer = () => {
           <div className="">
             <div className="">
               <p className="text-lg font-bold 2xl:text-xl">Przemyśl</p>
-              <p className="mt-2 text-md 2xl:text-xl">ul.  Mierosławskiego 14</p>
-              <p className="mt-2 text-md 2xl:text-xl">37-700 Przemyśl</p>
-              <p className="text-md 2xl:text-xl">Polska, Podkarpackie</p>
+              <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Mierosławskiego 14</p>
+              <p className="mt-2 font-serif text-md 2xl:text-xl">37-700 Przemyśl</p>
+              <p className="font-serif text-md 2xl:text-xl">Polska, Podkarpackie</p>
             </div>
             <div className="">
               <p className="mt-12 text-lg font-bold 2xl:text-xl">Firma</p>
-              <p className="mt-2 text-md 2xl:text-xl">KRS 0000894896</p>
-              <p className="text-md 2xl:text-xl">NIP PL7952563292</p>
+              <p className="mt-2 font-serif text-md 2xl:text-xl">KRS 0000894896</p>
+              <p className="font-serif text-md 2xl:text-xl">NIP PL7952563292</p>
             </div>
           </div>
           <div className="">
             <div className="">
               <p className="mt-12 text-lg font-bold 2xl:text-xl sm:mt-0">Warszawa</p>
-              <p className="mt-2 text-md 2xl:text-xl">ul.  Karolkowa 30</p>
-              <p className="mt-2 text-md 2xl:text-xl">01-207 Warszawa</p>
-              <p className="text-md 2xl:text-xl">Polska, Mozowieckie</p>
+              <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Karolkowa 30</p>
+              <p className="mt-2 font-serif text-md 2xl:text-xl">01-207 Warszawa</p>
+              <p className="font-serif text-md 2xl:text-xl">Polska, Mozowieckie</p>
             </div>
             <div className="">
               <p className="mt-12 font-bold text-md 2xl:text-xl">Holandia</p>
-              <p className="relative z-40 mt-2 underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
+              <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
             </div>
           </div>
         </div>

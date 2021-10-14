@@ -9,7 +9,7 @@ const Cta = () => {
 
       <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
         <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
-        <p className="text-gray-400 lg:w-10/12 sm:text-xl lg:text-3xl">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
+        <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
         <div className="flex flex-col justify-start mx-auto mt-8 lg:flex-row sm:px-0 sm:mt-16">
           <div className="flex items-center text-3xl font-bold sm:space-x-6">
             <svg className="hidden w-12 h-12 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
@@ -40,18 +40,18 @@ const Cta = () => {
         <div className="">
           <div className="">
             <p className="text-3xl font-bold 2xl:text-4xl">Przemyśl</p>
-            <p className="mt-4 text-gray-400 sm:text-xl 2xl:text-3xl">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
-            <p className="text-gray-400 sm:text-xl 2xl:text-3xl">Polska, Podkarpackie</p>
+            <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
+            <p className="font-serif text-lg font-light text-gray-500">Polska, Podkarpackie</p>
             <button className="flex items-center justify-center mt-4 text-xl underline">
-              <Link href="/"><a className="text-gray-400 sm:text-xl 2xl:text-3xl">sprawdź dojazd</a></Link>
+              <Link href="/"><a className="font-serif text-lg font-light">sprawdź dojazd</a></Link>
             </button>
           </div>
           <div className="mt-12">
             <p className="text-3xl font-bold 2xl:text-4xl">Warszawa</p>
-            <p className="mt-4 text-gray-400 sm:text-xl 2xl:text-3xl">ul. Karolkowa 30, 01-207 Warszawa</p>
-            <p className="text-gray-400 sm:text-xl 2xl:text-3xl">Polska, Mazowieckie</p>
+            <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
+            <p className="font-serif text-lg font-light text-gray-500">Polska, Mazowieckie</p>
             <button className="flex items-center justify-center mt-4 text-xl underline">
-              <Link href="/"><a className="text-gray-400 sm:text-xl 2xl:text-3xl">sprawdź dojazd</a></Link>
+              <Link href="/"><a className="font-serif text-lg font-light">sprawdź dojazd</a></Link>
             </button>
           </div>
         </div>
