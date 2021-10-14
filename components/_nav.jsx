@@ -6,7 +6,7 @@ const Navigation = () => {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <div className="fixed bg-black top-0 z-50 py-3 lg:py-6 mx-auto text-xl w-full text-white">
+      <div className="fixed top-0 z-50 w-full py-3 mx-auto text-xl text-white bg-black lg:py-6">
 
         <nav className="">
           <div className="flex items-center justify-between w-full px-4 mx-auto lg:px-20 ">
@@ -20,8 +20,8 @@ const Navigation = () => {
               <div className="">Kariera</div>
               <div className="">Kontakt</div>
               <div className="flex space-x-4">
-                <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
-                <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/united.png" layout='fill' />
+                {/* <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
+                <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/united.png" layout='fill' /> */}
                 <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/nederland.png" layout='fill' />
               </div>
             </div>
