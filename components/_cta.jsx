@@ -31,7 +31,7 @@ const Cta = () => {
                 </g>
               </g>
             </svg>
-            <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">+48 532 197 746</Link></p>
+            <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
           </div>
         </div>
       </div>
