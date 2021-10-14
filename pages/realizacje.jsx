@@ -89,7 +89,7 @@ const Realizacje = () => {
             <LazyShow>
               <a href="/realizacje/zory">
                 <div className="relative mx-auto mb-8 sm:mb-16">
-                  <img src="https://damansdak.s3.eu-central-1.amazonaws.com/zory_realizacja.jpeg" layout="fill" alt="" className="" />
+                  <img src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory1.jpg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Joka Budownictwo Sp. z o.o. dla Proma Polska w Żorach: hala i budynki towarzyszące o łącznej pow. ok. 23 000 m2.</p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
