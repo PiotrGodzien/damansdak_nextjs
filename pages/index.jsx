@@ -73,7 +73,7 @@ const Home = () => {
                 jak również renowacją dachów starych o powierzchni od-
                 1.000m2 do 200.000m2</p>
               <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
-                {/* <LazyShow>
+                <LazyShow>
                   <div className="flex items-center">
 
                     <div className="w-3/5">
@@ -104,7 +104,7 @@ const Home = () => {
                     </div>
 
                   </div>
-                </LazyShow> */}
+                </LazyShow>
                 <div className=""></div>
               </div>
             </div>
