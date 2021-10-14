@@ -6,13 +6,11 @@ const Gallery = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const images = [
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin1.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin2.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin3.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin4.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin5.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin6.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin/lublin7.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska/ruda1.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska/ruda2.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska/ruda3.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska/ruda4.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska/ruda5.jpg',
   ];
   return (
     <>
