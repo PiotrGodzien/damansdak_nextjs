@@ -262,14 +262,14 @@ const Home = () => {
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                   <p className="text-xs text-center text-white sm:text-base lg:px-8 2xl:text-2xl">Bremer Sp. z o.o. dla 7R w Lublinie: dwie hale o łącznej powierzchni ok. 36 000 m2</p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <button className="flex items-center justify-center lg:text-xl">
+                    <a href="/realizacje/lublin"><button className="flex items-center justify-center lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                         <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
                       </div>
-                    </button>
+                    </button></a>
                   </div>
                 </div>
               </div>

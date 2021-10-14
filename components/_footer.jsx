@@ -76,11 +76,11 @@ const Footer = () => {
           <Link href="https://twitter.com/bdamans"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Twitter_black.png" alt="" /></a></Link>
         </div>
         <p className="hidden mt-4 space-x-8 2xl:space-x-16 sm:flex lg:mt-0">
-          <p className="">OFERTA</p>
-          <p className="">O NAS</p>
-          <p className="">REALIZACJE</p>
-          <p className="">KARIERA</p>
-          <p className="">KONTAKT</p>
+          <div className=""><Link href="/oferta">OFERTA</Link></div>
+          <div className=""><Link href="/o-nas">O NAS</Link></div>
+          <div className=""><Link href="/realizacje">REALIZACJE</Link></div>
+          <div className=""><Link href="/kariera">KARIERA</Link></div>
+          <div className=""><Link href="/kontakt">KONTAKT</Link></div>
         </p>
         <div className="mt-5 lg:mt-0">©2021 All right reserved</div>
       </footer>
