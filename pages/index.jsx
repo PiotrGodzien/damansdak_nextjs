@@ -65,14 +65,19 @@ const Home = () => {
           {/* O NAS */}
           <div className="flex pt-16 pb-8 2xl:py-32" id="target">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
-              <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
-              <p className="my-4 font-serif text-lg font-light text-gray-500">DamansDak B.V.
-                Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
-                Wykonujemy dachy płaskie w technologii membran PVC i TPO.
-                Specjalizujemy się w wykonywaniu dachów nowych,
-                jak również renowacją dachów starych o powierzchni od-
-                1.000m2 do 200.000m2</p>
-              <div className="flex-col items-baseline text-center bg-opacity-30 justify-evenly">
+              <div className="flex justify-between items-center">
+                <div className="w-7/12">
+                  <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
+                  <p className="my-4 font-serif text-lg font-light text-gray-500">DamansDak B.V.
+                    Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
+                    Wykonujemy dachy płaskie w technologii membran PVC i TPO.
+                    Specjalizujemy się w wykonywaniu dachów nowych,
+                    jak również renowacją dachów starych o powierzchni od-
+                    1.000m2 do 200.000m2</p>
+                </div>
+                <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80" alt="" />
+              </div>
+              <div className="flex-col mt-12 items-baseline text-center bg-opacity-30 justify-evenly">
                 <LazyShow>
                   <div className="flex items-center">
 
@@ -177,7 +182,7 @@ const Home = () => {
               <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Dachy płaskie w technologii membran PVC i TPO.</p>
             </div>
           </LazyShow>
-          <div className="relative z-40 grid px-8 mx-auto xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
+          <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
@@ -212,7 +217,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl font-bold sm:text-4xl">Renowacja dachów</h3>
+                <h3 className="text-3xl font-bold sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Renowacja dachów przemysłowych.</p>
                 <div className="">
                   <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
