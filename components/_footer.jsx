@@ -1,40 +1,41 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
     <>
 
-      <div className="flex flex-col-reverse lg:flex-row bg-black">
-        <div className="flex flex-col items-start pb-8 px-8 text-white 2xl:mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
+      <div className="flex flex-col-reverse bg-black lg:flex-row">
+        <div className="flex flex-col items-start px-8 pb-8 text-white 2xl:mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
           <div className="">
             <div className="">
-              <p className="text-lg 2xl:text-xl font-bold">Przemyśl</p>
+              <p className="text-lg font-bold 2xl:text-xl">Przemyśl</p>
               <p className="mt-2 text-md 2xl:text-xl">ul.  Mierosławskiego 14</p>
               <p className="mt-2 text-md 2xl:text-xl">37-700 Przemyśl</p>
               <p className="text-md 2xl:text-xl">Polska, Podkarpackie</p>
             </div>
             <div className="">
-              <p className="mt-12 text-lg 2xl:text-xl font-bold">Firma</p>
+              <p className="mt-12 text-lg font-bold 2xl:text-xl">Firma</p>
               <p className="mt-2 text-md 2xl:text-xl">KRS 0000894896</p>
               <p className="text-md 2xl:text-xl">NIP PL7952563292</p>
             </div>
           </div>
           <div className="">
             <div className="">
-              <p className="mt-12 text-lg 2xl:text-xl font-bold sm:mt-0">Warszawa</p>
+              <p className="mt-12 text-lg font-bold 2xl:text-xl sm:mt-0">Warszawa</p>
               <p className="mt-2 text-md 2xl:text-xl">ul.  Karolkowa 30</p>
               <p className="mt-2 text-md 2xl:text-xl">01-207 Warszawa</p>
               <p className="text-md 2xl:text-xl">Polska, Mozowieckie</p>
             </div>
             <div className="">
-              <p className="mt-12 text-md 2xl:text-xl font-bold">Holandia</p>
-              <p className="mt-2 text-md 2xl:text-xl underline">damansdak.com</p>
+              <p className="mt-12 font-bold text-md 2xl:text-xl">Holandia</p>
+              <p className="mt-2 underline text-md 2xl:text-xl">damansdak.com</p>
             </div>
           </div>
         </div>
-        <div className="py-12 lg:w-3/5 mx-auto lg:py-40">
-          <p className="px-8 text-2xl text-white mx-auto 2xl:w-3/4 lg:px-0">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
-          <div className="flex 2xl:w-3/4 flex-col px-8 mx-auto mt-8 sm:flex-row lg:px-0 sm:mt-16">
+        <div className="py-12 mx-auto lg:w-3/5 lg:py-40">
+          <p className="px-8 mx-auto text-2xl text-white 2xl:w-3/4 lg:px-0">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
+          <div className="flex flex-col px-8 mx-auto mt-8 2xl:w-3/4 sm:flex-row lg:px-0 sm:mt-16">
             <div className="flex items-center text-3xl font-bold text-white sm:text-2xl lg:text-3xl sm:space-x-6">
               <svg className="hidden w-12 h-12 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
                 <g id="Templates" stroke="none" fill="none">
@@ -66,13 +67,13 @@ const Footer = () => {
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="link">Certyfikowana<br></br> firma</a></p>
       </div> */}
       <footer className="flex flex-col items-center justify-between w-4/5 py-10 mx-auto text-gray-500 lg:flex-row">
-        <div className="flex items-center space-x-4 lg:space-x-6">
-          <img className="w-7 h-7" src="https://verdepro.pl/Facebook_black.png" alt="" />
-          <img className="w-7 h-7" src="https://verdepro.pl/Linkedin_black.png" alt="" />
-          <img className="w-7 h-7" src="https://verdepro.pl/Instagram_black.png" alt="" />
-          <img className="w-7 h-7" src="https://verdepro.pl/TikTok_black.png" alt="" />
-          <img className="w-7 h-7" src="https://verdepro.pl/YouTube_black.png" alt="" />
-          <img className="w-7 h-7" src="https://verdepro.pl/Twitter_black.png" alt="" />
+        <div className="relative z-40 flex items-center space-x-4 lg:space-x-6">
+          <Link href="https://www.facebook.com/DamansDakPolska"><img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Facebook_black.png" alt="" /></Link>
+          <Link href="https://www.linkedin.com/company/damans-dak-polska/"><img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Linkedin_black.png" alt="" /></Link>
+          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Instagram_black.png" alt="" />
+          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/TikTok_black.png" alt="" />
+          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/YouTube_black.png" alt="" />
+          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Twitter_black.png" alt="" />
         </div>
         <p className="hidden mt-4 space-x-8 2xl:space-x-16 sm:flex lg:mt-0">
           <p className="">OFERTA</p>
