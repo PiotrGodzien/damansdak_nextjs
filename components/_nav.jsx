@@ -45,8 +45,8 @@ const Navigation = () => {
             <div className="">Kariera</div>
             <div className="">Kontakt</div>
             <div className="flex mt-6 space-x-4">
-              <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
-              <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/united.png" layout='fill' />
+              {/* <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
+              <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/united.png" layout='fill' /> */}
               <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/nederland.png" layout='fill' />
             </div>
           </div>
