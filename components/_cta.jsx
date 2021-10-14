@@ -19,7 +19,7 @@ const Cta = () => {
                 </g>
               </g>
             </svg>
-            <p className="">info@damansdak.pl</p>
+            <p className="relative z-40 cursor-pointer"><Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link></p>
           </div>
           <div className="flex items-center mt-8 text-3xl font-bold lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
             <svg className="hidden w-12 h-12 sm:block" width="72px" height="72px" viewBox="0 0 72 72" version="1.1">
@@ -31,7 +31,7 @@ const Cta = () => {
                 </g>
               </g>
             </svg>
-            <p className="">+48 532 197 746</p>
+            <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">+48 532 197 746</Link></p>
           </div>
         </div>
       </div>
