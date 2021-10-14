@@ -7,7 +7,7 @@ import Footer from '../components/_footer';
 import Cta from '../components/_cta';
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
-import Gallery from '../components/gallers/_gallery_lublin';
+// import Gallery from '../components/gallers/_gallery_lublin';
 
 
 const Home = () => {
@@ -64,7 +64,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Gallery />
+      {/* <Gallery /> */}
       <LazyShow>
         <Cta />
       </LazyShow>
