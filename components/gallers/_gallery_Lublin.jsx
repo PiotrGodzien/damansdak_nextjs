@@ -10,6 +10,10 @@ const Gallery = () => {
     'https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg',
     'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg',
     'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg',
   ];
   return (
     <>
