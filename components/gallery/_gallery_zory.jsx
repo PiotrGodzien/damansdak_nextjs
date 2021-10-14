@@ -6,16 +6,12 @@ const Gallery = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const images = [
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie1.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie2.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie3.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie4.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie5.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie6.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie7.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie8.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie9.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie10.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory1.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory2.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory3.jpeg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory5.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory6.jpg',
   ];
   return (
     <>
