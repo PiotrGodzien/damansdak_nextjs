@@ -7,7 +7,6 @@ import VisibilitySensor from 'react-visibility-sensor';
 import Navigation from '../components/_nav';
 import Footer from '../components/_footer';
 import Cta from '../components/_cta';
-import Gallery from '../components/gallers/_gallery_lublin';
 
 
 const Home = () => {
