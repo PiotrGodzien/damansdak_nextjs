@@ -17,7 +17,7 @@ const Gallery = () => {
   ];
   return (
     <>
-      <div className="flex flex-wrap justify-center">
+      <div className="mx-auto flex flex-wrap justify-center">
         {images.map((url, index) => (
           <img
             onClick={() => {
@@ -25,7 +25,7 @@ const Gallery = () => {
               setIsOpen(true);
             }}
             src={url}
-            className="object-cover w-64 h-64 m-2"
+            className="object-cover h-64 m-2"
           />
         ))}
       </div>
