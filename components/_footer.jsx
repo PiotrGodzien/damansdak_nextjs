@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-scroll";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -68,12 +68,12 @@ const Footer = () => {
       </div> */}
       <footer className="flex flex-col items-center justify-between w-4/5 py-10 mx-auto text-gray-500 lg:flex-row">
         <div className="relative z-40 flex items-center space-x-4 lg:space-x-6">
-          <Link href="https://www.facebook.com/DamansDakPolska"><img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Facebook_black.png" alt="" /></Link>
-          <Link href="https://www.linkedin.com/company/damans-dak-polska/"><img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Linkedin_black.png" alt="" /></Link>
-          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Instagram_black.png" alt="" />
-          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/TikTok_black.png" alt="" />
-          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/YouTube_black.png" alt="" />
-          <img className="w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Twitter_black.png" alt="" />
+          <Link href="https://www.facebook.com/DamansDakPolska"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Facebook_black.png" alt="" /></a></Link>
+          <Link href="https://www.linkedin.com/company/damans-dak-polska/"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Linkedin_black.png" alt="" /></a></Link>
+          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Instagram_black.png" alt="" /></a></Link> */}
+          <Link href="https://www.tiktok.com/@damans_dak"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/TikTok_black.png" alt="" /></a></Link>
+          <Link href="https://www.youtube.com/channel/UCg3l4VZq6DQnobjWMhv8o6Q"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/YouTube_black.png" alt="" /></a></Link>
+          <Link href="https://twitter.com/bdamans"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Twitter_black.png" alt="" /></a></Link>
         </div>
         <p className="hidden mt-4 space-x-8 2xl:space-x-16 sm:flex lg:mt-0">
           <p className="">OFERTA</p>
