@@ -318,6 +318,7 @@ const Home = () => {
                 </div>
               </a>
             </LazyShow>
+            <a href="/realizacje/"><p className="text-xl relative z-40 cursor-pointer font-bold">zobacz wszystkie realizacje &rarr;</p></a>
           </div>
         </div>
         {/* REALIZACJE END */}
