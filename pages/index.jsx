@@ -238,7 +238,7 @@ const Home = () => {
         <LazyShow>
           <div className="py-8 lg:py-32 bg-pattern bg-opacity-50">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
-              <div className="text-2xl font-bold sm:text-3xl lg:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu z nami.</div>
+              <div className="text-3xl font-bold sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
               <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
               </button>
