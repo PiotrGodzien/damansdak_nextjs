@@ -58,36 +58,54 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row flex-wrap px-8 py-8 mx-auto text-center items-center lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
+          <p className="px-8 mx-auto mb-6 lg:w-3/5 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział ofertowania i projektów:</p>
+          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
+              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif font-bold text-xl">Artur Leszczyński</p>
+              <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
+            </div>
+            <div className="lg:w-1/2 p-5">
+              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif font-bold text-xl">Dariusz Barbarowicz</p>
+              <p className="text-sm font-serif font-light">Project Director</p>
+            </div>
+          </div>
+          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział administracji:</p>
+          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 pb-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="lg:w-1/2">
               <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg" alt="" />
               <p className="mt-6 mb-2 font-serif font-bold text-xl">Ewelina Grochowicz</p>
               <p className="text-sm font-serif font-light">Manager do spraw administracyjnych</p>
             </div>
-            <div className="lg:w-1/2 p-5">
-              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Monika Śpiewak</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
-            </div>
+          </div>
+          <p className="px-8 mx-auto mb-6 lg:w-3/5 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział rekrutacji:</p>
+          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg" alt="" />
               <p className="mt-6 mb-2 font-serif font-bold text-xl">Edyta Hajnold</p>
               <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
             </div>
             <div className="lg:w-1/2 p-5">
+              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif font-bold text-xl">Kateryna Halkina</p>
+              <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
+            </div>
+          </div>
+          <p className="px-8 mx-auto mb-6 lg:w-3/5 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział zamówień:</p>
+          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="lg:w-1/2 p-5">
               <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg" alt="" />
               <p className="mt-6 mb-2 font-serif font-bold text-xl">Paweł Olech</p>
               <p className="text-sm font-serif font-light">Specjalista ds. zamówień</p>
             </div>
+          </div>
+          <p className="px-8 mx-auto mb-6 lg:w-3/5 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział reklamy i social media:</p>
+          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
-              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Artur L.</p>
-              <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
-            </div>
-            <div className="lg:w-1/2 p-5">
-              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Kateryna Halkina</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
+              <img className="h-24 w-24 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif font-bold text-xl">Monika Śpiewak</p>
+              <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
             </div>
           </div>
           <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">

@@ -88,7 +88,7 @@ const Home = () => {
                     </div>
                     <div className="mt-6">
                       <p className="text-3xl text-primary font-bold sm:text-7xl 2xl:text-7xl">
-                        <CountUp start={3500000} end={3553424} duration={1.75} delay={0}>
+                        <CountUp start={238500} end={239000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
                               <span ref={countUpRef} />
