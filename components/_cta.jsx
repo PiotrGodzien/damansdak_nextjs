@@ -42,19 +42,21 @@ const Cta = () => {
             <p className="text-3xl font-bold 2xl:text-4xl z-40">Przemyśl</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
             <p className="font-serif text-lg font-light text-gray-500">Polska, Podkarpackie</p>
-            <Link href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
+            <a target="_blank" href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
               <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
                 sprawdź dojazd
               </p>
-            </Link>
+            </a>
           </div>
           <div className="mt-12">
             <p className="text-3xl font-bold 2xl:text-4xl">Warszawa</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
             <p className="font-serif text-lg font-light text-gray-500">Polska, Mazowieckie</p>
-            <button className="flex items-center justify-center mt-4 text-xl underline">
-              <Link href="/"><a className="font-serif text-lg font-light">sprawdź dojazd</a></Link>
-            </button>
+            <a target="_blank" href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0">
+              <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+                sprawdź dojazd
+              </p>
+            </a>
           </div>
         </div>
         <img className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0" src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png" alt="" />

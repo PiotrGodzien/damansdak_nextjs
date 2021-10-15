@@ -324,7 +324,9 @@ const Home = () => {
         </div>
         {/* REALIZACJE END */}
         <LazyShow>
-          <Cta />
+          <div className="z-40 relative">
+            <Cta />
+          </div>
         </LazyShow>
         {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
