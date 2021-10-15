@@ -41,9 +41,9 @@ const Home = () => {
                   <h1 className="text-4xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                   <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                   <div className="lg:flex lg:space-x-8">
-                    <button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out bg-primary hover:bg-black">
+                    <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out bg-primary hover:bg-black">
                       <p className="sm:text-2xl">kontakt</p>
-                    </button>
+                    </button></a>
                     <Link
                       to="target"
                       spy={true}
@@ -239,9 +239,9 @@ const Home = () => {
           <div className="py-8 lg:py-32 bg-pattern bg-opacity-50">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
               <div className="text-3xl font-bold sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
-              <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
+              <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
-              </button>
+              </button></a>
             </div>
           </div>
         </LazyShow>

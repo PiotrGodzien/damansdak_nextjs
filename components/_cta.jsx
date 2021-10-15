@@ -39,12 +39,14 @@ const Cta = () => {
       <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
         <div className="">
           <div className="">
-            <p className="text-3xl font-bold 2xl:text-4xl">Przemyśl</p>
+            <p className="text-3xl font-bold 2xl:text-4xl z-40">Przemyśl</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
             <p className="font-serif text-lg font-light text-gray-500">Polska, Podkarpackie</p>
-            <button className="flex items-center justify-center mt-4 text-xl underline">
-              <Link href="/"><a className="font-serif text-lg font-light">sprawdź dojazd</a></Link>
-            </button>
+            <Link href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
+              <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+                sprawdź dojazd
+              </p>
+            </Link>
           </div>
           <div className="mt-12">
             <p className="text-3xl font-bold 2xl:text-4xl">Warszawa</p>
