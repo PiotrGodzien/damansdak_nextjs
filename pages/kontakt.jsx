@@ -13,7 +13,7 @@ const Kontakt = () => {
           <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy9.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">KONTAKT:</p>
+            <p className="text-md text-white text-center lg:text-left font-light font-serif">KONTAKT</p>
             <h2 className="text-3xl font-bold lg:text-5xl text-white font-heading">Zapraszamy do kontaktu z nami</h2>
           </div>
         </div>
