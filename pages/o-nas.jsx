@@ -26,7 +26,7 @@ const Onas = () => {
 
         <div class="flex flex-wrap mx-auto items-center w-full lg:w-7/12 px-4">
           <div class="w-full lg:w-1/2 px-3">
-            <LazyShow><img class="mb-6 w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy7.jpg" alt="" /></LazyShow>
+            <LazyShow><img class="mb-6 w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy6.jpg" alt="" /></LazyShow>
             <LazyShow><img class="w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy5.jpg" alt="" /></LazyShow>
           </div>
           <div class="w-full lg:w-1/2 px-3">
@@ -58,3 +58,5 @@ const Onas = () => {
 };
 
 export default Onas;
+
+
