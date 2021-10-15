@@ -16,6 +16,7 @@ const Onas = () => {
             <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Poznaj nas bliżej</h2>
           </div>
         </div>
+        <div className="py-4 bg-pattern mb-6"></div>
         <div className="px-8 py-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
           <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kim jesteśmy</div>
           <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Firma Damans Dak B.V. z siedzibą w m. Tilburg (Holandia) powstała w 2013 roku i od tego czasu zajmuje się wszystkimi formami płaskich pokryć dachowych z tworzyw sztucznych (membrany PVC, TPO/FPO, EPDM). Firma na początku składała się z 5 pracowników, z każdym rokiem rozwijaliśmy się. </p>
