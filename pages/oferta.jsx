@@ -1,76 +1,78 @@
-import Head from 'next/head';
-import LazyShow from './LazyShow';
-import { Link, animateScroll as scroll } from "react-scroll";
-import React, { useEffect, useState } from "react";
-import Navigation from '../components/_nav';
-import Footer from '../components/_footer';
-import Cta from '../components/_cta';
-import CountUp from "react-countup";
-import VisibilitySensor from 'react-visibility-sensor';
-import Gallery from '../components/gallery/_gallery_lublin';
+import Navigation from "../components/_nav";
+import Cta from "../components/_cta";
+import Footer from "../components/_footer";
+import LazyShow from "./LazyShow";
 
-
-const Home = () => {
-  const [small, setSmall] = useState(false);
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset > 20)
-      );
-    }
-  }, []);
-  const [offerOne, setOfferOne] = useState(false);
-  const toggleOfferOne = () => setOfferOne(!offerOne);
-
-  const [offerTwo, setOfferTwo] = useState(false);
-  const toggleOfferTwo = () => setOfferTwo(!offerTwo);
-
+const Oferta = () => {
   return (
     <>
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
+          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy7.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">REALIZACJA:</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-white font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+            <p className="text-md text-white text-center lg:text-left font-light font-serif">OFERTA</p>
+            <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Co moemy dla Ciebie zrobić</h2>
           </div>
         </div>
         <div className="py-4 bg-pattern mb-6"></div>
         <LazyShow>
-          <div className="mx-auto">
-            <div className="lg:w-3/5 sm:px-0 sm:w-4/5 px-8 mx-auto">
-              <p className="mb-6 text-3xl font-bold lg:text-left lg:text-5xl font-heading">
-                <CountUp start={35550} end={36000} duration={1.75} delay={0}>
-                  {({ countUpRef, start }) => (
-                    <VisibilitySensor onChange={start} delayedCall>
-                      <span ref={countUpRef} />
-                    </VisibilitySensor>
-                  )}
-                </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
-              </p>
-              <p className="mb-6 font-serif text-lg font-light text-gray-500">Dwie hale o łącznej powierzchni ok. 36 000 m2.</p>
-              <p className="mb-6 font-serif text-lg font-light text-gray-500">Zakres prac montażowych: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci PIR gr. 8cm i 16cm oraz membrany PCV gr. 1,20mm (Fatrafol) wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych.</p>
-
+          <section className="lg:my-16" id="beton">
+            <div className="px-8 lg:flex mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png" alt="" />
+              <div className="lg:ml-6">
+                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
+                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Podłoże betonowe</h2>
+              </div>
             </div>
-          </div>
-        </LazyShow>
-      </section>
-      <Gallery />
-      <LazyShow>
-        <Cta />
-      </LazyShow>
-      {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-          <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
-          <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
-        </div> */}
-      <LazyShow>
-        <Footer />
-      </LazyShow>
 
+            <div id="stal" class="relative mt-8 px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Jak sama nazwa wskazuje, podłożem nośnym jest płyta betonowa, na którą układamy paroizolację (najczęściej w postaci folii PE), termoizolację (wełna mineralna, styropian EPS 100, rzadko polistyren ekstrudowany XPS) w postaci płyt prostych i płyt spadkowych lub też czasami kontrspadków. Izolację wodochronną stanowi membrana dachowa (PVC, TPO/FPO, EPDM) wraz z kołkami, które są dobierane indywidualnie do dachu.</p>
+              {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
+            </div>
+          </section>
+        </LazyShow>
+        <LazyShow>
+          <section className="lg:mb-16 mt-20" >
+            <div className="px-8 lg:flex mx-auto  lg:w-3/5 sm:px-0 sm:w-4/5">
+              <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png" alt="" />
+              <div className="lg:ml-6">
+                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
+                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
+              </div>
+            </div>
+            <div id="renowacja" class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Podłożem nośnym w tym przypadku jest profilowana blacha stalowa w kształcie trapezu, którą układają nasi pracownicy na podstawie projektu, tj. tzw. rozkroju z uwzględnieniem stref i uciągleleń. Paroziolację (najczęściej w postaci folii PE) układamy na blachę z odpowiednim zakładem, a następnie montujemy termoizolację (wełna mineralna, styropian EPS 100, rzadko polistyren ekstrudowany XPS) w postaci płyt prostych i płyt spadkowych lub też czasami kontrspadków. Izolację wodochronną stanowi membrana dachowa (PVC, TPO/FPO, EPDM) wraz z kołkami, które są dobierane indywidualnie do dachu.</p>
+              {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
+            </div>
+          </section>
+        </LazyShow>
+        <LazyShow>
+          <section className="lg:mb-16">
+            <div className="px-8 mt-20 lg:flex mx-auto  lg:w-3/5 sm:px-0 sm:w-4/5">
+              <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/hammer.png" alt="" />
+              <div className="lg:ml-6">
+                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
+                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Serwis / renowacje</h2>
+              </div>
+            </div>
+            <div class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Zajmujemy się serwisowaniem oraz renowacjacją dachów płaskich. Posiadamy bogate doświadczenie w renowacji dachów wykonanaych z betonu oraz stali.</p>
+              {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
+            </div>
+          </section>
+        </LazyShow>
+        <LazyShow>
+          <Cta />
+        </LazyShow>
+        <LazyShow>
+          <Footer />
+        </LazyShow>
+        {/* REALIZACJE END */}
+      </section>
     </>
   );
 };
 
-export default Home;
+export default Oferta;

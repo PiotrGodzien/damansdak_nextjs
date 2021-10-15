@@ -188,14 +188,14 @@ const Home = () => {
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów betonowych.</p>
                 <div className="">
-                  <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                  <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                       <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </LazyShow>
@@ -204,14 +204,14 @@ const Home = () => {
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów stalowych.</p>
                 <div className="">
-                  <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                  <a href="/oferta/#stal"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                       <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </LazyShow>
@@ -219,15 +219,16 @@ const Home = () => {
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl font-bold sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Renowacja dachów przemysłowych.</p>
-                <div className="">
-                  <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
-                    zobacz więcej
-                    <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                      <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
-                      </svg>
-                    </div>
-                  </button>
+                <div className="z-40 relative">
+                  <a href="/oferta/#renowacja">
+                    <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                      zobacz więcej
+                      <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
+                        <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                          <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
+                        </svg>
+                      </div>
+                    </button></a>
                 </div>
               </div>
             </LazyShow>
