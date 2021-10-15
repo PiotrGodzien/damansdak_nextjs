@@ -17,7 +17,7 @@ const Navigation = () => {
               <div className=""><Link href="/oferta">Oferta</Link></div>
               <div className=""><Link href="/o-nas">O nas</Link></div>
               <div className=""><Link href="/realizacje">Realizacje</Link></div>
-              <div className=""><Link href="/kariera">Kariera</Link></div>
+              {/* <div className=""><Link href="/kariera">Kariera</Link></div> */}
               <div className=""><Link href="/kontakt">Kontakt</Link></div>
               <div className="flex space-x-4">
                 {/* <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
@@ -42,7 +42,7 @@ const Navigation = () => {
             <div className=""><Link href="/oferta">Oferta</Link></div>
             <div className=""><Link href="/o-nas">O nas</Link></div>
             <div className=""><Link href="/realizacje">Realizacje</Link></div>
-            <div className=""><Link href="/kariera">Kariera</Link></div>
+            {/* <div className=""><Link href="/kariera">Kariera</Link></div> */}
             <div className=""><Link href="/kontakt">Kontakt</Link></div>
             <div className="flex mt-6 space-x-4">
               {/* <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />

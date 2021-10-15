@@ -79,7 +79,7 @@ const Footer = () => {
           <div className=""><Link href="/oferta">OFERTA</Link></div>
           <div className=""><Link href="/o-nas">O NAS</Link></div>
           <div className=""><Link href="/realizacje">REALIZACJE</Link></div>
-          <div className=""><Link href="/kariera">KARIERA</Link></div>
+          {/* <div className=""><Link href="/kariera">KARIERA</Link></div> */}
           <div className=""><Link href="/kontakt">KONTAKT</Link></div>
         </p>
         <div className="mt-5 lg:mt-0">©2021 All right reserved</div>
