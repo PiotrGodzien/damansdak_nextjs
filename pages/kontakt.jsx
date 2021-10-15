@@ -113,7 +113,7 @@ const Kontakt = () => {
                 </a>
               </div>
             </div>
-            <img className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0" src="https://damansdak.s3.eu-central-1.amazonaws.com/biuro.jpg" alt="" />
+            <img className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0" src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png" alt="" />
           </div>
         </LazyShow>
         {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">

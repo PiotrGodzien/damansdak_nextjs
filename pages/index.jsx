@@ -77,26 +77,17 @@ const Home = () => {
                 </div>
                 <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80 hidden lg:block" alt="" />
               </div>
-              <div className="flex-col mt-12 items-baseline text-center bg-opacity-30 justify-evenly">
+              <div className="flex-col mt-6 items-baseline text-center bg-opacity-30 mx-auto justify-center">
                 <LazyShow>
-                  <div className="flex items-center">
-
-                    <div className="w-3/5">
-                      <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
-                        <CountUp start={300} end={453} duration={1.75} delay={0}>
-                          {({ countUpRef, start }) => (
-                            <VisibilitySensor onChange={start} delayedCall>
-                              <span ref={countUpRef} />
-                            </VisibilitySensor>
-                          )}
-                        </CountUp>
-                      </p>
-                      <div className="font-serif text-lg font-light text-gray-500">projektów</div>
+                  <div className="flex-col items-center justify-center">
+                    <div className="">
+                      {/* <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
+                        Damans Dak Polska do końca roku zrealizuję 239 000 m2 dachów
+                      </p> */}
+                      <div className="font-serif text-xl font-bold text-gray-500">Damans Dak Polska do końca 2021 roku zrealizuje:</div>
                     </div>
-
-
-                    <div className="w-3/5">
-                      <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
+                    <div className="mt-6">
+                      <p className="text-3xl text-primary font-bold sm:text-7xl 2xl:text-7xl">
                         <CountUp start={3500000} end={3553424} duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
@@ -105,9 +96,8 @@ const Home = () => {
                           )}
                         </CountUp>
                       </p>
-                      <div className="font-serif text-lg font-light text-gray-500">m2</div>
+                      <div className="font-serif text-lg font-light text-gray-500">m2 dachów</div>
                     </div>
-
                   </div>
                 </LazyShow>
                 <div className=""></div>
@@ -175,7 +165,7 @@ const Home = () => {
       </div>
     </section>
     </LazyShow> */}
-        <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:py-16">
+        <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:pb-16 pt-8">
           <LazyShow>
             <div className="w-4/5 px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0">
               <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
