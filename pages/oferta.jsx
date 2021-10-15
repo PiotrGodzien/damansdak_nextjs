@@ -13,7 +13,7 @@ const Oferta = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">OFERTA</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Co moemy dla Ciebie zrobić</h2>
+            <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Co możemy dla Ciebie zrobić</h2>
           </div>
         </div>
         <div className="py-4 bg-pattern mb-6"></div>
