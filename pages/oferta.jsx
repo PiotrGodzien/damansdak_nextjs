@@ -9,7 +9,7 @@ const Oferta = () => {
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy7.jpg" alt="" />
+          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy8.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">OFERTA</p>

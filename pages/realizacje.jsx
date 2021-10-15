@@ -16,6 +16,7 @@ const Realizacje = () => {
             <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Zobacz nasze dotychczasowe realizacje</h2>
           </div>
         </div>
+        <div className="py-4 bg-pattern mb-6"></div>
         {/* REALIZACJE */}
         <div className="py-4 bg-white lg:py-16">
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">

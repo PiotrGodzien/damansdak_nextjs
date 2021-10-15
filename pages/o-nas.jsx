@@ -9,7 +9,7 @@ const Onas = () => {
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy7.jpg" alt="" />
+          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy1.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">O NAS</p>
@@ -26,7 +26,7 @@ const Onas = () => {
 
         <div class="flex flex-wrap mx-auto items-center w-full lg:w-7/12 px-4">
           <div class="w-full lg:w-1/2 px-3">
-            <LazyShow><img class="mb-6 w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy8.jpg" alt="" /></LazyShow>
+            <LazyShow><img class="mb-6 w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy7.jpg" alt="" /></LazyShow>
             <LazyShow><img class="w-full h-64 object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy5.jpg" alt="" /></LazyShow>
           </div>
           <div class="w-full lg:w-1/2 px-3">
