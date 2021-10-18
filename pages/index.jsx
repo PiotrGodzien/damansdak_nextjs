@@ -107,7 +107,7 @@ const Home = () => {
                       <div className="font-serif text-xl  text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
                     </div>
                     <div className="">
-                      <p className="text-3xl text-primary font-black  sm:text-7xl 2xl:text-7xl">
+                      <p className="text-3xl text-primary sm:text-7xl 2xl:text-7xl">
                         <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
