@@ -18,7 +18,7 @@ const Oferta = () => {
         </div>
         <div className="py-4 bg-pattern mb-6"></div>
         <LazyShow>
-          <section className="lg:mb-16 mt-20" >
+          <section className="lg:mb-16 mt-20" id="stal">
             <div className="px-8 lg:flex mx-auto  lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png" alt="" />
               <div className="lg:ml-6">
@@ -26,14 +26,14 @@ const Oferta = () => {
                 <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
               </div>
             </div>
-            <div id="renowacja" class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div id="beton" class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
               <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Podłożem nośnym w tym przypadku jest profilowana blacha stalowa w kształcie trapezu, którą układają nasi pracownicy na podstawie projektu, tj. tzw. rozkroju z uwzględnieniem stref i uciągleleń. Paroziolację (najczęściej w postaci folii PE) układamy na blachę z odpowiednim zakładem, a następnie montujemy termoizolację (wełna mineralna, styropian EPS 100, rzadko polistyren ekstrudowany XPS) w postaci płyt prostych i płyt spadkowych lub też czasami kontrspadków. Izolację wodochronną stanowi membrana dachowa (PVC, TPO/FPO, EPDM) wraz z kołkami, które są dobierane indywidualnie do dachu.</p>
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>
           </section>
         </LazyShow>
         <LazyShow>
-          <section className="lg:my-16" id="beton">
+          <section className="lg:my-16">
             <div className="px-8 lg:flex mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png" alt="" />
               <div className="lg:ml-6">
@@ -42,7 +42,7 @@ const Oferta = () => {
               </div>
             </div>
 
-            <div id="stal" class="relative mt-8 px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div id="renowacja" class="relative mt-8 px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
               <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Jak sama nazwa wskazuje, podłożem nośnym jest płyta betonowa, na którą układamy paroizolację (najczęściej w postaci folii PE), termoizolację (wełna mineralna, styropian EPS 100, rzadko polistyren ekstrudowany XPS) w postaci płyt prostych i płyt spadkowych lub też czasami kontrspadków. Izolację wodochronną stanowi membrana dachowa (PVC, TPO/FPO, EPDM) wraz z kołkami, które są dobierane indywidualnie do dachu.</p>
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>

@@ -179,7 +179,7 @@ const Home = () => {
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów betonowych.</p>
                 <div className="">
-                  <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                  <a href="/oferta/#beton"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                       <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -195,7 +195,7 @@ const Home = () => {
                 <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów stalowych.</p>
                 <div className="">
-                  <a href="/oferta/#stal"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                  <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                       <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
