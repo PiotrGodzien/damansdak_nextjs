@@ -9,8 +9,9 @@ const Kontakt = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/pracownicy9.jpg" alt="" />
+        <div className="relative flex items-center py-36 text-center bg-cover bg-top overflow-hidden">
+          <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/contact_us.jpg" alt="" />
+          {/* <iframe className="absolute object-cover w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.973442903214!2d22.79102311597204!3d49.78656434285714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7ed66bd661fd%3A0x9eeaeeb0562b92d6!2sLudwika%20Mieros%C5%82awskiego%2014%2C%2037-700%20Przemy%C5%9Bl!5e0!3m2!1sen!2spl!4v1634564564450!5m2!1sen!2spl" width="1920" height="600" loading="lazy"></iframe> */}
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">KONTAKT</p>
