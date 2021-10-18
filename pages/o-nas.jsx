@@ -18,8 +18,8 @@ const Onas = () => {
         </div>
         {/* <div className="py-4 bg-pattern pb-6"></div> */}
         <LazyShow>
-          <div className="flex lg:flex-row flex-col px-8 mx-auto sm:px-0 items-start">
-            <div className="lg:w-7/12 pt-20 pl-20">
+          <div className="flex lg:flex-row flex-col mx-auto items-start">
+            <div className="lg:w-7/12 pt-20 mb-8 px-8 lg:mb-0 lg:px-20">
               <div className="text-3xl sm:text-5xl 2xl:text-7xl">Kim jesteśmy</div>
               <p className="mt-6 font-serif text-lg font-light text-gray-500">Firma Damans Dak B.V. z siedzibą w m. Tilburg (Holandia) powstała w 2013 roku i od tego czasu zajmuje się wszystkimi formami płaskich pokryć dachowych z tworzyw sztucznych (membrany PVC, TPO/FPO, EPDM). Firma na początku składała się z 5 pracowników, z każdym rokiem rozwijaliśmy się. </p>
               <p className="mt-6 font-serif text-lg font-light text-gray-500">Obecnie zatrudniamy ponad 100 osób. Dzięki skrupulatnej pracy poszerzamy swoją działalność na kraje Europy zachodniej i wschodniej. Realizujemy nasze usługi w siedmiu krajach.
@@ -31,7 +31,7 @@ const Onas = () => {
               <p className="mt-6 font-serif text-xl ">
                 Zapraszamy do współpracy – z pasji do dachów płaskich!</p>
             </div>
-            <div className="lg:w-5/12 pt-20 bg-pattern flex-col items-stretch ml-12 flex">
+            <div className="lg:w-5/12 py-20 w-full bg-pattern flex-col items-stretch flex">
               {/* <div className="text-3xl sm:text-5xl 2xl:text-7xl pb-6">Nasz zespół</div> */}
               <div className="flex justify-center flex-col text-center lg:flex-row px-8 sm:px-0">
                 <div className="lg:mr-14">
@@ -85,7 +85,9 @@ const Onas = () => {
           </div>
         </LazyShow>
         <LazyShow>
-          <Cta />
+          <div className="lg:-mt-14">
+            <Cta />
+          </div>
         </LazyShow>
         <LazyShow>
           <Footer />
