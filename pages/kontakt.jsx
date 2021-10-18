@@ -184,7 +184,7 @@ const Kontakt = () => {
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" /> */}
               <p className="mt-6 mb-2 font-serif  text-xl">Mirosław Łosobik</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
+              <p className="text-sm font-serif font-light">Kierownik Działu Realizacji</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
