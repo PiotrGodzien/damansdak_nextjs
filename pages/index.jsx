@@ -88,10 +88,10 @@ const Home = () => {
         <div className="py-4 bg-pattern mb-6"></div>
         <LazyShow>
           {/* O NAS */}
-          <div className="flex pt-16 pb-8 2xl:py-32" id="target">
+          <div className="flex pt-8 pb-8 2xl:py-32" id="target">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
-              <div className="flex justify-between items-center">
-                <div className="lg:w-7/12">
+              <div className="flex flex-col lg:flex-row justify-between items-center">
+                <div className="">
                   <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">
                     Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
@@ -99,11 +99,6 @@ const Home = () => {
                     Specjalizujemy się w wykonywaniu dachów nowych,
                     jak również renowacją dachów starych o powierzchni od-
                     1.000m2 do 200.000m2</p>
-                </div>
-                <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80 hidden lg:block" alt="" />
-              </div>
-              <div className="flex-col mt-6 items-baseline text-center bg-opacity-30 mx-auto justify-center">
-                <LazyShow>
                   <div className="flex-col items-center justify-center">
                     <div className="">
                       {/* <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
@@ -111,8 +106,8 @@ const Home = () => {
                       </p> */}
                       <div className="font-serif text-xl  text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
                     </div>
-                    <div className="mt-6">
-                      <p className="text-3xl text-primary  sm:text-7xl 2xl:text-7xl">
+                    <div className="">
+                      <p className="text-3xl text-primary font-black  sm:text-7xl 2xl:text-7xl">
                         <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
@@ -124,9 +119,11 @@ const Home = () => {
                       <div className="font-serif text-lg font-light text-gray-500">m2 dachów</div>
                     </div>
                   </div>
-                </LazyShow>
-                <div className=""></div>
+                </div>
+
+                {/* <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80 hidden lg:block" alt="" /> */}
               </div>
+
             </div>
           </div>
         </LazyShow>
