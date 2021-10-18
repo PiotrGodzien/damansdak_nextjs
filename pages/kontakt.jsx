@@ -56,7 +56,7 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział ofertowania i projektów:</p>
+          {/* <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział ofertowania i projektów:</p>
           <div className="flex mb-6 flex-col justify-center lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
@@ -273,7 +273,7 @@ const Kontakt = () => {
                 <p className=""><a href="tel:+48538621723"> +48 538 621 723</a></p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
             <div className="">
               <div className="">

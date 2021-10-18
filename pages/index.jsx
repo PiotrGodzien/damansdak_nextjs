@@ -85,7 +85,7 @@ const Home = () => {
                       {/* <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
                         Damans Dak Polska do końca roku zrealizuję 239 000 m2 dachów
                       </p> */}
-                      <div className="font-serif text-xl font-bold text-gray-500">Damans Dak Polska do końca 2021 roku zrealizuje:</div>
+                      <div className="font-serif text-xl font-bold text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
                     </div>
                     <div className="mt-6">
                       <p className="text-3xl text-primary font-bold sm:text-7xl 2xl:text-7xl">

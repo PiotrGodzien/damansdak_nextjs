@@ -28,7 +28,7 @@ const Footer = () => {
               <p className="font-serif text-md 2xl:text-xl">Polska, Mozowieckie</p>
             </div>
             <div className="">
-              <p className="mt-12 font-bold text-md 2xl:text-xl">Holandia</p>
+              <p className="mt-12 font-bold text-md 2xl:text-xl">Damans Dak BV</p>
               <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
             </div>
           </div>

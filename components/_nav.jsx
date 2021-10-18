@@ -14,6 +14,7 @@ const Navigation = () => {
               <Link href="/" className=""><img alt="" src="https://damansdak.s3.eu-central-1.amazonaws.com/logo_damsdak-3.png" /></Link>
             </div>
             <div className="items-center hidden space-x-12 lg:flex">
+              <div className=""><Link href="/oferta">Strona główna</Link></div>
               <div className=""><Link href="/oferta">Oferta</Link></div>
               <div className=""><Link href="/o-nas">O nas</Link></div>
               <div className=""><Link href="/realizacje">Realizacje</Link></div>
@@ -39,6 +40,7 @@ const Navigation = () => {
         <div className={`${visible ? 'block' : 'hidden'
           }  z-50 h-screen sm:h-full bg-black`}>
           <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
+            <div className=""><Link href="/oferta">Strona główna</Link></div>
             <div className=""><Link href="/oferta">Oferta</Link></div>
             <div className=""><Link href="/o-nas">O nas</Link></div>
             <div className=""><Link href="/realizacje">Realizacje</Link></div>
