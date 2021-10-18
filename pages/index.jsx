@@ -69,7 +69,7 @@ const Home = () => {
               <div className="flex justify-between items-center">
                 <div className="lg:w-7/12">
                   <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
-                  <p className="my-4 font-serif text-lg font-light text-gray-500">DamansDak B.V.
+                  <p className="my-4 font-serif text-lg font-light text-gray-500">
                     Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
                     Wykonujemy dachy płaskie w technologii membran PVC i TPO.
                     Specjalizujemy się w wykonywaniu dachów nowych,
@@ -252,8 +252,14 @@ const Home = () => {
               <a href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Lublin</b><br></br> Powierzchnia 36 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Lublin</b>
+                      <br></br>
+                      Powierzchnia: <b>36 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Bremer Sp. z o.o. dla 7R</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin"><button className="flex items-center justify-center">
                         zobacz więcej
@@ -273,8 +279,14 @@ const Home = () => {
               <a href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Ruda Śląska</b><br></br> Powierzchnia 60 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Ruda Śląska</b>
+                      <br></br>
+                      Powierzchnia: <b>60 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska"><button className="flex items-center justify-center">
                         zobacz więcej
@@ -294,8 +306,14 @@ const Home = () => {
               <a href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Błonie k. W-wy</b><br></br>Powierzchnia 34 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Błonie k. W-wy</b>
+                      <br></br>
+                      Powierzchnia: <b>34 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie"><button className="flex items-center justify-center">
                         zobacz więcej
