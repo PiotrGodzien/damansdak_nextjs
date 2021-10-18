@@ -28,8 +28,14 @@ const Realizacje = () => {
               <a href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Lublin</b><br></br> Powierzchnia 36 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Lublin</b>
+                      <br></br>
+                      Powierzchnia: <b>36 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Bremer Sp. z o.o. dla 7R</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin"><button className="flex items-center justify-center ">
                         zobacz więcej
@@ -49,8 +55,14 @@ const Realizacje = () => {
               <a href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Ruda Śląska</b><br></br> Powierzchnia 60 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Ruda Śląska</b>
+                      <br></br>
+                      Powierzchnia: <b>60 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska"><button className="flex items-center justify-center ">
                         zobacz więcej
@@ -70,8 +82,14 @@ const Realizacje = () => {
               <a href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Błonie k. W-wy</b><br></br> Powierzchnia 34 000 m2</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Błonie k. W-wy</b>
+                      <br></br>
+                      Powierzchnia: <b>34 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie"><button className="flex items-center justify-center">
                         zobacz więcej
@@ -91,8 +109,14 @@ const Realizacje = () => {
               <a href="/realizacje/zory">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory6.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Żory</b><br></br> Powierzchnia 23 000 m2.</p>
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Miejsce: <b>Żory</b>
+                      <br></br>
+                      Powierzchnia: <b>23 000 m2</b>
+                      <br></br>
+                      Wykonawca / projekt: <b>Joka Budownictwo Sp. z o.o. dla Proma Polska</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/zory"><button className="flex items-center justify-center">
                         zobacz więcej
@@ -112,7 +136,7 @@ const Realizacje = () => {
               <a href="/realizacje/niemcy">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/niemcy/niemcy4.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Niemcy</b><br></br> Rozpoczęliśmy inwestycję.</p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/niemcy"><button className="flex items-center justify-center">
@@ -133,7 +157,7 @@ const Realizacje = () => {
               <a href="/realizacje/litwa">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/litwa/litwa4.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Litwa</b><br></br> Rozpoczęliśmy inwestycję.</p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/litwa"><button className="flex items-center justify-center">
