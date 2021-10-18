@@ -46,7 +46,7 @@ const Cta = () => {
               </g>
             </svg> */}
             <div className="">
-              <p className="relative z-40 cursor-pointer">Przemyśl</p>
+              <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">Przemyśl</Link></p>
               <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Cta = () => {
             </svg> */}
             <div className="">
               <p className="relative z-40 cursor-pointer">Warszawa</p>
-              <p className="relative z-40 cursor-pointer">+48 538 621 732</p>
+              <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
             </div>
           </div>
         </div>

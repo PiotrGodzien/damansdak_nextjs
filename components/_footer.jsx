@@ -70,7 +70,7 @@ const Footer = () => {
                 </svg>
                 <div className="">
                   <p className="relative z-40 cursor-pointer">Warszawa</p>
-                  <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">+48 538 621 732</Link></p>
+                  <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
                 </div>
               </div>
             </div>
