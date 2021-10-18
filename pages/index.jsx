@@ -88,7 +88,7 @@ const Home = () => {
         <div className="py-4 bg-pattern mb-6"></div>
         <LazyShow>
           {/* O NAS */}
-          <div className="flex pt-8 pb-8 2xl:py-32" id="target">
+          <div className="flex pt-8 pb-16 2xl:py-32" id="target">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
               <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="">
