@@ -9,26 +9,26 @@ const Footer = () => {
         <div className="flex flex-col items-start px-8 pb-8 text-white 2xl:mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
           <div className="">
             <div className="">
-              <p className="text-lg font-bold 2xl:text-xl">Przemyśl</p>
+              <p className="text-lg  2xl:text-xl">Przemyśl</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Mierosławskiego 14</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">37-700 Przemyśl</p>
               <p className="font-serif text-md 2xl:text-xl">Polska, Podkarpackie</p>
             </div>
             <div className="">
-              <p className="mt-12 text-lg font-bold 2xl:text-xl">Firma</p>
+              <p className="mt-12 text-lg  2xl:text-xl">Firma</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">KRS 0000894896</p>
               <p className="font-serif text-md 2xl:text-xl">NIP PL7952563292</p>
             </div>
           </div>
           <div className="">
             <div className="">
-              <p className="mt-12 text-lg font-bold 2xl:text-xl sm:mt-0">Warszawa</p>
+              <p className="mt-12 text-lg  2xl:text-xl sm:mt-0">Warszawa</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Karolkowa 30</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">01-207 Warszawa</p>
               <p className="font-serif text-md 2xl:text-xl">Polska, Mozowieckie</p>
             </div>
             <div className="">
-              <p className="mt-12 font-bold text-md 2xl:text-xl">Damans Dak BV</p>
+              <p className="mt-12  text-md 2xl:text-xl">Damans Dak BV</p>
               <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           <p className="px-8 mx-auto lg:w-11/12 text-2xl text-white lg:px-0">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
           <div className="mt-8 sm:mt-16">
             <div className="flex flex-col px-8 justify-around w-full mt-8 sm:flex-row lg:px-0">
-              <div className="flex items-center text-xl font-bold text-white">
+              <div className="flex items-center text-xl  text-white">
                 <svg className="hidden w-8 h-8 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
@@ -47,7 +47,7 @@ const Footer = () => {
                 </svg>
                 <p className="relative z-40 cursor-pointer"><Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link></p>
               </div>
-              <div className="flex items-center mt-8 text-xl font-bold sm:mt-0 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl  sm:mt-0 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -60,7 +60,7 @@ const Footer = () => {
                   <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">+48 532 197 746</Link></p>
                 </div>
               </div>
-              <div className="flex items-center mt-8 text-xl font-bold sm:mt-0 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl  sm:mt-0 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -82,7 +82,7 @@ const Footer = () => {
         <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a>
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="link">Certyfikowana<br></br> firma</a></p>
       </div> */}
-      <footer className="flex flex-col items-center justify-between w-4/5 py-10 mx-auto text-gray-500 lg:flex-row">
+      <footer className="flex z-50 relative flex-col items-center justify-between w-4/5 py-10 mx-auto text-gray-500 lg:flex-row">
         <div className="relative z-40 flex items-center space-x-4 lg:space-x-6">
           <Link href="https://www.facebook.com/DamansDakPolska"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Facebook_black.png" alt="" /></a></Link>
           <Link href="https://www.linkedin.com/company/damans-dak-polska/"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Linkedin_black.png" alt="" /></a></Link>

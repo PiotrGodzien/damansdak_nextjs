@@ -13,7 +13,7 @@ const Oferta = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">OFERTA</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Co możemy dla Ciebie zrobić</h2>
+            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Co możemy dla Ciebie zrobić</h2>
           </div>
         </div>
         <div className="py-4 bg-pattern mb-6"></div>
@@ -23,7 +23,7 @@ const Oferta = () => {
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png" alt="" />
               <div className="lg:ml-6">
                 <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
+                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
               </div>
             </div>
             <div id="beton" class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
@@ -38,7 +38,7 @@ const Oferta = () => {
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png" alt="" />
               <div className="lg:ml-6">
                 <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Podłoże betonowe</h2>
+                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Podłoże betonowe</h2>
               </div>
             </div>
 
@@ -54,7 +54,7 @@ const Oferta = () => {
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/hammer.png" alt="" />
               <div className="lg:ml-6">
                 <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl font-bold lg:text-5xl lg:text-left font-heading">Serwis / renowacje</h2>
+                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Serwis / renowacje</h2>
               </div>
             </div>
             <div class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">

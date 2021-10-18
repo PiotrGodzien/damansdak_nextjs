@@ -34,14 +34,14 @@ const Home = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">REALIZACJA:</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-center lg:text-left text-white font-heading">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej</h2>
+            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Kajima Poland Sp. z o.o. dla Panattoni w Rudzie Śląskiej</h2>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
           <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
           <div className="absolute inset-0 top-1/2 container px-4 mx-auto">
             <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl font-bold lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+              <h2 className="text-3xl  lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
             </div>
           </div>
         </div> */}
@@ -49,7 +49,7 @@ const Home = () => {
         <LazyShow>
           <div className="mx-auto">
             <div className="lg:w-3/5 sm:px-0 sm:w-4/5 px-8 mx-auto">
-              <p className="mb-6 text-3xl font-bold lg:text-left lg:text-5xl font-heading">
+              <p className="mb-6 text-3xl  lg:text-left lg:text-5xl font-heading">
                 <CountUp start={55550} end={60000} duration={1.75} delay={0}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>

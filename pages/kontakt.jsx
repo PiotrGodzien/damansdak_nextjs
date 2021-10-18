@@ -14,14 +14,14 @@ const Kontakt = () => {
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">KONTAKT</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-white font-heading">Zapraszamy do kontaktu z nami</h2>
+            <h2 className="text-3xl  lg:text-5xl text-white font-heading">Zapraszamy do kontaktu z nami</h2>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
           <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
           <div className="absolute inset-0 top-1/2 container px-4 mx-auto">
             <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl font-bold lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+              <h2 className="text-3xl  lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
             </div>
           </div>
         </div> */}
@@ -31,10 +31,10 @@ const Kontakt = () => {
         </LazyShow>
         <LazyShow>
           <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
+            <div className="text-3xl  lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
             <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
             <div className="flex flex-col justify-around mt-8 lg:flex-row sm:px-0 sm:mt-16">
-              <div className="flex items-center text-xl font-bold sm:space-x-6">
+              <div className="flex items-center text-xl  sm:space-x-6">
                 {/* <svg className="hidden w-8 h-8 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
               <g id="" stroke="none" fill="none">
                 <g id="" fill="currentColor">
@@ -51,7 +51,7 @@ const Kontakt = () => {
                 </svg>
                 <p className="relative z-40 cursor-pointer"><Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link></p>
               </div>
-              <div className="flex items-center mt-8 text-xl font-bold lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl  lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -73,7 +73,7 @@ const Kontakt = () => {
                   <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
                 </div>
               </div>
-              <div className="flex items-center mt-8 text-xl font-bold lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl  lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -101,7 +101,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col justify-center lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Dariusz Barbarowicz</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Dariusz Barbarowicz</p>
               <p className="text-sm font-serif font-light">Project Director</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -126,7 +126,7 @@ const Kontakt = () => {
             </div>
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Artur Leszczyński</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Artur Leszczyński</p>
               <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -154,7 +154,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 pb-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Ewelina Grochowicz</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Ewelina Grochowicz</p>
               <p className="text-sm font-serif font-light">Manager do spraw administracyjnych</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -182,7 +182,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Mirosław Łosobik</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Mirosław Łosobik</p>
               <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -210,7 +210,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Paweł Olech</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Paweł Olech</p>
               <p className="text-sm font-serif font-light">Specjalista ds. zamówień</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -238,7 +238,7 @@ const Kontakt = () => {
           <div className="flex mb-6 justify-center flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Edyta Hajnold</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Edyta Hajnold</p>
               <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -263,7 +263,7 @@ const Kontakt = () => {
             </div>
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Kateryna Halkina</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Kateryna Halkina</p>
               <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -292,7 +292,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" /> */}
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Monika Śpiewak</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Monika Śpiewak</p>
               <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -320,7 +320,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col justify-center lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Dariusz Barbarowicz</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Dariusz Barbarowicz</p>
               <p className="text-sm font-serif font-light">Project Director</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -345,7 +345,7 @@ const Kontakt = () => {
             </div>
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Artur Leszczyński</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Artur Leszczyński</p>
               <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -373,7 +373,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 pb-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Ewelina Grochowicz</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Ewelina Grochowicz</p>
               <p className="text-sm font-serif font-light">Manager do spraw administracyjnych</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -401,7 +401,7 @@ const Kontakt = () => {
           <div className="flex mb-6 justify-center flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Edyta Hajnold</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Edyta Hajnold</p>
               <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -426,7 +426,7 @@ const Kontakt = () => {
             </div>
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Kateryna Halkina</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Kateryna Halkina</p>
               <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -454,7 +454,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Paweł Olech</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Paweł Olech</p>
               <p className="text-sm font-serif font-light">Specjalista ds. zamówień</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -482,7 +482,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Monika Śpiewak</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Monika Śpiewak</p>
               <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -510,7 +510,7 @@ const Kontakt = () => {
           <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2 p-5">
               <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif font-bold text-xl">Mirosław Łosobik</p>
+              <p className="mt-6 mb-2 font-serif  text-xl">Mirosław Łosobik</p>
               <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
               <div className="flex text-sm font-serif mt-2 items-center justify-center">
                 <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
@@ -537,7 +537,7 @@ const Kontakt = () => {
           <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
             <div className="">
               <div className="">
-                <p className="text-3xl font-bold 2xl:text-4xl z-40">Przemyśl</p>
+                <p className="text-3xl  2xl:text-4xl z-40">Przemyśl</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
                 <p className="font-serif text-lg font-light text-gray-500">Polska, Podkarpackie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
@@ -547,7 +547,7 @@ const Kontakt = () => {
                 </a>
               </div>
               <div className="mt-12">
-                <p className="text-3xl font-bold 2xl:text-4xl">Warszawa</p>
+                <p className="text-3xl  2xl:text-4xl">Warszawa</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
                 <p className="font-serif text-lg font-light text-gray-500">Polska, Mazowieckie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0">

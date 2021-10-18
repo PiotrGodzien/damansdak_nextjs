@@ -38,7 +38,7 @@ const Home = () => {
             <div className="flex flex-col-reverse items-center justify-start px-8 mx-auto sm:w-4/5 lg:w-3/5 md:flex-row">
               <LazyShow>
                 <div className="items-center mt-16 2xl:mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
-                  <h1 className="text-4xl font-bold sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                  <h1 className="text-4xl  sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                   <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                   <div className="lg:flex lg:space-x-8">
                     <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 border-2 border-primary text-white transition duration-150 ease-in-out bg-primary hover:border-black hover:bg-black">
@@ -68,7 +68,7 @@ const Home = () => {
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
               <div className="flex justify-between items-center">
                 <div className="lg:w-7/12">
-                  <h1 className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
+                  <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">DamansDak B.V.
                     Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
                     Wykonujemy dachy płaskie w technologii membran PVC i TPO.
@@ -82,13 +82,13 @@ const Home = () => {
                 <LazyShow>
                   <div className="flex-col items-center justify-center">
                     <div className="">
-                      {/* <p className="text-3xl font-bold sm:text-5xl 2xl:text-7xl">
+                      {/* <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
                         Damans Dak Polska do końca roku zrealizuję 239 000 m2 dachów
                       </p> */}
-                      <div className="font-serif text-xl font-bold text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
+                      <div className="font-serif text-xl  text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
                     </div>
                     <div className="mt-6">
-                      <p className="text-3xl text-primary font-bold sm:text-7xl 2xl:text-7xl">
+                      <p className="text-3xl text-primary  sm:text-7xl 2xl:text-7xl">
                         <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
@@ -113,7 +113,7 @@ const Home = () => {
       <div className="box-border mx-auto border-solid sm:w-4/5 lg:w-3/5">
         <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
           <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
-            <h2 className="m-0 text-3xl font-bold leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Oferta</h2>
+            <h2 className="m-0 text-3xl  leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Oferta</h2>
             <p className="mt-2 text-left text-gray-400 border-0 border-gray-200 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
             <div className="z-30 grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
               <Link href="/link"><a href="" className="">
@@ -169,14 +169,14 @@ const Home = () => {
         <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:pb-16 pt-8">
           <LazyShow>
             <div className="w-4/5 px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0">
-              <div className="text-3xl font-bold lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
+              <div className="text-3xl  lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
               <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Dachy płaskie w technologii membran PVC i TPO.</p>
             </div>
           </LazyShow>
           <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl font-bold sm:text-4xl">Dachy betonowe</h3>
+                <h3 className="text-3xl  sm:text-4xl">Dachy betonowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów betonowych.</p>
                 <div className="">
                   <a href="/oferta/#beton"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
@@ -192,7 +192,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl font-bold sm:text-4xl">Dachy stalowe</h3>
+                <h3 className="text-3xl  sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów stalowych.</p>
                 <div className="">
                   <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
@@ -208,7 +208,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl font-bold sm:text-4xl">Serwis / renowacje</h3>
+                <h3 className="text-3xl  sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Renowacja dachów przemysłowych.</p>
                 <div className="z-40 relative">
                   <a href="/oferta/#renowacja">
@@ -230,7 +230,7 @@ const Home = () => {
         <LazyShow>
           <div className="py-8 lg:py-32 bg-pattern bg-opacity-50">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
-              <div className="text-3xl font-bold sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
+              <div className="text-3xl  sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
               <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
               </button></a>
@@ -242,7 +242,7 @@ const Home = () => {
         {/* REALIZACJE */}
         <div className="py-4 bg-white lg:py-16">
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
-            <div className="w-1/3 pb-8 text-3xl font-bold sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
+            <div className="w-1/3 pb-8 text-3xl  sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
           </div>
 
 
@@ -310,7 +310,7 @@ const Home = () => {
                 </div>
               </a>
             </LazyShow>
-            <a href="/realizacje/"><p className="text-xl relative z-40 cursor-pointer font-bold">zobacz wszystkie realizacje &rarr;</p></a>
+            <a href="/realizacje/"><p className="text-xl relative z-40 cursor-pointer ">zobacz wszystkie realizacje &rarr;</p></a>
           </div>
         </div>
         {/* REALIZACJE END */}
