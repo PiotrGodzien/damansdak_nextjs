@@ -58,7 +58,17 @@ const Oferta = () => {
               </div>
             </div>
             <div class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
-              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12">Zajmujemy się serwisowaniem oraz renowacjacją dachów płaskich. Posiadamy bogate doświadczenie w renowacji dachów wykonanaych z betonu oraz stali.</p>
+              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12 whitespace-pre-line">Wychodząc naprzeciw oczekiwaniom użytkowników dachów (Inwestorzy, Zarządcy budynków, itp.) firma Damans Dak Polska Sp. z o.o. oferuje następujące usługi:<br></br><br></br>
+                <ul className="list-disc">
+                  <li className="">Pogwarancyjny przegląd dachów,</li>
+                  <li className="">Sezonowe przeglądy dachów (zgodnie z Art.62 Prawa Budowlanego) wraz z wykonaniem dokumentacji powykonawczej (opis, zalecenia, zdjęcia, film z drona, itp.),</li>
+                  <li className="">Naprawy wielkopowierzchniowych dachów płaskich przy zastosowaniu membran PVC, TPO/FPO, EPDM),</li>
+                  <li className="">Renowacje dachów płaskich.</li>
+                </ul>
+                <br></br>
+                Firma nasza posiada wieloletnie doświadczenie w zakresie napraw i renowacji dachów płaskich. Wszystkie nasze zadania wykonywane są z dużą starannością przy zastosowaniu profesjonalnych maszyn i urządzeń.
+                Dotychczas prace te wykonywane były w Holandii, Belgii i Francji, a obecnie przenosimy naszą wiedzę i jakość na rynek Polski.
+                Zapraszamy do współpracy – z pasji do dachów płaskich!</p>
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>
           </section>
