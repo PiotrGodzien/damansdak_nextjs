@@ -71,7 +71,7 @@ const Onas = () => {
                   <p className="text-sm font-serif font-light">Koordynator Budowy<br></br> - Kierownik Robót</p>
                 </div>
                 <div className="mt-8 lg:mt-0">
-                  <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/random.jpg" alt="" />
+                  <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Zdybel.jpeg" alt="" />
                   <p className="mt-4 mb-2 font-serif">Monika Zdybel</p>
                   <p className="text-sm font-serif font-light">Koordynator ds. BHP</p>
                 </div>
