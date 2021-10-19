@@ -32,6 +32,7 @@ const Gallery = () => {
           nextSrc={images[(selectedImage + 1) % images.length]}
           prevSrc={images[(selectedImage + images.length - 1) % images.length]}
           onCloseRequest={() => setIsOpen(false)}
+          enableZoom={(false)}
           onMovePrevRequest={() =>
             setSelectedImage(
               (selectedImage + images.length - 1) % images.length
