@@ -279,7 +279,7 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>36 000 m2</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Bremer Sp. z o.o. dla 7R</b>
+                      Generalny wykonawca: <b>Bremer Sp. z o.o. dla 7R</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin"><button className="flex items-center justify-center">
@@ -306,7 +306,7 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>60 000 m2</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska"><button className="flex items-center justify-center">
@@ -333,7 +333,7 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>34 000 m2</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie"><button className="flex items-center justify-center">
