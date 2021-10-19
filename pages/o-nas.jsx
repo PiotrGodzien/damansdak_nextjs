@@ -34,6 +34,13 @@ const Onas = () => {
             <div className="lg:w-5/12 py-20 w-full bg-pattern flex-col items-stretch flex">
               {/* <div className="text-3xl sm:text-5xl 2xl:text-7xl pb-6">Nasz zespół</div> */}
               <div className="flex justify-center flex-col text-center lg:flex-row px-8 sm:px-0">
+                <div className="">
+                  <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Damian_Mazurkiewicz.jpeg" alt="" />
+                  <p className="mt-4 mb-2 font-serif">Damian Mazurkiewicz</p>
+                  <p className="text-sm font-serif font-light">Właściciel</p>
+                </div>
+              </div>
+              <div className="flex justify-center lg:mt-8 flex-col text-center lg:flex-row px-8 sm:px-0">
                 <div className="lg:mr-14">
                   <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
                   <p className="mt-4 mb-2 font-serif">Dariusz Barbarowicz</p>
@@ -55,6 +62,18 @@ const Onas = () => {
                   <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" />
                   <p className="mt-4 mb-2 font-serif">Mirosław Łosobik</p>
                   <p className="text-sm font-serif font-light">Kierownik Działu Realizacji</p>
+                </div>
+              </div>
+              <div className="flex justify-center lg:mt-8 flex-col text-center lg:flex-row px-8 sm:px-0">
+                <div className="lg:mr-14 mt-8 lg:mt-0">
+                  <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Przemys%C5%82aw_Krata.jpeg" alt="" />
+                  <p className="mt-4 mb-2 font-serif">Przemysław Krata</p>
+                  <p className="text-sm font-serif font-light">Koordynator Budowy<br></br> - Kierownik Robót</p>
+                </div>
+                <div className="mt-8 lg:mt-0">
+                  <img className="h-20 w-20 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/random.jpg" alt="" />
+                  <p className="mt-4 mb-2 font-serif">Monika Zdybel</p>
+                  <p className="text-sm font-serif font-light">Koordynator ds. BHP</p>
                 </div>
               </div>
               <div className="flex justify-center lg:mt-8 flex-col text-center lg:flex-row px-8 sm:px-0">
