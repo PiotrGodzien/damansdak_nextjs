@@ -56,10 +56,10 @@ const Home = () => {
                       <span ref={countUpRef} />
                     </VisibilitySensor>
                   )}
-                </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
+                </CountUp><span className="ml-2 text-lg text-gray-400">m²</span>
               </p> */}
               <p className="mb-6 font-serif text-lg font-light text-gray-500">Więcej szczegółów na temat projektu wkrótce.</p>
-              {/* <p className="mb-6 font-serif text-lg font-light text-gray-500">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m2. Zakres prac: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci wełny mineralnej w dwóch warstwach 8cm i 5cm, oraz membrany TPO Texsalan gr. 1,20mm wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych;</p> */}
+              {/* <p className="mb-6 font-serif text-lg font-light text-gray-500">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy: dwie hale o łącznej powierzchni ok. 34 000 m². Zakres prac: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci wełny mineralnej w dwóch warstwach 8cm i 5cm, oraz membrany TPO Texsalan gr. 1,20mm wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych;</p> */}
 
             </div>
           </div>

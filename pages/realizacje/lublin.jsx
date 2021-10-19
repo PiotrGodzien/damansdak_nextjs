@@ -56,9 +56,9 @@ const Home = () => {
                       <span ref={countUpRef} />
                     </VisibilitySensor>
                   )}
-                </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
+                </CountUp><span className="ml-2 text-lg text-gray-400">m²</span>
               </p>
-              <p className="mb-6 font-serif text-lg font-light text-gray-500">Dwie hale o łącznej powierzchni ok. 36 000 m2.</p>
+              <p className="mb-6 font-serif text-lg font-light text-gray-500">Dwie hale o łącznej powierzchni ok. 36 000 m².</p>
               <p className="mb-6 font-serif text-lg font-light text-gray-500">Zakres prac montażowych: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż termoizolacji w postaci PIR gr. 8cm i 16cm oraz membrany PCV gr. 1,20mm (Fatrafol) wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych.</p>
 
             </div>

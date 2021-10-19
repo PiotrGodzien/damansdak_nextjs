@@ -56,9 +56,9 @@ const Home = () => {
                       <span ref={countUpRef} />
                     </VisibilitySensor>
                   )}
-                </CountUp><span className="ml-2 text-lg text-gray-400">m2</span>
+                </CountUp><span className="ml-2 text-lg text-gray-400">m²</span>
               </p>
-              <p className="mb-6 font-serif text-lg font-light text-gray-500">Hala i budynki towarzyszące o łącznej pow. ok. 23 000 m2. </p>
+              <p className="mb-6 font-serif text-lg font-light text-gray-500">Hala i budynki towarzyszące o łącznej pow. ok. 23 000 m². </p>
               <p className="mb-6 font-serif text-lg font-light text-gray-500">Zakres prac: ułożenie folii paroizolacyjnej gr. 0,2mm, montaż poszycia dachu (blachy trapezowej T135) z uwzględnieniem uciągleń oraz termoizolacji EPS gr. 12cm i 24cm wraz z montażem płyt spadkowych i klinów rozpływowych między wpustami dachowymi oraz membrany PVC (PlastFoil) gr. 1,20mm wraz z kołkowaniem, obróbkami, montażem wpustów dachowych i przelewów awaryjnych;</p>
 
             </div>

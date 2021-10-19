@@ -98,11 +98,11 @@ const Home = () => {
                     Wykonujemy dachy płaskie w technologii membran PVC i TPO.
                     Specjalizujemy się w wykonywaniu dachów nowych,
                     jak również renowacją dachów starych o powierzchni od-
-                    1.000m2 do 200.000m2</p>
+                    1.000m² do 200.000m²</p>
                   <div className="flex-col items-center justify-center">
                     <div className="">
                       {/* <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
-                        Damans Dak Polska do końca roku zrealizuję 239 000 m2 dachów
+                        Damans Dak Polska do końca roku zrealizuję 239 000 m² dachów
                       </p> */}
                       <div className="font-serif text-xl  text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
                     </div>
@@ -116,7 +116,7 @@ const Home = () => {
                           )}
                         </CountUp>
                       </p>
-                      <div className="font-serif text-lg font-light text-gray-500">m2 dachów</div>
+                      <div className="font-serif text-lg font-light text-gray-500">m² dachów</div>
                     </div>
                   </div>
                 </div>
@@ -277,7 +277,7 @@ const Home = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Lublin</b>
                       <br></br>
-                      Powierzchnia: <b>36 000 m2</b>
+                      Powierzchnia: <b>36 000 m²</b>
                       <br></br>
                       Generalny wykonawca: <b>Bremer Sp. z o.o. dla 7R</b>
                     </p>
@@ -304,7 +304,7 @@ const Home = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Ruda Śląska</b>
                       <br></br>
-                      Powierzchnia: <b>60 000 m2</b>
+                      Powierzchnia: <b>60 000 m²</b>
                       <br></br>
                       Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
                     </p>
@@ -331,7 +331,7 @@ const Home = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Błonie k. W-wy</b>
                       <br></br>
-                      Powierzchnia: <b>34 000 m2</b>
+                      Powierzchnia: <b>34 000 m²</b>
                       <br></br>
                       Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
                     </p>

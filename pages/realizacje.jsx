@@ -32,7 +32,7 @@ const Realizacje = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Lublin</b>
                       <br></br>
-                      Powierzchnia: <b>36 000 m2</b>
+                      Powierzchnia: <b>36 000 m²</b>
                       <br></br>
                       Wykonawca / projekt: <b>Bremer Sp. z o.o. dla 7R</b>
                     </p>
@@ -59,7 +59,7 @@ const Realizacje = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Ruda Śląska</b>
                       <br></br>
-                      Powierzchnia: <b>60 000 m2</b>
+                      Powierzchnia: <b>60 000 m²</b>
                       <br></br>
                       Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
                     </p>
@@ -86,7 +86,7 @@ const Realizacje = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Błonie k. W-wy</b>
                       <br></br>
-                      Powierzchnia: <b>34 000 m2</b>
+                      Powierzchnia: <b>34 000 m²</b>
                       <br></br>
                       Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
                     </p>
@@ -113,7 +113,7 @@ const Realizacje = () => {
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Żory</b>
                       <br></br>
-                      Powierzchnia: <b>23 000 m2</b>
+                      Powierzchnia: <b>23 000 m²</b>
                       <br></br>
                       Wykonawca / projekt: <b>Joka Budownictwo Sp. z o.o. dla Proma Polska</b>
                     </p>
