@@ -7,6 +7,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "css-loader": "^6.4.0",
     "framer-motion": "^4.1.17",
     "next": "^11.1.2",
     "next-images": "^1.8.1",
@@ -14,9 +15,11 @@
     "react-countup": "^6.0.0",
     "react-dom": "^17.0.2",
     "react-image-lightbox": "^5.1.4",
+    "react-responsive-carousel": "^3.2.22",
     "react-scroll": "^1.8.4",
     "react-visibility-sensor": "^5.1.1",
     "reactstrap": "^8.10.0",
+    "style-loader": "^3.3.0",
     "tmp": "^0.2.1"
   },
   "devDependencies": {

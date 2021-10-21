@@ -7,6 +7,7 @@ import VisibilitySensor from 'react-visibility-sensor';
 import Navigation from '../components/_nav';
 import Footer from '../components/_footer';
 import Cta from '../components/_cta';
+import CarouselComponent from '../components/_carousel';
 
 
 const Home = () => {
@@ -32,6 +33,7 @@ const Home = () => {
       </Head>
       <main className="relative bg-gray-50">
         <div className="relative flex flex-col h-screen text-white bg-center bg-cover bg-herobanner">
+          <div className="absolute inset-0"><CarouselComponent /></div>
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
           {/* <div className="absolute inset-0 z-0 bg-black opacity-30"></div> */}
           <div className="relative z-30 my-auto">
@@ -94,17 +96,14 @@ const Home = () => {
                 <div className="">
                   <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">
-                    Jesteśmy szybko rozwijającą się firmą działającą na rynku od 2013 roku.
-                    Wykonujemy dachy płaskie w technologii membran PVC i TPO.
-                    Specjalizujemy się w wykonywaniu dachów nowych,
-                    jak również renowacją dachów starych o powierzchni od-
-                    1.000m² do 200.000m²</p>
+                    Damans Dak Polska Sp. z o.o. rozpoczęła działalność w kwietniu 2021r. Jesteśmy polskim oddziałem holenderskiej Spółki Damans Dak B.V., która działa od 2013 r.
+                    Specjalizujemy się w wykonawstwie dachów płaskich w technologii membran PVC/TPO/FPO/EPDM zarówno nowych jak i renowacji starych pokryć o powierzchni od 1 000m2 do 200 000 m2.</p>
                   <div className="flex-col items-center justify-center">
                     <div className="">
                       {/* <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
                         Damans Dak Polska do końca roku zrealizuję 239 000 m² dachów
                       </p> */}
-                      <div className="font-serif text-xl  text-gray-500">W Damans Dak Polska do końca roku 2021 zrealizujemy łącznie:</div>
+                      <div className="font-serif text-xl  text-gray-500">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</div>
                     </div>
                     <div className="">
                       <p className="text-3xl text-primary sm:text-7xl 2xl:text-7xl">
@@ -366,13 +365,13 @@ const Home = () => {
           <Footer />
         </LazyShow>
         {/* LINES START */}
-        <div className="absolute inset-0 z-20 justify-center hidden mx-auto sm:flex h-min-full">
+        {/* <div className="absolute inset-0 z-20 justify-center hidden mx-auto sm:flex h-min-full">
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
-        </div>
+        </div> */}
         {/* LINES END */}
       </main >
 
