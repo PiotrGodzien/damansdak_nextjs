@@ -89,7 +89,7 @@ const Home = () => {
         </div>
         <LazyShow>
           {/* O NAS */}
-          <div className="flex pt-8 pb-16 2xl:py-32" id="target">
+          <div className="flex py-16 2xl:py-32" id="target">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
               <div className="flex flex-col lg:flex-row justify-between items-center">
                 <div className="">
@@ -271,7 +271,7 @@ const Home = () => {
               <a href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 transition duration-300 ease-in-out hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Lublin</b>
                       <br></br>
