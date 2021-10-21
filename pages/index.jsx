@@ -90,18 +90,18 @@ const Home = () => {
         <LazyShow>
           {/* O NAS */}
           <div className="flex py-16 2xl:py-32" id="target">
-            <div className="px-8 mx-auto lg:px-0 sm:w-4/5 lg:w-3/5">
+            <div className="px-8 mx-auto lg:px-0 sm:w-4/5">
               <div className="flex flex-col lg:flex-row justify-between items-center">
-                <div className="">
+                <div className="lg:w-1/2 lg:pr-10">
                   <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">
                     Damans Dak Polska Sp. z o.o. rozpoczęła działalność w kwietniu 2021r. Jesteśmy polskim oddziałem holenderskiej Spółki Damans Dak B.V., która działa od 2013 r.
                     Specjalizujemy się w wykonawstwie dachów płaskich w technologii membran PVC/TPO/FPO/EPDM zarówno nowych jak i renowacji starych pokryć o powierzchni od 1 000m2 do 200 000 m2.</p>
-                  <div className="flex-col items-center justify-center">
+                  {/* <div className="flex-col items-center justify-center">
                     <div className="">
-                      {/* <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
+                      <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
                         Damans Dak Polska do końca roku zrealizuję 239 000 m² dachów
-                      </p> */}
+                      </p>
                       <div className="font-serif text-xl  text-gray-500">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</div>
                     </div>
                     <div className="">
@@ -116,12 +116,51 @@ const Home = () => {
                       </p>
                       <div className="font-serif text-lg font-light text-gray-500">m² dachów</div>
                     </div>
+                  </div> */}
+                </div>
+                <div className="relative  mx-auto flex">
+                  <div className="hidden lg:block relative border-r-8 border-gray-50 ">
+                    <img className="w-72 " src="https://damansdak.s3.eu-central-1.amazonaws.com/czI.jpg" alt="" />
+                    <div className="h-6 w-full absolute bottom-0 bg-gray-50"></div>
+                  </div>
+                  <div className="hidden lg:block relative border-r-4 border-gray-50 ">
+                    <img className="w-72 " src="https://damansdak.s3.eu-central-1.amazonaws.com/czII.jpg" alt="" />
+                    <div className="h-6 w-full absolute inset-0 bg-gray-50"></div>
+                  </div>
+                  <div className="hidden lg:block absolute w-full lg:w-auto top-1/2 left-1/2 p-5 transform -translate-x-1/2 -translate-y-1/2 bg-black">
+                    <p className="text-white text-center">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
+                    <div className="flex justify-center items-end">
+                      <p className="text-5xl font-black text-white text-center">
+                        <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
+                          {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                              <span ref={countUpRef} />
+                            </VisibilitySensor>
+                          )}
+                        </CountUp>
+                      </p>
+                      <p className="text-white text-center ml-2">m²</p>
+                    </div>
+                  </div>
+                  <div className="lg:hidden mt-6">
+                    <p className="text-center text-lg">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
+                    <div className="flex justify-center items-end">
+                      <p className="text-5xl font-black text-center">
+                        <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
+                          {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                              <span ref={countUpRef} />
+                            </VisibilitySensor>
+                          )}
+                        </CountUp>
+                      </p>
+                      <p className="text-center ml-2">m²</p>
+                    </div>
                   </div>
                 </div>
 
                 {/* <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80 hidden lg:block" alt="" /> */}
               </div>
-
             </div>
           </div>
         </LazyShow>
