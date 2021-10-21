@@ -12,10 +12,10 @@ const Footer = () => {
               <p className="text-lg  2xl:text-xl">Przemyśl</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Mierosławskiego 14</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">37-700 Przemyśl</p>
-              <p className="font-serif text-md 2xl:text-xl">Polska, Podkarpackie</p>
+              <p className="font-serif text-md 2xl:text-xl">Polska, woj. Podkarpackie</p>
             </div>
             <div className="">
-              <p className="mt-12 text-lg  2xl:text-xl">Firma</p>
+              <p className="mt-12 text-lg  2xl:text-xl"></p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">KRS 0000894896</p>
               <p className="font-serif text-md 2xl:text-xl">NIP PL7952563292</p>
             </div>
@@ -25,12 +25,12 @@ const Footer = () => {
               <p className="mt-12 text-lg  2xl:text-xl sm:mt-0">Warszawa</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">ul.  Karolkowa 30</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">01-207 Warszawa</p>
-              <p className="font-serif text-md 2xl:text-xl">Polska, Mozowieckie</p>
+              <p className="font-serif text-md 2xl:text-xl">Polska, woj. Mozowieckie</p>
             </div>
-            <div className="">
+            {/* <div className="">
               <p className="mt-12  text-md 2xl:text-xl">Damans Dak BV</p>
               <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="py-12 mx-auto lg:w-3/5 lg:py-40">
@@ -56,7 +56,7 @@ const Footer = () => {
                   </g>
                 </svg>
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">Przemyśl</p>
+                  <p className="relative z-40 cursor-pointer">oddział Przemyśl</p>
                   <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">+48 532 197 746</Link></p>
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                   </g>
                 </svg>
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">Warszawa</p>
+                  <p className="relative z-40 cursor-pointer">oddział Warszawa</p>
                   <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
                 </div>
               </div>

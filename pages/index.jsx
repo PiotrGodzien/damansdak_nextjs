@@ -32,7 +32,7 @@ const Home = () => {
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
       </Head>
       <main className="relative bg-gray-50">
-        <div className="relative flex flex-col h-screen text-white bg-center bg-cover bg-herobanner">
+        <div className="relative flex flex-col h-screen bg-pattern text-white bg-transparent">
           <div className="absolute inset-0"><CarouselComponent /></div>
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
           {/* <div className="absolute inset-0 z-0 bg-black opacity-30"></div> */}
@@ -87,7 +87,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="py-4 bg-pattern mb-6"></div>
         <LazyShow>
           {/* O NAS */}
           <div className="flex pt-8 pb-16 2xl:py-32" id="target">
@@ -278,7 +277,9 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>36 000 m²</b>
                       <br></br>
-                      Generalny wykonawca: <b>Bremer Sp. z o.o. dla 7R</b>
+                      Generalny wykonawca: <b>Bremer Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>7R</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin"><button className="flex items-center justify-center">
@@ -305,7 +306,9 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>60 000 m²</b>
                       <br></br>
-                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>Panattoni</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska"><button className="flex items-center justify-center">
@@ -332,7 +335,9 @@ const Home = () => {
                       <br></br>
                       Powierzchnia: <b>34 000 m²</b>
                       <br></br>
-                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
+                      <br></br>
+                      Inwetor: <b>P3 Logistigs</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie"><button className="flex items-center justify-center">

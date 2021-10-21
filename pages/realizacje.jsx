@@ -13,7 +13,7 @@ const Realizacje = () => {
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl mx-auto px-4">
             <p className="text-md text-white text-center lg:text-left font-light font-serif">WSZYSTKIE REALIZACJE</p>
-            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Zobacz nasze dotychczasowe realizacje</h2>
+            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Nasze realizacje</h2>
           </div>
         </div>
         <div className="py-4 bg-pattern mb-6"></div>
@@ -34,7 +34,9 @@ const Realizacje = () => {
                       <br></br>
                       Powierzchnia: <b>36 000 m²</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Bremer Sp. z o.o. dla 7R</b>
+                      Generalny wykonawca: <b>Bremer Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>7R</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin"><button className="flex items-center justify-center ">
@@ -61,7 +63,9 @@ const Realizacje = () => {
                       <br></br>
                       Powierzchnia: <b>60 000 m²</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla Panattoni</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>Panattoni</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska"><button className="flex items-center justify-center ">
@@ -88,7 +92,9 @@ const Realizacje = () => {
                       <br></br>
                       Powierzchnia: <b>34 000 m²</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Kajima Poland Sp. z o.o. dla P3 Logistigs</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>P3 Logistigs</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie"><button className="flex items-center justify-center">
@@ -115,7 +121,9 @@ const Realizacje = () => {
                       <br></br>
                       Powierzchnia: <b>23 000 m²</b>
                       <br></br>
-                      Wykonawca / projekt: <b>Joka Budownictwo Sp. z o.o. dla Proma Polska</b>
+                      Generalny wykonawca: <b>Joka Budownictwo Sp. z o.o.</b>
+                      <br></br>
+                      Inwestor: <b>Proma Polska</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/zory"><button className="flex items-center justify-center">
@@ -137,7 +145,13 @@ const Realizacje = () => {
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/niemcy/niemcy4.jpg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Niemcy</b><br></br> Rozpoczęliśmy inwestycję.</p>
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Kraj: <b>Niemcy</b>
+                      <br></br>
+                      Miejscowość: <b>Bedburg</b>
+                      <br></br>
+                      Powierzchnia: <b>53 000m²</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/niemcy"><button className="flex items-center justify-center">
                         zobacz więcej
@@ -158,7 +172,13 @@ const Realizacje = () => {
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/litwa/litwa4.jpg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl"><b>Litwa</b><br></br> Rozpoczęliśmy inwestycję.</p>
+                    <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
+                      Kraj: <b>Litwa</b>
+                      <br></br>
+                      Miejscowość: <b>Wilno</b>
+                      <br></br>
+                      Powierzchnia: <b>6 000m²</b>
+                    </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/litwa"><button className="flex items-center justify-center">
                         zobacz więcej

@@ -70,7 +70,7 @@ const Kontakt = () => {
               </g>
             </svg> */}
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">Przemyśl</p>
+                  <p className="relative z-40 cursor-pointer">oddział Przemyśl</p>
                   <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Kontakt = () => {
               </g>
             </svg> */}
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">Warszawa</p>
+                  <p className="relative z-40 cursor-pointer">oddział Warszawa</p>
                   <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
                 </div>
               </div>
@@ -607,7 +607,7 @@ const Kontakt = () => {
               <div className="">
                 <p className="text-3xl  2xl:text-4xl z-40">Przemyśl</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
-                <p className="font-serif text-lg font-light text-gray-500">Polska, Podkarpackie</p>
+                <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Podkarpackie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
                   <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
                     sprawdź dojazd
@@ -617,7 +617,7 @@ const Kontakt = () => {
               <div className="mt-12">
                 <p className="text-3xl  2xl:text-4xl">Warszawa</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
-                <p className="font-serif text-lg font-light text-gray-500">Polska, Mazowieckie</p>
+                <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Mazowieckie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0">
                   <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
                     sprawdź dojazd
