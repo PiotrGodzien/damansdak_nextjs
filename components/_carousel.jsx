@@ -7,13 +7,13 @@ export default function CarouselComponent() {
     <div>
       <Carousel infiniteLoop showThumbs={false} autoPlay>
         <div>
-          <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" />
+          <img className="h-screen object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" />
         </div>
         <div>
-          <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" />
+          <img className="h-screen object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" />
         </div>
         <div>
-          <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" />
+          <img className="h-screen object-cover" src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" />
         </div>
       </Carousel>
     </div>
