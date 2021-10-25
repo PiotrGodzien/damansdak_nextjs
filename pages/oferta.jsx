@@ -8,22 +8,22 @@ const Oferta = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/offer.jpg" alt="" />
+        <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
+          <img className="absolute object-cover w-full h-full bg-center" src="https://damansdak.s3.eu-central-1.amazonaws.com/offer.jpg" alt="" />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
-          <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">OFERTA</p>
-            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Co możemy dla Ciebie zrobić</h2>
+          <div className="relative max-w-4xl px-4 mx-auto">
+            <p className="font-serif font-light text-center text-white text-md lg:text-left">OFERTA</p>
+            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">Co możemy dla Ciebie zrobić</h2>
           </div>
         </div>
-        <div className="py-4 bg-pattern mb-6"></div>
+        <div className="py-4 mb-6 bg-pattern"></div>
         <LazyShow>
-          <section className="lg:mb-16 mt-20" id="stal">
-            <div className="px-8 lg:flex mx-auto  lg:w-3/5 sm:px-0 sm:w-4/5">
+          <section className="mt-20 lg:mb-16" id="stal">
+            <div className="px-8 mx-auto lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png" alt="" />
               <div className="lg:ml-6">
-                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
+                <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">DACHY PŁASKIE</p>
+                <h2 className="text-3xl lg:text-5xl lg:text-left font-heading">Podłoże stalowe</h2>
               </div>
             </div>
             <div id="beton" class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
@@ -34,11 +34,11 @@ const Oferta = () => {
         </LazyShow>
         <LazyShow>
           <section className="lg:my-16">
-            <div className="px-8 lg:flex mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="px-8 mx-auto mt-20 lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png" alt="" />
               <div className="lg:ml-6">
-                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Podłoże betonowe</h2>
+                <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">DACHY PŁASKIE</p>
+                <h2 className="text-3xl lg:text-5xl lg:text-left font-heading">Podłoże betonowe</h2>
               </div>
             </div>
 
@@ -50,19 +50,19 @@ const Oferta = () => {
         </LazyShow>
         <LazyShow>
           <section className="lg:mb-16">
-            <div className="px-8 mt-20 lg:flex mx-auto  lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="px-8 mx-auto mt-20 lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/hammer.png" alt="" />
               <div className="lg:ml-6">
-                <p className="text-md mt-6 lg:mt-0 lg:text-left font-light font-serif">DACHY PŁASKIE</p>
-                <h2 className="text-3xl  lg:text-5xl lg:text-left font-heading">Serwis / renowacje</h2>
+                <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">DACHY PŁASKIE</p>
+                <h2 className="text-3xl lg:text-5xl lg:text-left font-heading">Serwis / renowacje</h2>
               </div>
             </div>
             <div class="relative px-8 mt-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
-              <p className="font-serif text-lg font-light text-gray-500 lg:w-10/12 whitespace-pre-line">Wychodząc naprzeciw oczekiwaniom użytkowników dachów (Inwestorzy, Zarządcy budynków, itp.) firma Damans Dak Polska Sp. z o.o. oferuje następujące usługi:<br></br><br></br>
+              <p className="font-serif text-lg font-light text-gray-500 whitespace-pre-line lg:w-10/12">Wychodząc naprzeciw oczekiwaniom użytkowników dachów (Inwestorzy, Zarządcy budynków, itp.) firma Damans Dak Polska Sp. z o.o. oferuje następujące usługi:<br></br><br></br>
                 <ul className="list-disc">
                   <li className="">Pogwarancyjny przegląd dachów,</li>
                   <li className="">Sezonowe przeglądy dachów (zgodnie z Art.62 Prawa Budowlanego) wraz z wykonaniem dokumentacji powykonawczej (opis, zalecenia, zdjęcia, film z drona, itp.),</li>
-                  <li className="">Naprawy wielkopowierzchniowych dachów płaskich przy zastosowaniu membran PVC, TPO/FPO, EPDM),</li>
+                  <li className="">Naprawy wielkopowierzchniowych dachów płaskich przy zastosowaniu membran PVC, TPO/FPO, EPDM,</li>
                   <li className="">Renowacje dachów płaskich.</li>
                 </ul>
                 <br></br>
