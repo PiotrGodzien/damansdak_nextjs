@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="py-12 mx-auto lg:w-3/5 lg:py-40">
           <p className="px-8 mx-auto text-2xl text-white lg:w-11/12 lg:px-0">Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się profesjonalnym doradztwem oraz wyceną projektów.</p>
           <div className="mt-8 sm:mt-16">
-            <div className="flex flex-col justify-around w-full px-8 mt-8 sm:flex-row lg:px-0">
+            <div className="flex flex-col justify-around px-8 mx-auto mt-8 sm:flex-row lg:px-0 lg:w-11/12">
               <div className="flex items-center text-xl text-white">
                 <svg className="hidden w-8 h-8 mr-4 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">

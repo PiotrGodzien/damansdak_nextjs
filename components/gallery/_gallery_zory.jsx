@@ -11,11 +11,14 @@ const Gallery = () => {
     'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory3.jpeg',
     'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg',
     'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory5.jpg',
-    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory6.jpg',
+    // 'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory6.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory7.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory8.jpg',
+    'https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory9.jpg',
   ];
   return (
     <>
-      <div className="mx-auto flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mx-auto">
         {images.map((url, index) => (
           <img
             onClick={() => {
@@ -23,7 +26,7 @@ const Gallery = () => {
               setIsOpen(true);
             }}
             src={url}
-            className="object-cover h-64 w-96 m-2"
+            className="object-cover h-64 m-2 w-96"
           />
         ))}
       </div>

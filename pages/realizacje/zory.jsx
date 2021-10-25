@@ -29,27 +29,27 @@ const Home = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory1.jpg" alt="" />
+        <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
+          <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory7.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">REALIZACJA:</p>
-            <h2 className="text-3xl font-bold lg:text-5xl text-white text-center lg:text-left font-heading">Joka Budownictwo Sp. z o.o. dla Proma Polska w Żorach</h2>
+          <div className="relative max-w-4xl px-4 mx-auto">
+            <p className="font-serif font-light text-center text-white text-md lg:text-left">REALIZACJA:</p>
+            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">Joka Budownictwo Sp. z o.o. dla Proma Polska w Żorach</h2>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
           <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
-          <div className="absolute inset-0 top-1/2 container px-4 mx-auto">
+          <div className="container absolute inset-0 px-4 mx-auto top-1/2">
             <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl font-bold lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+              <h2 className="text-3xl lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
             </div>
           </div>
         </div> */}
-        <div className="py-4 bg-pattern mb-6"></div>
+        <div className="py-4 mb-6 bg-pattern"></div>
         <LazyShow>
           <div className="mx-auto">
-            <div className="lg:w-3/5 sm:px-0 sm:w-4/5 px-8 mx-auto">
-              <p className="mb-6 text-3xl font-bold lg:text-left lg:text-5xl font-heading">
+            <div className="px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <p className="mb-6 text-3xl lg:text-left lg:text-5xl font-heading">
                 <CountUp start={22550} end={23000} duration={1.75} delay={0}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>

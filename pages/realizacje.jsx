@@ -8,19 +8,19 @@ const Realizacje = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" alt="" />
+        <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
+          <img className="absolute object-cover w-full h-full bg-center" src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" alt="" />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
-          <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">WSZYSTKIE REALIZACJE</p>
-            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Nasze realizacje</h2>
+          <div className="relative max-w-4xl px-4 mx-auto">
+            <p className="font-serif font-light text-center text-white text-md lg:text-left">WSZYSTKIE REALIZACJE</p>
+            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">Nasze realizacje</h2>
           </div>
         </div>
-        <div className="py-4 bg-pattern mb-6"></div>
+        <div className="py-4 mb-6 bg-pattern"></div>
         {/* REALIZACJE */}
         <div className="py-4 bg-white lg:py-16">
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
-            <div className="w-1/3 pb-8 text-3xl  sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
+            <div className="w-1/3 pb-8 text-3xl sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
           </div>
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
             {/* REALIZACJA 1 */}
@@ -28,7 +28,7 @@ const Realizacje = () => {
               <a href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Lublin</b>
                       <br></br>
@@ -57,7 +57,7 @@ const Realizacje = () => {
               <a href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Ruda Śląska</b>
                       <br></br>
@@ -86,7 +86,7 @@ const Realizacje = () => {
               <a href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Błonie k. W-wy</b>
                       <br></br>
@@ -114,8 +114,8 @@ const Realizacje = () => {
             <LazyShow>
               <a href="/realizacje/zory">
                 <div className="relative mx-auto mb-8 sm:mb-16">
-                  <img src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory6.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <img src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory7.jpg" layout="fill" alt="" className="" />
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Żory</b>
                       <br></br>
@@ -144,7 +144,7 @@ const Realizacje = () => {
               <a href="/realizacje/niemcy">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/niemcy/niemcy4.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Kraj: <b>Niemcy</b>
                       <br></br>
@@ -171,7 +171,7 @@ const Realizacje = () => {
               <a href="/realizacje/litwa">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/litwa/litwa4.jpg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Kraj: <b>Litwa</b>
                       <br></br>
