@@ -9,33 +9,33 @@ const Kontakt = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover bg-top overflow-hidden">
+        <div className="relative flex items-center overflow-hidden text-center bg-top bg-cover py-36">
           <img className="absolute object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/contact_us.jpg" alt="" />
           {/* <iframe className="absolute object-cover w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.973442903214!2d22.79102311597204!3d49.78656434285714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7ed66bd661fd%3A0x9eeaeeb0562b92d6!2sLudwika%20Mieros%C5%82awskiego%2014%2C%2037-700%20Przemy%C5%9Bl!5e0!3m2!1sen!2spl!4v1634564564450!5m2!1sen!2spl" width="1920" height="600" loading="lazy"></iframe> */}
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
-          <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">KONTAKT</p>
-            <h2 className="text-3xl  lg:text-5xl text-white font-heading">Zapraszamy do kontaktu z nami</h2>
+          <div className="relative max-w-4xl px-4 mx-auto">
+            <p className="font-serif font-light text-center text-white text-md lg:text-left">KONTAKT</p>
+            <h2 className="text-3xl text-white lg:text-5xl font-heading">Zapraszamy do kontaktu z nami</h2>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
           <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
-          <div className="absolute inset-0 top-1/2 container px-4 mx-auto">
+          <div className="container absolute inset-0 px-4 mx-auto top-1/2">
             <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl  lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+              <h2 className="text-3xl lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
             </div>
           </div>
         </div> */}
-        <div className="py-4 bg-pattern mb-6"></div>
+        <div className="py-4 mb-6 bg-pattern"></div>
         <LazyShow>
 
         </LazyShow>
         <LazyShow>
           <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="text-3xl  lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
+            <div className="text-3xl lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
             <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
-            <div className="flex flex-col mt-8 lg:flex-row justify-start sm:px-0 sm:mt-16">
-              <div className="flex items-center text-xl w-1/3 sm:space-x-6">
+            <div className="flex flex-col justify-start mt-8 lg:flex-row sm:px-0 sm:mt-16">
+              <div className="flex items-center text-xl sm:space-x-6">
                 {/* <svg className="hidden w-8 h-8 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
               <g id="" stroke="none" fill="none">
                 <g id="" fill="currentColor">
@@ -52,7 +52,7 @@ const Kontakt = () => {
                 </svg>
                 <p className="relative z-40 cursor-pointer"><Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link></p>
               </div>
-              <div className="flex w-1/3 items-center mt-8 text-xl  lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl lg:w-1/3 lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -74,7 +74,7 @@ const Kontakt = () => {
                   <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
                 </div>
               </div>
-              <div className="flex items-center mt-8 text-xl w-1/3 lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl lg:w-1/3 lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
                 <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -99,48 +99,23 @@ const Kontakt = () => {
             </div>
           </div>
           <div className="relative z-10">
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 lg:mt-0 mb-6 sm:px-0 justify-around">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział ofertowania i projektów:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Dariusz Barbarowicz</p>
-                <p className="text-sm font-serif font-light">Project Director</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+            <div className="flex flex-col justify-center px-8 pb-8 mx-auto lg:flex-row lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
+              {/* <div className="text-lg text-gray-500 lg:w-1/3">Dział ofertowania i projektów:</div> */}
+              <div className="mt-4 lg:w-1/3 lg:mt-0">
+                {/* <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
+                <p className="mb-2 font-serif text-xl">Dział ofertowania</p>
+                {/* <p className="font-serif text-sm font-light">Project Director</p> */}
+                <div className="flex mt-2 font-serif text-sm">
+                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                         <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
                       </g>
                     </g>
                   </svg>
-                  <p className=""><a href="mailto:d.barbarowicz@damansdak.pl">d.barbarowicz@damansdak.pl</a></p>
+                  <p className=""><a href="mailto:oferty@damansdak.pl">oferty@damansdak.pl</a></p>
                 </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Artur Leszczyński</p>
-                <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:artur.leszczynski@damansdak.pl">artur.leszczynski@damansdak.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
+                <div className="flex mt-2 font-serif text-sm">
                   <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -149,26 +124,23 @@ const Kontakt = () => {
                     </g>
                   </svg>
                   <p className=""><a href="tel:+48538621732">+48 538 621 732</a></p>
-                </div> */}
+                </div>
               </div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around items-start">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział administracji:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Ewelina Grochowicz</p>
-                <p className="text-sm font-serif font-light">Manager do spraw administracyjnych</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+              <div className="mt-4 lg:w-1/3 lg:mt-0">
+                {/* <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
+                <p className="mb-2 font-serif text-xl">Dział realizacji</p>
+                {/* <p className="font-serif text-sm font-light">Project Director</p> */}
+                <div className="flex mt-2 font-serif text-sm">
+                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                         <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
                       </g>
                     </g>
                   </svg>
-                  <p className=""><a href="mailto:ewelina@damansdak.pl">ewelina@damansdak.pl</a></p>
+                  <p className=""><a href="mailto:realizacja@damansdak.pl ">realizacja@damansdak.pl </a></p>
                 </div>
-                {/* <div className="flex text-sm font-serif mt-2">
+                <div className="flex mt-2 font-serif text-sm">
                   <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -176,28 +148,24 @@ const Kontakt = () => {
                       </g>
                     </g>
                   </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
+                  <p className=""><a href="tel:+48538621733">+48 538 621 723</a></p>
+                </div>
               </div>
-              <div className="w-1/3"></div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział realizacji:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Mirosław Łosobik</p>
-                <p className="text-sm font-serif font-light">Kierownik Działu Realizacji</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+              <div className="mt-4 lg:w-1/3 lg:mt-0">
+                {/* <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
+                <p className="mb-2 font-serif text-xl">Dział rekrutacji</p>
+                {/* <p className="font-serif text-sm font-light">Project Director</p> */}
+                <div className="flex mt-2 font-serif text-sm">
+                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                         <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
                       </g>
                     </g>
                   </svg>
-                  <p className=""><a href="mailto:miroslaw.łosobik@damansdak.pl">miroslaw.łosobik@damansdak.pl</a></p>
+                  <p className=""><a href="mailto:rekrutacja@damansdak.pl">rekrutacja@damansdak.pl</a></p>
                 </div>
-                {/* <div className="flex text-sm font-serif mt-2">
+                <div className="flex mt-2 font-serif text-sm">
                   <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                     <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                       <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -205,174 +173,11 @@ const Kontakt = () => {
                       </g>
                     </g>
                   </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Przemysław Krata</p>
-                <p className="text-sm font-serif font-light">Koordynator Budowy - Kierownik Robót</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:p.krata@damansdak.pl">p.krata@damansdak.pl</a></p>
+                  <p className=""><a href="tel:+48883846010">+48 883 846 010</a></p>
                 </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621732">+48 538 621 732</a></p>
-                </div> */}
               </div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around items-start">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział zamówień:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Paweł Olech</p>
-                <p className="text-sm font-serif font-light">Specjalista ds. zamówień</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:p.olech@damansdak.pl">p.olech@damansdak.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="w-1/3"></div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział rekrutacji:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Edyta Hajnold</p>
-                <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:e.hajnold@damansdak.pl">e.hajnold@damansdak.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Kateryna Halkina</p>
-                <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:k.halkina@damansdak.pl">k.halkina@damansdak.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621732">+48 538 621 732</a></p>
-                </div> */}
-              </div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around items-start">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział reklamy i social media:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Monika Śpiewak</p>
-                <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:m.spiewak@damansdak.pl">m.spiewak@damansdak.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="w-1/3"></div>
-            </div>
-            <div className="flex flex-col lg:flex-row px-8 mx-auto sm:w-3/5 mt-16 mb-6 sm:px-0 justify-around items-start">
-              <div className="text-lg text-gray-500 lg:w-1/3">Dział BHP:</div>
-              <div className="lg:w-1/3 mt-4 lg:mt-0">
-                {/* <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" /> */}
-                <p className="mb-2 font-serif  text-xl">Monika Zdybel</p>
-                <p className="text-sm font-serif font-light">Koordynator ds. BHP</p>
-                <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
-                        <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="mailto:monika.misior@interia.pl">monika.misior@interia.pl</a></p>
-                </div>
-                {/* <div className="flex text-sm font-serif mt-2">
-                  <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
-                    <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                      <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
-                        <path d="M59.6061971,41.7009419 C58.8469608,40.9404448 57.8164396,40.5130933 56.7418033,40.5130933 C55.6671671,40.5130933 54.6366459,40.9404448 53.8774096,41.7009419 L47.4193563,48.1587289 C44.4253153,47.2674409 38.8383294,45.2417862 35.2973391,41.7009419 C31.7563488,38.1600975 29.7306106,32.5733419 28.8392859,29.5794244 L35.2973391,23.1216373 C36.0578675,22.3624323 36.4852367,21.3319536 36.4852367,20.2573616 C36.4852367,19.1827696 36.0578675,18.1522909 35.2973391,17.3930859 L19.0914338,1.1878486 C18.3321975,0.427351567 17.3016763,0 16.22704,0 C15.1524037,0 14.1218825,0.427351567 13.3626463,1.1878486 L2.37504246,12.1749995 C0.835481451,13.714497 -0.0315344841,15.8292805 0.000877326584,17.9886284 C0.0940612822,23.7576929 1.62146786,43.7954688 17.4141226,59.5874725 C33.2067773,75.3794763 53.2453793,76.9027686 59.018733,77 L59.1321744,77 C61.2713539,77 63.2930406,76.1573277 64.8244986,74.6259327 L75.8121024,63.6387818 C76.5726308,62.8795769 77,61.8490981 77,60.7745062 C77,59.6999142 76.5726308,58.6694354 75.8121024,57.9102305 L59.6061971,41.7009419 L59.6061971,41.7009419 Z M59.0916596,68.89333 C54.0354172,68.8082525 36.7356132,67.4510639 23.1429101,53.8548698 C9.5056408,40.2181626 8.18485952,22.8583022 8.10382999,17.9035509 L16.22704,9.78067568 L26.7041578,20.2573616 L21.4655989,25.4957046 C20.4981656,26.4623687 20.0837414,27.8518513 20.3635974,29.1904987 C20.4608328,29.6563992 22.8390494,40.7043198 29.5645001,47.4294932 C36.2899508,54.1546667 47.3383268,56.5327853 47.8042466,56.6300167 C49.1425317,56.9178331 50.5352453,56.5040065 51.499193,55.5321119 L56.7418033,50.2937689 L67.2189211,60.7704548 L59.0916596,68.89333 L59.0916596,68.89333 Z" id="Shape"></path>
-                      </g>
-                    </g>
-                  </svg>
-                  <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
-                </div> */}
-              </div>
-              <div className="w-1/3"></div>
+              {/* <div className="mt-4 lg:w-1/3 lg:mt-0">
+              </div> */}
             </div>
             {/* <div className="absolute inset-0 z-50 justify-center hidden mx-auto sm:flex h-min-full">
               <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
@@ -384,14 +189,14 @@ const Kontakt = () => {
             </div> */}
             {/* LINES END */}
           </div>
-          {/* <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział ofertowania i projektów:</p>
-          <div className="flex mb-6 flex-col justify-center lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Dariusz Barbarowicz</p>
-              <p className="text-sm font-serif font-light">Project Director</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+          {/* <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział ofertowania i projektów:</p>
+          <div className="flex flex-col flex-wrap items-center justify-center px-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Dariusz Barbarowicz</p>
+              <p className="font-serif text-sm font-light">Project Director</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -400,7 +205,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:d.barbarowicz@damansdak.pl">d.barbarowicz@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -411,12 +216,12 @@ const Kontakt = () => {
                 <p className=""><a href="tel:+48538621733">+48 538 621 733</a></p>
               </div>
             </div>
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Artur Leszczyński</p>
-              <p className="text-sm font-serif font-light">Kierownik Działu Ofertowania</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Artur Leszczyński</p>
+              <p className="font-serif text-sm font-light">Kierownik Działu Ofertowania</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -425,7 +230,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:artur.leszczynski@damansdak.pl">artur.leszczynski@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -437,14 +242,14 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział administracji:</p>
-          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 pb-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
+          <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział administracji:</p>
+          <div className="flex flex-col flex-wrap items-center px-8 pb-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="lg:w-1/2">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Ewelina Grochowicz</p>
-              <p className="text-sm font-serif font-light">Manager do spraw administracyjnych</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Ewelina Grochowicz</p>
+              <p className="font-serif text-sm font-light">Manager do spraw administracyjnych</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -453,7 +258,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:ewelina@damansdak.pl">ewelina@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -465,14 +270,14 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział rekrutacji:</p>
-          <div className="flex mb-6 justify-center flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Edyta Hajnold</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+          <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział rekrutacji:</p>
+          <div className="flex flex-col flex-wrap items-center justify-center px-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Edyta Hajnold</p>
+              <p className="font-serif text-sm font-light">Specjalista ds. rekrutacji</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -481,7 +286,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:e.hajnold@DamansDak.pl">e.hajnold@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -492,12 +297,12 @@ const Kontakt = () => {
                 <p className=""><a href="tel:+48883846010">+48 883 846 010</a></p>
               </div>
             </div>
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Kateryna Halkina</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. rekrutacji</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Kateryna Halkina</p>
+              <p className="font-serif text-sm font-light">Specjalista ds. rekrutacji</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -506,7 +311,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:k.halkina@damansdak.pl">k.halkina@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -518,14 +323,14 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział zamówień:</p>
-          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Paweł Olech</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. zamówień</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+          <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział zamówień:</p>
+          <div className="flex flex-col flex-wrap items-center px-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Paweł Olech</p>
+              <p className="font-serif text-sm font-light">Specjalista ds. zamówień</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -534,7 +339,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:p.olech@damansdak.pl">p.olech@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -546,14 +351,14 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział reklamy i social media:</p>
-          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Monika Śpiewak</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+          <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział reklamy i social media:</p>
+          <div className="flex flex-col flex-wrap items-center px-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Monika Śpiewak</p>
+              <p className="font-serif text-sm font-light">Specjalista ds. marketingu</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -562,7 +367,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:m.spiewak@damansdak.pl">m.spiewak@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -574,14 +379,14 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <p className="px-8 mx-auto lg:w-3/5 mb-6 sm:px-0 sm:w-4/5 text-lg text-gray-500">Dział realizacji:</p>
-          <div className="flex mb-6 flex-col lg:flex-row flex-wrap px-8 mx-auto text-center items-center lg:w-3/5 sm:px-0 sm:w-4/5">
-            <div className="lg:w-1/2 p-5">
-              <img className="h-36 w-36 mx-auto rounded-full object-cover object-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" />
-              <p className="mt-6 mb-2 font-serif  text-xl">Mirosław Łosobik</p>
-              <p className="text-sm font-serif font-light">Specjalista ds. marketingu</p>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
-                <svg className="hidden mr-3 w-5 h-5 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
+          <p className="px-8 mx-auto mb-6 text-lg text-gray-500 lg:w-3/5 sm:px-0 sm:w-4/5">Dział realizacji:</p>
+          <div className="flex flex-col flex-wrap items-center px-8 mx-auto mb-6 text-center lg:flex-row lg:w-3/5 sm:px-0 sm:w-4/5">
+            <div className="p-5 lg:w-1/2">
+              <img className="object-cover object-top mx-auto rounded-full h-36 w-36" src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg" alt="" />
+              <p className="mt-6 mb-2 font-serif text-xl">Mirosław Łosobik</p>
+              <p className="font-serif text-sm font-light">Specjalista ds. marketingu</p>
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
+                <svg className="hidden w-5 h-5 mr-3 sm:block" width="76px" height="52px" viewBox="0 0 76 52" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="email-svgrepo-com" fill="CurrentColor" fill-rule="nonzero">
                       <path d="M66.097,0 L9.197,0 C4.126,0 0,4.126 0,9.197 L0,41.919 C0,46.99 4.126,51.116 9.197,51.116 L66.097,51.116 C71.168,51.116 75.2940002,46.99 75.2940002,41.919 L75.2940002,9.198 C75.295,4.126 71.169,0 66.097,0 Z M61.603,6 L37.647,21.434 L13.691,6 L61.603,6 Z M66.097,45.117 L9.197,45.117 C7.434,45.117 6,43.682 6,41.92 L6,9.368 L35.796,28.528 C35.836,28.553 35.879,28.57 35.92,28.593 C35.963,28.617 36.007,28.64 36.051,28.662 C36.282,28.781 36.52,28.877 36.763,28.94 C36.788,28.947 36.813,28.95 36.838,28.956 C37.105,29.019 37.375,29.058 37.645,29.058 C37.646,29.058 37.647,29.058 37.647,29.058 C37.649,29.058 37.65,29.058 37.651,29.058 C37.921,29.058 38.191,29.02 38.458,28.956 C38.483,28.95 38.508,28.947 38.533,28.94 C38.776,28.877 39.013,28.781 39.245,28.662 C39.289,28.64 39.333,28.617 39.376,28.593 C39.417,28.57 39.46,28.553 39.5,28.528 L69.296,9.368 L69.296,41.919 C69.295,43.682 67.86,45.117 66.097,45.117 Z" id="Shape"></path>
@@ -590,7 +395,7 @@ const Kontakt = () => {
                 </svg>
                 <p className=""><a href="mailto:miroslaw.łosobik@damansdak.pl">miroslaw.łosobik@damansdak.pl</a></p>
               </div>
-              <div className="flex text-sm font-serif mt-2 items-center justify-center">
+              <div className="flex items-center justify-center mt-2 font-serif text-sm">
                 <svg className="hidden w-5 h-5 mr-3 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
                   <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                     <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -605,21 +410,21 @@ const Kontakt = () => {
           <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
             <div className="">
               <div className="">
-                <p className="text-3xl  2xl:text-4xl z-40">Przemyśl</p>
+                <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
                 <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Podkarpackie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
-                  <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+                  <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
                     sprawdź dojazd
                   </p>
                 </a>
               </div>
               <div className="mt-12">
-                <p className="text-3xl  2xl:text-4xl">Warszawa</p>
+                <p className="text-3xl 2xl:text-4xl">Warszawa</p>
                 <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
                 <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Mazowieckie</p>
                 <a target="_blank" href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0">
-                  <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+                  <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
                     sprawdź dojazd
                   </p>
                 </a>
