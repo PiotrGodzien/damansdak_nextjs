@@ -8,10 +8,10 @@ const Cta = () => {
     <>
 
       <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
-        <div className="text-3xl  lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
+        <div className="text-3xl lg:w-1/3 sm:text-5xl 2xl:text-7xl">Kontakt</div>
         <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Jeżeli masz pytania dotyczące naszej oferty lub chcesz zapytać o wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów czeka na Ciebie.</p>
         <div className="flex flex-col justify-around mt-8 lg:flex-row sm:px-0 sm:mt-16">
-          <div className="flex items-center text-xl  sm:space-x-6">
+          <div className="flex items-center text-xl sm:space-x-6">
             {/* <svg className="hidden w-8 h-8 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
               <g id="" stroke="none" fill="none">
                 <g id="" fill="currentColor">
@@ -28,7 +28,7 @@ const Cta = () => {
             </svg>
             <p className="relative z-40 cursor-pointer"><Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link></p>
           </div>
-          <div className="flex items-center mt-8 text-xl  lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+          <div className="flex items-center mt-8 text-xl lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
             <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
               <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -46,11 +46,11 @@ const Cta = () => {
               </g>
             </svg> */}
             <div className="">
-              <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">oddział Przemyśl</Link></p>
+              <p className="relative z-40 cursor-pointer"><Link href="tel:+48532197746">Oddział Przemyśl</Link></p>
               <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
             </div>
           </div>
-          <div className="flex items-center mt-8 text-xl  lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+          <div className="flex items-center mt-8 text-xl lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
             <svg className="hidden w-8 h-8 sm:block" width="77px" height="77px" viewBox="0 0 77 77" version="1.1">
               <g id="" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                 <g id="phone-svgrepo-com-3" fill="currentColor" fill-rule="nonzero">
@@ -68,7 +68,7 @@ const Cta = () => {
               </g>
             </svg> */}
             <div className="">
-              <p className="relative z-40 cursor-pointer">oddział Warszawa</p>
+              <p className="relative z-40 cursor-pointer">Oddział Warszawa</p>
               <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
             </div>
           </div>
@@ -78,21 +78,21 @@ const Cta = () => {
       <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
         <div className="">
           <div className="">
-            <p className="text-3xl  2xl:text-4xl z-40">Przemyśl</p>
+            <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Mierosławskiego 14, 37-700 Przemyśl</p>
             <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Podkarpackie</p>
             <a target="_blank" href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0">
-              <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+              <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
                 sprawdź dojazd
               </p>
             </a>
           </div>
           <div className="mt-12">
-            <p className="text-3xl  2xl:text-4xl">Warszawa</p>
+            <p className="text-3xl 2xl:text-4xl">Warszawa</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">ul. Karolkowa 30, 01-207 Warszawa</p>
             <p className="font-serif text-lg font-light text-gray-500">Polska, woj. Mazowieckie</p>
             <a target="_blank" href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0">
-              <p className="flex z-40 cursor-pointer font-serif text-lg font-light mt-4 underline">
+              <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
                 sprawdź dojazd
               </p>
             </a>

@@ -70,7 +70,7 @@ const Kontakt = () => {
               </g>
             </svg> */}
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">oddział Przemyśl</p>
+                  <p className="relative z-40 cursor-pointer">Oddział Przemyśl</p>
                   <p className="relative z-40 cursor-pointer">+48 532 197 746</p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const Kontakt = () => {
               </g>
             </svg> */}
                 <div className="">
-                  <p className="relative z-40 cursor-pointer">oddział Warszawa</p>
+                  <p className="relative z-40 cursor-pointer">Oddział Warszawa</p>
                   <p className="relative z-40 cursor-pointer"><Link href="tel:+48538621732">+48 538 621 732</Link></p>
                 </div>
               </div>
