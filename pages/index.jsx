@@ -8,6 +8,7 @@ import Navigation from '../components/_nav';
 import Footer from '../components/_footer';
 import Cta from '../components/_cta';
 import CarouselComponent from '../components/_carousel';
+import SwiperCarousel from '../components/_carousel';
 
 
 const Home = () => {
@@ -32,17 +33,17 @@ const Home = () => {
         <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
       </Head>
       <main className="relative bg-gray-50">
-      <div className="relative z-0"><CarouselComponent />
-        <div className="absolute bg-gradient-to-b from-black inset-0 z-20"></div>
-        <div className="absolute w-full sm:w-4/5 lg:w-3/5 text-white z-30 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <div className="flex flex-col-reverse items-center justify-start px-6 lg:px-0 mx-auto md:flex-row">
+      <div className="relative z-0"><SwiperCarousel />
+        <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
+        <div className="absolute z-30 w-full text-white transform -translate-x-1/2 -translate-y-1/2 sm:w-4/5 lg:w-3/5 top-1/2 left-1/2">
+              <div className="flex flex-col-reverse items-center justify-start px-6 mx-auto lg:px-0 md:flex-row">
                 <div className="">
                   <LazyShow>
                     <div className="items-center mt-16 2xl:mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
-                      <h1 className="text-4xl  sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                      <h1 className="text-4xl sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                       <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                       <div className="lg:flex lg:space-x-8">
-                        <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 border-2 border-primary text-white transition duration-150 ease-in-out bg-primary hover:border-black hover:bg-black">
+                        <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out border-2 border-primary bg-primary hover:border-black hover:bg-black">
                           <p className="sm:text-2xl">kontakt</p>
                         </button></a>
                         <Link
@@ -62,10 +63,10 @@ const Home = () => {
                 </div>
                 {/* <div className="lg:hidden">
                   <div className="items-center mt-16 2xl:mt-24 space-y-7 sm:space-y-8 lg:space-y-16">
-                    <h1 className="text-4xl  sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
+                    <h1 className="text-4xl sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                     <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                     <div className="lg:flex lg:space-x-8">
-                      <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 border-2 border-primary text-white transition duration-150 ease-in-out bg-primary hover:border-black hover:bg-black">
+                      <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out border-2 border-primary bg-primary hover:border-black hover:bg-black">
                         <p className="sm:text-2xl">kontakt</p>
                       </button></a>
                       <Link
@@ -91,18 +92,18 @@ const Home = () => {
           <div className="-mt-14" id="target"></div>
           <div className="flex pt-32 pb-16 2xl:py-32">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5">
-              <div className="flex flex-col lg:flex-row justify-between items-center">
+              <div className="flex flex-col items-center justify-between lg:flex-row">
                 <div className="lg:w-1/2 lg:pr-10">
-                  <h1 className="text-3xl  sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
+                  <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">Damansdak Polska</h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">
                     Damans Dak Polska Sp. z o.o. rozpoczęła działalność w kwietniu 2021r. Jesteśmy polskim oddziałem holenderskiej Spółki Damans Dak B.V., która działa od 2013 r.
                     Specjalizujemy się w wykonawstwie dachów płaskich w technologii membran PVC/TPO/FPO/EPDM zarówno nowych jak i renowacji starych pokryć o powierzchni od 1 000m2 do 200 000 m2.</p>
                   {/* <div className="flex-col items-center justify-center">
                     <div className="">
-                      <p className="text-3xl  sm:text-5xl 2xl:text-7xl">
+                      <p className="text-3xl sm:text-5xl 2xl:text-7xl">
                         Damans Dak Polska do końca roku zrealizuję 239 000 m² dachów
                       </p>
-                      <div className="font-serif text-xl  text-gray-500">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</div>
+                      <div className="font-serif text-xl text-gray-500">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</div>
                     </div>
                     <div className="">
                       <p className="text-3xl text-primary sm:text-7xl 2xl:text-7xl">
@@ -118,19 +119,19 @@ const Home = () => {
                     </div>
                   </div> */}
                 </div>
-                <div className="relative  mx-auto flex">
-                  <div className="hidden lg:block relative border-r-8 border-gray-50 ">
+                <div className="relative flex mx-auto">
+                  <div className="relative hidden border-r-8 lg:block border-gray-50 ">
                     <img className="w-72 " src="https://damansdak.s3.eu-central-1.amazonaws.com/czI.jpg" alt="" />
-                    <div className="h-6 w-full absolute bottom-0 bg-gray-50"></div>
+                    <div className="absolute bottom-0 w-full h-6 bg-gray-50"></div>
                   </div>
-                  <div className="hidden lg:block relative border-r-4 border-gray-50 ">
+                  <div className="relative hidden border-r-4 lg:block border-gray-50 ">
                     <img className="w-72 " src="https://damansdak.s3.eu-central-1.amazonaws.com/czII.jpg" alt="" />
-                    <div className="h-6 w-full absolute inset-0 bg-gray-50"></div>
+                    <div className="absolute inset-0 w-full h-6 bg-gray-50"></div>
                   </div>
-                  <div className="hidden lg:block absolute w-full lg:w-auto top-1/2 left-1/2 p-5 transform -translate-x-1/2 -translate-y-1/2 bg-black">
-                    <p className="text-white text-center">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
-                    <div className="flex justify-center items-end">
-                      <p className="text-5xl font-black text-white text-center">
+                  <div className="absolute hidden w-full p-5 transform -translate-x-1/2 -translate-y-1/2 bg-black lg:block lg:w-auto top-1/2 left-1/2">
+                    <p className="text-center text-white">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
+                    <div className="flex items-end justify-center">
+                      <p className="text-5xl font-black text-center text-white">
                         <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
                             <VisibilitySensor onChange={start} delayedCall>
@@ -139,12 +140,12 @@ const Home = () => {
                           )}
                         </CountUp>
                       </p>
-                      <p className="text-white text-center ml-2">m²</p>
+                      <p className="ml-2 text-center text-white">m²</p>
                     </div>
                   </div>
-                  <div className="lg:hidden mt-6">
-                    <p className="text-center text-lg">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
-                    <div className="flex justify-center items-end">
+                  <div className="mt-6 lg:hidden">
+                    <p className="text-lg text-center">Jako Damans Dak Polska do końca 2021 roku zrealizujemy dachy płaskie o łącznej powierzchni:</p>
+                    <div className="flex items-end justify-center">
                       <p className="text-5xl font-black text-center">
                         <CountUp start={478500} end={479000} separator=" " duration={1.75} delay={0}>
                           {({ countUpRef, start }) => (
@@ -154,12 +155,12 @@ const Home = () => {
                           )}
                         </CountUp>
                       </p>
-                      <p className="text-center ml-2">m²</p>
+                      <p className="ml-2 text-center">m²</p>
                     </div>
                   </div>
                 </div>
 
-                {/* <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="h-80 hidden lg:block" alt="" /> */}
+                {/* <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="hidden h-80 lg:block" alt="" /> */}
               </div>
             </div>
           </div>
@@ -172,7 +173,7 @@ const Home = () => {
       <div className="box-border mx-auto border-solid sm:w-4/5 lg:w-3/5">
         <div className="flex flex-col items-center leading-7 text-gray-900 border-0 border-gray-200 lg:flex-row">
           <div className="box-border flex flex-col justify-center w-full h-full p-8 text-gray-900 border-solid lg:w-1/2 md:p-16 lg:p-0 lg:pr-20">
-            <h2 className="m-0 text-3xl  leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Oferta</h2>
+            <h2 className="m-0 text-3xl leading-tight tracking-tight text-left text-black sm:text-5xl 2xl:text-7xl">Oferta</h2>
             <p className="mt-2 text-left text-gray-400 border-0 border-gray-200 sm:text-xl lg:text-3xl">Dachy płaskie w technologii membran PVC i TPO.</p>
             <div className="z-30 grid items-center mt-8 leading-7 border-0 border-gray-200 sm:mt-10 lg:mt-12">
               <Link href="/link"><a href="" className="">
@@ -225,17 +226,17 @@ const Home = () => {
       </div>
     </section>
     </LazyShow> */}
-        <section className="box-border relative mx-auto leading-7 text-gray-900 bg-white lg:pb-16 pt-8">
+        <section className="box-border relative pt-8 mx-auto leading-7 text-gray-900 bg-white lg:pb-16">
           <LazyShow>
             <div className="w-4/5 px-8 py-8 mx-auto lg:mb-16 lg:w-3/5 sm:px-0">
-              <div className="text-3xl  lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
+              <div className="text-3xl lg:w-1/3 sm:text-5xl 2xl:text-7xl">Oferta</div>
               <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">Dachy płaskie w technologii membran PVC i TPO.</p>
             </div>
           </LazyShow>
           <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl  sm:text-4xl">Dachy betonowe</h3>
+                <h3 className="text-3xl sm:text-4xl">Dachy betonowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów betonowych.</p>
                 <div className="">
                   <a href="/oferta/#beton"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
@@ -251,7 +252,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl  sm:text-4xl">Dachy stalowe</h3>
+                <h3 className="text-3xl sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów stalowych.</p>
                 <div className="">
                   <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
@@ -267,9 +268,9 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl  sm:text-4xl">Serwis / renowacje</h3>
+                <h3 className="text-3xl sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Renowacja dachów przemysłowych.</p>
-                <div className="z-40 relative">
+                <div className="relative z-40">
                   <a href="/oferta/#renowacja">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                       zobacz więcej
@@ -287,9 +288,9 @@ const Home = () => {
         {/* OFERTA END */}
         {/* CTA */}
         <LazyShow>
-          <div className="py-8 lg:py-32 bg-pattern bg-opacity-50">
+          <div className="py-8 bg-opacity-50 lg:py-32 bg-pattern">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
-              <div className="text-3xl  sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
+              <div className="text-3xl sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
               <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
               </button></a>
@@ -301,7 +302,7 @@ const Home = () => {
         {/* REALIZACJE */}
         <div className="py-4 bg-white lg:py-16">
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
-            <div className="w-1/3 pb-8 text-3xl  sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
+            <div className="w-1/3 pb-8 text-3xl sm:pb-16 sm:text-5xl 2xl:text-7xl">Realizacje</div>
           </div>
 
 
@@ -311,7 +312,7 @@ const Home = () => {
               <a href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 transition duration-300 ease-in-out hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto transition duration-300 ease-in-out bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Lublin</b>
                       <br></br>
@@ -340,7 +341,7 @@ const Home = () => {
               <a href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Ruda Śląska</b>
                       <br></br>
@@ -369,7 +370,7 @@ const Home = () => {
               <a href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
-                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto hover:bg-opacity-100 hover:bg-black bg-black bg-opacity-50 lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
+                  <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       Miejsce: <b>Błonie k. W-wy</b>
                       <br></br>
@@ -393,12 +394,12 @@ const Home = () => {
                 </div>
               </a>
             </LazyShow>
-            <a href="/realizacje/"><p className="text-xl relative z-40 cursor-pointer ">zobacz wszystkie realizacje &rarr;</p></a>
+            <a href="/realizacje/"><p className="relative z-40 text-xl cursor-pointer ">zobacz wszystkie realizacje &rarr;</p></a>
           </div>
         </div>
         {/* REALIZACJE END */}
         <LazyShow>
-          <div className="z-40 relative">
+          <div className="relative z-40">
             <Cta />
           </div>
         </LazyShow>
