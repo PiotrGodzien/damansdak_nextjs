@@ -39,15 +39,8 @@ const Kontakt = () => {
               wycenę zapraszamy do kontaktu z nami. Nasz zespół specjalistów
               czeka na Ciebie.
             </p>
-            <div className="flex flex-col justify-start mt-8 lg:flex-row sm:px-0 sm:mt-16">
+            <div className="flex flex-col justify-between mt-8 lg:flex-row sm:px-0 sm:mt-16">
               <div className="flex items-center text-xl sm:space-x-6">
-                {/* <svg className="hidden w-8 h-8 sm:block" width="75px" height="56px" viewBox="0 0 75 56" version="1.1">
-              <g id="" stroke="none" fill="none">
-                <g id="" fill="currentColor">
-                  <path d="M37.4427,56 C27.2102,56 16.9613,56 6.72887,56 C2.78323,56 0,53.2057 0,49.2839 C0,35.1001 0,20.9163 0,6.73242 C0,2.81062 2.78323,0.0163408 6.72887,0.0163408 C27.2429,0.0163408 47.7406,0.0326816 68.2547,0 C72.0693,0 75.0163,2.92501 74.9999681,6.73242 C74.9672,20.9163 74.9836,35.1001 74.9836,49.2839 C74.9836,53.2221 72.2003,56 68.2547,56 C57.9895,56 47.7079,56 37.4427,56 Z M5.50098,3.13744 C5.73018,3.38255 5.82842,3.52962 5.95939,3.644 C15.7498,12.5334 25.5403,21.4228 35.3307,30.2959 C36.8042,31.6358 38.1794,31.6195 39.6692,30.2632 C49.4269,21.4228 59.1846,12.5661 68.9259,3.70937 C69.0897,3.5623 69.2206,3.38255 69.4498,3.1211 C48.0681,3.13744 26.85,3.13744 5.50098,3.13744 Z M30.3863,29.9527 C21.8074,37.3224 13.6542,45.019 5.40275,52.8462 C26.8664,52.8462 48.1172,52.8462 69.5808,52.8462 C61.2475,44.9863 53.1106,37.2571 44.5645,29.9364 C43.7622,30.6554 43.0419,31.309 42.3215,31.979 C39.2763,34.7896 35.7236,34.806 32.6948,32.028 C31.9581,31.3417 31.2049,30.6881 30.3863,29.9527 Z M71.8238,50.6402 C71.8238,35.4923 71.8238,20.4587 71.8238,5.21272 C63.4086,12.8439 55.1571,20.3443 46.9711,27.7794 C55.2553,35.3942 63.4741,42.96 71.8238,50.6402 Z M3.14342,50.6402 C11.4767,42.9764 19.6955,35.4106 27.9797,27.7957 C19.7937,20.3443 11.5422,12.8439 3.14342,5.19638 C3.14342,20.475 3.14342,35.5086 3.14342,50.6402 Z" id="Shape"></path>
-                </g>
-              </g>
-            </svg> */}
                 <svg
                   className="hidden w-8 h-8 sm:block"
                   width="76px"
@@ -78,7 +71,7 @@ const Kontakt = () => {
                   <Link href="mailto:info@damansdak.pl">info@damansdak.pl</Link>
                 </p>
               </div>
-              <div className="flex items-center mt-8 text-xl lg:w-1/3 lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl lg:mt-0 sm:space-x-6 text-primary">
                 <svg
                   className="hidden w-8 h-8 sm:block"
                   width="77px"
@@ -114,7 +107,7 @@ const Kontakt = () => {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center mt-8 text-xl lg:w-1/3 lg:mt-0 lg:ml-20 sm:space-x-6 text-primary">
+              <div className="flex items-center mt-8 text-xl lg:mt-0 sm:space-x-6 text-primary">
                 <svg
                   className="hidden w-8 h-8 sm:block"
                   width="77px"
@@ -152,7 +145,7 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col px-8 pb-8 mx-auto lg:my-8 lg:w-3/5 sm:px-0 sm:w-4/5">
+          <div className="flex flex-col px-8 mx-auto lg:my-8 lg:w-3/5 sm:px-0 sm:w-4/5">
             <div className="">
               <p className="z-40 text-3xl 2xl:text-4xl">Dział ofertowania</p>
               <div className="flex mt-2 font-serif text-lg font-light text-gray-500">
@@ -349,7 +342,7 @@ const Kontakt = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
+          <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-4/5 2xl:pb-32">
             <div className="">
               <div className="">
                 <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
@@ -387,8 +380,8 @@ const Kontakt = () => {
               </div>
             </div>
             <img
-              className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0"
-              src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png"
+              className="mx-auto mt-12 lg:w-8/12 sm:w-10/12 lg:mt-0"
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/mapa_europy.jpg"
               alt=""
             />
           </div>
