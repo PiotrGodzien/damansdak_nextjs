@@ -39,7 +39,7 @@ const LazyShow = ({ children }) => {
         opacity: 1,
         transition: {
           // y: { stiffness: 1000, velocity: -600 },
-          duration: "1"
+          duration: "0.75"
         },
         // animate: {
         //   scale: "2"

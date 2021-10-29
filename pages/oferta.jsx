@@ -17,7 +17,7 @@ const Oferta = () => {
           </div>
         </div>
         <div className="py-4 mb-6 bg-pattern"></div>
-        <LazyShow>
+        
           <section className="mt-20 lg:mb-16" id="stal">
             <div className="px-8 mx-auto lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png" alt="" />
@@ -31,8 +31,8 @@ const Oferta = () => {
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>
           </section>
-        </LazyShow>
-        <LazyShow>
+        
+        
           <section className="lg:my-16">
             <div className="px-8 mx-auto mt-20 lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png" alt="" />
@@ -47,8 +47,8 @@ const Oferta = () => {
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>
           </section>
-        </LazyShow>
-        <LazyShow>
+        
+        
           <section className="lg:mb-16">
             <div className="px-8 mx-auto mt-20 lg:flex lg:w-3/5 sm:px-0 sm:w-4/5">
               <img className="h-20" src="https://damansdak.s3.eu-central-1.amazonaws.com/hammer.png" alt="" />
@@ -72,13 +72,13 @@ const Oferta = () => {
               {/* <img className="" src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory4.jpg" alt="" /> */}
             </div>
           </section>
-        </LazyShow>
-        <LazyShow>
+        
+        
           <Cta />
-        </LazyShow>
-        <LazyShow>
+        
+        
           <Footer />
-        </LazyShow>
+        
         {/* REALIZACJE END */}
       </section>
     </>

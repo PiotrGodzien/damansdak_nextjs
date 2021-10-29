@@ -29,27 +29,27 @@ const Home = () => {
     <>
       <Navigation />
       <section className="lg:pt-20">
-        <div className="relative flex items-center py-36 text-center bg-cover overflow-hidden">
-          <img className="absolute bg-center object-cover w-full h-full" src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie1.jpg" alt="" />
+        <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
+          <img className="absolute object-cover w-full h-full bg-center" src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie1.jpg" alt="" />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-          <div className="relative max-w-4xl mx-auto px-4">
-            <p className="text-md text-white text-center lg:text-left font-light font-serif">REALIZACJA:</p>
-            <h2 className="text-3xl  lg:text-5xl text-center lg:text-left text-white font-heading">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy</h2>
+          <div className="relative max-w-4xl px-4 mx-auto">
+            <p className="font-serif font-light text-center text-white text-md lg:text-left">REALIZACJA:</p>
+            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">Kajima Poland Sp. z o.o. dla P3 Logistigs w Błoniu k. W-wy</h2>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
           <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
-          <div className="absolute inset-0 top-1/2 container px-4 mx-auto">
+          <div className="container absolute inset-0 px-4 mx-auto top-1/2">
             <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl  lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
+              <h2 className="text-3xl lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
             </div>
           </div>
         </div> */}
-        <div className="py-4 bg-pattern mb-6"></div>
-        <LazyShow>
+        <div className="py-4 mb-6 bg-pattern"></div>
+        
           <div className="mx-auto">
-            <div className="lg:w-3/5 sm:px-0 sm:w-4/5 px-8 mx-auto">
-              <p className="mb-6 text-3xl  lg:text-left lg:text-5xl font-heading">
+            <div className="px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
+              <p className="mb-6 text-3xl lg:text-left lg:text-5xl font-heading">
                 <CountUp start={33550} end={34000} duration={1.75} delay={0}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
@@ -63,19 +63,19 @@ const Home = () => {
 
             </div>
           </div>
-        </LazyShow>
+        
       </section>
       <Gallery />
-      <LazyShow>
+      
         <Cta />
-      </LazyShow>
+      
       {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div> */}
-      <LazyShow>
+      
         <Footer />
-      </LazyShow>
+      
 
     </>
   );

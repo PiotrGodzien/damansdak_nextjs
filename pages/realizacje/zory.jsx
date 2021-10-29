@@ -46,7 +46,7 @@ const Home = () => {
           </div>
         </div> */}
         <div className="py-4 mb-6 bg-pattern"></div>
-        <LazyShow>
+        
           <div className="mx-auto">
             <div className="px-8 mx-auto lg:w-3/5 sm:px-0 sm:w-4/5">
               <p className="mb-6 text-3xl lg:text-left lg:text-5xl font-heading">
@@ -63,19 +63,19 @@ const Home = () => {
 
             </div>
           </div>
-        </LazyShow>
+        
       </section>
       <Gallery />
-      <LazyShow>
+      
         <Cta />
-      </LazyShow>
+      
       {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div> */}
-      <LazyShow>
+      
         <Footer />
-      </LazyShow>
+      
 
     </>
   );

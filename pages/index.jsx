@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import LazyShow from './LazyShow';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from 'react-visibility-sensor';
@@ -9,6 +9,7 @@ import Footer from '../components/_footer';
 import Cta from '../components/_cta';
 import CarouselComponent from '../components/_carousel';
 import SwiperCarousel from '../components/_carousel';
+import Link from 'next/link';
 
 
 const Home = () => {
@@ -43,20 +44,20 @@ const Home = () => {
                       <h1 className="text-4xl sm:text-5xl 2xl:text-8xl">Dachy płaskie w technologii membran PVC i TPO</h1>
                       <p className="text-xl sm:text-3xl">Niezależnie od projektu, nasz zespół profesjonalistów jest gotowy, aby urzeczywistnić Twoje plany</p>
                       <div className="lg:flex lg:space-x-8">
-                        <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out border-2 border-primary bg-primary hover:border-black hover:bg-black">
+                        <Link href="/kontakt"><button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out border-2 border-primary bg-primary hover:border-black hover:bg-black">
                           <p className="sm:text-2xl">kontakt</p>
-                        </button></a>
-                        <Link
+                        </button></Link>
+                        {/* <Link
                           to="target"
                           spy={true}
                           smooth={true}
                           offset={-70}
                           duration={900}
                         >
-                          <button className="items-center justify-center hidden px-16 py-4 text-center transition duration-150 ease-in-out border-2 border-white lg:flex hover:bg-white hover:text-primary">
-                            <p className="lg:text-2xl"><a>więcej</a></p>
-                          </button>
-                        </Link>
+                          <a><button className="items-center justify-center hidden px-16 py-4 text-center transition duration-150 ease-in-out border-2 border-white lg:flex hover:bg-white hover:text-primary">
+                            <p className="lg:text-2xl">więcej</p>
+                          </button></a>
+                        </Link> */}
                       </div>
                     </div>
                   </LazyShow>
@@ -255,14 +256,14 @@ const Home = () => {
                 <h3 className="text-3xl sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Wykonywanie dachów stalowych.</p>
                 <div className="">
-                  <a href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
+                  <Link href="/oferta/"><button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                     zobacz więcej
                     <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                       <svg className="absolute w-12 h-12" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                         <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                       </svg>
                     </div>
-                  </button></a>
+                  </button></Link>
                 </div>
               </div>
             </LazyShow>
@@ -271,7 +272,7 @@ const Home = () => {
                 <h3 className="text-3xl sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">Renowacja dachów przemysłowych.</p>
                 <div className="relative z-40">
-                  <a href="/oferta/#renowacja">
+                  <Link href="/oferta/#renowacja">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                       zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -279,7 +280,7 @@ const Home = () => {
                           <path d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z" fill="currentColor" />
                         </svg>
                       </div>
-                    </button></a>
+                    </button></Link>
                 </div>
               </div>
             </LazyShow>
@@ -291,9 +292,9 @@ const Home = () => {
           <div className="py-8 bg-opacity-50 lg:py-32 bg-pattern">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
               <div className="text-3xl sm:text-4xl 2xl:text-5xl sm:w-2/3">Masz pytania? Zapraszamy do kontaktu</div>
-              <a href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
+              <Link href="/kontakt" className=""><button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
                 <p className="sm:text-2xl">kontakt</p>
-              </button></a>
+              </button></Link>
             </div>
           </div>
         </LazyShow>
@@ -309,7 +310,7 @@ const Home = () => {
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
             {/* REALIZACJA 1 */}
             <LazyShow>
-              <a href="/realizacje/lublin">
+              <Link href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto transition duration-300 ease-in-out bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -334,11 +335,11 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </LazyShow>
             {/* REALIZACJA 2 */}
             <LazyShow>
-              <a href="/realizacje/ruda-slaska">
+              <Link href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -363,11 +364,11 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </LazyShow>
             {/* REALIZACJA 3 */}
             <LazyShow>
-              <a href="/realizacje/blonie">
+              <Link href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg" layout="fill" alt="" className="" />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -392,7 +393,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-              </a>
+              </Link>
             </LazyShow>
             <a href="/realizacje/"><p className="relative z-40 text-xl cursor-pointer ">zobacz wszystkie realizacje &rarr;</p></a>
           </div>
@@ -419,9 +420,9 @@ const Home = () => {
           <div className="w-1/5 border-r border-gray-300 border-opacity-40"></div>
         </div> */}
         {/* LINES END */}
-      </main >
+      </main>
 
-    </div >
+    </div>
   );
 };
 
