@@ -10,6 +10,7 @@ import Cta from '../components/_cta';
 import CarouselComponent from '../components/_carousel';
 import SwiperCarousel from '../components/_carousel';
 import Link from 'next/link';
+import { NextSeo } from 'next-seo';
 
 
 const Home = () => {
@@ -30,9 +31,10 @@ const Home = () => {
   return (
     <div className="">
       <Navigation />
-      <Head>
-        <title>Damansdak – dachy płaskie w technologii membran PVC i TPO</title>
-      </Head>
+      {/* <NextSeo
+      title="Damansdak – dachy płaskie w technologii membran PVC i TPO"
+      description="Specjalizujemy się w wykonawstwie dachów płaskich w technologii membran PVC/TPO/FPO/EPDM zarówno nowych jak i renowacji starych pokryć o powierzchni od 1 000m2 do 200 000 m2."
+    /> */}
       <main className="relative bg-gray-50">
       <div className="relative z-0"><SwiperCarousel />
         <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
