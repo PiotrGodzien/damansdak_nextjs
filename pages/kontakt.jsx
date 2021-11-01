@@ -3,8 +3,11 @@ import Navigation from "../components/_nav";
 import Cta from "../components/_cta";
 import Footer from "../components/_footer";
 import { Link } from "react-scroll";
+import useTranslation from 'next-translate/useTranslation';
 
 const Kontakt = () => {
+  const { t, lang } = useTranslation('common');
+  const title = t('title');
   return (
     <>
       <Navigation />
