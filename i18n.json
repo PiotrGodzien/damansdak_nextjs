@@ -1,0 +1,10 @@
+{
+  "locales": [
+    "pl",
+    "en"
+  ],
+  "defaultLocale": "pl",
+  "pages": {
+    "*": ["common"]
+  }
+}
