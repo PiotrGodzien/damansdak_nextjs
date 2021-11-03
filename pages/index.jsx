@@ -51,7 +51,7 @@ const Home = () => {
                     <div className="lg:flex lg:space-x-8">
                       <Link href="/kontakt">
                         <button className="flex items-center justify-center px-16 py-4 text-white transition duration-150 ease-in-out border-2 border-primary bg-primary hover:border-black hover:bg-black">
-                          <p className="sm:text-2xl">{t("kontakt")}</p>
+                          <p className="sm:text-2xl">kontakt</p>
                         </button>
                       </Link>
                       {/* <Link
@@ -264,21 +264,21 @@ const Home = () => {
                 {t("Oferta")}
               </div>
               <p className="mt-6 font-serif text-lg font-light text-gray-500 lg:w-10/12">
-                {t("homeOffer")}
+                Dachy płaskie w technologii membran PVC i TPO.
               </p>
             </div>
           </LazyShow>
           <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">{t("Dachybetonowe")}</h3>
+                <h3 className="text-3xl sm:text-4xl">Dachy betonowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Wykonywanie dachów betonowych.
                 </p>
                 <div className="">
                   <a href="/oferta/#beton">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
-                      {t("zobaczwiecej")}
+                      zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                         <svg
                           className="absolute w-12 h-12"
@@ -300,14 +300,14 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">{t("Dachystalowe")}</h3>
+                <h3 className="text-3xl sm:text-4xl">Dachy stalowe</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Wykonywanie dachów stalowych.
                 </p>
                 <div className="">
                   <Link href="/oferta/">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
-                      {t("zobaczwiecej")}
+                      zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                         <svg
                           className="absolute w-12 h-12"
@@ -329,16 +329,14 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">
-                  {t("Serwis/renonwacje")}
-                </h3>
+                <h3 className="text-3xl sm:text-4xl">Serwis / renowacje</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Renowacja dachów przemysłowych.
                 </p>
                 <div className="relative z-40">
                   <Link href="/oferta/#renowacja">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
-                      {t("zobaczwiecej")}
+                      zobacz więcej
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                         <svg
                           className="absolute w-12 h-12"
@@ -370,7 +368,7 @@ const Home = () => {
               </div>
               <Link href="/kontakt" className="">
                 <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
-                  <p className="sm:text-2xl">{t("kontakt")}</p>
+                  <p className="sm:text-2xl">kontakt</p>
                 </button>
               </Link>
             </div>
@@ -382,7 +380,7 @@ const Home = () => {
         <div className="py-4 bg-white lg:py-16">
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
             <div className="w-1/3 pb-8 text-3xl sm:pb-16 sm:text-5xl 2xl:text-7xl">
-              {t("Realizacje")}
+              Realizacje
             </div>
           </div>
 
@@ -399,22 +397,18 @@ const Home = () => {
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto transition duration-300 ease-in-out bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                      {t("Miejsce")}
-                      <b>Lublin</b>
+                      Miejsce: <b>Lublin</b>
                       <br></br>
-                      {t("Powierzchnia")}
-                      <b>36 000 m²</b>
+                      Powierzchnia: <b>36 000 m²</b>
                       <br></br>
-                      {t("Generalnywykonawca")}
-                      <b>Bremer Sp. z o.o.</b>
+                      Generalny wykonawca: <b>Bremer Sp. z o.o.</b>
                       <br></br>
-                      {t("Inwestor")}
-                      <b>7R</b>
+                      Inwestor: <b>7R</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/lublin">
                         <button className="flex items-center justify-center">
-                          {t("zobaczwiecej")}
+                          zobacz więcej
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                             <svg
                               className="absolute w-8 h-8"
@@ -448,22 +442,18 @@ const Home = () => {
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                      {t("Miejsce")}
-                      <b>Ruda Śląska</b>
+                      Miejsce: <b>Ruda Śląska</b>
                       <br></br>
-                      {t("Powierzchnia")}
-                      <b>60 000 m²</b>
+                      Powierzchnia: <b>60 000 m²</b>
                       <br></br>
-                      {t("Generalnywykonawca")}
-                      <b>Kajima Poland Sp. z o.o.</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
                       <br></br>
-                      {t("Inwestor")}
-                      <b>Panattoni</b>
+                      Inwestor: <b>Panattoni</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/ruda-slaska">
                         <button className="flex items-center justify-center">
-                          {t("zobaczwiecej")}
+                          zobacz więcej
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                             <svg
                               className="absolute w-8 h-8"
@@ -497,22 +487,18 @@ const Home = () => {
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                      {t("Miejsce")}
-                      <b>Błonie k. W-wy</b>
+                      Miejsce: <b>Błonie k. W-wy</b>
                       <br></br>
-                      {t("Powierzchnia")}
-                      <b>34 000 m²</b>
+                      Powierzchnia: <b>34 000 m²</b>
                       <br></br>
-                      {t("Generalnywykonawca")}
-                      <b>Kajima Poland Sp. z o.o.</b>
+                      Generalny wykonawca: <b>Kajima Poland Sp. z o.o.</b>
                       <br></br>
-                      {t("Inwestor")}
-                      <b>P3 Logistigs</b>
+                      Inwetor: <b>P3 Logistigs</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                       <a href="/realizacje/blonie">
                         <button className="flex items-center justify-center">
-                          {t("zobaczwiecej")}
+                          zobacz więcej
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                             <svg
                               className="absolute w-8 h-8"
@@ -536,7 +522,7 @@ const Home = () => {
             </LazyShow>
             <a href="/realizacje/">
               <p className="relative z-40 text-xl cursor-pointer ">
-                {t("zobaczwszystkierealizacje")} &rarr;
+                zobacz wszystkie realizacje &rarr;
               </p>
             </a>
           </div>
