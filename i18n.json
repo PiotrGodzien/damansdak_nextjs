@@ -1,7 +1,8 @@
 {
   "locales": [
     "pl",
-    "en"
+    "en",
+    "de"
   ],
   "defaultLocale": "pl",
   "pages": {
