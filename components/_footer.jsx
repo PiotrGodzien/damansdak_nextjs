@@ -169,7 +169,7 @@ const Footer = () => {
         <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a>
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="link">Certyfikowana<br></br> firma</a></p>
       </div> */}
-      <footer className="relative z-50 flex flex-col items-center justify-between w-4/5 py-10 mx-auto text-gray-500 lg:flex-row">
+      <footer className="relative z-50 flex flex-col items-center justify-between px-12 py-10 mx-auto text-gray-500 lg:flex-row">
         <div className="relative z-40 flex items-center space-x-4 lg:space-x-6">
           <Link href="https://www.facebook.com/DamansDakPolska">
             <a target="_blank">
@@ -218,22 +218,22 @@ const Footer = () => {
             </a>
           </Link>
         </div>
-        <p className="hidden mt-4 space-x-8 2xl:space-x-16 sm:flex lg:mt-0">
+        <p className="hidden mt-4 space-x-8 text-sm uppercase 2xl:space-x-16 sm:flex lg:mt-0">
           <div className="">
-            <Link href="/oferta">OFERTA</Link>
+            <Link href="/oferta">{t("oferta")}</Link>
           </div>
           <div className="">
-            <Link href="/o-nas">O NAS</Link>
+            <Link href="/o-nas">{t("Onas")}</Link>
           </div>
           <div className="">
-            <Link href="/realizacje">REALIZACJE</Link>
+            <Link href="/realizacje">{t("Realizacje")}</Link>
           </div>
           {/* <div className=""><Link href="/kariera">KARIERA</Link></div> */}
           <div className="">
-            <Link href="/kontakt">KONTAKT</Link>
+            <Link href="/kontakt">{t("Kontakt")}</Link>
           </div>
         </p>
-        <div className="mt-5 lg:mt-0">
+        <div className="mt-5 text-sm lg:mt-0">
           ©2021 All right reserved | Stworzone na Podkarpaciu przez
           <a href="https://otherland.pl" target="_blank">
             <svg

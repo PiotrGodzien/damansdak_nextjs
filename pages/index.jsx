@@ -103,7 +103,7 @@ const Home = () => {
               <div className="flex flex-col items-center justify-between lg:flex-row">
                 <div className="lg:w-1/2 lg:pr-10">
                   <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
-                    Damansdak Polska
+                    Damansdak {t("Polska")}
                   </h1>
                   <p className="my-4 font-serif text-lg font-light text-gray-500">
                     {t("homeAbout")}
@@ -330,7 +330,7 @@ const Home = () => {
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl sm:text-4xl">
-                  {t("Serwis/renonwacje")}
+                  {t("Serwis/renowacje")}
                 </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Renowacja dachów przemysłowych.

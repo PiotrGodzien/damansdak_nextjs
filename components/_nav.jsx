@@ -1,9 +1,11 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import SwitchLanguage from "./_switchLanguage";
+import useTranslation from "next-translate/useTranslation";
 
 const Navigation = () => {
   const [visible, setVisible] = useState(false);
+  const { t, lang } = useTranslation("common");
   return (
     <>
       <div className="fixed top-0 z-50 w-full py-3 mx-auto text-xl text-white bg-black lg:py-6">
@@ -17,22 +19,22 @@ const Navigation = () => {
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-12 lg:flex">
+            <div className="items-center hidden space-x-8 text-sm 2xl:text-lg lg:flex">
               <div className="">
-                <Link href="/">Strona główna</Link>
+                <Link href="/">{t("Stronaglowna")}</Link>
               </div>
               <div className="">
-                <Link href="/oferta">Oferta</Link>
+                <Link href="/oferta">{t("Oferta")}</Link>
               </div>
               <div className="">
-                <Link href="/o-nas">O nas</Link>
+                <Link href="/o-nas">{t("Onas")}</Link>
               </div>
               <div className="">
-                <Link href="/realizacje">Realizacje</Link>
+                <Link href="/realizacje">{t("Realizacje")}</Link>
               </div>
               {/* <div className=""><Link href="/kariera">Kariera</Link></div> */}
               <div className="">
-                <Link href="/kontakt">Kontakt</Link>
+                <Link href="/kontakt">{t("Kontakt")}</Link>
               </div>
               <div className="flex space-x-4">
                 <div className="flex items-center">
