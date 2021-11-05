@@ -76,9 +76,8 @@ const Navigation = () => {
           </div>
         </nav>
         <div
-          className={`${
-            visible ? "block" : "hidden"
-          }  z-50 h-screen sm:h-full bg-black`}
+          className={`${visible ? "block" : "hidden"
+            }  z-50 h-screen sm:h-full bg-black`}
         >
           <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
             <div className="">
@@ -111,6 +110,7 @@ const Navigation = () => {
                 </a>
               </Link>
             </div>
+            <SwitchLanguage />
           </div>
         </div>
       </div>
