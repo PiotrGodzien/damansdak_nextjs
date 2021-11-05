@@ -19,7 +19,7 @@ const Navigation = () => {
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-8 text-sm 2xl:text-lg lg:flex">
+            <div className="items-center hidden space-x-8 text-base 2xl:text-lg lg:flex">
               <div className="">
                 <Link href="/">{t("Stronaglowna")}</Link>
               </div>

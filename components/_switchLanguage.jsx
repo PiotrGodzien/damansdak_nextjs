@@ -26,7 +26,7 @@ const SwitchLanguage = () => {
               {/* {t(`${flags}`)} */}
               <img
                 alt=""
-                className="h-6 border border-white w-9"
+                className="w-6 h-4 border border-white"
                 src={`https://damansdak.s3.eu-central-1.amazonaws.com/${codeToCountry(
                   lng
                 )}.png`}
