@@ -81,20 +81,20 @@ const Navigation = () => {
         >
           <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
             <div className="">
-              <Link href="/">Strona główna</Link>
+              <Link href="/">{t("Stronaglowna")}</Link>
             </div>
             <div className="">
-              <Link href="/oferta">Oferta</Link>
+              <Link href="/oferta">{t("Oferta")}</Link>
             </div>
             <div className="">
-              <Link href="/o-nas">O nas</Link>
+              <Link href="/o-nas">{t("Onas")}</Link>
             </div>
             <div className="">
-              <Link href="/realizacje">Realizacje</Link>
+              <Link href="/realizacje">{t("Realizacje")}</Link>
             </div>
             {/* <div className=""><Link href="/kariera">Kariera</Link></div> */}
             <div className="">
-              <Link href="/kontakt">Kontakt</Link>
+              <Link href="/kontakt">{t("Kontakt")}</Link>
             </div>
             <div className="flex mt-6 space-x-4">
               {/* <img alt="" className="h-6 border border-white w-9" src="https://damansdak.s3.eu-central-1.amazonaws.com/germany.png" layout='fill' />
