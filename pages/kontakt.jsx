@@ -29,9 +29,7 @@ const Kontakt = () => {
             </h2>
           </div>
         </div>
-
         <div className="py-4 mb-6 bg-pattern"></div>
-
         <div className="px-8 py-8 mx-auto lg:my-16 lg:w-3/5 sm:px-0 sm:w-4/5">
           <div className="text-3xl lg:w-1/3 sm:text-5xl 2xl:text-7xl">
             {t("Kontakt")}
@@ -344,7 +342,7 @@ const Kontakt = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-4/5 2xl:pb-32">
+        {/* <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-4/5 2xl:pb-32">
           <div className="">
             <div className="">
               <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
@@ -382,17 +380,16 @@ const Kontakt = () => {
             </div>
           </div>
           <img
-            className="mx-auto mt-12 lg:w-8/12 sm:w-10/12 lg:mt-0"
-            src="https://damansdak.s3.eu-central-1.amazonaws.com/mapa_europy.jpg"
+            className="mt-12 x-auto lg:w-5/12 sm:w-10/12 lg:mt-0"
+            src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png"
             alt=""
           />
-        </div>
-
+        </div> */}
         {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div> */}
-
+        <Cta />
         <Footer />
       </section>
     </>
