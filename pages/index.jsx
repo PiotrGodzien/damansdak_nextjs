@@ -129,7 +129,39 @@ const Home = () => {
                     </div>
                   </div> */}
                 </div>
-                <div className="relative flex mx-auto">
+                <div className="relative lg:p-8 lg:w-2/3">
+                  {/* <div className="absolute bottom-0 right-0 w-2/3 bg-white h-2/3"></div> */}
+                  <div className="relative bg-bottom bg-herobanner md:max-w-xl lg:max-w-2xl lg:ml-auto">
+                  
+                  <div className="absolute inset-0 m-12 bg-black bg-opacity-60"></div>
+                  {/* <div className="absolute inset-0 m-3 border-2 border-black"></div> */}
+                  <div className="absolute bg-pattern -top-10 -right-10"></div>
+                    <div className="relative z-10 p-8 md:p-24">
+                      <span className="mb-4 text-2xl text-white">
+                        {t("textCount")}
+                      </span>
+                      <div className="flex items-end mt-6 mb-6">
+                      <h2 className="text-4xl font-bold text-white lg:text-8xl font-heading">
+                        <CountUp
+                          start={478500}
+                          end={479000}
+                          separator=" "
+                          duration={1.75}
+                          delay={0}
+                        >
+                          {({ countUpRef, start }) => (
+                            <VisibilitySensor onChange={start} delayedCall>
+                              <span ref={countUpRef} />
+                            </VisibilitySensor>
+                          )}
+                        </CountUp>
+                      </h2>
+                      <span className="ml-3 text-white lg:text-3xl">{t('mCount')}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="relative flex mx-auto">
                   <div className="relative hidden border-r-8 lg:block border-gray-50 ">
                     <img
                       className="w-72 "
@@ -190,13 +222,40 @@ const Home = () => {
                       <p className="ml-2 text-center">{t("mCount")}</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 {/* <img src="https://damansdak.s3.eu-central-1.amazonaws.com/d.png" className="hidden h-80 lg:block" alt="" /> */}
               </div>
             </div>
           </div>
         </LazyShow>
+        {/* <section className="bg-no-repeat bg-cover bg-herobanner">
+          <div className="relative p-8 ml-auto lg:w-2/3">
+            <div className="absolute bottom-0 right-0 w-2/3 bg-white h-2/3"></div>
+            <div className="relative bg-black bg-opacity-50 md:max-w-xl lg:max-w-2xl lg:ml-auto">
+              <div className="relative z-10 p-8 md:p-24">
+                <span className="mb-4 text-2xl text-white">
+                  {t("textCount")}
+                </span>
+                <h2 className="mt-6 mb-6 font-bold text-center text-white text-8xl font-heading">
+                  <CountUp
+                    start={478500}
+                    end={479000}
+                    separator=" "
+                    duration={1.75}
+                    delay={0}
+                  >
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section> */}
         {/* O NAS END */}
         {/* OFERTA */}
         {/* <LazyShow>
