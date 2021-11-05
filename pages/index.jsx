@@ -133,7 +133,7 @@ const Home = () => {
                   {/* <div className="absolute bottom-0 right-0 w-2/3 bg-white h-2/3"></div> */}
                   <div className="relative bg-bottom bg-herobanner md:max-w-xl lg:max-w-2xl lg:ml-auto">
                   
-                  <div className="absolute inset-0 m-12 bg-black bg-opacity-60"></div>
+                  <div className="absolute inset-0 w-full h-full m-6 bg-primary mix-blend-multiply"></div>
                   {/* <div className="absolute inset-0 m-3 border-2 border-black"></div> */}
                   <div className="absolute bg-pattern -top-10 -right-10"></div>
                     <div className="relative z-10 p-8 md:p-24">
