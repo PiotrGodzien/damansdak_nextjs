@@ -330,7 +330,7 @@ const Home = () => {
           <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">{t("Dachybetonowe")}</h3>
+                <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachybetonowe")}</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Wykonywanie dachów betonowych.
                 </p>
@@ -359,7 +359,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">{t("Dachystalowe")}</h3>
+                <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachystalowe")}</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
                   Wykonywanie dachów stalowych.
                 </p>
@@ -388,7 +388,7 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-t-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl sm:text-4xl">
+                <h3 className="text-3xl uppercase sm:text-4xl">
                   {t("Serwis/renowacje")}
                 </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
@@ -424,8 +424,8 @@ const Home = () => {
         <LazyShow>
           <div className="py-8 bg-opacity-50 lg:py-32 bg-pattern">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
-              <div className="text-3xl sm:text-4xl 2xl:text-5xl sm:w-2/3">
-                Masz pytania? Zapraszamy do kontaktu
+              <div className="mr-4 text-3xl sm:text-4xl 2xl:text-5xl sm:w-2/3">
+                {t('homeCta')}
               </div>
               <Link href="/kontakt" className="">
                 <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">

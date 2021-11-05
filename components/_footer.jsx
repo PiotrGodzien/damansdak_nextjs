@@ -52,8 +52,7 @@ const Footer = () => {
         </div>
         <div className="py-12 mx-auto lg:w-3/5 lg:py-40">
           <p className="px-8 mx-auto text-2xl text-white lg:w-11/12 lg:px-0">
-            Zapraszamy do kontaktu z nami. Nasi specjaliści zajmą się
-            profesjonalnym doradztwem oraz wyceną projektów.
+            {t("footerText")}
           </p>
           <div className="mt-8 sm:mt-16">
             <div className="flex flex-col justify-around px-8 mx-auto mt-8 sm:flex-row lg:px-0 lg:w-11/12">

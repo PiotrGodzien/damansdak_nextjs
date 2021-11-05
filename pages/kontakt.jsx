@@ -21,11 +21,11 @@ const Kontakt = () => {
           {/* <iframe className="absolute object-cover w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.973442903214!2d22.79102311597204!3d49.78656434285714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7ed66bd661fd%3A0x9eeaeeb0562b92d6!2sLudwika%20Mieros%C5%82awskiego%2014%2C%2037-700%20Przemy%C5%9Bl!5e0!3m2!1sen!2spl!4v1634564564450!5m2!1sen!2spl" width="1920" height="600" loading="lazy"></iframe> */}
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
-            <p className="font-serif font-light text-center text-white text-md lg:text-left">
-              KONTAKT
+            <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
+              {t("Kontakt")}
             </p>
             <h2 className="text-3xl text-white lg:text-5xl font-heading">
-              Zapraszamy do kontaktu z nami
+              {t("contactSlider")}
             </h2>
           </div>
         </div>
