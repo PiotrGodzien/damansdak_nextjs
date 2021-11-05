@@ -42,6 +42,10 @@ const Onas = () => {
             <p className="mt-6 space-y-6 font-serif text-xl font-bold">
               {t("aboutCta")}
             </p>
+            <img
+              className="mx-auto mt-12 lg:w-8/12 sm:w-10/12"
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/mapa_europy.jpg"
+            />
           </div>
           <div className="flex flex-col items-stretch py-20 lg:w-5/12 bg-pattern">
             {/* <div className="pb-6 text-3xl sm:text-5xl 2xl:text-7xl">Nasz zespół</div> */}
