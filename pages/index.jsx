@@ -332,7 +332,7 @@ const Home = () => {
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachybetonowe")}</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  Wykonywanie dachów betonowych.
+                {t('homeBeton')}
                 </p>
                 <div className="">
                   <a href="/oferta/#beton">
@@ -361,7 +361,7 @@ const Home = () => {
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachystalowe")}</h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  Wykonywanie dachów stalowych.
+                {t('homeStal')}
                 </p>
                 <div className="">
                   <Link href="/oferta/">
@@ -392,7 +392,7 @@ const Home = () => {
                   {t("Serwis/renowacje")}
                 </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  Renowacja dachów przemysłowych.
+                  {t('homeSerwis')}
                 </p>
                 <div className="relative z-40">
                   <Link href="/oferta/#renowacja">
