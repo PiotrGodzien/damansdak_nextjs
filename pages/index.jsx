@@ -86,7 +86,9 @@ const Home = () => {
                   </p>
                   </div>
             </div>
-            <div className="object-cover w-full bg-fixed bg-middle-center py-28 lg:w-1/2 bg-paralaxImage">
+            <div className="w-1/2">
+            <div className="object-cover h-full bg-fixed bg-no-repeat bg-paralaxImage">
+            </div>
             </div>
           </div>
 
