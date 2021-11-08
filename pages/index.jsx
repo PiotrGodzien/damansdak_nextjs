@@ -75,51 +75,44 @@ const Home = () => {
 
         <LazyShow>
           {/* O NAS */}
-          <div className="flex flex-col mx-auto lg:flex-row" id="target">
-            <div className="py-8 lg:py-32 2xl:py-56 lg:w-1/2">
+          <div className="text-gray-100 hidden lg:block z-0 w-4/5 text-center -mb-28 relative text-9xl font-black mx-auto">DOŚWIADCZENIE</div>
+          <div className="lg:w-4/5  relative z-10 pt-16 pb-4 mx-auto lg:flex-row" id="target">
             <div className="px-4 mx-auto lg:px-0 lg:w-2/3">
-            <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
-                    Damansdak {t("Polska")}
-                  </h1>
-                  <p className="my-4 font-serif text-lg font-light text-gray-500">
-                    {t("homeAbout")}
-                  </p>
-                  </div>
+              <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
+                Damansdak {t("Polska")}
+              </h1>
+              <p className="my-4 font-serif text-lg font-light text-gray-500">
+                {t("homeAbout")}
+              </p>
             </div>
-            <div className="relative w-1/2">
-            <div className="h-full bg-fixed bg-right bg-no-repeat bg-contain bg-paralaxImage">
-            {/* <div className="absolute inset-0"></div> */}
-            {/* <img className="fixed" src="https://damansdak.s3.eu-central-1.amazonaws.com/parallax_img.jpg" alt="" /> */}
-            </div>
-            </div>
-            </div>
-          
-
-          <div className="flex px-4 py-16 bg-black lg:px-0">
-          <div className="flex flex-col items-center justify-center mx-auto lg:flex-row">
-            <div className="text-center lg:w-1/2">
-            <span className="text-2xl text-white">
-                        {t("textCount")}
-                      </span>
-            </div>
-            <div className="mt-4 text-center lg:mt-0 lg:w-1/2">
-              <h2 className="text-4xl font-bold text-white lg:text-6xl font-heading">
-                          <CountUp
-                            start={478500}
-                            end={479000}
-                            separator=" "
-                            duration={1.75}
-                            delay={0}
-                          >
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                        </h2>
-                        <span className="ml-3 text-white lg:text-3xl">{t('mCount')}</span>
-            </div>
+          </div>
+          <div className="relative flex lg:w-3/5 mx-auto">
+            <img className="relative mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg" alt="" />
+            <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+            <div className="absolute inset-0 px-4 lg:px-0 flex flex-col items-center justify-center mx-auto lg:w-2/5">
+              <div className="text-center">
+                <span className="lg:text-2xl text-white">
+                  {t("textCount")}
+                </span>
+              </div>
+              <div className="mt-4 text-center lg:mt-0">
+                <h2 className="text-4xl font-bold text-white lg:text-6xl font-heading">
+                  <CountUp
+                    start={478500}
+                    end={479000}
+                    separator=" "
+                    duration={1.75}
+                    delay={0}
+                  >
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+                <span className="ml-3 text-white lg:text-3xl">{t('mCount')}</span>
+              </div>
             </div>
           </div>
 
@@ -465,7 +458,7 @@ const Home = () => {
           <Footer />
         </LazyShow>
       </main>
-    </div>
+    </div >
   );
 };
 
