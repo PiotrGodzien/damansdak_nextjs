@@ -89,7 +89,7 @@ const Home = () => {
           <div className="relative flex lg:w-3/5 mx-auto">
             <img className="relative mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg" alt="" />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-            <div className="absolute inset-0 px-4 lg:px-0 flex flex-col items-center justify-center mx-auto lg:w-2/5">
+            <div className="absolute inset-0 px-4 lg:px-0 flex flex-col items-center justify-center mx-auto lg:w-3/5">
               <div className="text-center">
                 <span className="lg:text-2xl text-white">
                   {t("textCount")}
