@@ -87,7 +87,7 @@ const Home = () => {
                   </div>
             </div>
             <div className="w-1/2">
-            <div className="object-cover h-full bg-fixed bg-no-repeat bg-paralaxImage">
+            <div className="h-full bg-fixed bg-red-500 bg-right bg-no-repeat bg-contain bg-paralaxImage">
             </div>
             </div>
           </div>
