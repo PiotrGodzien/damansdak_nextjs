@@ -39,9 +39,9 @@ const Onas = () => {
                   <p>{aboutText}</p>
                 ))}
             </div>
-            <p className="mt-6 space-y-6 font-serif text-xl font-bold">
+            {/* <p className="mt-6 space-y-6 font-serif text-xl font-bold">
               {t("aboutCta")}
-            </p>
+            </p> */}
             <img
               className="mx-auto mt-12 lg:w-8/12 sm:w-10/12"
               src="https://damansdak.s3.eu-central-1.amazonaws.com/mapa_europy.jpg"
