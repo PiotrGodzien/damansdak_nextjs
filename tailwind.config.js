@@ -20,7 +20,7 @@ module.exports = {
         pattern:
           "url('https://damansdak.s3.eu-central-1.amazonaws.com/pattern_dark.jpg')",
         paralaxImage:
-          "url('https://damansdak.s3.eu-central-1.amazonaws.com/parallax_img.jpg')",
+          "url('https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg')",
       },
     },
   },

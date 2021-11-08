@@ -75,8 +75,8 @@ const Home = () => {
 
         <LazyShow>
           {/* O NAS */}
-          <div className="flex flex-col lg:flex-row" id="target">
-            <div className="py-8 lg:py-32 lg:w-1/2">
+          <div className="flex flex-col mx-auto lg:flex-row" id="target">
+            <div className="py-8 lg:py-32 2xl:py-56 lg:w-1/2">
             <div className="px-4 mx-auto lg:px-0 lg:w-2/3">
             <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
                     Damansdak {t("Polska")}
@@ -86,11 +86,14 @@ const Home = () => {
                   </p>
                   </div>
             </div>
-            <div className="w-1/2">
-            <div className="h-full bg-fixed bg-red-500 bg-right bg-no-repeat bg-contain bg-paralaxImage">
+            <div className="relative w-1/2">
+            <div className="h-full bg-fixed bg-right bg-no-repeat bg-contain bg-paralaxImage">
+            {/* <div className="absolute inset-0"></div> */}
+            {/* <img className="fixed" src="https://damansdak.s3.eu-central-1.amazonaws.com/parallax_img.jpg" alt="" /> */}
             </div>
             </div>
-          </div>
+            </div>
+          
 
           <div className="flex px-4 py-16 bg-black lg:px-0">
           <div className="flex flex-col items-center justify-center mx-auto lg:flex-row">
