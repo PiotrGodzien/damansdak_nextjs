@@ -75,7 +75,50 @@ const Home = () => {
 
         <LazyShow>
           {/* O NAS */}
-          <div className="-mt-14" id="target"></div>
+          <div className="flex flex-col lg:flex-row" id="target">
+            <div className="py-8 lg:py-32 lg:w-1/2">
+            <div className="px-4 mx-auto lg:px-0 lg:w-2/3">
+            <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
+                    Damansdak {t("Polska")}
+                  </h1>
+                  <p className="my-4 font-serif text-lg font-light text-gray-500">
+                    {t("homeAbout")}
+                  </p>
+                  </div>
+            </div>
+            <div className="object-cover w-full bg-fixed bg-middle-center py-28 lg:w-1/2 bg-paralaxImage">
+            </div>
+          </div>
+
+          <div className="flex px-4 py-16 bg-black lg:px-0">
+          <div className="flex flex-col items-center justify-center mx-auto lg:flex-row">
+            <div className="text-center lg:w-1/2">
+            <span className="text-2xl text-white">
+                        {t("textCount")}
+                      </span>
+            </div>
+            <div className="mt-4 text-center lg:mt-0 lg:w-1/2">
+              <h2 className="text-4xl font-bold text-white lg:text-6xl font-heading">
+                          <CountUp
+                            start={478500}
+                            end={479000}
+                            separator=" "
+                            duration={1.75}
+                            delay={0}
+                          >
+                            {({ countUpRef, start }) => (
+                              <VisibilitySensor onChange={start} delayedCall>
+                                <span ref={countUpRef} />
+                              </VisibilitySensor>
+                            )}
+                          </CountUp>
+                        </h2>
+                        <span className="ml-3 text-white lg:text-3xl">{t('mCount')}</span>
+            </div>
+            </div>
+          </div>
+
+          {/* <div className="-mt-14" id="target"></div>
           <div className="flex pt-32 pb-16 2xl:py-32">
             <div className="px-8 mx-auto lg:px-0 sm:w-4/5">
               <div className="flex flex-col items-center justify-between lg:flex-row">
@@ -88,17 +131,17 @@ const Home = () => {
                   </p>
                 </div>
                 <div className="relative lg:p-8 lg:w-2/3">
-                  {/* <div className="absolute bottom-0 right-0 w-2/3 bg-white h-2/3"></div> */}
+                  
                   <div className="relative bg-bottom bg-herobanner md:max-w-xl lg:max-w-2xl lg:ml-auto">
 
                     <div className="absolute inset-0 w-full h-full bg-primary mix-blend-multiply"></div>
-                    {/* <div className="absolute inset-0 m-3 border-2 border-black"></div> */}
+                    
                     <div className="absolute bg-pattern -top-10 -right-10"></div>
-                    <div className="relative text-center z-10 p-8 md:p-24">
+                    <div className="relative z-10 p-8 text-center md:p-24">
                       <span className="mb-4 text-2xl text-white">
                         {t("textCount")}
                       </span>
-                      <div className="flex flex-wrap justify-center items-end mt-6 mb-6">
+                      <div className="flex flex-wrap items-end justify-center mt-6 mb-6">
                         <h2 className="text-4xl font-bold text-white lg:text-6xl font-heading">
                           <CountUp
                             start={478500}
@@ -121,7 +164,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </LazyShow>
         <section className="box-border relative pt-8 mx-auto leading-7 text-gray-900 bg-white lg:pb-16">
           <LazyShow>
