@@ -87,7 +87,7 @@ const Home = () => {
             </div>
           </div>
           <div className="relative flex lg:w-3/5 mx-auto">
-            <img className="relative mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg" alt="" />
+            <img className="relative mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/home_parallax.webp" alt="Zdjęcie realizacji dachu" />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             <div className="absolute inset-0 px-4 lg:px-0 flex flex-col items-center justify-center mx-auto lg:w-3/5">
               <div className="text-center">
@@ -299,9 +299,9 @@ const Home = () => {
               <Link href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg"
+                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/lublin_realizacja.webp"
                     layout="fill"
-                    alt=""
+                    alt="Realizacja dachu w Lublinie"
                     className=""
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto transition duration-300 ease-in-out bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -348,9 +348,9 @@ const Home = () => {
               <Link href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg"
+                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/ruda_slaska_realizacja.webp"
                     layout="fill"
-                    alt=""
+                    alt="Realizacja dachu w Rudzie Śląskiej"
                     className=""
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -397,9 +397,9 @@ const Home = () => {
               <Link href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg"
+                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/blonie_realizacja.webp"
                     layout="fill"
-                    alt=""
+                    alt="Realizacja dachu w Błoniach"
                     className=""
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
