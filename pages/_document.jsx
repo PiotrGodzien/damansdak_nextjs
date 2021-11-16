@@ -17,6 +17,7 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Blinker:wght@400;700&family=Lato:wght@300;400&display=swap"
           />
+          <meta name="google-site-verification" content="xXCEWAfdBPhefjp9dCqR96QizmSoh3V6Fub2yNrX-fA" />
         </Head>
         <body>
           <Main />
