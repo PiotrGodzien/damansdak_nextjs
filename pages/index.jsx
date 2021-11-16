@@ -11,6 +11,7 @@ import SwiperCarousel from "../components/_carousel";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import useTranslation from "next-translate/useTranslation";
+import Image from 'next/image';
 
 const Home = () => {
   const [small, setSmall] = useState(false);
@@ -105,7 +106,7 @@ const Home = () => {
           <div className="relative flex mx-auto lg:w-3/5">
             <img
               className="relative mx-auto"
-              src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/home_parallax.webp"
+              src="/home_parallax.webp"
               alt="Zdjęcie realizacji dachu"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
