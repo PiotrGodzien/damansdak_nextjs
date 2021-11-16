@@ -16,11 +16,11 @@ module.exports = {
       },
       backgroundImage: {
         herobanner:
-          "url('https://damansdak.s3.eu-central-1.amazonaws.com/hero.jpeg')",
+          "url('/hero.webp')",
         pattern:
-          "url('https://damansdak.s3.eu-central-1.amazonaws.com/pattern_dark.jpg')",
+          "url('/pattern_dark.webp')",
         paralaxImage:
-          "url('https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg')",
+          "url('/home_parallax.webp')",
       },
       backgroundVideo: {
         herovideo:

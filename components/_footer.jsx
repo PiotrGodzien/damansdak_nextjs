@@ -165,7 +165,8 @@ const Footer = () => {
       </div>
       {/* CERTIFICATE */}
       {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-        <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.webp" /></a>
+        <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.webp"
+        layout="responsive" /></a>
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="link">Certyfikowana<br></br> firma</a></p>
       </div> */}
       <footer className="relative z-50 flex flex-col items-center justify-between px-12 py-10 mx-auto text-gray-500 lg:flex-row">
@@ -175,7 +176,10 @@ const Footer = () => {
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Facebook_black.webp"
-                alt=""
+                layout="responsive"
+                alt="Facebook"
+                width={72}
+                height={72}
               />
             </a>
           </Link>
@@ -184,16 +188,19 @@ const Footer = () => {
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Linkedin_black.webp"
+                layout="responsive"
                 alt=""
               />
             </a>
           </Link>
-          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="/Instagram_black.webp" alt="" /></a></Link> */}
+          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="/Instagram_black.webp"
+          layout="responsive" alt="" /></a></Link> */}
           <Link href="https://www.tiktok.com/@damans_dak">
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/TikTok_black.webp"
+                layout="responsive"
                 alt=""
               />
             </a>
@@ -203,6 +210,7 @@ const Footer = () => {
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/YouTube_black.webp"
+                layout="responsive"
                 alt=""
               />
             </a>
@@ -212,6 +220,7 @@ const Footer = () => {
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Twitter_black.webp"
+                layout="responsive"
                 alt=""
               />
             </a>
