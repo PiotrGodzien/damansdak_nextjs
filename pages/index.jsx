@@ -36,13 +36,14 @@ const Home = () => {
       <NextSeo title={t("slider")} description={t("sliderDescription")} />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
+          <img src="/hero.webp" alt="Hero Damansdak Polska" className="h-screen w-full object-cover lg:hidden" />
           {/* <SwiperCarousel /> */}
           <video
             autoPlay
             loop
             muted
             playsinline
-            className="relative z-0 object-cover w-full h-screen mx-auto"
+            className="hidden lg:block relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
               src="/video_damansdak.mp4"
