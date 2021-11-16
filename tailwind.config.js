@@ -22,6 +22,10 @@ module.exports = {
         paralaxImage:
           "url('https://damansdak.s3.eu-central-1.amazonaws.com/home_parallax.jpeg')",
       },
+      backgroundVideo: {
+        herovideo:
+          "url('https://video.wixstatic.com/video/49c2cf_a0e8472cfbb7489b8dfb065c3b9cb346/1080p/mp4/file.mp4')",
+      },
     },
   },
   variants: {

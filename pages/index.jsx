@@ -35,8 +35,19 @@ const Home = () => {
       <NextSeo title={t("slider")} description={t("sliderDescription")} />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
-          <SwiperCarousel />
-          <div className="absolute inset-0 z-20 bg-gradient-to-b from-black"></div>
+          {/* <SwiperCarousel /> */}
+          <video
+            autoPlay
+            loop
+            muted
+            className="relative z-0 object-cover w-full h-screen mx-auto"
+          >
+            <source
+              src="https://video.wixstatic.com/video/49c2cf_a0e8472cfbb7489b8dfb065c3b9cb346/1080p/mp4/file.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div className="absolute inset-0 z-20 overflow-hidden bg-gradient-to-b from-black"></div>
           <div className="absolute z-30 w-full text-white transform -translate-x-1/2 -translate-y-1/2 sm:w-4/5 lg:w-3/5 top-1/2 left-1/2">
             <div className="flex flex-col-reverse items-center justify-start px-6 mx-auto lg:px-0 md:flex-row">
               <div className="">
@@ -72,7 +83,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <LazyShow>
           {/* O NAS */}
           <div className="relative z-0 hidden w-4/5 mx-auto font-black text-center text-gray-100 uppercase lg:block -mb-28 text-9xl">

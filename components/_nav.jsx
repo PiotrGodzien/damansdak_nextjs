@@ -19,7 +19,7 @@ const Navigation = () => {
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-8 text-base 2xl:text-lg lg:flex">
+            <div className="items-center hidden space-x-8 text-base 2xl:text-lg xl:flex">
               <div className="">
                 <Link href="/">{t("Stronaglowna")}</Link>
               </div>
@@ -55,7 +55,7 @@ const Navigation = () => {
                 </Link>
               </div>
             </div>
-            <div className="ml-auto lg:hidden">
+            <div className="ml-auto xl:hidden">
               <button
                 className="flex focus:outline-none"
                 onClick={() => setVisible(!visible)}
@@ -76,8 +76,9 @@ const Navigation = () => {
           </div>
         </nav>
         <div
-          className={`${visible ? "block" : "hidden"
-            }  z-50 h-screen sm:h-full bg-black`}
+          className={`${
+            visible ? "block" : "hidden"
+          }  z-50 h-screen sm:h-full bg-black`}
         >
           <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
             <div className="">
