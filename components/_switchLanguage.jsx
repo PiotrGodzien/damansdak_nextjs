@@ -13,6 +13,9 @@ const SwitchLanguage = () => {
       case "en":
         return "united";
 
+      case "ru":
+        return "russia";
+
       default:
         return "poland";
     }

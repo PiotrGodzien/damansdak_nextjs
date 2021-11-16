@@ -75,8 +75,13 @@ const Home = () => {
 
         <LazyShow>
           {/* O NAS */}
-          <div className="text-gray-100 hidden lg:block z-0 w-4/5 text-center -mb-28 relative text-9xl font-black mx-auto">DOŚWIADCZENIE</div>
-          <div className="lg:w-4/5  relative z-10 pt-16 pb-4 mx-auto lg:flex-row" id="target">
+          <div className="relative z-0 hidden w-4/5 mx-auto font-black text-center text-gray-100 uppercase lg:block -mb-28 text-9xl">
+            {t("doswiadczenie")}
+          </div>
+          <div
+            className="relative z-10 pt-16 pb-4 mx-auto lg:w-4/5 lg:flex-row"
+            id="target"
+          >
             <div className="px-4 mx-auto lg:px-0 lg:w-2/3">
               <h1 className="text-3xl sm:text-5xl 2xl:text-7xl">
                 Damansdak {t("Polska")}
@@ -86,14 +91,16 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="relative flex lg:w-3/5 mx-auto">
-            <img className="relative mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/home_parallax.webp" alt="Zdjęcie realizacji dachu" />
+          <div className="relative flex mx-auto lg:w-3/5">
+            <img
+              className="relative mx-auto"
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/home_parallax.webp"
+              alt="Zdjęcie realizacji dachu"
+            />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-            <div className="absolute inset-0 px-4 lg:px-0 flex flex-col items-center justify-center mx-auto lg:w-3/5">
+            <div className="absolute inset-0 flex flex-col items-center justify-center px-4 mx-auto lg:px-0 lg:w-3/5">
               <div className="text-center">
-                <span className="lg:text-2xl text-white">
-                  {t("textCount")}
-                </span>
+                <span className="text-white lg:text-2xl">{t("textCount")}</span>
               </div>
               <div className="mt-4 text-center lg:mt-0">
                 <h2 className="text-4xl font-bold text-white lg:text-6xl font-heading">
@@ -111,7 +118,9 @@ const Home = () => {
                     )}
                   </CountUp>
                 </h2>
-                <span className="ml-3 text-white lg:text-3xl">{t('mCount')}</span>
+                <span className="ml-3 text-white lg:text-3xl">
+                  {t("mCount")}
+                </span>
               </div>
             </div>
           </div>
@@ -178,9 +187,11 @@ const Home = () => {
           <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachybetonowe")}</h3>
+                <h3 className="text-3xl uppercase sm:text-4xl">
+                  {t("Dachybetonowe")}
+                </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  {t('homeBeton')}
+                  {t("homeBeton")}
                 </p>
                 <div className="">
                   <a href="/oferta/#beton">
@@ -207,9 +218,11 @@ const Home = () => {
             </LazyShow>
             <LazyShow>
               <div className="flex-col items-end px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
-                <h3 className="text-3xl uppercase sm:text-4xl">{t("Dachystalowe")}</h3>
+                <h3 className="text-3xl uppercase sm:text-4xl">
+                  {t("Dachystalowe")}
+                </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  {t('homeStal')}
+                  {t("homeStal")}
                 </p>
                 <div className="">
                   <Link href="/oferta/">
@@ -240,7 +253,7 @@ const Home = () => {
                   {t("Serwis/renowacje")}
                 </h3>
                 <p className="pr-6 mt-4 font-serif text-lg font-light text-gray-500">
-                  {t('homeSerwis')}
+                  {t("homeSerwis")}
                 </p>
                 <div className="relative z-40">
                   <Link href="/oferta/#renowacja">
@@ -273,7 +286,7 @@ const Home = () => {
           <div className="py-8 bg-opacity-50 lg:py-32 bg-pattern">
             <div className="relative z-40 items-center px-8 mx-auto sm:px-0 lg:justify-center sm:flex sm:w-4/5 lg:w-3/5">
               <div className="mr-4 text-3xl sm:text-4xl 2xl:text-5xl sm:w-2/3">
-                {t('homeCta')}
+                {t("homeCta")}
               </div>
               <Link href="/kontakt" className="">
                 <button className="flex items-center justify-center px-16 py-4 mt-4 text-white transition duration-150 ease-in-out sm:mt-0 bg-primary hover:bg-black">
@@ -458,7 +471,7 @@ const Home = () => {
           <Footer />
         </LazyShow>
       </main>
-    </div >
+    </div>
   );
 };
 

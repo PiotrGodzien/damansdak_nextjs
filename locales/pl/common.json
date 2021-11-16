@@ -10,7 +10,7 @@
   "Oferta": "Oferta",
   "oferta": "oferta",
   "homeOffer": "Co możemy dla Ciebie zrobić?",
-  "Dachybetonowe": "Dachy płaskie",
+  "Dachybetonowe": "Dachy betonowe",
   "Dachystalowe": "Dachy stalowe",
   "Serwis/renowacje": "Serwis / renowacje",
   "Realizacje": "Realizacje",
@@ -84,5 +84,6 @@
   "homeCta": "Masz pytania? Zapraszamy do kontaktu z nami",
   "homeBeton": "Wykonywanie dachów betonowych.",
   "homeStal": "Wykonywanie dachów stalowych.",
-  "homeSerwis": "Renowacja dachów przemysłowych."
+  "homeSerwis": "Renowacja dachów przemysłowych.",
+  "doswiadczenie": "doświadczenie"
 }
