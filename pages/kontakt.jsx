@@ -143,7 +143,9 @@ const Kontakt = () => {
         </div>
         <div className="flex flex-col px-8 mx-auto lg:my-8 lg:w-3/5 sm:px-0 sm:w-4/5">
           <div className="">
-            <p className="z-40 text-3xl 2xl:text-4xl">Dział ofertowania</p>
+            <p className="z-40 text-3xl 2xl:text-4xl">
+              {t("Dzialofertowania")}
+            </p>
             <div className="flex mt-2 font-serif text-lg font-light text-gray-500">
               <svg
                 className="hidden w-5 h-5 mr-3 sm:block"
@@ -208,7 +210,7 @@ const Kontakt = () => {
             </div>
           </div>
           <div className="mt-8 lg:mt-16">
-            <p className="z-40 text-3xl 2xl:text-4xl">Dział realizacji</p>
+            <p className="z-40 text-3xl 2xl:text-4xl">{t("Dzialrealizacji")}</p>
             <div className="flex mt-2 font-serif text-lg font-light text-gray-500">
               <svg
                 className="hidden w-5 h-5 mr-3 sm:block"
@@ -275,7 +277,7 @@ const Kontakt = () => {
             </div>
           </div>
           <div className="mt-8 lg:mt-16">
-            <p className="z-40 text-3xl 2xl:text-4xl">Dział rekrutacji</p>
+            <p className="z-40 text-3xl 2xl:text-4xl">{t("Dzialrekrutacji")}</p>
             <div className="flex mt-2 font-serif text-lg font-light text-gray-500">
               <svg
                 className="hidden w-5 h-5 mr-3 sm:block"
