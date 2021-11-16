@@ -146,7 +146,7 @@ const Cta = () => {
       <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-3/5 2xl:pb-32">
         <div className="">
           <div className="">
-            <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
+            <p className="z-40 text-3xl 2xl:text-4xl">{t("Przemyśl")}</p>
             <p className="mt-4 font-serif text-lg font-light text-gray-500">
               {t("Mieroslawskiego")}, 37-700 Przemyśl
             </p>
