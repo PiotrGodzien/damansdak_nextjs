@@ -46,7 +46,7 @@ const Footer = () => {
             </div>
             {/* <div className="">
               <p className="mt-12 text-md 2xl:text-xl">Damans Dak BV</p>
-              <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank">damansdak.com</a></Link></p>
+              <p className="relative z-40 mt-2 font-serif underline cursor-pointer text-md 2xl:text-xl"><Link href="https://damansdak.com"><a target="_blank" rel="noopener">damansdak.com</a></Link></p>
             </div> */}
           </div>
         </div>
@@ -172,7 +172,7 @@ const Footer = () => {
       <footer className="relative z-50 flex flex-col items-center justify-between px-12 py-10 mx-auto text-gray-500 lg:flex-row">
         <div className="relative z-40 flex items-center space-x-4 lg:space-x-6">
           <Link href="https://www.facebook.com/DamansDakPolska">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Facebook_black.webp"
@@ -184,7 +184,7 @@ const Footer = () => {
             </a>
           </Link>
           <Link href="https://www.linkedin.com/company/damans-dak-polska/">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Linkedin_black.webp"
@@ -195,10 +195,10 @@ const Footer = () => {
               />
             </a>
           </Link>
-          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="/Instagram_black.webp"
+          {/* <Link href="#"><a target="_blank" rel="noopener"><img className="cursor-pointer w-7 h-7" src="/Instagram_black.webp"
           layout="responsive" alt="" /></a></Link> */}
           <Link href="https://www.tiktok.com/@damans_dak">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/TikTok_black.webp"
@@ -210,7 +210,7 @@ const Footer = () => {
             </a>
           </Link>
           <Link href="https://www.youtube.com/channel/UCg3l4VZq6DQnobjWMhv8o6Q">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/YouTube_black.webp"
@@ -222,7 +222,7 @@ const Footer = () => {
             </a>
           </Link>
           <Link href="https://twitter.com/bdamans">
-            <a target="_blank">
+            <a target="_blank" rel="noopener">
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Twitter_black.webp"
@@ -251,7 +251,7 @@ const Footer = () => {
         </p>
         <div className="mt-5 text-sm lg:mt-0">
           ©2021 All right reserved | Stworzone na Podkarpaciu przez
-          <a href="https://otherland.pl" target="_blank">
+          <a href="https://otherland.pl" target="_blank" rel="noopener">
             <svg
               className="mr-4"
               xmlns="http://www.w3.org/2000/svg"

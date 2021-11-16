@@ -45,7 +45,7 @@ const Navigation = () => {
                   <SwitchLanguage />
                 </div>
                 <Link href="https://damansdak.com">
-                  <a target="_blank">
+                  <a target="_blank" rel="noopener">
                     <img
                       alt="Logo Damansdak"
                       className="h-14"
@@ -104,7 +104,7 @@ const Navigation = () => {
               {/* <img alt="" className="h-6 border border-white w-9" src="/germany.png" layout='fill' />
               <img alt="" className="h-6 border border-white w-9" src="/united.png" layout='fill' /> */}
               <Link href="https://damansdak.com">
-                <a target="_blank">
+                <a target="_blank" rel="noopener">
                   <img
                     alt="Logo Damansdak"
                     className="h-12"
