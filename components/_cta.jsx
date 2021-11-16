@@ -151,7 +151,7 @@ const Cta = () => {
               {t("Mieroslawskiego")}, 37-700 Przemyśl
             </p>
             <p className="font-serif text-lg font-light text-gray-500">
-              {t("Polska")}, woj. Podkarpackie
+              {t("Polska")}, {t("podkarpackie")}
             </p>
             <a
               target="_blank"
@@ -168,7 +168,7 @@ const Cta = () => {
               {t("Karolkowa")}, 01-207 {t("Warszawa")}
             </p>
             <p className="font-serif text-lg font-light text-gray-500">
-              {t("Polska")}, woj. Mazowieckie
+              {t("Polska")}, {t("mazowieckie")}
             </p>
             <a
               target="_blank"

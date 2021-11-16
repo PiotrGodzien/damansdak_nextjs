@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col items-start px-8 pb-8 text-white 2xl:mx-auto 2xl:px-0 sm:flex-row lg:w-2/5 sm:py-12 lg:py-40 justify-evenly">
           <div className="">
             <div className="">
-              <p className="text-lg 2xl:text-xl">Przemyśl</p>
+              <p className="text-lg 2xl:text-xl">{t("Przemyśl")}</p>
               <p className="mt-2 font-serif text-md 2xl:text-xl">
                 {t("Mieroslawskiego")}
               </p>
@@ -18,7 +18,7 @@ const Footer = () => {
                 37-700 Przemyśl
               </p>
               <p className="font-serif text-md 2xl:text-xl">
-                {t("Polska")}, woj. Podkarpackie
+                {t("Polska")}, {t("podkarpackie")}
               </p>
             </div>
             <div className="">
@@ -41,7 +41,7 @@ const Footer = () => {
                 01-207 {t("Warszawa")}
               </p>
               <p className="font-serif text-md 2xl:text-xl">
-                {t("Polska")}, woj. Mozowieckie
+                {t("Polska")}, {t("mazowieckie")}
               </p>
             </div>
             {/* <div className="">
