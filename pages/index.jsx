@@ -40,6 +40,7 @@ const Home = () => {
             autoPlay
             loop
             muted
+            playsinline
             className="relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
