@@ -30,9 +30,9 @@ const SwitchLanguage = () => {
               <img
                 alt=""
                 className="w-6 h-4 border border-white"
-                src={`https://damansdak.s3.eu-central-1.amazonaws.com/${codeToCountry(
+                src={`/${codeToCountry(
                   lng
-                )}.png`}
+                )}.webp`}
                 layout="fill"
               />
             </Link>

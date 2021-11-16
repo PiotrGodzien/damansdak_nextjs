@@ -165,7 +165,7 @@ const Footer = () => {
       </div>
       {/* CERTIFICATE */}
       {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-        <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.png" /></a>
+        <a href="link"><img className="w-20 h-auto px-3 pt-2 mx-auto" src="http://verdepro.pl/vcs.webp" /></a>
         <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="link">Certyfikowana<br></br> firma</a></p>
       </div> */}
       <footer className="relative z-50 flex flex-col items-center justify-between px-12 py-10 mx-auto text-gray-500 lg:flex-row">
@@ -174,7 +174,7 @@ const Footer = () => {
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/Facebook_black.png"
+                src="/Facebook_black.webp"
                 alt=""
               />
             </a>
@@ -183,17 +183,17 @@ const Footer = () => {
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/Linkedin_black.png"
+                src="/Linkedin_black.webp"
                 alt=""
               />
             </a>
           </Link>
-          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="https://damansdak.s3.eu-central-1.amazonaws.com/Instagram_black.png" alt="" /></a></Link> */}
+          {/* <Link href="#"><a target="_blank"><img className="cursor-pointer w-7 h-7" src="/Instagram_black.webp" alt="" /></a></Link> */}
           <Link href="https://www.tiktok.com/@damans_dak">
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/TikTok_black.png"
+                src="/TikTok_black.webp"
                 alt=""
               />
             </a>
@@ -202,7 +202,7 @@ const Footer = () => {
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/YouTube_black.png"
+                src="/YouTube_black.webp"
                 alt=""
               />
             </a>
@@ -211,7 +211,7 @@ const Footer = () => {
             <a target="_blank">
               <img
                 className="cursor-pointer w-7 h-7"
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/Twitter_black.png"
+                src="/Twitter_black.webp"
                 alt=""
               />
             </a>
