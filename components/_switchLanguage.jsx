@@ -34,6 +34,8 @@ const SwitchLanguage = () => {
                   lng
                 )}.webp`}
                 layout="fill"
+                width={141}
+                height={82}
               />
             </Link>
           );

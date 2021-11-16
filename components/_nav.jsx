@@ -14,8 +14,11 @@ const Navigation = () => {
             <div className="h-auto w-36 lg:w-72">
               <Link href="/" className="">
                 <img
-                  alt=""
+                  alt="Logo Damansdak Polska"
                   src="/logo_damsdak-3.webp"
+                  layout="responsive"
+                  width={820}
+                  height={118}
                 />
               </Link>
             </div>
@@ -41,15 +44,15 @@ const Navigation = () => {
                   {" "}
                   <SwitchLanguage />
                 </div>
-                {/* <img alt="" className="h-6 border border-white w-9" src="/germany.png" layout='fill' />
-                <img alt="" className="h-6 border border-white w-9" src="/united.png" layout='fill' /> */}
                 <Link href="https://damansdak.com">
                   <a target="_blank">
                     <img
-                      alt=""
+                      alt="Logo Damansdak"
                       className="h-14"
                       src="/damansdak_bv.webp"
                       layout="fill"
+                      width={200}
+                      height={71}
                     />
                   </a>
                 </Link>
@@ -103,10 +106,12 @@ const Navigation = () => {
               <Link href="https://damansdak.com">
                 <a target="_blank">
                   <img
-                    alt=""
+                    alt="Logo Damansdak"
                     className="h-12"
                     src="/damansdak_bv.webp"
                     layout="fill"
+                    width={200}
+                    height={71}
                   />
                 </a>
               </Link>

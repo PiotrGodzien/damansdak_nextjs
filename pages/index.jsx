@@ -36,7 +36,7 @@ const Home = () => {
       <NextSeo title={t("slider")} description={t("sliderDescription")} />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
-          <img src="/hero.webp" alt="Hero Damansdak Polska" className="h-screen w-full object-cover lg:hidden" />
+          <img src="/hero.webp" alt="Hero Damansdak Polska" className="h-screen w-full object-cover lg:hidden" layout="responsive" width={1920} height={1080} />
           {/* <SwiperCarousel /> */}
           <video
             autoPlay
@@ -109,6 +109,9 @@ const Home = () => {
               className="relative mx-auto"
               src="/home_parallax.webp"
               alt="Zdjęcie realizacji dachu"
+              width={2112}
+              height={1187}
+              layout="responsive"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center px-4 mx-auto lg:px-0 lg:w-3/5">
@@ -329,6 +332,8 @@ const Home = () => {
                     layout="fill"
                     alt="Realizacja dachu w Lublinie"
                     className=""
+                    width={1920}
+                    height={1080}
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto transition duration-300 ease-in-out bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
@@ -378,6 +383,8 @@ const Home = () => {
                     layout="fill"
                     alt="Realizacja dachu w Rudzie Śląskiej"
                     className=""
+                    width={1920}
+                    height={1080}
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
@@ -427,6 +434,8 @@ const Home = () => {
                     layout="fill"
                     alt="Realizacja dachu w Błoniach"
                     className=""
+                    width={1920}
+                    height={1080}
                   />
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">

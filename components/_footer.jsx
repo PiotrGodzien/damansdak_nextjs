@@ -176,8 +176,8 @@ const Footer = () => {
               <img
                 className="cursor-pointer w-7 h-7"
                 src="/Facebook_black.webp"
-                layout="responsive"
                 alt="Facebook"
+                layout="responsive"
                 width={72}
                 height={72}
               />
@@ -189,7 +189,9 @@ const Footer = () => {
                 className="cursor-pointer w-7 h-7"
                 src="/Linkedin_black.webp"
                 layout="responsive"
-                alt=""
+                width={72}
+                height={72}
+                alt="Linkedin"
               />
             </a>
           </Link>
@@ -201,7 +203,9 @@ const Footer = () => {
                 className="cursor-pointer w-7 h-7"
                 src="/TikTok_black.webp"
                 layout="responsive"
-                alt=""
+                width={72}
+                height={72}
+                alt="Tik Tok"
               />
             </a>
           </Link>
@@ -211,7 +215,9 @@ const Footer = () => {
                 className="cursor-pointer w-7 h-7"
                 src="/YouTube_black.webp"
                 layout="responsive"
-                alt=""
+                width={72}
+                height={72}
+                alt="YouTube"
               />
             </a>
           </Link>
@@ -221,7 +227,9 @@ const Footer = () => {
                 className="cursor-pointer w-7 h-7"
                 src="/Twitter_black.webp"
                 layout="responsive"
-                alt=""
+                width={72}
+                height={72}
+                alt="Twitter"
               />
             </a>
           </Link>
