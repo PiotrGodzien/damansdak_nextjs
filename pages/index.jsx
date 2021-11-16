@@ -45,7 +45,7 @@ const Home = () => {
             className="relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
-              src="https://video.wixstatic.com/video/49c2cf_a0e8472cfbb7489b8dfb065c3b9cb346/1080p/mp4/file.mp4"
+              src="/video_damansdak.mp4"
               type="video/mp4"
             />
           </video>
@@ -324,7 +324,7 @@ const Home = () => {
               <Link href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/lublin_realizacja.webp"
+                    src="/lublin_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Lublinie"
                     className=""
@@ -373,7 +373,7 @@ const Home = () => {
               <Link href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/ruda_slaska_realizacja.webp"
+                    src="/ruda_slaska_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Rudzie Śląskiej"
                     className=""
@@ -422,7 +422,7 @@ const Home = () => {
               <Link href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.s3.eu-central-1.amazonaws.com/WEBP/blonie_realizacja.webp"
+                    src="/blonie_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Błoniach"
                     className=""
