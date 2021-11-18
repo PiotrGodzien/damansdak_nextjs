@@ -182,7 +182,7 @@ const Cta = () => {
         </div>
         <img
           className="mx-auto mt-12 lg:w-5/12 sm:w-10/12 lg:mt-0"
-          src="https://damansdak.mo.cloudinary.net/poland_cropped_small.webp"
+          src="https://damansdak.mo.cloudinary.net/poland_cropped_map.webp"
           alt="Mapa Polski"
           layout="responsive"
           height={1080}
