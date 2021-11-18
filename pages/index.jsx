@@ -46,7 +46,7 @@ const Home = () => {
             className="hidden lg:block relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
-              src="/video_damansdak.webm"
+              src="https://damansdak.mo.cloudinary.net/video_damansdak.webm"
               type="video/webm"
             />
             <source
@@ -111,7 +111,7 @@ const Home = () => {
           <div className="relative flex mx-auto lg:w-3/5">
             <img
               className="relative mx-auto"
-              src="/home_parallax.webp"
+              src="https://damansdak.mo.cloudinary.net/home_parallax.webp"
               alt="Zdjęcie realizacji dachu"
               width={2112}
               height={1187}
@@ -332,7 +332,7 @@ const Home = () => {
               <Link href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/lublin_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/lublin_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Lublinie"
                     className=""
@@ -383,7 +383,7 @@ const Home = () => {
               <Link href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/ruda_slaska_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/ruda_slaska_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Rudzie Śląskiej"
                     className=""
@@ -434,7 +434,7 @@ const Home = () => {
               <Link href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/blonie_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/blonie_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Błoniach"
                     className=""

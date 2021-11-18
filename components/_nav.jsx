@@ -15,7 +15,7 @@ const Navigation = () => {
               <Link href="/" className="">
                 <img
                   alt="Logo Damansdak Polska"
-                  src="/logo_damsdak-3.webp"
+                  src="https://damansdak.mo.cloudinary.net/logo_damsdak-3.webp"
                   layout="responsive"
                   width={820}
                   height={118}
@@ -49,7 +49,7 @@ const Navigation = () => {
                     <img
                       alt="Logo Damansdak"
                       className="h-14"
-                      src="/damansdak_bv.webp"
+                      src="https://damansdak.mo.cloudinary.net/damansdak_bv.webp"
                       layout="fill"
                       width={200}
                       height={71}
