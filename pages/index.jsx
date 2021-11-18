@@ -46,7 +46,11 @@ const Home = () => {
             className="hidden lg:block relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
-              src="/video_damansdak.mp4"
+              src="/video_damansdak.webm"
+              type="video/webm"
+            />
+            <source
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
               type="video/mp4"
             />
           </video>
