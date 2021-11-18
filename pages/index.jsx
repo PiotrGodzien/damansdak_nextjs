@@ -36,14 +36,14 @@ const Home = () => {
       <NextSeo title={t("slider")} description={t("sliderDescription")} />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
-          {/* <img src="/hero.webp" alt="Hero Damansdak Polska" className="h-screen w-full object-cover lg:hidden" layout="responsive" width={1920} height={1080} /> */}
+          <img src="/hero.webp" alt="Hero Damansdak Polska" className="h-screen w-full object-cover lg:hidden" layout="responsive" width={1920} height={1080} />
           {/* <SwiperCarousel /> */}
           <video
             autoPlay
             loop
             muted
             playsinline
-            className="relative z-0 object-cover w-full h-screen mx-auto"
+            className="hidden lg:block relative z-0 object-cover w-full h-screen mx-auto"
           >
             <source
               src="/video_damansdak.webm"
@@ -54,7 +54,7 @@ const Home = () => {
               type="video/mp4"
             />
           </video>
-          <div className="absolute inset-0 z-20 overflow-hidden bg-gradient-to-b from-black"></div>
+          <div className="absolute inset-0 z-20 overflow-hidden opacity-60 bg-gradient-to-b from-black"></div>
           <div className="absolute z-30 w-full text-white transform -translate-x-1/2 -translate-y-1/2 sm:w-4/5 lg:w-3/5 top-1/2 left-1/2">
             <div className="flex flex-col-reverse items-center justify-start px-6 mx-auto lg:px-0 md:flex-row">
               <div className="">
