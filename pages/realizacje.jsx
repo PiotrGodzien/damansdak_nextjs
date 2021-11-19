@@ -35,7 +35,7 @@ const Realizacje = () => {
             </div>
           </div>
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
-            {/* LUBLIN */}
+            {/* REALIZACJA 1 */}
 
             <Link href="/realizacje/lublin">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -84,7 +84,7 @@ const Realizacje = () => {
               </div>
             </Link>
 
-            {/* RUDA */}
+            {/* REALIZACJA 2 */}
 
             <Link href="/realizacje/ruda-slaska">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -133,7 +133,7 @@ const Realizacje = () => {
               </div>
             </Link>
 
-            {/* BŁONIE */}
+            {/* REALIZACJA 3 */}
 
             <Link href="/realizacje/blonie">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -182,7 +182,7 @@ const Realizacje = () => {
               </div>
             </Link>
 
-            {/* ŻORY*/}
+            {/* REALIZACJA 4 */}
 
             <Link href="/realizacje/zory">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -231,7 +231,7 @@ const Realizacje = () => {
               </div>
             </Link>
 
-            {/* NIEMCY */}
+            {/* REALIZACJA 5 */}
 
             <Link href="/realizacje/niemcy">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -277,7 +277,7 @@ const Realizacje = () => {
               </div>
             </Link>
 
-            {/* LITWA */}
+            {/* REALIZACJA 6 */}
 
             <Link href="/realizacje/litwa">
               <div className="relative mx-auto mb-8 sm:mb-16">
@@ -301,150 +301,6 @@ const Realizacje = () => {
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
                     <a href="/realizacje/litwa">
                       <button className="flex items-center justify-center">
-                        {t("zobaczwiecej")}
-                        <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                          <svg
-                            className="absolute w-8 h-8"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                          >
-                            <path
-                              d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* REALIZACJA SZCZECIN */}
-
-            <Link href="/realizacje/szczecin">
-              <div className="relative mx-auto mb-8 sm:mb-16">
-                <img
-                  src="/realizacje/szczecin/realizacja_szczecin.webp"
-                  layout="fill"
-                  alt=""
-                  className=""
-                />
-                <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                    {t("Miejsce")}
-                    <b>Szczecin</b>
-                    <br></br>
-                    {t("Powierzchnia")}
-                    <b>43 500 m²</b>
-                    <br></br>
-                    {t("Generalnywykonawca")}
-                    <b>TRASKO Invest Sp. z o.o.</b>
-                    <br></br>
-                    {t("Inwestor")}
-                    <b>Panattoni</b>
-                  </p>
-                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/szczecin">
-                      <button className="flex items-center justify-center ">
-                        {t("zobaczwiecej")}
-                        <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                          <svg
-                            className="absolute w-8 h-8"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                          >
-                            <path
-                              d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* REALIZACJA SWIDNICA */}
-
-            <Link href="/realizacje/swidnica">
-              <div className="relative mx-auto mb-8 sm:mb-16">
-                <img
-                  src="/realizacje/swidnica/swidnica.webp"
-                  layout="fill"
-                  alt=""
-                  className=""
-                />
-                <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                    {t("Miejsce")}
-                    <b>Świdnica</b>
-                    <br></br>
-                    {t("Powierzchnia")}
-                    <b>11 000 m²</b>
-                    <br></br>
-                    {t("Generalnywykonawca")}
-                    <b>CERMONT Sp. z o.o.</b>
-                    <br></br>
-                    {t("Inwestor")}
-                    <b>Elektrolux</b>
-                  </p>
-                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/swidnica">
-                      <button className="flex items-center justify-center ">
-                        {t("zobaczwiecej")}
-                        <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
-                          <svg
-                            className="absolute w-8 h-8"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                          >
-                            <path
-                              d="M10.5 16.6L9 15.11L12.42 11.8L9 8.49L10.5 7L15.3 11.8L10.5 16.6Z"
-                              fill="currentColor"
-                            />
-                          </svg>
-                        </div>
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </Link>
-
-            {/* REALIZACJA DOM PRZEMYŚL */}
-
-            <Link href="/realizacje/dom">
-              <div className="relative mx-auto mb-8 sm:mb-16">
-                <img
-                  src="/realizacje/dom/dom2.webp"
-                  layout="fill"
-                  alt=""
-                  className=""
-                />
-                <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
-                  <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
-                    {t("Miejsce")}
-                    <b>Przemyśl</b>
-                    <br></br>
-                    {t("Powierzchnia")}
-                    <b>350 m²</b>
-                    <br></br>
-                    {t("Inwestor")}
-                    <b>Osoba prywatna</b>
-                  </p>
-                  <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/dom">
-                      <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
                           <svg

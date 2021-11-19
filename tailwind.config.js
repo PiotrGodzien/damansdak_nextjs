@@ -16,11 +16,11 @@ module.exports = {
       },
       backgroundImage: {
         herobanner:
-          "url('https://damansdak.mo.cloudinary.net/hero.webp')",
+          "url('/hero.webp')",
         pattern:
-          "url('https://damansdak.mo.cloudinary.net/pattern_dark.webp')",
+          "url('/pattern_dark.webp')",
         paralaxImage:
-          "url('https://damansdak.mo.cloudinary.net/home_parallax.webp')",
+          "url('/home_parallax.webp')",
       },
       backgroundVideo: {
         herovideo:

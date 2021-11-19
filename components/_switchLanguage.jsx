@@ -30,7 +30,7 @@ const SwitchLanguage = () => {
               <img
                 alt=""
                 className="w-6 h-4 border border-white"
-                src={`https://damansdak.mo.cloudinary.net/${codeToCountry(
+                src={`/${codeToCountry(
                   lng
                 )}.webp`}
                 layout="fill"
