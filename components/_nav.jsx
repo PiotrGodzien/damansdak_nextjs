@@ -15,14 +15,14 @@ const Navigation = () => {
               <Link href="/" className="">
                 <img
                   alt="Logo Damansdak Polska"
-                  src="/logo_damsdak-3.webp"
+                  src="https://damansdak.mo.cloudinary.net/logo_damsdak-3.webp"
                   layout="responsive"
                   width={820}
                   height={118}
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-8 text-base 2xl:text-lg xl:flex">
+            <div className="items-center hidden space-x-4 text-base 2xl:text-lg xl:flex">
               <div className="">
                 <Link href="/">{t("Stronaglowna")}</Link>
               </div>
@@ -31,6 +31,9 @@ const Navigation = () => {
               </div>
               <div className="">
                 <Link href="/o-nas">{t("Onas")}</Link>
+              </div>
+              <div className="">
+                <Link href="/wideo">{t("Wideo")}</Link>
               </div>
               <div className="">
                 <Link href="/realizacje">{t("Realizacje")}</Link>
@@ -49,7 +52,7 @@ const Navigation = () => {
                     <img
                       alt="Logo Damansdak"
                       className="h-14"
-                      src="/damansdak_bv.webp"
+                      src="https://damansdak.mo.cloudinary.net/damansdak_bv.webp"
                       layout="fill"
                       width={200}
                       height={71}
@@ -93,6 +96,9 @@ const Navigation = () => {
             <div className="">
               <Link href="/o-nas">{t("Onas")}</Link>
             </div>
+            <div className="">
+                <Link href="/wideo">{t("Wideo")}</Link>
+              </div>
             <div className="">
               <Link href="/realizacje">{t("Realizacje")}</Link>
             </div>

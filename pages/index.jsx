@@ -44,6 +44,15 @@ const Home = () => {
             width={1920}
             height={1080}
           /> */}
+          <img
+            src="https://damansdak.mo.cloudinary.net/hero.webp"
+            alt="Hero Damansdak Polska"
+            className="object-cover w-full h-screen lg:hidden"
+            layout="responsive"
+            width={1920}
+            height={1080}
+          />
+
           {/* <SwiperCarousel /> */}
           <video
             autoPlay
@@ -54,11 +63,19 @@ const Home = () => {
           >
             <source src="/video_damansdak.webm" type="video/webm" />
             <source
+              src="https://damansdak.mo.cloudinary.net/video_damansdak.webm"
+              type="video/webm"
+            />
+            <source
               src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
               type="video/mp4"
             />
           </video>
+
           <div className="absolute inset-0 z-20 overflow-hidden opacity-80 bg-gradient-to-b from-black"></div>
+
+          <div className="absolute inset-0 z-20 overflow-hidden opacity-60 bg-gradient-to-b from-black"></div>
+
           <div className="absolute z-30 w-full text-white transform -translate-x-1/2 -translate-y-1/2 sm:w-4/5 lg:w-3/5 top-1/2 left-1/2">
             <div className="flex flex-col-reverse items-center justify-start px-6 mx-auto lg:px-0 md:flex-row">
               <div className="">
@@ -115,7 +132,7 @@ const Home = () => {
           <div className="relative flex mx-auto lg:w-3/5">
             <img
               className="relative mx-auto"
-              src="/home_parallax.webp"
+              src="https://damansdak.mo.cloudinary.net/home_parallax.webp"
               alt="Zdjęcie realizacji dachu"
               width={2112}
               height={1187}
@@ -336,7 +353,7 @@ const Home = () => {
               <Link href="/realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/lublin_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/lublin_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Lublinie"
                     className=""
@@ -387,7 +404,7 @@ const Home = () => {
               <Link href="/realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/ruda_slaska_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/ruda_slaska_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Rudzie Śląskiej"
                     className=""
@@ -438,7 +455,7 @@ const Home = () => {
               <Link href="/realizacje/blonie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/blonie_realizacja.webp"
+                    src="https://damansdak.mo.cloudinary.net/blonie_realizacja.webp"
                     layout="fill"
                     alt="Realizacja dachu w Błoniach"
                     className=""

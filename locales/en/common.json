@@ -67,7 +67,7 @@
   "Kraj": "Country: ",
   "Litwa": "Lithuania",
   "Realizacja": "Project",
-  "lublinName": "Bremer Sp. z o.o. dla 7R in Lublin",
+  "lublinName": "Bremer Sp. z o.o. for 7R in Lublin",
   "lublinText": "Two halls with total area ca 36 000 m2. \n Scope of work: installation of vapour barrier foil 0.2mm thick, installation of thermal insulation in form of PIR gr. 8cm and 16cm and PVC membrane gr. 1.20mm (Fatrafol) along with studding, flashings, installation of roof drains and emergency overflows.",
   "rudaName": "Kajima Poland Sp. z o.o. for Panattoni in Ruda Śląska",
   "rudaText": "Two halls with total area of ca 60 000 m2. \n Kajima Poland Sp. z o.o. for Panattoni in Ruda Śląska: two halls of total area approximately 60 000 m2. Scope of works: laying of 0.2 mm thick vapour-barrier foil, fitting of mineral wool insulation in two layers (8cm and 5cm), 1.20 mm thick TPO Texsalan membrane along with studding, flashings, fitting of roof drains and emergency overflows.",
@@ -91,5 +91,13 @@
   "Dzialrealizacji": "Implementation Department",
   "Dzialrekrutacji": "Human Resources Department",
   "mazowieckie": "Masovian Voivodeship",
-  "podkarpackie": "Subcarpathian voivodeship"
+  "podkarpackie": "Subcarpathian voivodeship",
+  "szczecinName": "TRASKO Invest Sp. z o.o. for Panattoni in Szczecin",
+  "szczecinText": "Hala o powierzchni 43 500 m2. \n Montaż paroizolacji, termoizolacji z wełny mineralnej gr. 13cm, membrany dachowej TPO 1,2mm Texalon wraz z montażem łączników mechanicznych",
+  "swidnicaName": "CERMONT Sp. z o.o. hala produkcyjna dla Elektrolux w Świdnicy",
+  "swidnicaText": "Hala o powierzchni 11 000 m2. \n Montaż blachy trapezowej, montaż paroizolacji, termoizolacji z wełny mineralnej gr. 18cm, montaż membrany dachowej PVC 1,2mm wraz z dostawą i montażem łączników mechanicznych.",
+  "domName": "Budynek mieszkalny w Przemyślu",
+  "domText": "Budynek mieszkalny o powierzchni ok. 350 m2. \n Dostawa i montaż następujących elementów pokrycia dachowego: folia paroizolacyjna PE 0,2mm, termoizolacja EPS100 2x13cm oraz płyty spadkowe i kliny rozpływowe z EPS100, włóknina szklana 120g/m2, wpusty dachowe podgrzewane Essmann śr. 100mm, membrana dachowa PVC 1,5mm wraz złącznikami mechanicznymi.",
+  "Wideo": "Video",
+  "titleWideo": "Zobacz jak działamy"
 }
