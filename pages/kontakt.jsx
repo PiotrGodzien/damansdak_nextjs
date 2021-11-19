@@ -17,7 +17,7 @@ const Kontakt = () => {
         openGraph={{
           url: "https://damansdak.pl",
           title: "Damansdak Polska – Kontakt",
-          description: '${t("slider")}',
+          description: t("slider"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
