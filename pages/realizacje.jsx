@@ -3,11 +3,44 @@ import Navigation from "../components/_nav";
 import Cta from "../components/_cta";
 import Footer from "../components/_footer";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 
 const Realizacje = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
+    <NextSeo
+        title={`Damansdak Polska - ${t("Realizacje")}`}
+        description='{t("realisationsDescription")}'
+        canonical="https://damasndak/realizacje"
+        openGraph={{
+          url: "https://damansdak.pl/realizacje",
+          title: `Damansdak Polska – ${t("Realizacje")}`,
+          description: t("realisationsDescription"),
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: `Damansdak Polska – ${t("Realizacje")}`,
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: `Damansdak Polska – ${t("Realizacje")}`,
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: `Damansdak Polska – ${t("Realizacje")}`,
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
