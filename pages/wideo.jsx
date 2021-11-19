@@ -27,23 +27,14 @@ const Oferta = () => {
         </div>
         <div className="py-4 mb-6 bg-pattern"></div>
         <div className="object-cover max-w-4xl mx-auto">
-          <video
-              autoPlay
-              loop
-              muted
-              playsinline
-              className=""
-            >
-              <source
-                src="/video_damansdak.webm"
-                type="video/webm"
-              />
-              <source
-                src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </div>
+          <video controls loop muted playsinline player className="">
+            <source src="/video_damansdak.webm" type="video/webm" />
+            <source
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
 
         <Cta />
 
