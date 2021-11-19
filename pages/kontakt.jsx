@@ -12,12 +12,12 @@ const Kontakt = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Kontakt")}`}
-        description='{t("slider")}'
+        description='{t("contactText")}'
         canonical="https://damasndak/kontakt"
         openGraph={{
-          url: "https://damansdak.pl",
+          url: "https://damansdak.pl/kontakt",
           title: `Damansdak Polska – ${t("Kontakt")}`,
-          description: t("slider"),
+          description: t("contactText"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",

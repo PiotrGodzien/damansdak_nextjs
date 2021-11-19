@@ -31,12 +31,11 @@ const Oferta = () => {
             controls
             poster="/placeholder_video_damansdak.webp"
             loop
-            muted
             playsinline
             player
             className=""
           >
-            <source src="/video_damansdak.webm" type="video/webm" />
+            <source src="/video_damansdak_sound.webm" type="video/webm" />
             <source
               src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
               type="video/mp4"
