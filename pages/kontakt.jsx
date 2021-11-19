@@ -16,25 +16,25 @@ const Kontakt = () => {
         canonical="https://damasndak/kontakt"
         openGraph={{
           url: "https://damansdak.pl",
-          title: "Damansdak Polska – Kontakt",
+          title: `Damansdak Polska – t("Kontakt")`,
           description: t("slider"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
               width: 800,
               height: 600,
-              alt: "Damansdak Polska – Kontakt",
+              alt: `Damansdak Polska – t("Kontakt")`,
             },
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
               width: 900,
               height: 800,
-              alt: "Damansdak Polska – Kontakt",
+              alt: `Damansdak Polska – t("Kontakt")`,
             },
             { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
             { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
           ],
-          site_name: "Damansdak Polska – Kontakt",
+          site_name: `Damansdak Polska – t("Kontakt")`,
         }}
         twitter={{
           handle: "@BDamans",
