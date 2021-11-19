@@ -12,7 +12,7 @@ const Oferta = () => {
         <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
           <img
             className="absolute object-cover w-full h-full bg-center"
-            src="https://damansdak.s3.eu-central-1.amazonaws.com/offer.jpg"
+            src="/wideo_slider.webp"
             alt=""
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
