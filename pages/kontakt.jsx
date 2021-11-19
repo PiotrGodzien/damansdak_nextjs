@@ -1,15 +1,47 @@
-import LazyShow from "./LazyShow";
 import Navigation from "../components/_nav";
 import Cta from "../components/_cta";
 import Footer from "../components/_footer";
 import { Link } from "react-scroll";
 import useTranslation from "next-translate/useTranslation";
+import { NextSeo } from "next-seo";
 
 const Kontakt = () => {
   const { t, lang } = useTranslation("common");
   const title = t("title");
   return (
     <>
+      <NextSeo
+        title={`Damansdak Polska - ${t("Kontakt")}`}
+        description='{t("slider")}'
+        canonical="https://damasndak/kontakt"
+        openGraph={{
+          url: "https://damansdak.pl",
+          title: "Damansdak Polska",
+          description: '{t("slider")}',
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: "Damansdak Polska",
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: "Damansdak Polska",
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: "Damansdak Polska ",
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden text-center bg-top bg-cover py-36">
@@ -18,7 +50,6 @@ const Kontakt = () => {
             src="https://damansdak.s3.eu-central-1.amazonaws.com/contact_us.jpg"
             alt=""
           />
-          {/* <iframe className="absolute object-cover w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2575.973442903214!2d22.79102311597204!3d49.78656434285714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473b7ed66bd661fd%3A0x9eeaeeb0562b92d6!2sLudwika%20Mieros%C5%82awskiego%2014%2C%2037-700%20Przemy%C5%9Bl!5e0!3m2!1sen!2spl!4v1634564564450!5m2!1sen!2spl" width="1920" height="600" loading="lazy"></iframe> */}
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
@@ -344,53 +375,6 @@ const Kontakt = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex flex-col px-8 py-8 mx-auto lg:items-center lg:flex lg:flex-row sm:w-4/5 sm:px-0 lg:w-4/5 2xl:pb-32">
-          <div className="">
-            <div className="">
-              <p className="z-40 text-3xl 2xl:text-4xl">Przemyśl</p>
-              <p className="mt-4 font-serif text-lg font-light text-gray-500">
-                {t("Mieroslawskiego")}, 37-700 Przemyśl
-              </p>
-              <p className="font-serif text-lg font-light text-gray-500">
-                {t("Polska")}, woj. Podkarpackie
-              </p>
-              <a
-                target="_blank"
-                href="https://www.google.com/maps/dir//Ludwika+Mierosławskiego+14,+37-700+Przemyśl/@49.7865609,22.7910231,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x473b7ed66bd661fd:0x9eeaeeb0562b92d6!2m2!1d22.7932118!2d49.7865609!3e0"
-              >
-                <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
-                  {t("sprawdzdojazd")}
-                </p>
-              </a>
-            </div>
-            <div className="mt-12">
-              <p className="text-3xl 2xl:text-4xl">{t("Warszawa")}</p>
-              <p className="mt-4 font-serif text-lg font-light text-gray-500">
-                {t("Karolkowa")}, 01-207 {t("Warszawa")}
-              </p>
-              <p className="font-serif text-lg font-light text-gray-500">
-                {t("Polska")}, woj. Mazowieckie
-              </p>
-              <a
-                target="_blank"
-                href="https://www.google.com/maps/dir//Karolkowa+30,+01-207+Warszawa/@52.2316937,20.975736,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x471ecc9d2419b109:0x242d2e55f3766695!2m2!1d20.9779247!2d52.2316937!3e0"
-              >
-                <p className="z-40 flex mt-4 font-serif text-lg font-light underline cursor-pointer">
-                  {t("sprawdzdojazd")}
-                </p>
-              </a>
-            </div>
-          </div>
-          <img
-            className="mt-12 x-auto lg:w-5/12 sm:w-10/12 lg:mt-0"
-            src="https://damansdak.s3.eu-central-1.amazonaws.com/poland_cropped_map.png"
-            alt=""
-          />
-        </div> */}
-        {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
-          <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
-          <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
-        </div> */}
         <Cta />
         <Footer />
       </section>
