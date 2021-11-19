@@ -2,11 +2,44 @@ import Navigation from "../components/_nav";
 import Cta from "../components/_cta";
 import Footer from "../components/_footer";
 import useTranslation from "next-translate/useTranslation";
+import { NextSeo } from "next-seo";
 
 const Oferta = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
+    <NextSeo
+        title={`Damansdak Polska - ${t("Oferta")}`}
+        description='{t("offerDescription")}'
+        canonical="https://damasndak/oferta"
+        openGraph={{
+          url: "https://damansdak.pl/oferta",
+          title: `Damansdak Polska – ${t("Oferta")}`,
+          description: t("offerDescription"),
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: `Damansdak Polska – ${t("Oferta")}`,
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: `Damansdak Polska – ${t("Oferta")}`,
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: `Damansdak Polska – ${t("Oferta")}`,
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
