@@ -159,7 +159,7 @@ const Home = () => {
 
                     <div className="absolute inset-0 w-full h-full bg-primary mix-blend-multiply"></div>
                     
-                    <div className="absolute bg-pattern -top-10 -right-10"></div>
+                   
                     <div className="relative z-10 p-8 text-center md:p-24">
                       <span className="mb-4 text-2xl text-white">
                         {t("textCount")}
