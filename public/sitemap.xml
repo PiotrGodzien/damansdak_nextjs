@@ -4,81 +4,310 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
 <url>
-  <loc>https://damansdak.pl/en</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <loc>https://damansdak.pl/</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://damansdak.pl/en/oferta</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://damansdak.pl/en/o-nas</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://damansdak.pl/en/realizacje</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://damansdak.pl/en/kontakt</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://damansdak.pl/oferta</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://damansdak.pl/realizacje/lublin</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <loc>https://damansdak.pl/o-nas</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://damansdak.pl/realizacje/ruda-slaska</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://damansdak.pl/realizacje/blonie</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <loc>https://damansdak.pl/wideo</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://damansdak.pl/realizacje</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/kontakt</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/realizacje/lublin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/realizacje/ruda-slaska</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/realizacje/blonie</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://damansdak.pl/realizacje/zory</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://damansdak.pl/realizacje/niemcy</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://damansdak.pl/realizacje/litwa</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://damansdak.pl/o-nas</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <loc>https://damansdak.pl/realizacje/szczecin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://damansdak.pl/kontakt</loc>
-  <lastmod>2021-11-16T19:33:49+00:00</lastmod>
+  <loc>https://damansdak.pl/realizacje/swidnica</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/realizacje/dom</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
+<url>
+  <loc>https://damansdak.pl/en/</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/oferta</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/o-nas</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/wideo</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/kontakt</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/lublin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/ruda-slaska</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/blonie</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/zory</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/niemcy</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/litwa</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/szczecin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/swidnica</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/dom</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>https://damansdak.pl/de/</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/oferta</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/o-nas</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/wideo</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/kontakt</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/lublin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/ruda-slaska</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/blonie</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/zory</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/niemcy</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/litwa</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/szczecin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/swidnica</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/dom</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<url>
+  <loc>https://damansdak.pl/ru/</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/oferta</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/o-nas</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/wideo</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/kontakt</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/lublin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/ruda-slaska</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/blonie</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/zory</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/niemcy</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/litwa</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/szczecin</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/swidnica</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/dom</loc>
+  <lastmod>2021-11-19T07:39:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
