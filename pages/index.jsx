@@ -36,14 +36,6 @@ const Home = () => {
       <NextSeo title={t("slider")} description={t("sliderDescription")} />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
-          {/* <img
-            src="/hero.webp"
-            alt="Hero Damansdak Polska"
-            className="object-cover w-full h-screen lg:hidden"
-            layout="responsive"
-            width={1920}
-            height={1080}
-          /> */}
           <img
             src="https://damansdak.mo.cloudinary.net/hero.webp"
             alt="Hero Damansdak Polska"
@@ -59,7 +51,7 @@ const Home = () => {
             loop
             muted
             playsinline
-            className="relative z-0 object-cover w-full h-screen mx-auto lg:h-auto"
+            className="relative z-0 hidden object-cover w-full h-screen mx-auto lg:block lg:h-auto"
           >
             <source src="/video_damansdak.webm" type="video/webm" />
             <source
