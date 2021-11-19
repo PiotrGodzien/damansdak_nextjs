@@ -16,7 +16,7 @@ const Kontakt = () => {
         canonical="https://damasndak/kontakt"
         openGraph={{
           url: "https://damansdak.pl",
-          title: `Damansdak Polska – t("Kontakt")`,
+          title: `Damansdak Polska – ${t("Kontakt")}`,
           description: t("slider"),
           images: [
             {
