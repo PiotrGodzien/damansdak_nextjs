@@ -14,6 +14,20 @@ const Kontakt = () => {
         title={`Damansdak Polska - ${t("Kontakt")}`}
         description='{t("contactText")}'
         canonical="https://damasndak/kontakt"
+        languageAlternates={[
+          {
+            hrefLang: "de-DE",
+            href: "https://damansdak.pl/de/kontakt",
+          },
+          {
+            hrefLang: "ru-RU",
+            href: "https://damansdak.pl/ru/kontakt",
+          },
+          {
+            hrefLang: "en-EN",
+            href: "https://damansdak.pl/en/kontakt",
+          },
+        ]}
         openGraph={{
           url: "https://damansdak.pl/kontakt",
           title: `Damansdak Polska – ${t("Kontakt")}`,
