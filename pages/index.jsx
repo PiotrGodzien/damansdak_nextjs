@@ -33,7 +33,52 @@ const Home = () => {
   return (
     <div className="">
       <Navigation />
-      <NextSeo title={t("slider")} description={t("sliderDescription")} />
+      <NextSeo
+        title={`Damansdak Polska - ${t("slider")}`}
+        description='{t("sliderDescription")}'
+        canonical="https://damasndak/"
+        languageAlternates={[
+          {
+            hrefLang: "de-DE",
+            href: "https://damansdak.pl/de/",
+          },
+          {
+            hrefLang: "ru-RU",
+            href: "https://damansdak.pl/ru/",
+          },
+          {
+            hrefLang: "en-EN",
+            href: "https://damansdak.pl/en/",
+          },
+        ]}
+        openGraph={{
+          url: "https://damansdak.pl/",
+          title: `Damansdak Polska – ${t("slider")}`,
+          description: t("contactText"),
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: `Damansdak Polska – ${t("slider")}`,
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: `Damansdak Polska – ${t("slider")}`,
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: `Damansdak Polska – ${t("slider")}`,
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <main className="relative bg-gray-50">
         <div className="relative z-0">
           <img
