@@ -7,7 +7,7 @@
 
 
 <url>
-  <loc>https://damansdak.pl/</loc>
+  <loc>https://damansdak.pl</loc>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -22,7 +22,7 @@
                href="https://damansdak.pl/ru/"/>
 </url>
 <url>
-  <loc>https://damansdak.pl/oferta/</loc>
+  <loc>https://damansdak.pl/oferta</loc>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -37,7 +37,7 @@
                href="https://damansdak.pl/ru/oferta/"/>
 </url>
 <url>
-  <loc>https://damansdak.pl/o-nas/</loc>
+  <loc>https://damansdak.pl/o-nas</loc>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -52,7 +52,7 @@
                href="https://damansdak.pl/ru/o-nas/"/>
 </url>
 <url>
-  <loc>https://damansdak.pl/wideo/</loc>
+  <loc>https://damansdak.pl/wideo</loc>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -67,7 +67,7 @@
                href="https://damansdak.pl/ru/wideo/"/>
 </url>
 <url>
-  <loc>https://damansdak.pl/realizacje/</loc>
+  <loc>https://damansdak.pl/realizacje</loc>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -82,7 +82,7 @@
                href="https://damansdak.pl/ru/realizacje/"/>
 </url>
 <url>
-  <loc>https://damansdak.pl/kontakt/</loc>
+  <loc>https://damansdak.pl/kontakt</loc>
     <xhtml:link
                rel="alternate"
                hreflang="de"
