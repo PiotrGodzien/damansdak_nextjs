@@ -11,9 +11,24 @@ const Realizacje = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Realizacje")}`}
-        description='{t("realisationsDescription")}'
+        description={`${t("realisationsDescription")}`}
         canonical="https://damansdak.pl/realizacje/"
+        languageAlternates={[
+          {
+            hrefLang: "de",
+            href: "https://damansdak.pl/de/realizacje/",
+          },
+          {
+            hrefLang: "ru",
+            href: "https://damansdak.pl/ru/realizacje/",
+          },
+          {
+            hrefLang: "en",
+            href: "https://damansdak.pl/en/realizacje/",
+          },
+        ]}
         openGraph={{
+          type: "website",
           url: "https://damansdak.pl/realizacje/ ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
@@ -47,16 +62,16 @@ const Realizacje = () => {
           <img
             className="absolute object-cover w-full h-full bg-center"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg"
-            alt=""
+            alt="Ruda Śląska Damansdak"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
               {t("wszystkierealizacje")}
             </p>
-            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
+            <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("naszerealizacje")}
-            </h2>
+            </h1>
           </div>
         </div>
         <div className="py-4 mb-6 bg-pattern"></div>
@@ -75,7 +90,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg"
                   layout="fill"
-                  alt=""
+                  alt="Lublin Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -124,7 +139,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg"
                   layout="fill"
-                  alt=""
+                  alt="Ruda Śląska Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -173,7 +188,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg"
                   layout="fill"
-                  alt=""
+                  alt="Błonie Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -222,7 +237,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory7.jpg"
                   layout="fill"
-                  alt=""
+                  alt="Żory Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -271,7 +286,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/niemcy/niemcy4.jpg"
                   layout="fill"
-                  alt=""
+                  alt="Niemcy Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -317,7 +332,7 @@ const Realizacje = () => {
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/litwa/litwa4.jpg"
                   layout="fill"
-                  alt=""
+                  alt="Litwa Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -363,7 +378,7 @@ const Realizacje = () => {
                 <img
                   src="/realizacje/szczecin/realizacja_szczecin.webp"
                   layout="fill"
-                  alt=""
+                  alt="Szczecin Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -412,7 +427,7 @@ const Realizacje = () => {
                 <img
                   src="/realizacje/swidnica/swidnica.webp"
                   layout="fill"
-                  alt=""
+                  alt="Świdnica Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
@@ -461,7 +476,7 @@ const Realizacje = () => {
                 <img
                   src="/realizacje/dom/dom2.webp"
                   layout="fill"
-                  alt=""
+                  alt="Przemyśl Damansdak"
                   className=""
                 />
                 <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">

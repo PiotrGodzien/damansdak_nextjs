@@ -68,9 +68,9 @@ const Oferta = () => {
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
               {t("Oferta")}
             </p>
-            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
+            <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("titleOffer")}
-            </h2>
+            </h1>
           </div>
         </div>
         <div className="py-4 mb-6 bg-pattern"></div>
