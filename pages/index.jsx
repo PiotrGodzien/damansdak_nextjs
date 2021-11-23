@@ -1,4 +1,3 @@
-import Head from "next/head";
 import LazyShow from "./LazyShow";
 import { animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
@@ -7,11 +6,9 @@ import VisibilitySensor from "react-visibility-sensor";
 import Navigation from "../components/_nav";
 import Footer from "../components/_footer";
 import Cta from "../components/_cta";
-import SwiperCarousel from "../components/_carousel";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import useTranslation from "next-translate/useTranslation";
-import Image from "next/image";
 
 const Home = () => {
   const [small, setSmall] = useState(false);
@@ -39,15 +36,15 @@ const Home = () => {
         canonical="https://damasndak/"
         languageAlternates={[
           {
-            hrefLang: "de-DE",
+            hrefLang: "de",
             href: "https://damansdak.pl/de/",
           },
           {
-            hrefLang: "ru-RU",
+            hrefLang: "ru",
             href: "https://damansdak.pl/ru/",
           },
           {
-            hrefLang: "en-EN",
+            hrefLang: "en",
             href: "https://damansdak.pl/en/",
           },
         ]}
