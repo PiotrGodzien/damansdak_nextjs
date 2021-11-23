@@ -30,6 +30,9 @@ const Navigation = () => {
                 <Link href="/oferta">{t("Oferta")}</Link>
               </div>
               <div className="">
+                <Link href="/serwis">{t("Serwis/renowacje")}</Link>
+              </div>
+              <div className="">
                 <Link href="/o-nas">{t("Onas")}</Link>
               </div>
               <div className="">
@@ -94,11 +97,14 @@ const Navigation = () => {
               <Link href="/oferta">{t("Oferta")}</Link>
             </div>
             <div className="">
+              <Link href="/serwis">{t("Serwis/renowacje")}</Link>
+            </div>
+            <div className="">
               <Link href="/o-nas">{t("Onas")}</Link>
             </div>
             <div className="">
-                <Link href="/wideo">{t("Wideo")}</Link>
-              </div>
+              <Link href="/wideo">{t("Wideo")}</Link>
+            </div>
             <div className="">
               <Link href="/realizacje">{t("Realizacje")}</Link>
             </div>

@@ -486,12 +486,12 @@ const Home = () => {
             </LazyShow>
             {/* REALIZACJA 3 */}
             <LazyShow>
-              <Link href="/realizacje/blonie">
+              <Link href="/realizacje/szczecin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="https://damansdak.mo.cloudinary.net/blonie_realizacja.webp"
+                    src="/realizacje/szczecin/realizacja_szczecin.webp"
                     layout="fill"
-                    alt="Realizacja dachu w Błoniach"
+                    alt="Realizacja dachu w Szczecinie"
                     className=""
                     width={1920}
                     height={1080}
@@ -499,19 +499,19 @@ const Home = () => {
                   <div className="absolute bottom-0 right-0 grid items-center p-2 mx-auto bg-black bg-opacity-50 hover:bg-opacity-100 hover:bg-black lg:bg-opacity-80 sm:w-2/3 lg:grid-cols-2 lg:p-8 sm:px-8 text-md">
                     <p className="text-xs text-white sm:text-base lg:px-8 2xl:text-2xl">
                       {t("Miejsce")}
-                      <b>Błonie k. W-wy</b>
+                      <b>Szczecin</b>
                       <br></br>
                       {t("Powierzchnia")}
-                      <b>34 000 m²</b>
+                      <b>43 500 m²</b>
                       <br></br>
                       {t("Generalnywykonawca")}
-                      <b>Kajima Poland Sp. z o.o.</b>
+                      <b>TRASKO Invest Sp. z o.o.</b>
                       <br></br>
                       {t("Inwestor")}
-                      <b>P3 Logistigs</b>
+                      <b>Panattoni </b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                      <a href="/realizacje/blonie">
+                      <a href="/realizacje/szczecin">
                         <button className="flex items-center justify-center">
                           {t("zobaczwiecej")}
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">

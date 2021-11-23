@@ -245,9 +245,9 @@ const Footer = () => {
             <Link href="/realizacje">{t("Realizacje")}</Link>
           </div>
           {/* <div className=""><Link href="/kariera">KARIERA</Link></div> */}
-          <div className="">
+          {/* <div className="">
                 <Link href="/wideo">{t("Wideo")}</Link>
-              </div>
+              </div> */}
           <div className="">
             <Link href="/kontakt">{t("Kontakt")}</Link>
           </div>
