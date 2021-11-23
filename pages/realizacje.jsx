@@ -60,10 +60,27 @@ const Realizacje = () => {
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
           <img
-            className="absolute object-cover w-full h-full bg-center"
+            className="absolute object-cover w-full h-full bg-center lg:hidden"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg"
             alt="Ruda Śląska Damansdak"
           />
+          <video
+            autoPlay
+            loop
+            muted
+            playsinline
+            className="absolute hidden object-cover w-full h-full bg-center lg:block"
+          >
+            <source src="/video_damansdak.webm" type="video/webm" />
+            <source
+              src="https://damansdak.mo.cloudinary.net/video_damansdak.webm"
+              type="video/webm"
+            />
+            <source
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
+              type="video/mp4"
+            />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">

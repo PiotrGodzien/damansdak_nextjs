@@ -142,7 +142,7 @@ const Oferta = () => {
                 {t("DACHYPLASKIE")}
               </p>
               <h2 className="text-3xl lg:text-5xl lg:text-left font-heading">
-                {t("Serwis/renowacje")}
+                {t("Renowacje")}
               </h2>
             </div>
           </div>
