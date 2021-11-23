@@ -10,9 +10,24 @@ const Oferta = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Oferta")}`}
-        description='{t("offerDescription")}'
+        description={`${t("offerDescription")}`}
         canonical="https://damansdak.pl/oferta/"
+        languageAlternates={[
+          {
+            hrefLang: "de",
+            href: "https://damansdak.pl/de/oferta/",
+          },
+          {
+            hrefLang: "ru",
+            href: "https://damansdak.pl/ru/oferta/",
+          },
+          {
+            hrefLang: "en",
+            href: "https://damansdak.pl/en/oferta/",
+          },
+        ]}
         openGraph={{
+          type: "website",
           url: "https://damansdak.pl/oferta/",
           title: `Damansdak Polska – ${t("Oferta")}`,
           description: t("offerDescription"),
@@ -46,7 +61,7 @@ const Oferta = () => {
           <img
             className="absolute object-cover w-full h-full bg-center"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/offer.jpg"
-            alt=""
+            alt="Damansdak Oferta"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
@@ -65,7 +80,7 @@ const Oferta = () => {
             <img
               className="h-20"
               src="https://damansdak.s3.eu-central-1.amazonaws.com/roof.png"
-              alt=""
+              alt="Dachy stalowe"
             />
             <div className="lg:ml-6">
               <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">
@@ -92,7 +107,7 @@ const Oferta = () => {
             <img
               className="h-20"
               src="https://damansdak.s3.eu-central-1.amazonaws.com/brick-wall.png"
-              alt=""
+              alt="Dachy betonowe"
             />
             <div className="lg:ml-6">
               <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">
@@ -120,7 +135,7 @@ const Oferta = () => {
             <img
               className="h-20"
               src="https://damansdak.s3.eu-central-1.amazonaws.com/hammer.png"
-              alt=""
+              alt="Renowacja i konserwacja"
             />
             <div className="lg:ml-6">
               <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">
