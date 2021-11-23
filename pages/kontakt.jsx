@@ -29,6 +29,7 @@ const Kontakt = () => {
           },
         ]}
         openGraph={{
+          type: "website",
           url: "https://damansdak.pl/kontakt/",
           title: `Damansdak Polska – ${t("Kontakt")}`,
           description: t("contactText"),
