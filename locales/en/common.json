@@ -88,6 +88,7 @@
   "homeBeton": "Execution of concrete roofs.",
   "homeStal": "Execution of steel roofs.",
   "homeSerwis": "Renovation of industrial roofs.",
+  "serviceDescription": "Serwis, naprawa i renowacja wielkopowierzchniowych dachów płaskich.",
   "doswiadczenie": "experience",
   "Przemyśl": "Przemyśl",
   "Dzialofertowania": "Offer Department",
@@ -103,5 +104,11 @@
   "domText": "Budynek mieszkalny o powierzchni ok. 350 m2. \n Dostawa i montaż następujących elementów pokrycia dachowego: folia paroizolacyjna PE 0,2mm, termoizolacja EPS100 2x13cm oraz płyty spadkowe i kliny rozpływowe z EPS100, włóknina szklana 120g/m2, wpusty dachowe podgrzewane Essmann śr. 100mm, membrana dachowa PVC 1,5mm wraz złącznikami mechanicznymi.",
   "Wideo": "Video",
   "titleWideo": "Zobacz jak działamy",
-  "wideoDescription": "Filmy wideo z naszych realizacji przy wykonywaniu dachów betonowych, dachów stalowych oraz serwisów i renowacji dachów przemysłowych."
+  "wideoDescription": "Filmy wideo z naszych realizacji przy wykonywaniu dachów betonowych, dachów stalowych oraz serwisów i renowacji dachów przemysłowych.",
+  "serviceHomeOne": "Membrana dachowa PVC, TPO/FPO jak każdy materiał ulega starzeniu po kilkunastu latach użytkowania. Dlatego też Inwestorzy powinni być przygotowani na RENOWACJE DACHÓW PŁASKICH. Na czym polega renowacja dachu płaskiego? Przede wszystkim na odnowieniu istniejącego (starego) pokrycia dachowego z membrany PVC, TPO/FPO, jak również na dostosowaniu dachu/obiektu do obecnych przepisów budowlanych. Renowacja dachu płaskiego zależna jest od wielu czynników i za nim przystąpi się do konkretnych robót budowlanych należy wykonać:",
+  "serviceHomeTwo": "1. Przeprowadzenie rozmowy z Inwestorem/Zarządcą budynku, który dokładnie musi określić jakie są jego oczekiwania względem naprawy/remontu/renowacji czy też względem całego budynku. Może okazać się, że po kilku – kilkunastu latach zmieni się sposób użytkowania budynku, a to z kolei wymusza uzyskanie pozwoleń administracyjnych;",
+  "serviceHomeThree": "2. Przygotowanie oceny technicznej pokrycia dachowego, która powinna zwierać: opis techniczny wraz z dokumentacją fotograficzną/filmową, proponowane rozwiązania, dobór materiałów wraz z rysunkami, szkicami, itp. oraz wstępna wycena prac;",
+  "serviceHomeFour": "3. Wspólne uzgodnienia z Inwestorem/Zarządcą obiektu – uszczegółowienie zakresu prac i rozwiązań technologicznych;",
+  "serviceHomeFive": "4. Ostateczna oferta – negocjacje/podpisanie umowy.",
+  "serviceHomeSix": "W celu podjęcia konkretnych zapytań i działań z tym związanych, zapraszamy do kontaktu. Udzielimy fachowej porady."
 }
