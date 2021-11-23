@@ -71,7 +71,7 @@ const Realizacje = () => {
             playsinline
             className="absolute hidden object-cover w-full h-full bg-center lg:block"
           >
-            <source src="/video_damansdak.webm" type="video/webm" />
+            <source src="/realizacje.webm" type="video/webm" />
             <source
               src="https://damansdak.mo.cloudinary.net/video_damansdak.webm"
               type="video/webm"
