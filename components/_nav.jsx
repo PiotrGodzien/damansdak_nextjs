@@ -22,7 +22,7 @@ const Navigation = () => {
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-4 text-base 2xl:text-lg xl:flex">
+            <div className="items-center hidden space-x-2 text-xs 2xl:space-x-4 lg:text-base 2xl:text-lg 2xl:flex">
               <div className="">
                 <Link href="/">{t("Stronaglowna")}</Link>
               </div>
@@ -64,7 +64,7 @@ const Navigation = () => {
                 </Link>
               </div>
             </div>
-            <div className="ml-auto xl:hidden">
+            <div className="ml-auto 2xl:hidden">
               <button
                 className="flex focus:outline-none"
                 onClick={() => setVisible(!visible)}
@@ -87,9 +87,9 @@ const Navigation = () => {
         <div
           className={`${
             visible ? "block" : "hidden"
-          }  z-50 h-screen sm:h-full bg-black`}
+          }  z-50 h-screen md:text-3xl md:space-y-8 bg-black`}
         >
-          <div className="flex flex-col w-2/3 py-16 mx-auto space-y-3 text-white">
+          <div className="flex flex-col py-16 mx-auto space-y-3 text-center text-white">
             <div className="">
               <Link href="/">{t("Stronaglowna")}</Link>
             </div>
@@ -112,7 +112,7 @@ const Navigation = () => {
             <div className="">
               <Link href="/kontakt">{t("Kontakt")}</Link>
             </div>
-            <div className="flex mt-6 space-x-4">
+            <div className="flex justify-center mt-6 space-x-4">
               {/* <img alt="" className="h-6 border border-white w-9" src="/germany.png" layout='fill' />
               <img alt="" className="h-6 border border-white w-9" src="/united.png" layout='fill' /> */}
               <Link href="https://damansdak.com">
@@ -128,7 +128,9 @@ const Navigation = () => {
                 </a>
               </Link>
             </div>
+            <div className="mx-auto">
             <SwitchLanguage />
+            </div>
           </div>
         </div>
       </div>
