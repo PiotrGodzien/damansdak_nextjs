@@ -12,24 +12,24 @@ const Realizacje = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Realizacje")}`}
         description={`${t("realisationsDescription")}`}
-        canonical="https://damansdak.pl/realizacje/"
+        canonical="https://damansdak.plrealizacje/"
         languageAlternates={[
           {
             hrefLang: "de",
-            href: "https://damansdak.pl/de/realizacje/",
+            href: "https://damansdak.pl/derealizacje/",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/ru/realizacje/",
+            href: "https://damansdak.pl/rurealizacje/",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/en/realizacje/",
+            href: "https://damansdak.pl/enrealizacje/",
           },
         ]}
         openGraph={{
           type: "website",
-          url: "https://damansdak.pl/realizacje/ ",
+          url: "https://damansdak.plrealizacje/ ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
           images: [
@@ -102,10 +102,10 @@ const Realizacje = () => {
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
             {/* REALIZACJA SZCZECIN */}
 
-            <Link href="/realizacje/szczecin">
+            <Link href="realizacje/szczecin">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
-                  src="/realizacje/szczecin/realizacja_szczecin.webp"
+                  src="realizacje/szczecin/realizacja_szczecin.webp"
                   layout="fill"
                   alt="Szczecin Damansdak"
                   className=""
@@ -125,7 +125,7 @@ const Realizacje = () => {
                     <b>Panattoni</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/szczecin">
+                    <a href="realizacje/szczecin">
                       <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -151,10 +151,10 @@ const Realizacje = () => {
 
             {/* REALIZACJA SWIDNICA */}
 
-            <Link href="/realizacje/swidnica">
+            <Link href="realizacje/swidnica">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
-                  src="/realizacje/swidnica/swidnica.webp"
+                  src="realizacje/swidnica/swidnica.webp"
                   layout="fill"
                   alt="Świdnica Damansdak"
                   className=""
@@ -174,7 +174,7 @@ const Realizacje = () => {
                     <b>Elektrolux</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/swidnica">
+                    <a href="realizacje/swidnica">
                       <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -199,7 +199,7 @@ const Realizacje = () => {
             </Link>
             {/* LUBLIN */}
 
-            <Link href="/realizacje/lublin">
+            <Link href="realizacje/lublin">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg"
@@ -222,7 +222,7 @@ const Realizacje = () => {
                     <b>7R</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/lublin">
+                    <a href="realizacje/lublin">
                       <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -248,7 +248,7 @@ const Realizacje = () => {
 
             {/* RUDA */}
 
-            <Link href="/realizacje/ruda-slaska">
+            <Link href="realizacje/ruda-slaska">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/ruda_slaska_realizacja.jpeg"
@@ -271,7 +271,7 @@ const Realizacje = () => {
                     <b>Panattoni</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <Link href="/realizacje/ruda-slaska">
+                    <Link href="realizacje/ruda-slaska">
                       <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -297,7 +297,7 @@ const Realizacje = () => {
 
             {/* BŁONIE */}
 
-            <Link href="/realizacje/blonie">
+            <Link href="realizacje/blonie">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie_realizacja.jpeg"
@@ -320,7 +320,7 @@ const Realizacje = () => {
                     <b>P3 Logistigs</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/blonie">
+                    <a href="realizacje/blonie">
                       <button className="flex items-center justify-center">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -346,7 +346,7 @@ const Realizacje = () => {
 
             {/* ŻORY*/}
 
-            <Link href="/realizacje/zory">
+            <Link href="realizacje/zory">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/zory/zory7.jpg"
@@ -369,7 +369,7 @@ const Realizacje = () => {
                     <b>Proma Polska</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/zory">
+                    <a href="realizacje/zory">
                       <button className="flex items-center justify-center">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -395,7 +395,7 @@ const Realizacje = () => {
 
             {/* NIEMCY */}
 
-            <Link href="/realizacje/niemcy">
+            <Link href="realizacje/niemcy">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/niemcy/niemcy4.jpg"
@@ -415,7 +415,7 @@ const Realizacje = () => {
                     <b>53 000m²</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/niemcy">
+                    <a href="realizacje/niemcy">
                       <button className="flex items-center justify-center">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -441,7 +441,7 @@ const Realizacje = () => {
 
             {/* LITWA */}
 
-            <Link href="/realizacje/litwa">
+            <Link href="realizacje/litwa">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/litwa/litwa4.jpg"
@@ -461,7 +461,7 @@ const Realizacje = () => {
                     <b>6 000m²</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/litwa">
+                    <a href="realizacje/litwa">
                       <button className="flex items-center justify-center">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -487,10 +487,10 @@ const Realizacje = () => {
 
             {/* REALIZACJA DOM PRZEMYŚL */}
 
-            <Link href="/realizacje/dom">
+            <Link href="realizacje/dom">
               <div className="relative mx-auto mb-8 sm:mb-16">
                 <img
-                  src="/realizacje/dom/dom2.webp"
+                  src="realizacje/dom/dom2.webp"
                   layout="fill"
                   alt="Przemyśl Damansdak"
                   className=""
@@ -507,7 +507,7 @@ const Realizacje = () => {
                     <b>Osoba prywatna</b>
                   </p>
                   <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                    <a href="/realizacje/dom">
+                    <a href="realizacje/dom">
                       <button className="flex items-center justify-center ">
                         {t("zobaczwiecej")}
                         <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">

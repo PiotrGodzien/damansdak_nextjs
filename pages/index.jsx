@@ -324,7 +324,7 @@ const Home = () => {
               </p>
             </div>
           </LazyShow>
-          <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 2xl:w-3/5 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
+          <div className="relative z-40 grid px-8 mx-auto xl:justify-center xl:flex sm:w-11/12 sm:px-0 lg:grid-cols-3 gap-x-8 items-strech">
             <LazyShow>
               <div className="px-8 py-12 transition duration-300 ease-out bg-white border-t-4 2xl:py-20 border-primary hover:bg-black hover:text-white">
                 <h3 className="text-3xl uppercase sm:text-4xl">
@@ -334,7 +334,7 @@ const Home = () => {
                   {t("homeBeton")}
                 </p>
                 <div className="">
-                  <a href="/oferta/#beton">
+                  <a href="oferta/#beton">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                       {t("zobaczwiecej")}
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -365,7 +365,7 @@ const Home = () => {
                   {t("homeStal")}
                 </p>
                 <div className="">
-                  <Link href="/oferta/">
+                  <Link href="oferta/">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                       {t("zobaczwiecej")}
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -396,7 +396,7 @@ const Home = () => {
                   {t("homeSerwis")}
                 </p>
                 <div className="relative z-40">
-                  <Link href="/oferta/#renowacja">
+                  <Link href="oferta/#renowacja">
                     <button className="flex items-center justify-center mt-12 mr-auto lg:text-xl">
                       {t("zobaczwiecej")}
                       <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -449,7 +449,7 @@ const Home = () => {
           <div className="px-8 mx-auto sm:w-4/5 sm:px-0 lg:w-3/5">
             {/* REALIZACJA 1 */}
             <LazyShow>
-              <Link href="/realizacje/lublin">
+              <Link href="realizacje/lublin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
                     src="https://damansdak.mo.cloudinary.net/lublin_realizacja.webp"
@@ -474,7 +474,7 @@ const Home = () => {
                       <b>7R</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                      <a href="/realizacje/lublin">
+                      <a href="realizacje/lublin">
                         <button className="flex items-center justify-center">
                           {t("zobaczwiecej")}
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -500,7 +500,7 @@ const Home = () => {
             </LazyShow>
             {/* REALIZACJA 2 */}
             <LazyShow>
-              <Link href="/realizacje/ruda-slaska">
+              <Link href="realizacje/ruda-slaska">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
                     src="https://damansdak.mo.cloudinary.net/ruda_slaska_realizacja.webp"
@@ -525,7 +525,7 @@ const Home = () => {
                       <b>Panattoni</b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                      <a href="/realizacje/ruda-slaska">
+                      <a href="realizacje/ruda-slaska">
                         <button className="flex items-center justify-center">
                           {t("zobaczwiecej")}
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -551,10 +551,10 @@ const Home = () => {
             </LazyShow>
             {/* REALIZACJA 3 */}
             <LazyShow>
-              <Link href="/realizacje/szczecin">
+              <Link href="realizacje/szczecin">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="/realizacje/szczecin/realizacja_szczecin.webp"
+                    src="realizacje/szczecin/realizacja_szczecin.webp"
                     layout="fill"
                     alt="Realizacja dachu w Szczecinie"
                     className=""
@@ -576,7 +576,7 @@ const Home = () => {
                       <b>Panattoni </b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                      <a href="/realizacje/szczecin">
+                      <a href="realizacje/szczecin">
                         <button className="flex items-center justify-center">
                           {t("zobaczwiecej")}
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">
@@ -600,7 +600,7 @@ const Home = () => {
                 </div>
               </Link>
             </LazyShow>
-            <a href="/realizacje/">
+            <a href="realizacje/">
               <p className="relative z-40 text-xl cursor-pointer ">
                 {t("zobaczwszystkierealizacje")} &rarr;
               </p>
