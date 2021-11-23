@@ -61,16 +61,16 @@ const Onas = () => {
           <img
             className="absolute object-cover w-full h-full bg-center"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/about_us.jpg"
-            alt=""
+            alt="Damansdak Polska – o firmie"
           />
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
             <p className="font-serif font-light text-center text-white text-md lg:text-left">
               {t("ONAS")}
             </p>
-            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
+            <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("Poznajnasblizej")}
-            </h2>
+            </h1>
           </div>
         </div>
         {/* <div className="py-4 pb-6 bg-pattern"></div> */}
@@ -91,6 +91,7 @@ const Onas = () => {
               {t("aboutCta")}
             </p> */}
             <img
+              alt="Mapa Europy"
               className="mx-auto mt-12 lg:w-8/12 sm:w-10/12"
               src="https://damansdak.s3.eu-central-1.amazonaws.com/mapa_europy.jpg"
             />
@@ -109,7 +110,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg"
-                  alt=""
+                  alt="Dariusz Barbarowicz"
                 />
                 <p className="mt-4 mb-2 font-serif">Dariusz Barbarowicz</p>
                 <p className="font-serif text-sm font-light">
@@ -120,7 +121,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Artur_L.jpeg"
-                  alt=""
+                  alt="Artur Leszczyński"
                 />
                 <p className="mt-4 mb-2 font-serif">Artur Leszczyński</p>
                 <div className="font-serif text-sm font-light">
@@ -137,7 +138,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Ewelina_Grochowicz.jpeg"
-                  alt=""
+                  alt="Ewelina Grochowicz"
                 />
                 <p className="mt-4 mb-2 font-serif">Ewelina Grochowicz</p>
                 <p className="font-serif text-sm font-light">
@@ -152,7 +153,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Mirosław_Łosobik.jpeg"
-                  alt=""
+                  alt="Mirosław Łosobik"
                 />
                 <p className="mt-4 mb-2 font-serif">Mirosław Łosobik</p>
                 <p className="font-serif text-sm font-light">
@@ -169,7 +170,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Przemys%C5%82aw_Krata.jpeg"
-                  alt=""
+                  alt="Przemysław Krata"
                 />
                 <p className="mt-4 mb-2 font-serif">Przemysław Krata</p>
                 <p className="font-serif text-sm font-light">
@@ -184,7 +185,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Zdybel.jpeg"
-                  alt=""
+                  alt="Monika Zdybel"
                 />
                 <p className="mt-4 mb-2 font-serif">Monika Zdybel</p>
                 <p className="font-serif text-sm font-light">
@@ -201,7 +202,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Pawel_Olech.jpeg"
-                  alt=""
+                  alt="Paweł Olech"
                 />
                 <p className="mt-4 mb-2 font-serif">Paweł Olech</p>
                 <p className="font-serif text-sm font-light">
@@ -212,7 +213,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg"
-                  alt=""
+                  alt="Monika Śpiewak"
                 />
                 <p className="mt-4 mb-2 font-serif">Monika Śpiewak</p>
                 <p className="font-serif text-sm font-light">
@@ -225,7 +226,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Edyta_Hajnold.jpeg"
-                  alt=""
+                  alt="Edyta Hajnold"
                 />
                 <p className="mt-4 mb-2 font-serif">Edyta Hajnold</p>
                 <p className="font-serif text-sm font-light">
@@ -240,7 +241,7 @@ const Onas = () => {
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Kateryna_Halkina.jpeg"
-                  alt=""
+                  alt="Kateryna Halkina"
                 />
                 <p className="mt-4 mb-2 font-serif">Kateryna Halkina</p>
                 <p className="font-serif text-sm font-light">
