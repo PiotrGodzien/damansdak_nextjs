@@ -10,7 +10,7 @@ const Onas = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Onas")}`}
-        description={`$t("aboutDescription")`}
+        description={`${t("aboutDescription")}`}
         canonical="https://damansdak.pl/o-nas/"
         languageAlternates={[
           {
