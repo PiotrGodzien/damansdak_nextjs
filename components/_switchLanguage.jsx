@@ -28,7 +28,7 @@ const SwitchLanguage = () => {
             <Link href="" locale={lng} key={lng}>
               {/* {t(`${flags}`)} */}
               <img
-                alt=""
+                alt="Flaga – wybór języka"
                 className="w-6 h-4 border border-white"
                 src={`https://damansdak.mo.cloudinary.net/${codeToCountry(
                   lng
