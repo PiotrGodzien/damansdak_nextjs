@@ -10,7 +10,7 @@ const Onas = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Onas")}`}
-        description='{t("aboutDescription")}'
+        description={`$t("aboutDescription")`}
         canonical="https://damansdak.pl/o-nas/"
         languageAlternates={[
           {
@@ -30,7 +30,7 @@ const Onas = () => {
           type: "website",
           url: "https://damansdak.pl/o-nas/",
           title: `Damansdak Polska – ${t("Onas")}`,
-          description: t("contactText"),
+          description: t("aboutDescription"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
