@@ -109,6 +109,28 @@ const Onas = () => {
               <div className="lg:w-1/2 lg:mr-14">
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
+                  src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Damian_Mazurkiewicz.jpeg"
+                  alt="Damian Mazurkiewicz"
+                />
+                <p className="mt-4 mb-2 font-serif">Damian Mazurkiewicz</p>
+                <p className="font-serif text-sm font-light">{t("Prezes")}</p>
+              </div>
+              <div className="mt-8 lg:w-1/2 lg:mt-0">
+                <img
+                  className="object-cover object-top w-20 h-20 mx-auto rounded-full"
+                  src="/pracownicy/Sylwia_Mazurkiewicz.jpeg"
+                  alt="Sylwia Mazurkiewicz"
+                />
+                <p className="mt-4 mb-2 font-serif">Sylwia Mazurkiewicz</p>
+                <div className="font-serif text-sm font-light">
+                  {t("Officemanager")}
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col px-8 text-center justify-evenly lg:mt-8 lg:flex-row sm:px-0">
+              <div className="lg:w-1/2 lg:mr-14">
+                <img
+                  className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Dariusz_Barbarowicz.jpeg"
                   alt="Dariusz Barbarowicz"
                 />
@@ -184,16 +206,12 @@ const Onas = () => {
               <div className="mt-8 lg:w-1/2 lg:mt-0">
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
-                  src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Zdybel.jpeg"
-                  alt="Monika Zdybel"
+                  src="/pracownicy/Janusz_Mazurkiewicz.jpg"
+                  alt="Janusz Mazurkiewicz"
                 />
-                <p className="mt-4 mb-2 font-serif">Monika Zdybel</p>
+                <p className="mt-4 mb-2 font-serif">Janusz Mazurkiewicz</p>
                 <p className="font-serif text-sm font-light">
-                  {t("BHP")
-                    .split("\n")
-                    .map((BHP) => (
-                      <p>{BHP}</p>
-                    ))}
+                  {t("Kontroler")}
                 </p>
               </div>
             </div>
@@ -252,6 +270,24 @@ const Onas = () => {
                     ))}
                 </p>
               </div>
+            </div>
+            <div className="flex flex-col px-8 text-center justify-evenly lg:mt-8 lg:flex-row sm:px-0">
+              <div className="mt-8 lg:w-1/2 lg:mt-0 lg:mr-14">
+                <img
+                  className="object-cover object-top w-20 h-20 mx-auto rounded-full"
+                  src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Zdybel.jpeg"
+                  alt="Monika Zdybel"
+                />
+                <p className="mt-4 mb-2 font-serif">Monika Zdybel</p>
+                <p className="font-serif text-sm font-light">
+                  {t("BHP")
+                    .split("\n")
+                    .map((BHP) => (
+                      <p>{BHP}</p>
+                    ))}
+                </p>
+              </div>
+              <div className="mt-8 lg:w-1/2 lg:mt-0"></div>
             </div>
           </div>
         </div>
