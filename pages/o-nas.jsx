@@ -12,10 +12,25 @@ const Onas = () => {
         title={`Damansdak Polska - ${t("Onas")}`}
         description='{t("aboutDescription")}'
         canonical="https://damansdak.pl/o-nas/"
+        languageAlternates={[
+          {
+            hrefLang: "de",
+            href: "https://damansdak.pl/de/o-nas/",
+          },
+          {
+            hrefLang: "ru",
+            href: "https://damansdak.pl/ru/o-nas/",
+          },
+          {
+            hrefLang: "en",
+            href: "https://damansdak.pl/en/o-nas/",
+          },
+        ]}
         openGraph={{
+          type: "website",
           url: "https://damansdak.pl/o-nas/",
           title: `Damansdak Polska – ${t("Onas")}`,
-          description: t("aboutDescription"),
+          description: t("contactText"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
