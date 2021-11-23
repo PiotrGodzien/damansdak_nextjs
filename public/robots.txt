@@ -1,4 +1,20 @@
-Sitemap: https://damansdak.pl/sitemap.xml
-
+# *
 User-agent: *
-Allow: /*
+Allow: /
+
+# test-bot
+User-agent: test-bot
+Allow: /path
+Allow: /path-2
+
+# black-listed-bot
+User-agent: black-listed-bot
+Disallow: /sub-path-1
+Disallow: /path-2
+
+# Host
+Host: https://damansdak.pl
+
+# Sitemaps
+....
+<---Generated sitemap list--->
