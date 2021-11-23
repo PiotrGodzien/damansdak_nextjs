@@ -13,23 +13,23 @@ const Kontakt = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Kontakt")}`}
         description='{t("contactText")}'
-        canonical="https://damasndak/kontakt"
+        canonical="https://damansdak.pl/kontakt"
         languageAlternates={[
           {
             hrefLang: "de",
-            href: "https://damansdak.pl/de/kontakt",
+            href: "https://damansdak.pl/de/kontakt/",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/ru/kontakt",
+            href: "https://damansdak.pl/ru/kontakt/",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/en/kontakt",
+            href: "https://damansdak.pl/en/kontakt/",
           },
         ]}
         openGraph={{
-          url: "https://damansdak.pl/kontakt",
+          url: "https://damansdak.pl/kontakt/",
           title: `Damansdak Polska – ${t("Kontakt")}`,
           description: t("contactText"),
           images: [

@@ -8,12 +8,12 @@ const Onas = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
-          <NextSeo
+      <NextSeo
         title={`Damansdak Polska - ${t("Onas")}`}
         description='{t("aboutDescription")}'
-        canonical="https://damasndak/o-nas"
+        canonical="https://damansdak.pl/o-nas/"
         openGraph={{
-          url: "https://damansdak.pl/o-nas",
+          url: "https://damansdak.pl/o-nas/",
           title: `Damansdak Polska – ${t("Onas")}`,
           description: t("aboutDescription"),
           images: [

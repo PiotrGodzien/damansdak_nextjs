@@ -9,12 +9,12 @@ const Realizacje = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
-    <NextSeo
+      <NextSeo
         title={`Damansdak Polska - ${t("Realizacje")}`}
         description='{t("realisationsDescription")}'
-        canonical="https://damasndak/realizacje"
+        canonical="https://damansdak.pl/realizacje/"
         openGraph={{
-          url: "https://damansdak.pl/realizacje",
+          url: "https://damansdak.pl/realizacje/",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
           images: [
