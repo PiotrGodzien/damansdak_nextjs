@@ -42,8 +42,8 @@ const LazyShow = ({ children }) => {
           duration: "0.75",
         },
         // animate: {
-        //   scale: "2"
-        // }
+        //   scale: "8",
+        // },
       });
     }
   }, [onScreen, controls]);

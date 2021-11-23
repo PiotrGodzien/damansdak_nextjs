@@ -1,4 +1,6 @@
 import LazyShow from "./LazyShow";
+import LazyShow2 from "./LazyShow2";
+import LazyShow3 from "./LazyShow3";
 import { animateScroll as scroll } from "react-scroll";
 import React, { useEffect, useState } from "react";
 import CountUp from "react-countup";
@@ -163,7 +165,70 @@ const Home = () => {
               </p>
             </div>
           </div>
-          <div className="relative flex mx-auto lg:w-3/5">
+          <div className="relative flex flex-col items-center justify-around pt-6 pb-12 mx-auto lg:flex-row lg:w-4/5 2xl:w-3/5">
+            <LazyShow>
+              <div className="flex flex-col items-center justify-center w-64 h-64 text-5xl text-white bg-black border-8 border-white rounded-full shadow-2xl">
+                <h2 className="text-4xl font-bold font-heading">
+                  <CountUp
+                    start={428500}
+                    end={429000}
+                    separator=" "
+                    duration={1.75}
+                    delay={0}
+                  >
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+                <span className="ml-3 text-lg">{t("mCount")}</span>
+              </div>
+            </LazyShow>
+            <LazyShow2>
+              <div className="flex flex-col items-center justify-center w-64 h-64 text-5xl text-white bg-black border-8 border-white rounded-full shadow-2xl">
+                <h2 className="text-4xl font-bold font-heading">
+                  <CountUp
+                    start={0}
+                    end={21}
+                    separator=" "
+                    duration={1.75}
+                    delay={0}
+                  >
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+                <span className="ml-3 text-lg">projektów</span>
+              </div>
+            </LazyShow2>
+            <LazyShow3>
+              <div className="flex flex-col items-center justify-center w-64 h-64 text-5xl text-white bg-black border-8 border-white rounded-full shadow-2xl">
+                <h2 className="text-4xl font-bold font-heading">
+                  <CountUp
+                    start={50}
+                    end={85}
+                    separator=" "
+                    duration={1.75}
+                    delay={0}
+                  >
+                    {({ countUpRef, start }) => (
+                      <VisibilitySensor onChange={start} delayedCall>
+                        <span ref={countUpRef} />
+                      </VisibilitySensor>
+                    )}
+                  </CountUp>
+                </h2>
+                <span className="ml-3 text-lg">pracowników</span>
+              </div>
+            </LazyShow3>
+          </div>
+
+          {/* <div className="relative flex mx-auto lg:w-3/5">
             <img
               className="relative mx-auto"
               src="https://damansdak.mo.cloudinary.net/home_parallax.webp"
@@ -198,7 +263,7 @@ const Home = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="-mt-14" id="target"></div>
           <div className="flex pt-32 pb-16 2xl:py-32">
