@@ -14,7 +14,7 @@ const Realizacje = () => {
         description='{t("realisationsDescription")}'
         canonical="https://damansdak.pl/realizacje/"
         openGraph={{
-          url: "https://damansdak.pl/realizacje/",
+          url: "https://damansdak.pl/realizacje/ ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
           images: [

@@ -12,7 +12,7 @@ const Kontakt = () => {
     <>
       <NextSeo
         title={`Damansdak Polska - ${t("Kontakt")}`}
-        description='{t("contactText")}'
+        description={`${t("contactText")}`}
         canonical="https://damansdak.pl/kontakt"
         languageAlternates={[
           {
