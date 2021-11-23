@@ -2,6 +2,7 @@ import Navigation from "../components/_nav";
 import Cta from "../components/_cta";
 import Footer from "../components/_footer";
 import useTranslation from "next-translate/useTranslation";
+import { NextSeo } from "next-seo";
 
 const Oferta = () => {
   const { t, lang } = useTranslation("common");
