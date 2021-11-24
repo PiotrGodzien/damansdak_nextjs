@@ -1,4 +1,4 @@
-Sitemap: https://damansdak.pl/sitemapnew.xml
+Sitemap: https://damansdak.pl/sitemap.xml
 
 User-agent: *
 Allow: /*
