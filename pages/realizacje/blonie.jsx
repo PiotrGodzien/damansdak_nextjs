@@ -26,8 +26,8 @@ const Home = () => {
   return (
     <>
       <NextSeo
-        title={`Damansdak Polska - ${t("blonieName")}`}
-        description={`${t("realisationsDescription")}`}
+        title={`Damansdak Polska - ${t("blonieTitle")}`}
+        description={`${t("blonieDescription")}`}
         canonical="https://damansdak.pl/realizacje/blonie"
         languageAlternates={[
           {
@@ -51,7 +51,7 @@ const Home = () => {
           type: "website",
           url: "https://damansdak.pl/realizacje/blonie ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
-          description: t("realisationsDescription"),
+          description: t("blonieDescription"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
@@ -82,7 +82,7 @@ const Home = () => {
           <img
             className="absolute object-cover w-full h-full bg-center"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie1.jpg"
-            alt=""
+            alt="Realizacja Błonie"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
