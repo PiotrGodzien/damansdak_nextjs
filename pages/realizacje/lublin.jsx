@@ -83,7 +83,7 @@ const Home = () => {
           <img
             className="absolute object-cover w-full h-full"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg"
-            alt=""
+            alt="Realizacja w Lublinie"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl px-4 mx-auto">

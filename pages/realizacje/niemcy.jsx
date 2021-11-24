@@ -84,7 +84,7 @@ const Home = () => {
           <img
             className="absolute object-cover w-full h-full bg-center"
             src="https://damansdak.s3.eu-central-1.amazonaws.com/blonie/blonie1.jpg"
-            alt=""
+            alt="Realizacja na terenie Niemiec"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
