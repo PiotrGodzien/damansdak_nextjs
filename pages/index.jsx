@@ -38,10 +38,6 @@ const Home = () => {
         // canonical="https://damansdak.pl/"
         languageAlternates={[
           {
-            hrefLang: "x-default",
-            href: "https://damansdak.pl/",
-          },
-          {
             hrefLang: "pl",
             href: "https://damansdak.pl/",
           },
