@@ -15,6 +15,10 @@ const Oferta = () => {
         canonical="https://damansdak.pl/wideo/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/wideo/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/de/wideo/",
           },

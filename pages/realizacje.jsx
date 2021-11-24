@@ -15,6 +15,10 @@ const Realizacje = () => {
         canonical="https://damansdak.plrealizacje/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/realizacje/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/derealizacje/",
           },

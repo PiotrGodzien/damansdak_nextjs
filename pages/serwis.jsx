@@ -14,6 +14,10 @@ const Serwis = () => {
         canonical="https://damansdak.pl/serwis/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/serwis/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/de/serwis/",
           },

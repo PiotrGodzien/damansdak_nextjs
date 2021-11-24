@@ -16,6 +16,10 @@ const Kontakt = () => {
         canonical="https://damansdak.pl/kontakt/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/kontakt/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/de/kontakt/",
           },

@@ -14,6 +14,10 @@ const Oferta = () => {
         canonical="https://damansdak.pl/oferta/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/oferta/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/de/oferta/",
           },

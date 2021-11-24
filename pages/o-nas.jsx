@@ -14,6 +14,10 @@ const Onas = () => {
         canonical="https://damansdak.pl/o-nas/"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/o-nas/",
+          },
+          {
             hrefLang: "de",
             href: "https://damansdak.pl/de/o-nas/",
           },
