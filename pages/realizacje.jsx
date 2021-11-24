@@ -12,7 +12,7 @@ const Realizacje = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Realizacje")}`}
         description={`${t("realisationsDescription")}`}
-        canonical="https://damansdak.plrealizacje/"
+        canonical="https://damansdak.pl/realizacje/"
         languageAlternates={[
           {
             hrefLang: "pl",
@@ -37,7 +37,7 @@ const Realizacje = () => {
         ]}
         openGraph={{
           type: "website",
-          url: "https://damansdak.plrealizacje/ ",
+          url: "https://damansdak.pl/realizacje/ ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
           images: [
