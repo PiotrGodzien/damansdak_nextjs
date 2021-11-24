@@ -559,10 +559,10 @@ const Home = () => {
             </LazyShow>
             {/* REALIZACJA 3 */}
             <LazyShow>
-              <Link href="realizacje/szczecin">
+              <Link href="realizacje/hala-w-szczecinie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="realizacje/szczecin/realizacja_szczecin.webp"
+                    src="realizacje/hala-w-szczecinie/realizacja_szczecin.webp"
                     layout="fill"
                     alt="Realizacja dachu w Szczecinie"
                     className=""
@@ -584,7 +584,7 @@ const Home = () => {
                       <b>Panattoni </b>
                     </p>
                     <div className="z-40 hidden mx-auto text-white transition duration-150 ease-in-out hover:text-primary lg:block">
-                      <a href="realizacje/szczecin">
+                      <a href="realizacje/hala-w-szczecinie">
                         <button className="flex items-center justify-center">
                           {t("zobaczwiecej")}
                           <div className="relative flex items-center justify-center p-6 ml-2 bg-transparent border border-gray-300 rounded-full lg:ml-6">

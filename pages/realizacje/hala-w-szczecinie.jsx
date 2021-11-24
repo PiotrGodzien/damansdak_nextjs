@@ -28,28 +28,28 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("szczecinTitle")}`}
         description={`${t("szczecinDescription")}`}
-        canonical="https://damansdak.pl/realizacje/szczecin"
+        canonical="https://damansdak.pl/realizacje/hala-w-szczecinie"
         languageAlternates={[
           {
             hrefLang: "pl",
-            href: "https://damansdak.pl/realizacje/szczecin",
+            href: "https://damansdak.pl/realizacje/hala-w-szczecinie",
           },
           {
             hrefLang: "de",
-            href: "https://damansdak.pl/de/realizacje/szczecin",
+            href: "https://damansdak.pl/de/realizacje/hala-w-szczecinie",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/ru/realizacje/szczecin",
+            href: "https://damansdak.pl/ru/realizacje/hala-w-szczecinie",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/en/realizacje/szczecin",
+            href: "https://damansdak.pl/en/realizacje/hala-w-szczecinie",
           },
         ]}
         openGraph={{
           type: "website",
-          url: "https://damansdak.pl/realizacje/szczecin",
+          url: "https://damansdak.pl/realizacje/hala-w-szczecinie",
           title: `Damansdak Polska – ${t("szczecinTitle")}`,
           description: t("blonieDescription"),
           images: [
