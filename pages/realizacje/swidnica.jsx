@@ -29,8 +29,12 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("swidnicaTitle")}`}
         description={`${t("swidnicaDescription")}`}
-        canonical="https://damansdak.pl/realizacje/swidnica"
+        // canonical="https://damansdak.pl/realizacje/swidnica"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/swidnica",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/realizacje/swidnica",

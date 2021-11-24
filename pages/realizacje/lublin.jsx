@@ -29,8 +29,12 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("lublinTitle")}`}
         description={`${t("lublinDescription")}`}
-        canonical="https://damansdak.pl/realizacje/lublin"
+        // canonical="https://damansdak.pl/realizacje/lublin"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/lublin",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/realizacje/lublin",

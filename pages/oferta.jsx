@@ -11,8 +11,12 @@ const Oferta = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Oferta")}`}
         description={`${t("offerDescription")}`}
-        canonical="https://damansdak.pl/oferta/"
+        // canonical="https://damansdak.pl/oferta/"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/oferta/",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/oferta/",

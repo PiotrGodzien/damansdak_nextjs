@@ -28,8 +28,12 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("domTitle")}`}
         description={`${t("domDescription")}`}
-        canonical="https://damansdak.pl/realizacje/dom"
+        // canonical="https://damansdak.pl/realizacje/dom"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/dom",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/realizacje/dom",

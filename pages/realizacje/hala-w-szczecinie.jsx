@@ -28,8 +28,12 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("szczecinTitle")}`}
         description={`${t("szczecinDescription")}`}
-        canonical="https://damansdak.pl/realizacje/hala-w-szczecinie"
+        // canonical="https://damansdak.pl/realizacje/hala-w-szczecinie"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/hala-w-szczecinie",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/realizacje/hala-w-szczecinie",

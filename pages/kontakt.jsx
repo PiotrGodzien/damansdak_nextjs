@@ -13,8 +13,12 @@ const Kontakt = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Kontakt")}`}
         description={`${t("contactText")}`}
-        canonical="https://damansdak.pl/kontakt/"
+        // canonical="https://damansdak.pl/kontakt/"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/kontakt/",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/kontakt/",

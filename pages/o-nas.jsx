@@ -11,8 +11,12 @@ const Onas = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("Onas")}`}
         description={`${t("aboutDescription")}`}
-        canonical="https://damansdak.pl/o-nas/"
+        // canonical="https://damansdak.pl/o-nas/"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/o-nas/",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/o-nas/",

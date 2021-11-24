@@ -28,8 +28,12 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("rudaTitle")}`}
         description={`${t("rudaDescription")}`}
-        canonical="https://damansdak.pl/realizacje/ruda-slaska"
+        // canonical="https://damansdak.pl/realizacje/ruda-slaska"
         languageAlternates={[
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/ruda-slaska",
+          },
           {
             hrefLang: "pl",
             href: "https://damansdak.pl/realizacje/ruda-slaska",
