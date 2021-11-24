@@ -34,7 +34,7 @@ const Home = () => {
       <Navigation />
       <NextSeo
         title={`Damansdak Polska - ${t("slider")}`}
-        description='{t("sliderDescription")}'
+        description={`${t("sliderDescription")}`}
         canonical="https://damansdak.pl/"
         languageAlternates={[
           {
