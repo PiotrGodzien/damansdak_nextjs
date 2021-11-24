@@ -27,6 +27,10 @@ const Kontakt = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/en/kontakt/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/kontakt/",
+          },
         ]}
         openGraph={{
           type: "website",

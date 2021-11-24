@@ -25,6 +25,10 @@ const Serwis = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/en/serwis/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/serwis/",
+          },
         ]}
         openGraph={{
           type: "website",

@@ -25,6 +25,10 @@ const Onas = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/en/o-nas/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/o-nas/",
+          },
         ]}
         openGraph={{
           type: "website",

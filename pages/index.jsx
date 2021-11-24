@@ -49,6 +49,10 @@ const Home = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/en/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/",
+          },
         ]}
         openGraph={{
           url: "https://damansdak.pl/",

@@ -26,6 +26,10 @@ const Realizacje = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/enrealizacje/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/realizacje/",
+          },
         ]}
         openGraph={{
           type: "website",

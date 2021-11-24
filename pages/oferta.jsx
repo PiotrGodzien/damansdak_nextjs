@@ -25,6 +25,10 @@ const Oferta = () => {
             hrefLang: "en",
             href: "https://damansdak.pl/en/oferta/",
           },
+          {
+            hrefLang: "x-default",
+            href: "https://damansdak.pl/oferta/",
+          },
         ]}
         openGraph={{
           type: "website",
