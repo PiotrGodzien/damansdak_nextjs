@@ -28,28 +28,28 @@ const Home = () => {
       <NextSeo
         title={`Damansdak Polska - ${t("rudaTitle")}`}
         description={`${t("rudaDescription")}`}
-        canonical="https://damansdak.pl/realizacje/ruda"
+        canonical="https://damansdak.pl/realizacje/ruda-slaska"
         languageAlternates={[
           {
             hrefLang: "pl",
-            href: "https://damansdak.pl/realizacje/ruda",
+            href: "https://damansdak.pl/realizacje/ruda-slaska",
           },
           {
             hrefLang: "de",
-            href: "https://damansdak.pl/de/realizacje/ruda",
+            href: "https://damansdak.pl/de/realizacje/ruda-slaska",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/ru/realizacje/ruda",
+            href: "https://damansdak.pl/ru/realizacje/ruda-slaska",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/en/realizacje/ruda",
+            href: "https://damansdak.pl/en/realizacje/ruda-slaska",
           },
         ]}
         openGraph={{
           type: "website",
-          url: "https://damansdak.pl/realizacje/ruda",
+          url: "https://damansdak.pl/realizacje/ruda-slaska",
           title: `Damansdak Polska – ${t("rudaTitle")}`,
           description: t("blonieDescription"),
           images: [
