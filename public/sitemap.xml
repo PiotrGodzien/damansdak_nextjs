@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<!-- STRONA GŁOWNA -->
 <url>
   <loc>https://damansdak.pl</loc>
-
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
                href="https://damansdak.pl/en/"/>
-               <xhtml:link
+    <xhtml:link
                rel="alternate"
                hreflang="de"
                href="https://damansdak.pl/de/"/>
@@ -19,7 +26,86 @@
                href="https://damansdak.pl/ru/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en</loc>
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/"/>
+</url>
+<!-- STRONA GŁOWNA END -->
+<!-- OFERTA -->
+<url>
   <loc>https://damansdak.pl/oferta</loc>
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/oferta/"/>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -34,7 +120,86 @@
                href="https://damansdak.pl/ru/oferta/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/de/oferta</loc>
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/oferta/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/oferta</loc>
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/oferta/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/oferta</loc>
+  <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/oferta/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/oferta/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/oferta/"/>
+</url>
+<!-- OFERTA END -->
+<!-- ONAS -->
+<url>
   <loc>https://damansdak.pl/o-nas</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/o-nas/"/>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -49,7 +214,86 @@
                href="https://damansdak.pl/ru/o-nas/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/o-nas</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/o-nas/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/o-nas</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/o-nas/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/o-nas</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/o-nas/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/o-nas/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/o-nas/"/>
+</url>
+<!-- ONAS END -->
+<!-- WIDEO -->
+<url>
   <loc>https://damansdak.pl/wideo</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/wideo/"/>
   <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -64,7 +308,86 @@
                href="https://damansdak.pl/ru/wideo/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/wideo</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/wideo/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/wideo</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/wideo/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/wideo</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/wideo/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/wideo/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/wideo/"/>
+</url>
+<!-- WIDEO END -->
+<!-- REALIZACJE -->
+<url>
   <loc>https://damansdak.pl/realizacje</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -79,7 +402,86 @@
                href="https://damansdak.pl/ru/realizacje/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/"/>
+</url>
+<!-- REALIZACJE END-->
+<!-- KONTAKT-->
+<url>
   <loc>https://damansdak.pl/kontakt</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -94,7 +496,86 @@
                href="https://damansdak.pl/ru/kontakt/"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/kontakt</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/kontakt/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/kontakt</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/kontakt/"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/kontakt</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/kontakt/"/>
+</url>
+<!-- KONTAKT END-->
+<!-- LUBLIN-->
+<url>
   <loc>https://damansdak.pl/realizacje/lublin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -109,7 +590,86 @@
                href="https://damansdak.pl/ru/realizacje/lublin"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/lublin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/lublin"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/lublin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/lublin"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/lublin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/kontakt/"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/lublin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/lublin"/>
+</url>
+<!-- LUBLIN END-->
+<!-- RUDA -->
+<url>
   <loc>https://damansdak.pl/realizacje/ruda-slaska</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -124,7 +684,86 @@
                href="https://damansdak.pl/ru/realizacje/ruda-slaska"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/ruda-slaska</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/ruda-slaska"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/ruda-slaska</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/ruda-slaska"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/ruda-slaska</loc>
+     <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/ruda-slaska"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/ruda-slaska"/>
+</url>
+<!-- RUDA END -->
+<!-- BŁONIE -->
+<url>
   <loc>https://damansdak.pl/realizacje/blonie</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/blonie"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -139,7 +778,86 @@
                href="https://damansdak.pl/ru/realizacje/blonie"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/blonie</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/blonie"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/blonie</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/blonie"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/blonie</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/blonie"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/blonie"/>
+</url>
+<!-- BŁONIE END -->
+<!-- ŻORY -->
+<url>
   <loc>https://damansdak.pl/realizacje/zory</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/zory"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -154,7 +872,86 @@
                href="https://damansdak.pl/ru/realizacje/zory"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/zory</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/zory"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/zory</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/zory"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/zory</loc>
+      <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/zory"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/zory"/>
+</url>
+<!-- ŻORY END -->
+<!-- NIEMCY -->
+<url>
   <loc>https://damansdak.pl/realizacje/niemcy</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/niemcy"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -169,7 +966,86 @@
                href="https://damansdak.pl/ru/realizacje/niemcy"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/niemcy</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/niemcy"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/niemcy</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/niemcy"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/niemcy</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/niemcy"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/niemcy"/>
+</url>
+<!-- NIEMCY END -->
+<!-- LITWA -->
+<url>
   <loc>https://damansdak.pl/realizacje/litwa</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/litwa"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -184,7 +1060,86 @@
                href="https://damansdak.pl/ru/realizacje/litwa"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/litwa</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/litwa"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/litwa</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/litwa"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/litwa</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/litwa"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/litwa"/>
+</url>
+<!-- LITWA END -->
+<!-- SZCZECIN -->
+<url>
   <loc>https://damansdak.pl/realizacje/szczecin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/szczecin"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -199,7 +1154,86 @@
                href="https://damansdak.pl/ru/realizacje/szczecin"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/szczecin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/szczecin"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/szczecin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/szczecin"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/szczecin</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/szczecin"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/szczecin"/>
+</url>
+<!-- SZCZECIN END -->
+<!-- ŚWIDNICA -->
+<url>
   <loc>https://damansdak.pl/realizacje/swidnica</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/swidnica"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -214,7 +1248,86 @@
                href="https://damansdak.pl/ru/realizacje/swidnica"/>
 </url>
 <url>
+  <loc>https://damansdak.pl/en/realizacje/swidnica</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/swidnica"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/swidnica</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/swidnica"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/swidnica</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/swidnica"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/swidnica"/>
+</url>
+<!-- ŚWIDNICA END -->
+<!-- DOM -->
+<url>
   <loc>https://damansdak.pl/realizacje/dom</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/dom"/>
     <xhtml:link
                rel="alternate"
                hreflang="de"
@@ -228,5 +1341,169 @@
                hreflang="ru"
                href="https://damansdak.pl/ru/realizacje/dom"/>
 </url>
+<url>
+  <loc>https://damansdak.pl/en/realizacje/dom</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/dom"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/realizacje/dom</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/dom"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/realizacje/dom</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/realizacje/dom"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/realizacje/dom"/>
+</url>
+<!-- DOM END -->
+<!-- SERWIS -->
+<url>
+  <loc>https://damansdak.pl/serwis</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/serwis"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/en/serwis</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/serwis"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/de/serwis</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/serwis"/>
+</url>
+<url>
+  <loc>https://damansdak.pl/ru/serwis</loc>
+    <xhtml:link
+               rel="alternate"
+               hreflang="x-default"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="pl"
+               href="https://damansdak.pl/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://damansdak.pl/de/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://damansdak.pl/en/serwis"/>
+    <xhtml:link
+               rel="alternate"
+               hreflang="ru"
+               href="https://damansdak.pl/ru/serwis"/>
+</url>
+<!-- SERWIS END -->
 
 </urlset>
