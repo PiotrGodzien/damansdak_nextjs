@@ -26,26 +26,30 @@ const Home = () => {
   return (
     <>
       <NextSeo
-        title={`Damansdak Polska - ${t("Realizacje")}`}
+        title={`Damansdak Polska - ${t("blonieName")}`}
         description={`${t("realisationsDescription")}`}
-        canonical="https://damansdak.pl/realizacje/"
+        canonical="https://damansdak.pl/realizacje/blonie"
         languageAlternates={[
           {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/realizacje/blonie",
+          },
+          {
             hrefLang: "de",
-            href: "https://damansdak.pl/de/realizacje/",
+            href: "https://damansdak.pl/de/realizacje/blonie",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/ru/realizacje/",
+            href: "https://damansdak.pl/ru/realizacje/blonie",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/en/realizacje/",
+            href: "https://damansdak.pl/en/realizacje/blonie",
           },
         ]}
         openGraph={{
           type: "website",
-          url: "https://damansdak.pl/realizacje/ ",
+          url: "https://damansdak.pl/realizacje/blonie ",
           title: `Damansdak Polska – ${t("Realizacje")}`,
           description: t("realisationsDescription"),
           images: [
