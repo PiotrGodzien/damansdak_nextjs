@@ -20,15 +20,15 @@ const Realizacje = () => {
           },
           {
             hrefLang: "de",
-            href: "https://damansdak.pl/derealizacje/",
+            href: "https://damansdak.pl/de/realizacje/",
           },
           {
             hrefLang: "ru",
-            href: "https://damansdak.pl/rurealizacje/",
+            href: "https://damansdak.pl/ru/realizacje/",
           },
           {
             hrefLang: "en",
-            href: "https://damansdak.pl/enrealizacje/",
+            href: "https://damansdak.pl/en/realizacje/",
           },
           {
             hrefLang: "x-default",
