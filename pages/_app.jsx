@@ -1,6 +1,6 @@
 import "tailwindcss/tailwind.css";
 import "react-image-lightbox/style.css";
-import "../gtag";
+import * as gtag from "../gtag";
 import { useRouter } from 'next/router';
 import {useEffect} from "react";
 
