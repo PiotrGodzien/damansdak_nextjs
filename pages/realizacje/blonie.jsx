@@ -89,19 +89,11 @@ const Home = () => {
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
               {t("Realizacja")}:
             </p>
-            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
+            <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("blonieName")}
-            </h2>
+            </h1>
           </div>
         </div>
-        {/* <div className="relative h-64 lg:h-144">
-          <img className="object-cover w-full h-full bg-top" src="https://damansdak.s3.eu-central-1.amazonaws.com/lublin_realizacja.jpeg" alt="" />
-          <div className="container absolute inset-0 px-4 mx-auto top-1/2">
-            <div className="max-w-2xl mx-auto mb-6 text-center">
-              <h2 className="text-3xl lg:text-5xl text-primary font-heading">Bremer Sp. z o.o. dla 7R w Lublinie</h2>
-            </div>
-          </div>
-        </div> */}
         <div className="py-4 mb-6 bg-pattern"></div>
 
         <div className="mx-auto">
@@ -127,17 +119,13 @@ const Home = () => {
         </div>
       </section>
       <Gallery />
-
       <Cta />
-
       {/* <div className="sticky hidden h-20 mb-2 ml-auto bg-white border-l-2 shadow-2xl w-28 lg:block border-primary bottom-2">
           <Link href="#link"><a><img alt="certyfikat VCS" className="w-20 h-auto px-3 pt-2 mx-auto" src="https://damansdak.s3.eu-central-1.amazonaws.com/vcs.png" layout="fill" /></a></Link>
           <p className="px-3 mt-1 text-xs leading-3 text-center"><a href="#link">Certyfikowana<br></br> firma</a></p>
         </div> */}
-
       <Footer />
     </>
   );
 };
-
 export default Home;

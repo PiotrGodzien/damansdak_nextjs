@@ -1,12 +1,8 @@
-import Head from "next/head";
-import LazyShow from "../LazyShow";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { NextSeo } from "next-seo";
 import React, { useEffect, useState } from "react";
 import Navigation from "/components/_nav";
 import Footer from "/components/_footer";
 import Cta from "/components/_cta";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 import Gallery from "/components/gallery/_gallery_litwa";
 import useTranslation from "next-translate/useTranslation";
 
@@ -27,6 +23,57 @@ const Home = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
+      <NextSeo
+        title={`Damansdak Polska - ${t("litwaTitle")}`}
+        description={`${t("litwaDescription")}`}
+        canonical="https://damansdak.pl/realizacje/litwa"
+        languageAlternates={[
+          {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/realizacje/litwa",
+          },
+          {
+            hrefLang: "de",
+            href: "https://damansdak.pl/de/realizacje/litwa",
+          },
+          {
+            hrefLang: "ru",
+            href: "https://damansdak.pl/ru/realizacje/litwa",
+          },
+          {
+            hrefLang: "en",
+            href: "https://damansdak.pl/en/realizacje/litwa",
+          },
+        ]}
+        openGraph={{
+          type: "website",
+          url: "https://damansdak.pl/realizacje/litwa",
+          title: `Damansdak Polska – ${t("litwaTitle")}`,
+          description: t("blonieDescription"),
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: `Damansdak Polska – ${t("litwaTitle")}`,
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: `Damansdak Polska – ${t("litwaTitle")}`,
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: `Damansdak Polska – ${t("litwaTitle")}`,
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden text-center bg-cover py-36">
@@ -40,9 +87,9 @@ const Home = () => {
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
               {t("Realizacja")}
             </p>
-            <h2 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
+            <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("lithuaniaName")}
-            </h2>
+            </h1>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">

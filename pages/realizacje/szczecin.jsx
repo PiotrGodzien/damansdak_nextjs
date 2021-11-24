@@ -1,4 +1,4 @@
-import Head from "next/head";
+import { NextSeo } from "next-seo";
 import React, { useEffect, useState } from "react";
 import Navigation from "/components/_nav";
 import Footer from "/components/_footer";
@@ -25,6 +25,57 @@ const Home = () => {
   const { t, lang } = useTranslation("common");
   return (
     <>
+      <NextSeo
+        title={`Damansdak Polska - ${t("szczecinTitle")}`}
+        description={`${t("szczecinDescription")}`}
+        canonical="https://damansdak.pl/realizacje/szczecin"
+        languageAlternates={[
+          {
+            hrefLang: "pl",
+            href: "https://damansdak.pl/realizacje/szczecin",
+          },
+          {
+            hrefLang: "de",
+            href: "https://damansdak.pl/de/realizacje/szczecin",
+          },
+          {
+            hrefLang: "ru",
+            href: "https://damansdak.pl/ru/realizacje/szczecin",
+          },
+          {
+            hrefLang: "en",
+            href: "https://damansdak.pl/en/realizacje/szczecin",
+          },
+        ]}
+        openGraph={{
+          type: "website",
+          url: "https://damansdak.pl/realizacje/szczecin",
+          title: `Damansdak Polska – ${t("szczecinTitle")}`,
+          description: t("blonieDescription"),
+          images: [
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 800,
+              height: 600,
+              alt: `Damansdak Polska – ${t("szczecinTitle")}`,
+            },
+            {
+              url: "https://damansdak.mo.cloudinary.net/hero.webp",
+              width: 900,
+              height: 800,
+              alt: `Damansdak Polska – ${t("szczecinTitle")}`,
+            },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+            { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
+          ],
+          site_name: `Damansdak Polska – ${t("szczecinTitle")}`,
+        }}
+        twitter={{
+          handle: "@BDamans",
+          site: "@bdamans",
+          cardType: "summary_large_image",
+        }}
+      />
       <Navigation />
       <section className="lg:pt-20">
         <div className="relative flex items-center overflow-hidden bg-cover py-36">
@@ -38,9 +89,9 @@ const Home = () => {
             <p className="font-serif font-light text-white uppercase text-md lg:text-left">
               {t("Realizacja")}:
             </p>
-            <h2 className="text-3xl text-white lg:text-5xl font-heading">
+            <h1 className="text-3xl text-white lg:text-5xl font-heading">
               {t("szczecinName")}
-            </h2>
+            </h1>
           </div>
         </div>
         {/* <div className="relative h-64 lg:h-144">
