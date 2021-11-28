@@ -562,7 +562,7 @@ const Home = () => {
               <Link href="realizacje/hala-w-szczecinie">
                 <div className="relative mx-auto mb-8 sm:mb-16">
                   <img
-                    src="realizacje/hala-w-szczecinie/realizacja_szczecin.webp"
+                    src="realizacje/szczecin/realizacja_szczecin.webp" 
                     layout="fill"
                     alt="Realizacja dachu w Szczecinie"
                     className=""
