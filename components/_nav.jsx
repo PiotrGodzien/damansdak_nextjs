@@ -22,7 +22,7 @@ const Navigation = () => {
                 />
               </Link>
             </div>
-            <div className="items-center hidden space-x-2 text-xs 2xl:space-x-4 lg:text-base 2xl:text-lg 2xl:flex">
+            <div className="items-center hidden space-x-2 text-xs capitalize 2xl:space-x-4 lg:text-base 2xl:text-lg 2xl:flex">
               <div className="">
                 <Link href="/">{t("Stronaglowna")}</Link>
               </div>
@@ -30,7 +30,7 @@ const Navigation = () => {
                 <Link href="/oferta">{t("Oferta")}</Link>
               </div>
               <div className="">
-                <Link href="/serwis">{t("Serwis/renowacje")}</Link>
+                <Link href="/serwis">{t("serwis")}</Link>
               </div>
               <div className="">
                 <Link href="/o-nas">{t("Onas")}</Link>
@@ -97,7 +97,7 @@ const Navigation = () => {
               <Link href="/oferta">{t("Oferta")}</Link>
             </div>
             <div className="">
-              <Link href="/serwis">{t("Serwis/renowacje")}</Link>
+              <Link href="/serwis">{t("Serwis")}</Link>
             </div>
             <div className="">
               <Link href="/o-nas">{t("Onas")}</Link>
@@ -129,7 +129,7 @@ const Navigation = () => {
               </Link>
             </div>
             <div className="mx-auto">
-            <SwitchLanguage />
+              <SwitchLanguage />
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ const Serwis = () => {
   return (
     <>
       <NextSeo
-        title={`Damansdak Polska - ${t("Serwis/renowacje")}`}
+        title={`Damansdak Polska - ${t("serwis")}`}
         description={`${t("serviceDescription")}`}
         // canonical="https://damansdak.pl/serwis/"
         languageAlternates={[
@@ -41,25 +41,25 @@ const Serwis = () => {
         openGraph={{
           type: "website",
           url: "https://damansdak.pl/serwis/",
-          title: `Damansdak Polska – ${t("Serwis/renowacje")}`,
+          title: `Damansdak Polska – ${t("serwis")}`,
           description: t("serviceDescription"),
           images: [
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
               width: 800,
               height: 600,
-              alt: `Damansdak Polska – ${t("Serwis/renowacje")}`,
+              alt: `Damansdak Polska – ${t("serwis")}`,
             },
             {
               url: "https://damansdak.mo.cloudinary.net/hero.webp",
               width: 900,
               height: 800,
-              alt: `Damansdak Polska – ${t("Serwis/renowacje")}`,
+              alt: `Damansdak Polska – ${t("serwis")}`,
             },
             { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
             { url: "https://damansdak.mo.cloudinary.net/hero.webp" },
           ],
-          site_name: `Damansdak Polska – ${t("Serwis/renowacje")}`,
+          site_name: `Damansdak Polska – ${t("serwis")}`,
         }}
         twitter={{
           handle: "@BDamans",
@@ -78,7 +78,7 @@ const Serwis = () => {
           <div className="absolute inset-0 bg-gradient-to-tr from-black via-black to-primary opacity-70"></div>
           <div className="relative max-w-4xl px-4 mx-auto">
             <p className="font-serif font-light text-center text-white uppercase text-md lg:text-left">
-              {t("Serwis/renowacje")}
+              {t("serwis")}
             </p>
             <h1 className="text-3xl text-center text-white lg:text-5xl lg:text-left font-heading">
               {t("homeSerwis")}
@@ -98,8 +98,8 @@ const Serwis = () => {
               <p className="mt-6 font-serif font-light text-md lg:mt-0 lg:text-left">
                 {t("DACHYPLASKIE")}
               </p>
-              <h2 className="text-3xl lg:text-5xl lg:text-left font-heading">
-                {t("Serwis/renowacje")}
+              <h2 className="text-3xl capitalize lg:text-5xl lg:text-left font-heading">
+                {t("serwis")}
               </h2>
             </div>
           </div>
