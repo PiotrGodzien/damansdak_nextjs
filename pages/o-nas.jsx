@@ -242,12 +242,16 @@ const Onas = () => {
               <div className="mt-8 lg:w-1/2 lg:mt-0">
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
-                  src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg"
-                  alt="Monika Śpiewak"
+                  src="/pracownicy/Agnieszka_Jurkowska.jpeg"
+                  alt="Agnieszka Jurkowska"
                 />
-                <p className="mt-4 mb-2 font-serif">Monika Śpiewak</p>
+                <p className="mt-4 mb-2 font-serif">Agnieszka Jurkowska</p>
                 <p className="font-serif text-sm font-light">
-                  {t("marketing")}
+                  {t("rekrutacja")
+                    .split("\n")
+                    .map((rekrutacja) => (
+                      <p>{rekrutacja}</p>
+                    ))}
                 </p>
               </div>
             </div>
@@ -270,12 +274,26 @@ const Onas = () => {
               <div className="mt-8 lg:w-1/2 lg:mt-0">
                 <img
                   className="object-cover object-top w-20 h-20 mx-auto rounded-full"
+                  src="https://damansdak.s3.eu-central-1.amazonaws.com/pracownicy/Monika_Spiewak.jpeg"
+                  alt="Monika Śpiewak"
+                />
+                <p className="mt-4 mb-2 font-serif">Monika Śpiewak</p>
+                <p className="font-serif text-sm font-light">
+                  {t("marketing")}
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col px-8 text-center justify-evenly lg:mt-8 lg:flex-row sm:px-0">
+              <div className="mt-8 lg:w-1/2 lg:mt-0">
+                <img
+                  className="object-cover object-top w-20 h-20 mx-auto rounded-full"
                   src="/pracownicy/Michal_Stec.jpg"
                   alt="Michał Stec"
                 />
                 <p className="mt-4 mb-2 font-serif">Michał Stec</p>
                 <p className="font-serif text-sm font-light">{t("budowa")}</p>
               </div>
+              <div className="mt-8 lg:w-1/2 lg:mt-0"></div>
             </div>
           </div>
         </div>
