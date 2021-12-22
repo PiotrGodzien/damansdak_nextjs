@@ -50,7 +50,7 @@ const Navigation = () => {
                   {" "}
                   <SwitchLanguage />
                 </div>
-                <Link href="https://damansdak.com">
+                {/* <Link href="https://damansdak.com">
                   <a target="_blank" rel="noopener">
                     <img
                       alt="Logo Damansdak"
@@ -61,7 +61,7 @@ const Navigation = () => {
                       height={71}
                     />
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className="ml-auto 2xl:hidden">
@@ -112,9 +112,9 @@ const Navigation = () => {
             <div className="">
               <Link href="/kontakt">{t("Kontakt")}</Link>
             </div>
-            <div className="flex justify-center mt-6 space-x-4">
-              {/* <img alt="" className="h-6 border border-white w-9" src="/germany.png" layout='fill' />
-              <img alt="" className="h-6 border border-white w-9" src="/united.png" layout='fill' /> */}
+            {/* <div className="flex justify-center mt-6 space-x-4">
+              <img alt="" className="h-6 border border-white w-9" src="/germany.png" layout='fill' />
+              <img alt="" className="h-6 border border-white w-9" src="/united.png" layout='fill' />
               <Link href="https://damansdak.com">
                 <a target="_blank" rel="noopener">
                   <img
@@ -127,7 +127,7 @@ const Navigation = () => {
                   />
                 </a>
               </Link>
-            </div>
+            </div> */}
             <div className="mx-auto">
               <SwitchLanguage />
             </div>
