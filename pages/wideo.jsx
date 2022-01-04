@@ -103,6 +103,22 @@ const Oferta = () => {
             />
           </video>
         </div>
+        <div className="object-cover mt-4 lg:mt-12 max-w-4xl mx-auto">
+          <video
+            controls
+            poster="/placeholder_video_zory.webp"
+            loop
+            playsinline
+            player
+            className=""
+          >
+            <source src="/zory.webm" type="video/webm" />
+            <source
+              src="https://damansdak.s3.eu-central-1.amazonaws.com/video_damansdak.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
 
         <Cta />
 
