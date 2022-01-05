@@ -8,7 +8,7 @@ const Kariera = () => {
   return (
     <>
       {/* <Navigation /> */}
-      <section class="relative py-24 bg-gray-50 overflow-hidden">
+<section class="relative py-24 bg-gray-50 overflow-hidden">
   <div class="relative container px-4 mx-auto">
     <div class="flex flex-wrap items-center -mx-4">
       <div class="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
