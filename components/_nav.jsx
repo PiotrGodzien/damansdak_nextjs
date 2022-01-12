@@ -89,7 +89,7 @@ const Navigation = () => {
             visible ? "block" : "hidden"
           }  z-50 h-screen md:text-3xl md:space-y-8 bg-black`}
         >
-          <div className="flex flex-col py-16 mx-auto space-y-3 text-center text-white">
+          <div className="flex flex-col py-16 mx-auto space-y-3 text-center text-white capitalize">
             <div className="">
               <Link href="/">{t("Stronaglowna")}</Link>
             </div>
@@ -97,7 +97,7 @@ const Navigation = () => {
               <Link href="/oferta">{t("Oferta")}</Link>
             </div>
             <div className="">
-              <Link href="/serwis">{t("Serwis")}</Link>
+              <Link href="/serwis">{t("serwis")}</Link>
             </div>
             <div className="">
               <Link href="/o-nas">{t("Onas")}</Link>
